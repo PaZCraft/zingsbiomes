@@ -1,0 +1,11 @@
+{
+  "parent": "zings_biomes:custom/cherry_vine",
+  "textures": {
+    "all": "zings_biomes:block/cherry_vine_base_outer_side",
+    "particle": "zings_biomes:block/cherry_vine_base_outer_side",
+    "inner_side": "zings_biomes:block/cherry_vine_base_inner_side",
+    "missing": "zings_biomes:block/cherry_vine_base_inner_side",
+    "outer_side": "zings_biomes:block/cherry_vine_base_outer_side",
+    "base_top_bottom": "zings_biomes:block/cherry_vine_base_top_bottom"
+  }
+}

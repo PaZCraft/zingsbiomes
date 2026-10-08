@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/mint_sugar_cane",
+    "particle": "zings_biomes:block/mint_sugar_cane"
+  }
+}

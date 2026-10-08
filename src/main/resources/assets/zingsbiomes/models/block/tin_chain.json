@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/chain",
+  "textures": {
+    "all": "zings_biomes:block/tin_chain",
+    "particle": "zings_biomes:block/tin_chain",
+    "chain": "zings_biomes:block/tin_chain"
+  }
+}

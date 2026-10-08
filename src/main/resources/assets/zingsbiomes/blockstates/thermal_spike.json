@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "axis=x,temperature_form=0": {
+      "model": "zings_biomes:block/thermal_spike_0",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,temperature_form=2": {
+      "model": "zings_biomes:block/thermal_spike_1",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,temperature_form=1": {
+      "model": "zings_biomes:block/thermal_spike",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,temperature_form=0": {
+      "model": "zings_biomes:block/thermal_spike_0"
+    },
+    "axis=y,temperature_form=2": {
+      "model": "zings_biomes:block/thermal_spike_1"
+    },
+    "axis=y,temperature_form=1": {
+      "model": "zings_biomes:block/thermal_spike"
+    },
+    "axis=z,temperature_form=0": {
+      "model": "zings_biomes:block/thermal_spike_0",
+      "x": 90
+    },
+    "axis=z,temperature_form=2": {
+      "model": "zings_biomes:block/thermal_spike_1",
+      "x": 90
+    },
+    "axis=z,temperature_form=1": {
+      "model": "zings_biomes:block/thermal_spike",
+      "x": 90
+    }
+  }
+}

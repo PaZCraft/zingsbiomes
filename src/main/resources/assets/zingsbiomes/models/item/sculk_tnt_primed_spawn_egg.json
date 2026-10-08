@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zings_biomes:item/sculk_tnt_primed_spawn_egg_generated"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/stripped_ultraviolet_oak_log_top",
+    "up": "zings_biomes:block/stripped_ultraviolet_oak_log_top",
+    "north": "zings_biomes:block/stripped_ultraviolet_oak_log",
+    "east": "zings_biomes:block/stripped_ultraviolet_oak_log",
+    "south": "zings_biomes:block/stripped_ultraviolet_oak_log",
+    "west": "zings_biomes:block/stripped_ultraviolet_oak_log",
+    "particle": "zings_biomes:block/stripped_ultraviolet_oak_log_top"
+  }
+}

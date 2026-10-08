@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/biped_head",
+  "textures": {
+    "all": "zings_biomes:block/castaway_skull",
+    "particle": "zings_biomes:block/castaway_skull",
+    "head": "zings_biomes:block/castaway_skull"
+  }
+}

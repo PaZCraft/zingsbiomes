@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "zings_biomes:block/winter_wheat_age_7",
+    "particle": "zings_biomes:block/winter_wheat_age_0"
+  }
+}

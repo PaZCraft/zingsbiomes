@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/hanging_moss"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/hanging_moss_bottom"
+    }
+  }
+}

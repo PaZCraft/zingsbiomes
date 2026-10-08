@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/silver_thermometer_block_bottom_temperate",
+    "up": "zings_biomes:block/silver_thermometer_block_top_temperate",
+    "north": "zings_biomes:block/silver_thermometer_block_side_temperate",
+    "east": "zings_biomes:block/silver_thermometer_block_side_temperate",
+    "south": "zings_biomes:block/silver_thermometer_block_side_temperate",
+    "west": "zings_biomes:block/silver_thermometer_block_side_temperate",
+    "particle": "zings_biomes:block/silver_thermometer_block_bottom_temperate"
+  }
+}

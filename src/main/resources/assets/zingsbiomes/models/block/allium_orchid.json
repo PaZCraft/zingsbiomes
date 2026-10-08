@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/allium_orchid",
+    "particle": "zings_biomes:block/allium_orchid"
+  }
+}

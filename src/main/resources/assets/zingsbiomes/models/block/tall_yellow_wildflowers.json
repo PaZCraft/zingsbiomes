@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/tall_wildflowers_yellow_top",
+    "particle": "zings_biomes:block/tall_wildflowers_yellow_top"
+  }
+}

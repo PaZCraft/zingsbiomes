@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/carpet",
+  "textures": {
+    "all": "zings_biomes:block/crimson_wool",
+    "particle": "zings_biomes:block/crimson_wool",
+    "wool": "zings_biomes:block/crimson_wool"
+  }
+}

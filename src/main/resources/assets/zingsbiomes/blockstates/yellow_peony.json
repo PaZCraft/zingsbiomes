@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/yellow_peony"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/yellow_peony_bottom"
+    }
+  }
+}

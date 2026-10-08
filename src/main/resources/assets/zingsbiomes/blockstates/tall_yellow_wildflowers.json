@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/tall_yellow_wildflowers"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/tall_yellow_wildflowers_bottom"
+    }
+  }
+}

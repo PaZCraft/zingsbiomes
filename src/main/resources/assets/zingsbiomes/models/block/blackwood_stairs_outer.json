@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "zings_biomes:block/blackwood_planks",
+    "bottom": "zings_biomes:block/blackwood_planks",
+    "top": "zings_biomes:block/blackwood_planks",
+    "side": "zings_biomes:block/blackwood_planks"
+  }
+}

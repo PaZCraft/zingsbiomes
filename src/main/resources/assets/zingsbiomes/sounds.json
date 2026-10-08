@@ -1,0 +1,1508 @@
+{
+  "entity.poison_spider.idle": {
+    "subtitle": "subtitles.entity.poison_spider.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:poison_spider_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:poison_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:poison_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:poison_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.poison_spider.hurt": {
+    "subtitle": "subtitles.entity.poison_spider.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:poison_spider_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:poison_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:poison_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:poison_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.poison_spider.death": {
+    "subtitle": "subtitles.entity.poison_spider.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:poison_spider_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.poison_spider.step": {
+    "subtitle": "subtitles.entity.poison_spider.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:poison_spider_step_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:poison_spider_step_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.icy_spider.idle": {
+    "subtitle": "subtitles.entity.icy_spider.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:icy_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:icy_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:icy_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.icy_spider.hurt": {
+    "subtitle": "subtitles.entity.icy_spider.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:icy_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:icy_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:icy_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.icy_spider.death": {
+    "subtitle": "subtitles.entity.icy_spider.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:icy_spider_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.icy_spider.step": {
+    "subtitle": "subtitles.entity.icy_spider.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:icy_spider_step_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:icy_spider_step_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.burned_spider.idle": {
+    "subtitle": "subtitles.entity.burned_spider.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:burned_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:burned_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:burned_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.burned_spider.hurt": {
+    "subtitle": "subtitles.entity.burned_spider.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:burned_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:burned_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:burned_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.burned_spider.death": {
+    "subtitle": "subtitles.entity.burned_spider.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:burned_spider_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.burned_spider.step": {
+    "subtitle": "subtitles.entity.burned_spider.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:burned_spider_step",
+        "stream": false
+      }
+    ]
+  },
+  "entity.drenched_spider.idle": {
+    "subtitle": "subtitles.entity.drenched_spider.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:drenched_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:drenched_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:drenched_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.drenched_spider.hurt": {
+    "subtitle": "subtitles.entity.drenched_spider.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:drenched_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:drenched_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:drenched_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.drenched_spider.death": {
+    "subtitle": "subtitles.entity.drenched_spider.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:drenched_spider_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.drenched_spider.step": {
+    "subtitle": "subtitles.entity.drenched_spider.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:drenched_spider_step_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.overworld.idle": {
+    "subtitle": "subtitles.entity.wooden_birdzing.overworld.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:woodland_wooden_birdzing_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:woodland_wooden_birdzing_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:woodland_wooden_birdzing_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.overworld.hurt": {
+    "subtitle": "subtitles.entity.wooden_birdzing.overworld.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:woodland_wooden_birdzing_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:woodland_wooden_birdzing_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.overworld.death": {
+    "subtitle": "subtitles.entity.wooden_birdzing.overworld.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:woodland_wooden_birdzing_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.cherry.idle": {
+    "subtitle": "subtitles.entity.wooden_birdzing.cherry.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:cherry_wooden_birdzing_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:cherry_wooden_birdzing_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:cherry_wooden_birdzing_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.cherry.hurt": {
+    "subtitle": "subtitles.entity.wooden_birdzing.cherry.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:cherry_wooden_birdzing_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:cherry_wooden_birdzing_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.cherry.death": {
+    "subtitle": "subtitles.entity.wooden_birdzing.cherry.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:cherry_wooden_birdzing_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.nether.idle": {
+    "subtitle": "subtitles.entity.wooden_birdzing.nether.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:nether_wooden_birdzing_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:nether_wooden_birdzing_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:nether_wooden_birdzing_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.nether.hurt": {
+    "subtitle": "subtitles.entity.wooden_birdzing.nether.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:nether_wooden_birdzing_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:nether_wooden_birdzing_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.nether.death": {
+    "subtitle": "subtitles.entity.wooden_birdzing.nether.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:nether_wooden_birdzing_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.pale.idle": {
+    "subtitle": "subtitles.entity.wooden_birdzing.pale.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:pale_wooden_birdzing_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:pale_wooden_birdzing_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:pale_wooden_birdzing_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:pale_wooden_birdzing_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.pale.hurt": {
+    "subtitle": "subtitles.entity.wooden_birdzing.pale.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:pale_wooden_birdzing_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:pale_wooden_birdzing_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.pale.death": {
+    "subtitle": "subtitles.entity.wooden_birdzing.pale.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:pale_wooden_birdzing_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.bamboo.idle": {
+    "subtitle": "subtitles.entity.wooden_birdzing.bamboo.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:bamboo_wooden_birdzing_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:bamboo_wooden_birdzing_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:bamboo_wooden_birdzing_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.bamboo.hurt": {
+    "subtitle": "subtitles.entity.wooden_birdzing.bamboo.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:bamboo_wooden_birdzing_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:bamboo_wooden_birdzing_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.bamboo.death": {
+    "subtitle": "subtitles.entity.wooden_birdzing.bamboo.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:bamboo_wooden_birdzing_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.zebra.step": {
+    "subtitle": "subtitles.entity.zebra.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:zebra_step_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:zebra_step_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.zebra.idle": {
+    "subtitle": "subtitles.entity.zebra.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:zebra_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:zebra_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:zebra_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.zebra.hurt": {
+    "subtitle": "subtitles.entity.zebra.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:zebra_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:zebra_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hippo.idle": {
+    "subtitle": "subtitles.entity.hippo.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:hippo_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:hippo_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:hippo_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hippo.hurt": {
+    "subtitle": "subtitles.entity.hippo.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:hippo_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.fennec_fox.idle": {
+    "subtitle": "subtitles.entity.fennec_fox.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:fennec_fox_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:fennec_fox_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:fennec_fox_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.fennec_fox.hurt": {
+    "subtitle": "subtitles.entity.fennec_fox.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:fennec_fox_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:fennec_fox_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.vulture.idle": {
+    "subtitle": "subtitles.entity.vulture.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:vulture_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:vulture_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.coyote.hurt": {
+    "subtitle": "subtitles.entity.coyote.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:coyote_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:coyote_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.coyote.idle": {
+    "subtitle": "subtitles.entity.coyote.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:coyote_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:coyote_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.duck.idle": {
+    "subtitle": "subtitles.entity.duck.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:duck_idle_5",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:duck_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:duck_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:duck_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:duck_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.penguin.emperor.idle": {
+    "subtitle": "subtitles.entity.penguin.emperor.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:penguin_emperor_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:penguin_emperor_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:penguin_emperor_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.red_panda.idle": {
+    "subtitle": "subtitles.entity.red_panda.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:red_panda_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:red_panda_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:red_panda_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:red_panda_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "music.zings_biomes": {
+    "sounds": [
+      {
+        "name": "zings_biomes:mysticalic",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:playful_chamber",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:aurora",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:battle_of_the_dragons",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:calm_flute",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:cinematic",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:embers_to_thunder",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:gregorian",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:sunset_chill",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:tape_echo",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:zouk_amp",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:beats",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:dark_sadness",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:dots",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:epic_fantasy",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:future_bass",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:peaceful",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:story_time",
+        "stream": true
+      },
+      {
+        "name": "zings_biomes:synthwave",
+        "stream": true
+      }
+    ]
+  },
+  "item.bombgun.shoot": {
+    "subtitle": "subtitles.item.bombgun.shoot",
+    "sounds": [
+      {
+        "name": "zings_biomes:bombgun_shoot",
+        "stream": false
+      }
+    ]
+  },
+  "item.bombgun.swap": {
+    "subtitle": "subtitles.item.bombgun.swap",
+    "sounds": [
+      {
+        "name": "zings_biomes:bombgun_swap",
+        "stream": false
+      }
+    ]
+  },
+  "entity.bomberry.explode": {
+    "subtitle": "subtitles.entity.bomberry.explode",
+    "sounds": [
+      {
+        "name": "zings_biomes:bomberry_explode",
+        "stream": false
+      }
+    ]
+  },
+  "block.bouncecap.bounce": {
+    "subtitle": "subtitles.block.bouncecap.bounce",
+    "sounds": [
+      {
+        "name": "zings_biomes:bouncecap_bounce_1",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:bouncecap_bounce_2",
+        "stream": false
+      }
+    ]
+  },
+  "block.floodstone.break": {
+    "subtitle": "subtitles.block.floodstone.break",
+    "sounds": [
+      {
+        "name": "zings_biomes:floodstone_break",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.yolked_forest.mood": {
+    "subtitle": "subtitles.ambience.yolked_forest.mood",
+    "sounds": [
+      {
+        "name": "zings_biomes:yolked_forest_mood_ambience_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:yolked_forest_mood_ambience_5",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:yolked_forest_mood_ambience_1",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:yolked_forest_mood_ambience_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:yolked_forest_mood_ambience_4",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.yolked_forest.additions": {
+    "sounds": [
+      {
+        "name": "zings_biomes:yolked_forest_additions_ambience_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:yolked_forest_additions_ambience_1",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:yolked_forest_additions_ambience_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:yolked_forest_additions_ambience_2",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.yolked_forest.loop": {
+    "sounds": [
+      {
+        "name": "zings_biomes:yolked_forest_loop_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.wither_forest.loop": {
+    "sounds": [
+      {
+        "name": "zings_biomes:wither_forest_loop_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.tear_sand_valley.mood": {
+    "subtitle": "subtitles.ambience.tear_sand_valley.mood",
+    "sounds": [
+      {
+        "name": "zings_biomes:tear_sand_valley_mood_ambience_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:tear_sand_valley_mood_ambience_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:tear_sand_valley_mood_ambience_1",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:tear_sand_valley_mood_ambience_5",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:tear_sand_valley_mood_ambience_4",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.tear_sand_valley.additions": {
+    "sounds": [
+      {
+        "name": "zings_biomes:tear_sand_valley_additions_ambience_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:tear_sand_valley_additions_ambience_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:tear_sand_valley_additions_ambience_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:tear_sand_valley_additions_ambience_1",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:tear_sand_valley_additions_ambience_5",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.tear_sand_valley.loop": {
+    "sounds": [
+      {
+        "name": "zings_biomes:tear_sand_valley_loop_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.fire_sand_valley.loop": {
+    "sounds": [
+      {
+        "name": "zings_biomes:fire_sand_valley_loop_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.quartz_sand_valley.mood": {
+    "subtitle": "subtitles.ambience.quartz_sand_valley.mood",
+    "sounds": [
+      {
+        "name": "zings_biomes:quartz_sand_valley_mood_ambience_5",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:quartz_sand_valley_mood_ambience_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:quartz_sand_valley_mood_ambience_1",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:quartz_sand_valley_mood_ambience_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:quartz_sand_valley_mood_ambience_4",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.quartz_sand_valley.additions": {
+    "sounds": [
+      {
+        "name": "zings_biomes:quartz_sand_valley_additions_ambience_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:quartz_sand_valley_additions_ambience_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:quartz_sand_valley_additions_ambience_1",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:quartz_sand_valley_additions_ambience_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:quartz_sand_valley_additions_ambience_5",
+        "stream": false
+      }
+    ]
+  },
+  "ambience.quartz_sand_valley.loop": {
+    "sounds": [
+      {
+        "name": "zings_biomes:quartz_sand_valley_loop_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "block.tin.place": {
+    "subtitle": "subtitles.block.tin.place",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_tin_place",
+        "stream": false
+      }
+    ]
+  },
+  "block.tin.break": {
+    "subtitle": "subtitles.block.tin.break",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_tin_break_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:block_of_tin_break_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.tin.step": {
+    "subtitle": "subtitles.block.tin.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_tin_step",
+        "stream": false
+      }
+    ]
+  },
+  "block.tin.land": {
+    "subtitle": "subtitles.block.tin.land",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_tin_land",
+        "stream": false
+      }
+    ]
+  },
+  "block.tin.hit": {
+    "subtitle": "subtitles.block.tin.hit",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_tin_hit",
+        "stream": false
+      }
+    ]
+  },
+  "block.silver.place": {
+    "subtitle": "subtitles.block.silver.place",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_silver_place",
+        "stream": false
+      }
+    ]
+  },
+  "block.silver.break": {
+    "subtitle": "subtitles.block.silver.break",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_silver_break_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:block_of_silver_break_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.silver.step": {
+    "subtitle": "subtitles.block.silver.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_silver_step",
+        "stream": false
+      }
+    ]
+  },
+  "block.silver.land": {
+    "subtitle": "subtitles.block.silver.land",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_silver_land_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:block_of_silver_land_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:block_of_silver_land_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.silver.hit": {
+    "subtitle": "subtitles.block.silver.hit",
+    "sounds": [
+      {
+        "name": "zings_biomes:block_of_silver_hit_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:block_of_silver_hit_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.sled.use": {
+    "subtitle": "subtitles.entity.sled.use",
+    "sounds": [
+      {
+        "name": "zings_biomes:sled_loop",
+        "stream": false
+      }
+    ]
+  },
+  "block.tin_container.open": {
+    "subtitle": "subtitles.block.tin_container.open",
+    "sounds": [
+      {
+        "name": "zings_biomes:tin_container_open",
+        "stream": false
+      }
+    ]
+  },
+  "block.tin_container.close": {
+    "subtitle": "subtitles.block.tin_container.close",
+    "sounds": [
+      {
+        "name": "zings_biomes:tin_container_close",
+        "stream": false
+      }
+    ]
+  },
+  "block.palm.break": {
+    "subtitle": "subtitles.block.palm.break",
+    "sounds": [
+      {
+        "name": "zings_biomes:palm_wood_set_break",
+        "stream": false
+      }
+    ]
+  },
+  "block.palm.place": {
+    "subtitle": "subtitles.block.palm.place",
+    "sounds": [
+      {
+        "name": "zings_biomes:palm_wood_set_place",
+        "stream": false
+      }
+    ]
+  },
+  "block.palm.step": {
+    "subtitle": "subtitles.block.palm.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:palm_wood_set_step_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:palm_wood_set_step_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:palm_wood_set_step_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:palm_wood_set_step_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.palm.hit": {
+    "subtitle": "subtitles.block.palm.hit",
+    "sounds": [
+      {
+        "name": "zings_biomes:palm_wood_set_hit_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:palm_wood_set_hit_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:palm_wood_set_hit_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.driftwood.place": {
+    "subtitle": "subtitles.block.driftwood.place",
+    "sounds": [
+      {
+        "name": "zings_biomes:driftwood_wood_set_place",
+        "stream": false
+      }
+    ]
+  },
+  "block.driftwood.step": {
+    "subtitle": "subtitles.block.driftwood.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:driftwood_wood_set_step_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:driftwood_wood_set_step_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:driftwood_wood_set_step_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:driftwood_wood_set_step_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.driftwood.break": {
+    "subtitle": "subtitles.block.driftwood.break",
+    "sounds": [
+      {
+        "name": "zings_biomes:driftwood_wood_set_break_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:driftwood_wood_set_break_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.driftwood.hit": {
+    "subtitle": "subtitles.block.driftwood.hit",
+    "sounds": [
+      {
+        "name": "zings_biomes:driftwood_wood_set_hit_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:driftwood_wood_set_hit_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:driftwood_wood_set_hit_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:driftwood_wood_set_hit_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.chorus.step": {
+    "subtitle": "subtitles.block.chorus.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:chorus_wood_set_step_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:chorus_wood_set_step_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:chorus_wood_set_step_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:chorus_wood_set_step_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.chorus.break": {
+    "subtitle": "subtitles.block.chorus.break",
+    "sounds": [
+      {
+        "name": "zings_biomes:chorus_wood_set_break_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:chorus_wood_set_break_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:chorus_wood_set_break_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:chorus_wood_set_break_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.chorus.hit": {
+    "subtitle": "subtitles.block.chorus.hit",
+    "sounds": [
+      {
+        "name": "zings_biomes:chorus_wood_set_hit_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:chorus_wood_set_hit_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:chorus_wood_set_hit_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:chorus_wood_set_hit_1",
+        "stream": false
+      }
+    ]
+  },
+  "block.chorus.place": {
+    "subtitle": "subtitles.block.chorus.place",
+    "sounds": [
+      {
+        "name": "zings_biomes:chorus_wood_set_place",
+        "stream": false
+      }
+    ]
+  },
+  "entity.surfboard.use": {
+    "subtitle": "subtitles.entity.surfboard.use",
+    "sounds": [
+      {
+        "name": "zings_biomes:surfboard_use_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.castaway.idle": {
+    "subtitle": "subtitles.entity.castaway.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:castaway_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:castaway_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:castaway_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.castaway.hurt": {
+    "subtitle": "subtitles.entity.castaway.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:castaway_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:castaway_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:castaway_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.castaway.death": {
+    "subtitle": "subtitles.entity.castaway.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:castaway_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.castaway.step": {
+    "subtitle": "subtitles.entity.castaway.step",
+    "sounds": [
+      {
+        "name": "zings_biomes:castaway_step_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:castaway_step_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:castaway_step_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:castaway_step_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.shear": {
+    "subtitle": "subtitles.entity.wooden_birdzing.shear",
+    "sounds": [
+      {
+        "name": "zings_biomes:wooden_birdzing_shear_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:wooden_birdzing_shear_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wooden_birdzing.regrow": {
+    "subtitle": "subtitles.entity.wooden_birdzing.regrow",
+    "sounds": [
+      {
+        "name": "zings_biomes:wooden_birdzing_regrow",
+        "stream": false
+      }
+    ]
+  },
+  "entity.ember_wither.idle": {
+    "subtitle": "subtitles.entity.ember_wither.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:ember_wither_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:ember_wither_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:ember_wither_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.ember_wither.hurt": {
+    "subtitle": "subtitles.entity.ember_wither.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:ember_wither_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:ember_wither_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:ember_wither_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.ember_wither.death": {
+    "subtitle": "subtitles.entity.ember_wither.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:ember_wither_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.ember_wither_skull.shoot": {
+    "subtitle": "subtitles.entity.ember_wither_skull.shoot",
+    "sounds": [
+      {
+        "name": "zings_biomes:ember_wither_skull_shoot_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:ember_wither_skull_shoot_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:ember_wither_skull_shoot_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:ember_wither_skull_shoot_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.waves.idle": {
+    "subtitle": "subtitles.entity.waves.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:waves_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:waves_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.waves.hurt": {
+    "subtitle": "subtitles.entity.waves.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:waves_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:waves_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:waves_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.waves.death": {
+    "subtitle": "subtitles.entity.waves.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:waves_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.graze.idle": {
+    "subtitle": "subtitles.entity.graze.idle",
+    "sounds": [
+      {
+        "name": "zings_biomes:graze_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:graze_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:graze_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:graze_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.graze.hurt": {
+    "subtitle": "subtitles.entity.graze.hurt",
+    "sounds": [
+      {
+        "name": "zings_biomes:graze_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_biomes:graze_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "entity.graze.death": {
+    "subtitle": "subtitles.entity.graze.death",
+    "sounds": [
+      {
+        "name": "zings_biomes:graze_death",
+        "stream": false
+      }
+    ]
+  }
+}

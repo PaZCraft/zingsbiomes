@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/goldenberry_log",
+    "up": "zings_biomes:block/goldenberry_log",
+    "north": "zings_biomes:block/goldenberry_log",
+    "east": "zings_biomes:block/goldenberry_log",
+    "south": "zings_biomes:block/goldenberry_log",
+    "west": "zings_biomes:block/goldenberry_log",
+    "particle": "zings_biomes:block/goldenberry_log"
+  }
+}

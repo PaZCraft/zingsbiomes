@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zings_biomes:block/poison_ivy_vine"
+    },
+    "facing=east": {
+      "model": "zings_biomes:block/poison_ivy_vine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zings_biomes:block/poison_ivy_vine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zings_biomes:block/poison_ivy_vine",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "zings_biomes:block/poison_ivy_vine",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "zings_biomes:block/poison_ivy_vine",
+      "x": 90
+    }
+  }
+}

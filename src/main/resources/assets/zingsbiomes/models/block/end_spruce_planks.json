@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zings_biomes:block/end_spruce_planks",
+    "particle": "zings_biomes:block/end_spruce_planks"
+  }
+}

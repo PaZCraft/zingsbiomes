@@ -1,0 +1,7 @@
+{
+  "parent": "zings_biomes:block/dyeable_shroomlight",
+  "textures": {
+    "all": "zings_biomes:block/crimson_shroomlight",
+    "particle": "zings_biomes:block/crimson_shroomlight"
+  }
+}

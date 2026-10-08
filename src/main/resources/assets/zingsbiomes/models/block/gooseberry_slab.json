@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "zings_biomes:block/gooseberry_planks",
+    "bottom": "zings_biomes:block/gooseberry_planks",
+    "top": "zings_biomes:block/gooseberry_planks",
+    "side": "zings_biomes:block/gooseberry_planks"
+  }
+}

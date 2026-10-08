@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "zings_biomes:block/amberstone_bricks",
+    "particle": "zings_biomes:block/amberstone_bricks"
+  }
+}

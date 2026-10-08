@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "zings_biomes:block/raspberry_planks",
+    "particle": "zings_biomes:block/raspberry_planks"
+  }
+}

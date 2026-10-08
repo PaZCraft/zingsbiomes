@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "zings_biomes:block/blackberry_planks",
+    "bottom": "zings_biomes:block/blackberry_planks",
+    "top": "zings_biomes:block/blackberry_planks",
+    "side": "zings_biomes:block/blackberry_planks"
+  }
+}

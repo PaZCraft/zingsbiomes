@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/mud",
+    "up": "minecraft:block/moss_block",
+    "north": "zings_biomes:block/muddy_grass_block",
+    "east": "zings_biomes:block/muddy_grass_block",
+    "south": "zings_biomes:block/muddy_grass_block",
+    "west": "zings_biomes:block/muddy_grass_block",
+    "particle": "minecraft:block/mud"
+  }
+}

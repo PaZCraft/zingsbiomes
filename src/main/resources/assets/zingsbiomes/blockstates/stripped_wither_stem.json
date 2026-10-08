@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "zings_biomes:block/stripped_wither_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "zings_biomes:block/stripped_wither_stem"
+    },
+    "axis=z": {
+      "model": "zings_biomes:block/stripped_wither_stem",
+      "x": 90
+    }
+  }
+}

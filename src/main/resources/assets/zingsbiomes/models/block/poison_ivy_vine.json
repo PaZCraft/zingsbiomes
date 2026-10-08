@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/ladder",
+  "textures": {
+    "all": "zings_biomes:block/poison_ivy_vine",
+    "particle": "zings_biomes:block/poison_ivy_vine",
+    "texture": "zings_biomes:block/frostvine"
+  }
+}

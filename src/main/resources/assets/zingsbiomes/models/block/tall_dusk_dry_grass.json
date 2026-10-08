@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/tall_dusk_dry_grass",
+    "particle": "zings_biomes:block/tall_dusk_dry_grass"
+  }
+}

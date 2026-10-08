@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "zings_biomes:item/hydrothermal_vent_block"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "zings_biomes:block/shamrock_willow_planks",
+    "particle": "zings_biomes:block/shamrock_willow_planks"
+  }
+}

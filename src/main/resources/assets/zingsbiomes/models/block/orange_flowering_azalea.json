@@ -1,0 +1,10 @@
+{
+  "parent": "zings_biomes:custom/template_azalea",
+  "textures": {
+    "all": "zings_biomes:block/orange_flowering_azalea_side",
+    "particle": "zings_biomes:block/orange_flowering_azalea_side",
+    "side": "zings_biomes:block/orange_flowering_azalea_side",
+    "top": "zings_biomes:block/orange_flowering_azalea_top",
+    "plant": "minecraft:block/azalea_plant"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "zings_biomes:block/gooseberry_mossy_stone_bricks",
+    "particle": "zings_biomes:block/gooseberry_mossy_stone_bricks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/ultraviolet_leaf_litter",
+    "particle": "zings_biomes:block/ultraviolet_leaf_litter"
+  }
+}

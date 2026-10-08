@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/polished_amberstone",
+    "up": "zings_biomes:block/polished_amberstone",
+    "north": "zings_biomes:block/polished_amberstone",
+    "east": "zings_biomes:block/polished_amberstone",
+    "south": "zings_biomes:block/polished_amberstone",
+    "west": "zings_biomes:block/polished_amberstone",
+    "particle": "zings_biomes:block/polished_amberstone"
+  }
+}

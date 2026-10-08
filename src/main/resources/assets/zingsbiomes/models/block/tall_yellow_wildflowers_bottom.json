@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "minecraft:block/big_dripleaf_stem",
+    "particle": "zings_biomes:block/tall_wildflowers_yellow_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/penguin_egg",
+  "textures": {
+    "all": "zings_biomes:block/penguin_egg_stage_0",
+    "particle": "zings_biomes:block/penguin_egg_stage_0",
+    "0": "zings_biomes:block/penguin_egg_stage_0"
+  }
+}

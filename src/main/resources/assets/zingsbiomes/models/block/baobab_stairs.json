@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "zings_biomes:block/baobab_planks",
+    "bottom": "zings_biomes:block/baobab_planks",
+    "top": "zings_biomes:block/baobab_planks",
+    "side": "zings_biomes:block/baobab_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zings_biomes:item/black_bear_spawn_egg"
+  }
+}

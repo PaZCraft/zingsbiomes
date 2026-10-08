@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "zings_biomes:block/amberstone_bricks",
+    "particle": "zings_biomes:block/amberstone_bricks"
+  }
+}

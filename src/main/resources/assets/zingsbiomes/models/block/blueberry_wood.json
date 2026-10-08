@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/blueberry_log",
+    "up": "zings_biomes:block/blueberry_log",
+    "north": "zings_biomes:block/blueberry_log",
+    "east": "zings_biomes:block/blueberry_log",
+    "south": "zings_biomes:block/blueberry_log",
+    "west": "zings_biomes:block/blueberry_log",
+    "particle": "zings_biomes:block/blueberry_log"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "zings_biomes:block/small_icicle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "zings_biomes:block/small_icicle"
+    },
+    "axis=z": {
+      "model": "zings_biomes:block/small_icicle",
+      "x": 90
+    }
+  }
+}

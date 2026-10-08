@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/tall_brown_mushroom"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/tall_brown_mushroom_bottom"
+    }
+  }
+}

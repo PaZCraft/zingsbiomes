@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "zings_biomes:block/blue_driftwood_trapdoor",
+    "particle": "zings_biomes:block/blue_driftwood_trapdoor"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zings_biomes:block/stone_ruby_ore",
+    "particle": "zings_biomes:block/stone_ruby_ore"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zings_biomes:item/end_spruce_hanging_sign_item"
+  }
+}

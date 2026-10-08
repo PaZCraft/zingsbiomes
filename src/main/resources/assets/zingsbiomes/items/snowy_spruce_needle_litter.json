@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "zings_biomes:item/snowy_spruce_needle_litter",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -10380959
+      }
+    ]
+  }
+}

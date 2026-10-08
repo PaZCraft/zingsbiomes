@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "zings_biomes:block/hanging_moss_tip",
+    "particle": "zings_biomes:block/hanging_moss_middle"
+  }
+}

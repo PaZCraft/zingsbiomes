@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/tall_open_eyeblossom"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/tall_open_eyeblossom_bottom"
+    }
+  }
+}

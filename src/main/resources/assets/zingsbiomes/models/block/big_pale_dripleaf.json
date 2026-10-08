@@ -1,0 +1,11 @@
+{
+  "parent": "zings_biomes:custom/big_dripleaf",
+  "textures": {
+    "all": "zings_biomes:block/big_pale_dripleaf_top",
+    "particle": "zings_biomes:block/big_pale_dripleaf_top",
+    "side": "zings_biomes:block/big_pale_dripleaf_side",
+    "top": "zings_biomes:block/big_pale_dripleaf_top",
+    "tip": "zings_biomes:block/big_pale_dripleaf_tip",
+    "stem": "zings_biomes:block/big_pale_dripleaf_stem"
+  }
+}

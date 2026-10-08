@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/ladder",
+  "textures": {
+    "all": "zings_biomes:block/frostvine",
+    "particle": "zings_biomes:block/frostvine",
+    "texture": "zings_biomes:block/frostvine"
+  }
+}

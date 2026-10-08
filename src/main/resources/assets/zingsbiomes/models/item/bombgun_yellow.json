@@ -1,0 +1,9 @@
+{
+  "parent": "zings_biomes:custom/bombgun",
+  "textures": {
+    "shooter": "zings_biomes:block/bombgun_shooter",
+    "ballcolor": "zings_biomes:block/bombgun_ball_yellow",
+    "base": "zings_biomes:block/bombgun_base",
+    "particle": "zings_biomes:item/bombgun_item"
+  }
+}

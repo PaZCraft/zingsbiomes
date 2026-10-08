@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/redstone_crystal",
+  "textures": {
+    "all": "zings_biomes:block/redstone_crystal",
+    "particle": "zings_biomes:block/redstone_crystal",
+    "0": "zings_biomes:block/redstone_crystal"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "zings_biomes:custom/flytrap_sea_anemone_closed",
+  "textures": {
+    "all": "zings_biomes:block/flytrap_sea_anemone_jaw",
+    "particle": "zings_biomes:block/flytrap_sea_anemone_jaw",
+    "jaw": "zings_biomes:block/flytrap_sea_anemone_jaw",
+    "mouth": "zings_biomes:block/flytrap_sea_anemone_mouth",
+    "base": "zings_biomes:block/flytrap_sea_anemone_base"
+  }
+}

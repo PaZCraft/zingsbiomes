@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "zings_biomes:block/frozen_mud_bricks",
+    "bottom": "zings_biomes:block/frozen_mud_bricks",
+    "top": "zings_biomes:block/frozen_mud_bricks",
+    "side": "zings_biomes:block/frozen_mud_bricks"
+  }
+}

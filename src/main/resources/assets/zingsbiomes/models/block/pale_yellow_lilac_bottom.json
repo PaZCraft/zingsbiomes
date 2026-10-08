@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/lilac_bottom_pale_yellow",
+    "particle": "zings_biomes:block/lilac_top_pale_yellow"
+  }
+}

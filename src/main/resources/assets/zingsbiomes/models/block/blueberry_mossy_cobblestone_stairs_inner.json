@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "zings_biomes:block/blueberry_mossy_cobblestone",
+    "bottom": "zings_biomes:block/blueberry_mossy_cobblestone",
+    "top": "zings_biomes:block/blueberry_mossy_cobblestone",
+    "side": "zings_biomes:block/blueberry_mossy_cobblestone"
+  }
+}

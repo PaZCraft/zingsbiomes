@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/birch_log_top",
+    "up": "minecraft:block/birch_log_top",
+    "north": "zings_biomes:block/stripey_birch_log",
+    "east": "zings_biomes:block/stripey_birch_log",
+    "south": "zings_biomes:block/stripey_birch_log",
+    "west": "zings_biomes:block/stripey_birch_log",
+    "particle": "minecraft:block/birch_log_top"
+  }
+}

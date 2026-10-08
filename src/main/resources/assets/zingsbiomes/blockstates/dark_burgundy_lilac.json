@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/dark_burgundy_lilac"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/dark_burgundy_lilac_bottom"
+    }
+  }
+}

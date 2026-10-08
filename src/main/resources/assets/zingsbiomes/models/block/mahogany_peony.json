@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/peony_top_mahogany",
+    "particle": "zings_biomes:block/peony_top_mahogany"
+  }
+}

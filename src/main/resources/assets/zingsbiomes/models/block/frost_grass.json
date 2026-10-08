@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "zings_biomes:block/frost_grass",
+    "particle": "zings_biomes:block/frost_grass"
+  }
+}

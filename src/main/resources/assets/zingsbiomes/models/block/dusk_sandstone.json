@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/dusk_sandstone_bottom",
+    "up": "zings_biomes:block/dusk_sandstone_top",
+    "north": "zings_biomes:block/dusk_sandstone_side",
+    "east": "zings_biomes:block/dusk_sandstone_side",
+    "south": "zings_biomes:block/dusk_sandstone_side",
+    "west": "zings_biomes:block/dusk_sandstone_side",
+    "particle": "zings_biomes:block/dusk_sandstone_bottom"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "zings_biomes:block/ultraviolet_resin_bricks",
+    "bottom": "zings_biomes:block/ultraviolet_resin_bricks",
+    "top": "zings_biomes:block/ultraviolet_resin_bricks",
+    "side": "zings_biomes:block/ultraviolet_resin_bricks"
+  }
+}

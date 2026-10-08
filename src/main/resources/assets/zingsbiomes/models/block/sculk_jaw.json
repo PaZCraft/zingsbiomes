@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/sculk",
+    "up": "zings_biomes:block/sculk_jaw",
+    "north": "minecraft:block/sculk",
+    "east": "minecraft:block/sculk",
+    "south": "minecraft:block/sculk",
+    "west": "minecraft:block/sculk",
+    "particle": "minecraft:block/sculk"
+  }
+}

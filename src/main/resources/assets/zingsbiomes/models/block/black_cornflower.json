@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/cornflower_black",
+    "particle": "zings_biomes:block/cornflower_black"
+  }
+}

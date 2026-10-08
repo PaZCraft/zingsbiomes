@@ -1,0 +1,10 @@
+{
+  "parent": "zings_biomes:custom/sea_anemone_block_model",
+  "textures": {
+    "all": "zings_biomes:block/orange_sea_anemone_base",
+    "particle": "zings_biomes:block/orange_sea_anemone_base",
+    "0": "zings_biomes:block/orange_sea_anemone_base",
+    "1": "zings_biomes:block/orange_sea_anemone_tentacles",
+    "2": "zings_biomes:block/orange_sea_anemone_small_tentacles"
+  }
+}

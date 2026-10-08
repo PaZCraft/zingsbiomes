@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "zings_biomes:block/sunflower_crop_5",
+    "particle": "zings_biomes:block/sunflower_crop_0"
+  }
+}

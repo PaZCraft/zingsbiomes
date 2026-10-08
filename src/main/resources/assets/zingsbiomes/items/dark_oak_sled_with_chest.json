@@ -1,0 +1,6 @@
+{
+    "model":  {
+                  "type":  "minecraft:model",
+                  "model":  "zings_biomes:item/dark_oak_sled_with_chest"
+              }
+}

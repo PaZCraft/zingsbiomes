@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=1": {
+      "model": "zings_biomes:block/winter_wheat_seeds_0"
+    },
+    "age=2": {
+      "model": "zings_biomes:block/winter_wheat_seeds_1"
+    },
+    "age=3": {
+      "model": "zings_biomes:block/winter_wheat_seeds_2"
+    },
+    "age=4": {
+      "model": "zings_biomes:block/winter_wheat_seeds_3"
+    },
+    "age=5": {
+      "model": "zings_biomes:block/winter_wheat_seeds_4"
+    },
+    "age=6": {
+      "model": "zings_biomes:block/winter_wheat_seeds_5"
+    },
+    "age=7": {
+      "model": "zings_biomes:block/winter_wheat_seeds_6"
+    },
+    "age=0": {
+      "model": "zings_biomes:block/winter_wheat_seeds"
+    }
+  }
+}

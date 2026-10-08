@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/raspberry_log_stripped",
+    "up": "zings_biomes:block/raspberry_log_stripped",
+    "north": "zings_biomes:block/raspberry_log_stripped",
+    "east": "zings_biomes:block/raspberry_log_stripped",
+    "south": "zings_biomes:block/raspberry_log_stripped",
+    "west": "zings_biomes:block/raspberry_log_stripped",
+    "particle": "zings_biomes:block/raspberry_log_stripped"
+  }
+}

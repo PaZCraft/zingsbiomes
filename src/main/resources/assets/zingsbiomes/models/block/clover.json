@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "zings_biomes:block/clover",
+    "particle": "zings_biomes:block/clover"
+  }
+}

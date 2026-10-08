@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/blowgun",
+  "textures": {
+    "hollow": "zings_biomes:block/crystalized_blowgun_front",
+    "base": "zings_biomes:block/crystalized_blowgun_base",
+    "particle": "zings_biomes:item/crystalized_blowgun_item"
+  }
+}

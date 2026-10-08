@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "is_being_interacted_with=true": {
+      "model": "zings_biomes:block/tin_container_block_0"
+    },
+    "is_being_interacted_with=false": {
+      "model": "zings_biomes:block/tin_container_block"
+    }
+  }
+}

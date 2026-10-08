@@ -1,0 +1,7 @@
+{
+  "parent": "block/end_rod",
+  "textures": {
+    "end_rod": "zings_biomes:block/quartz_ultraviolet_rod",
+    "particle": "zings_biomes:block/quartz_ultraviolet_rod"
+  }
+}

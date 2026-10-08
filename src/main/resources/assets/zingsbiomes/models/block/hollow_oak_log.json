@@ -1,0 +1,10 @@
+{
+  "parent": "zings_biomes:custom/hollow_log",
+  "textures": {
+    "all": "minecraft:block/oak_log_top",
+    "particle": "minecraft:block/oak_log_top",
+    "side": "minecraft:block/oak_log",
+    "top": "minecraft:block/oak_log_top",
+    "inner": "minecraft:block/stripped_oak_log"
+  }
+}

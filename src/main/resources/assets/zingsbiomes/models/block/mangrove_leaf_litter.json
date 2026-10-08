@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/leaf_litter",
+  "textures": {
+    "all": "zings_biomes:block/mangrove_leaf_litter",
+    "particle": "zings_biomes:block/mangrove_leaf_litter",
+    "leaflitter": "zings_biomes:block/mangrove_leaf_litter"
+  }
+}

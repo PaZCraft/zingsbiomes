@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zings_biomes:block/pink_obsidian",
+    "particle": "zings_biomes:block/pink_obsidian"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "zings_biomes:custom/template_azalea",
+  "textures": {
+    "all": "zings_biomes:block/pale_azalea_plant",
+    "particle": "zings_biomes:block/pale_azalea_plant",
+    "side": "zings_biomes:block/pale_azalea_side",
+    "top": "zings_biomes:block/pale_azalea_top",
+    "plant": "zings_biomes:block/pale_azalea_plant"
+  }
+}

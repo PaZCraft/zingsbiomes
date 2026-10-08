@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/tin_container",
+  "textures": {
+    "all": "zings_biomes:block/tin_container_open",
+    "particle": "zings_biomes:block/tin_container_closed",
+    "base": "zings_biomes:block/tin_container_open"
+  }
+}

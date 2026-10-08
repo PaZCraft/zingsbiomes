@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "zings_biomes:block/heartwood_planks",
+    "particle": "zings_biomes:block/heartwood_planks"
+  }
+}

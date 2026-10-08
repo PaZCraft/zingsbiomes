@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zings_biomes:block/sweet_berry_door_bottom"
+  },
+  "render_type": "cutout"
+}

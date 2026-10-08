@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/green_grazed_spruce_sapling",
+    "particle": "zings_biomes:block/green_grazed_spruce_sapling"
+  }
+}

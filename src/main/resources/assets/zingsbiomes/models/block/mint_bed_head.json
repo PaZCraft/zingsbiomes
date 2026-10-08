@@ -1,0 +1,12 @@
+{
+  "parent": "zings_biomes:custom/bed_head",
+  "textures": {
+    "all": "zings_biomes:block/mint_bed_head_up",
+    "particle": "zings_biomes:block/mint_bed_head_up",
+    "east": "zings_biomes:block/mint_bed_head_east",
+    "north": "zings_biomes:block/mint_bed_foot_south",
+    "west": "zings_biomes:block/mint_bed_head_west",
+    "up": "zings_biomes:block/mint_bed_head_up",
+    "down": "minecraft:block/oak_planks"
+  }
+}

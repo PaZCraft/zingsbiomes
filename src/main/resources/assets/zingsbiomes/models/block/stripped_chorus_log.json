@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/stripped_chorus_log_top",
+    "up": "zings_biomes:block/stripped_chorus_log_top",
+    "north": "zings_biomes:block/stripped_chorus_log_side",
+    "east": "zings_biomes:block/stripped_chorus_log_side",
+    "south": "zings_biomes:block/stripped_chorus_log_side",
+    "west": "zings_biomes:block/stripped_chorus_log_side",
+    "particle": "zings_biomes:block/stripped_chorus_log_top"
+  }
+}

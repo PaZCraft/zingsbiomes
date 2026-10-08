@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "axis=x,is_activated=true,current_weather=clear": {
+      "model": "zings_biomes:block/citrine_weather_meter_0",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,is_activated=true,current_weather=rain": {
+      "model": "zings_biomes:block/citrine_weather_meter_1",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,is_activated=true,current_weather=thunder": {
+      "model": "zings_biomes:block/citrine_weather_meter_2",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,is_activated=false,current_weather=clear": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,is_activated=false,current_weather=off": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,is_activated=false,current_weather=thunder": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,is_activated=false,current_weather=rain": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,is_activated=true,current_weather=off": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,is_activated=true,current_weather=clear": {
+      "model": "zings_biomes:block/citrine_weather_meter_0"
+    },
+    "axis=y,is_activated=true,current_weather=rain": {
+      "model": "zings_biomes:block/citrine_weather_meter_1"
+    },
+    "axis=y,is_activated=true,current_weather=thunder": {
+      "model": "zings_biomes:block/citrine_weather_meter_2"
+    },
+    "axis=y,is_activated=false,current_weather=clear": {
+      "model": "zings_biomes:block/citrine_weather_meter"
+    },
+    "axis=y,is_activated=false,current_weather=off": {
+      "model": "zings_biomes:block/citrine_weather_meter"
+    },
+    "axis=y,is_activated=false,current_weather=thunder": {
+      "model": "zings_biomes:block/citrine_weather_meter"
+    },
+    "axis=y,is_activated=false,current_weather=rain": {
+      "model": "zings_biomes:block/citrine_weather_meter"
+    },
+    "axis=y,is_activated=true,current_weather=off": {
+      "model": "zings_biomes:block/citrine_weather_meter"
+    },
+    "axis=z,is_activated=true,current_weather=clear": {
+      "model": "zings_biomes:block/citrine_weather_meter_0",
+      "x": 90
+    },
+    "axis=z,is_activated=true,current_weather=rain": {
+      "model": "zings_biomes:block/citrine_weather_meter_1",
+      "x": 90
+    },
+    "axis=z,is_activated=true,current_weather=thunder": {
+      "model": "zings_biomes:block/citrine_weather_meter_2",
+      "x": 90
+    },
+    "axis=z,is_activated=false,current_weather=clear": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90
+    },
+    "axis=z,is_activated=false,current_weather=off": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90
+    },
+    "axis=z,is_activated=false,current_weather=thunder": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90
+    },
+    "axis=z,is_activated=false,current_weather=rain": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90
+    },
+    "axis=z,is_activated=true,current_weather=off": {
+      "model": "zings_biomes:block/citrine_weather_meter",
+      "x": 90
+    }
+  }
+}

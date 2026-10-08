@@ -1,0 +1,10 @@
+{
+  "parent": "zings_biomes:custom/sunflower_top",
+  "textures": {
+    "all": "zings_biomes:block/sunflower_mahogany",
+    "particle": "zings_biomes:block/sunflower_mahogany",
+    "cross": "minecraft:block/sunflower_top",
+    "back": "minecraft:block/sunflower_back",
+    "front": "zings_biomes:block/sunflower_mahogany"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/stripped_mossbark_log",
+    "up": "zings_biomes:block/stripped_mossbark_log",
+    "north": "zings_biomes:block/stripped_mossbark_log",
+    "east": "zings_biomes:block/stripped_mossbark_log",
+    "south": "zings_biomes:block/stripped_mossbark_log",
+    "west": "zings_biomes:block/stripped_mossbark_log",
+    "particle": "zings_biomes:block/stripped_mossbark_log"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "axis=x,temperature_form=0": {
+      "model": "zings_biomes:block/silver_thermometer_block_0",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,temperature_form=2": {
+      "model": "zings_biomes:block/silver_thermometer_block_1",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,temperature_form=1": {
+      "model": "zings_biomes:block/silver_thermometer_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,temperature_form=0": {
+      "model": "zings_biomes:block/silver_thermometer_block_0"
+    },
+    "axis=y,temperature_form=2": {
+      "model": "zings_biomes:block/silver_thermometer_block_1"
+    },
+    "axis=y,temperature_form=1": {
+      "model": "zings_biomes:block/silver_thermometer_block"
+    },
+    "axis=z,temperature_form=0": {
+      "model": "zings_biomes:block/silver_thermometer_block_0",
+      "x": 90
+    },
+    "axis=z,temperature_form=2": {
+      "model": "zings_biomes:block/silver_thermometer_block_1",
+      "x": 90
+    },
+    "axis=z,temperature_form=1": {
+      "model": "zings_biomes:block/silver_thermometer_block",
+      "x": 90
+    }
+  }
+}

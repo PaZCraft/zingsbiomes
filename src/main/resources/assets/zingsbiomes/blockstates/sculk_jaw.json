@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "is_snapped=true": {
+      "model": "zings_biomes:block/sculk_jaw_0"
+    },
+    "is_snapped=false": {
+      "model": "zings_biomes:block/sculk_jaw"
+    }
+  }
+}

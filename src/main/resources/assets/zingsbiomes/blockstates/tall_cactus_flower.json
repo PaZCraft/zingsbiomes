@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/tall_cactus_flower"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/tall_cactus_flower_bottom"
+    }
+  }
+}

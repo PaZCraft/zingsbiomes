@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/biped_head",
+  "textures": {
+    "all": "zings_biomes:block/parched_skull",
+    "particle": "zings_biomes:block/parched_skull",
+    "head": "zings_biomes:block/parched_skull"
+  }
+}

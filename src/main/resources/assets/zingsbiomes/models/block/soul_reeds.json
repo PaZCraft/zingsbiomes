@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/soul_reeds",
+    "particle": "zings_biomes:block/soul_reeds"
+  }
+}

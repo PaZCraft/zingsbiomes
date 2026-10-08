@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zings_biomes:block/indigo_mushroom_block",
+    "particle": "zings_biomes:block/indigo_mushroom_block"
+  }
+}

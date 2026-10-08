@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "zings_biomes:block/strawberry_planks",
+    "bottom": "zings_biomes:block/strawberry_planks",
+    "top": "zings_biomes:block/strawberry_planks",
+    "side": "zings_biomes:block/strawberry_planks"
+  }
+}

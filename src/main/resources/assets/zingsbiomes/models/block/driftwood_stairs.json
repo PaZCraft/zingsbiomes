@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "zings_biomes:block/driftwood_planks",
+    "bottom": "zings_biomes:block/driftwood_planks",
+    "top": "zings_biomes:block/driftwood_planks",
+    "side": "zings_biomes:block/driftwood_planks"
+  }
+}

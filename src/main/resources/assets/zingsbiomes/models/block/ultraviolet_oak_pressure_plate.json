@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "zings_biomes:block/ultraviolet_oak_planks",
+    "particle": "zings_biomes:block/ultraviolet_oak_planks"
+  }
+}

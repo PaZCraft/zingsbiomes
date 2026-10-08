@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "is_being_interacted_with=true": {
+      "model": "zings_biomes:block/chiseled_tin_container_0"
+    },
+    "is_being_interacted_with=false": {
+      "model": "zings_biomes:block/chiseled_tin_container"
+    }
+  }
+}

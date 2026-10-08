@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/blue_fire_mushroom",
+    "particle": "zings_biomes:block/blue_fire_mushroom"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "zings_biomes:block/goldenberry_mossy_cobblestone",
+    "bottom": "zings_biomes:block/goldenberry_mossy_cobblestone",
+    "top": "zings_biomes:block/goldenberry_mossy_cobblestone",
+    "side": "zings_biomes:block/goldenberry_mossy_cobblestone"
+  }
+}

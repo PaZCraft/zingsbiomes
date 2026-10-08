@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "zings_biomes:block/berry_portal_ew"
+    },
+    "axis=x": {
+      "model": "zings_biomes:block/berry_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "particle": "zings_biomes:block/silver_bars",
+    "pane": "zings_biomes:block/silver_bars",
+    "edge": "zings_biomes:block/silver_bars"
+  }
+}

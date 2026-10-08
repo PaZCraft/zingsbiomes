@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "zings_biomes:block/tin_bars",
+    "particle": "zings_biomes:block/tin_bars"
+  }
+}

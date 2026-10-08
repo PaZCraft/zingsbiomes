@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zings_biomes:block/silver_bars"
+  },
+  "render_type": "cutout_mipped"
+}

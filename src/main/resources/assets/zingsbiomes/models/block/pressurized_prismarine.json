@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zings_biomes:block/pressurized_prismarine",
+    "particle": "zings_biomes:block/pressurized_prismarine"
+  }
+}

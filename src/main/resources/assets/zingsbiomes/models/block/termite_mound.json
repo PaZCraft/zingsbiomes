@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zings_biomes:block/termite_mound",
+    "particle": "zings_biomes:block/termite_mound"
+  }
+}

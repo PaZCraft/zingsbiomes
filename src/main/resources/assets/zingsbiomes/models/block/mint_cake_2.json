@@ -1,0 +1,11 @@
+{
+  "parent": "zings_biomes:custom/cake_bite_3",
+  "textures": {
+    "all": "zings_biomes:block/mint_cake_top",
+    "particle": "zings_biomes:block/mint_cake_top",
+    "side": "zings_biomes:block/mint_cake_side",
+    "top": "zings_biomes:block/mint_cake_top",
+    "bottom": "zings_biomes:block/mint_cake_bottom",
+    "inside": "zings_biomes:block/mint_cake_inside"
+  }
+}

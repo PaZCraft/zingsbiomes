@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "zings_biomes:block/glow_berry_planks",
+    "bottom": "zings_biomes:block/glow_berry_planks",
+    "top": "zings_biomes:block/glow_berry_planks",
+    "side": "zings_biomes:block/glow_berry_planks"
+  }
+}

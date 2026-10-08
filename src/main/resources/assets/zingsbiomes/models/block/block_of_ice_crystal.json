@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "zings_biomes:block/block_of_cryocrystal",
+    "particle": "zings_biomes:block/block_of_cryocrystal"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zings_biomes:block/green_grazed_spruce_leaves",
+    "particle": "zings_biomes:block/green_grazed_spruce_leaves"
+  }
+}

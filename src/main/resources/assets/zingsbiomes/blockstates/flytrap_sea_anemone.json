@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "axis=x,is_snapped=true": {
+      "model": "zings_biomes:block/flytrap_sea_anemone_0",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,is_snapped=false": {
+      "model": "zings_biomes:block/flytrap_sea_anemone",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,is_snapped=true": {
+      "model": "zings_biomes:block/flytrap_sea_anemone_0"
+    },
+    "axis=y,is_snapped=false": {
+      "model": "zings_biomes:block/flytrap_sea_anemone"
+    },
+    "axis=z,is_snapped=true": {
+      "model": "zings_biomes:block/flytrap_sea_anemone_0",
+      "x": 90
+    },
+    "axis=z,is_snapped=false": {
+      "model": "zings_biomes:block/flytrap_sea_anemone",
+      "x": 90
+    }
+  }
+}

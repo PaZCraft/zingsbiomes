@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "zings_biomes:block/sunshine_planks",
+    "particle": "zings_biomes:block/sunshine_planks"
+  }
+}

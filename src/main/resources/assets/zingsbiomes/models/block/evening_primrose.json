@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/evening_primrose",
+    "particle": "zings_biomes:block/evening_primrose"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "zings_biomes:custom/spiked_mushroom_stem",
+  "textures": {
+    "all": "minecraft:block/mushroom_stem",
+    "particle": "minecraft:block/mushroom_stem",
+    "spikes": "zings_biomes:block/mushroom_spikes",
+    "missing": "zings_biomes:block/mushroom_spikes",
+    "stem": "zings_biomes:block/mushroom_stem"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "zings_biomes:block/pale_mossy_cobblestone",
+    "bottom": "zings_biomes:block/pale_mossy_cobblestone",
+    "top": "zings_biomes:block/pale_mossy_cobblestone",
+    "side": "zings_biomes:block/pale_mossy_cobblestone"
+  }
+}

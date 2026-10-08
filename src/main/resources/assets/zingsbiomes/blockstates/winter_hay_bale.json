@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "zings_biomes:block/winter_hay_bale",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "zings_biomes:block/winter_hay_bale"
+    },
+    "axis=z": {
+      "model": "zings_biomes:block/winter_hay_bale",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/torch_pitcher_bottom",
+    "particle": "zings_biomes:block/torch_pitcher_top"
+  }
+}

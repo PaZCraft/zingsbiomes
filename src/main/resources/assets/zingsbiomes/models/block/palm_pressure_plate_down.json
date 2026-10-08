@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "zings_biomes:block/palm_planks",
+    "particle": "zings_biomes:block/palm_planks"
+  }
+}

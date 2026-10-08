@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "zings_biomes:block/pale_orange_stained_glass",
+    "particle": "zings_biomes:block/pale_orange_stained_glass"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "zings_biomes:item/budding_ice_crystal",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 3694022
+      }
+    ]
+  }
+}

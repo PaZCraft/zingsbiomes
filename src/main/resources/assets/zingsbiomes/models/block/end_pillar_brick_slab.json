@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "zings_biomes:block/dark_purpur_bricks",
+    "bottom": "zings_biomes:block/dark_purpur_bricks",
+    "top": "zings_biomes:block/dark_purpur_bricks",
+    "side": "zings_biomes:block/dark_purpur_bricks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/sculk_tnt_bottom",
+    "up": "zings_biomes:block/sculk_tnt_top",
+    "north": "zings_biomes:block/sculk_tnt_side",
+    "east": "zings_biomes:block/sculk_tnt_side",
+    "south": "zings_biomes:block/sculk_tnt_side",
+    "west": "zings_biomes:block/sculk_tnt_side",
+    "particle": "zings_biomes:block/sculk_tnt_bottom"
+  }
+}

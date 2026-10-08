@@ -1,0 +1,9 @@
+{
+  "parent": "zings_biomes:custom/wildflowers_model",
+  "textures": {
+    "all": "zings_biomes:block/blue_petals",
+    "particle": "zings_biomes:block/blue_petals",
+    "0": "zings_biomes:block/blue_petals",
+    "1": "minecraft:block/pink_petals_stem"
+  }
+}

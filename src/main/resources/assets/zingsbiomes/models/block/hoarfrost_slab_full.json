@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "zings_biomes:block/hoarfrost_planks",
+    "bottom": "zings_biomes:block/hoarfrost_planks",
+    "top": "zings_biomes:block/hoarfrost_planks",
+    "side": "zings_biomes:block/hoarfrost_planks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/tall_cactus_flower_bottom",
+    "particle": "zings_biomes:block/tall_cactus_flower_top"
+  }
+}

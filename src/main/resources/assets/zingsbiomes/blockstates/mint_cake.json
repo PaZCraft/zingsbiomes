@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=1": {
+      "model": "zings_biomes:block/mint_cake_0"
+    },
+    "bites=2": {
+      "model": "zings_biomes:block/mint_cake_1"
+    },
+    "bites=3": {
+      "model": "zings_biomes:block/mint_cake_2"
+    },
+    "bites=4": {
+      "model": "zings_biomes:block/mint_cake_3"
+    },
+    "bites=5": {
+      "model": "zings_biomes:block/mint_cake_4"
+    },
+    "bites=6": {
+      "model": "zings_biomes:block/mint_cake_5"
+    },
+    "bites=0": {
+      "model": "zings_biomes:block/mint_cake"
+    }
+  }
+}

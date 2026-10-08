@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "zings_biomes:block/cut_end_rock",
+    "bottom": "zings_biomes:block/cut_end_rock",
+    "top": "zings_biomes:block/cut_end_rock",
+    "side": "zings_biomes:block/cut_end_rock"
+  }
+}

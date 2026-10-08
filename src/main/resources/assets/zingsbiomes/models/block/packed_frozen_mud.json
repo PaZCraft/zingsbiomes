@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zings_biomes:block/packed_frozen_mud",
+    "particle": "zings_biomes:block/packed_frozen_mud"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "zings_biomes:block/poison_ivy",
+    "particle": "zings_biomes:block/poison_ivy"
+  }
+}

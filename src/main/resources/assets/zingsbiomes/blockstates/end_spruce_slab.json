@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "zings_biomes:block/end_spruce_slab"
+    },
+    "type=top": {
+      "model": "zings_biomes:block/end_spruce_slab_top"
+    },
+    "type=double": {
+      "model": "zings_biomes:block/end_spruce_slab_full"
+    }
+  }
+}

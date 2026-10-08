@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "zings_biomes:block/heartwood_slab"
+    },
+    "type=top": {
+      "model": "zings_biomes:block/heartwood_slab_top"
+    },
+    "type=double": {
+      "model": "zings_biomes:block/heartwood_slab_full"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "zings_biomes:block/fir_planks",
+    "particle": "zings_biomes:block/fir_planks"
+  }
+}

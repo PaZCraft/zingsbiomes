@@ -1,0 +1,7 @@
+{
+  "parent": "zings_biomes:custom/shield",
+  "textures": {
+    "shield": "zings_biomes:block/carnelian_shield",
+    "particle": "zings_biomes:item/carnelian_shield_item"
+  }
+}

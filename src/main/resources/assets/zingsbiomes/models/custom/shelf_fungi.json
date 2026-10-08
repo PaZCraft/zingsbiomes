@@ -1,0 +1,430 @@
+{
+  "format_version": "1.21.11",
+  "credit": "Made with Blockbench",
+  "parent": "shelf_fungi",
+  "elements": [
+    {
+      "from": [
+        0,
+        1,
+        14
+      ],
+      "to": [
+        4,
+        3,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          2,
+          2,
+          15
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            4,
+            2
+          ],
+          "texture": "#cap1"
+        },
+        "east": {
+          "uv": [
+            4,
+            2,
+            6,
+            4
+          ],
+          "texture": "#cap1"
+        },
+        "south": {
+          "uv": [
+            0,
+            2,
+            4,
+            4
+          ],
+          "texture": "#cap1"
+        },
+        "west": {
+          "uv": [
+            4,
+            4,
+            6,
+            6
+          ],
+          "texture": "#cap1"
+        },
+        "up": {
+          "uv": [
+            4,
+            6,
+            0,
+            4
+          ],
+          "texture": "#cap1"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            4,
+            2
+          ],
+          "texture": "#cap1"
+        }
+      }
+    },
+    {
+      "from": [
+        11,
+        4,
+        12
+      ],
+      "to": [
+        16,
+        5,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          13.5,
+          4.5,
+          14
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            0,
+            10,
+            1
+          ],
+          "texture": "#cap2"
+        },
+        "east": {
+          "uv": [
+            5,
+            2,
+            9,
+            3
+          ],
+          "texture": "#cap2"
+        },
+        "south": {
+          "uv": [
+            5,
+            1,
+            10,
+            2
+          ],
+          "texture": "#cap2"
+        },
+        "west": {
+          "uv": [
+            5,
+            3,
+            9,
+            4
+          ],
+          "texture": "#cap2"
+        },
+        "up": {
+          "uv": [
+            5,
+            4,
+            0,
+            0
+          ],
+          "texture": "#cap2"
+        },
+        "down": {
+          "uv": [
+            5,
+            4,
+            0,
+            8
+          ],
+          "texture": "#cap2"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        9,
+        14
+      ],
+      "to": [
+        10,
+        10,
+        17
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7.5,
+          9.5,
+          15.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            0,
+            10,
+            1
+          ],
+          "texture": "#cap3"
+        },
+        "east": {
+          "uv": [
+            5,
+            2,
+            8,
+            3
+          ],
+          "texture": "#cap3"
+        },
+        "south": {
+          "uv": [
+            5,
+            1,
+            10,
+            2
+          ],
+          "texture": "#cap3"
+        },
+        "west": {
+          "uv": [
+            5,
+            3,
+            8,
+            4
+          ],
+          "texture": "#cap3"
+        },
+        "up": {
+          "uv": [
+            5,
+            3,
+            0,
+            0
+          ],
+          "texture": "#cap3"
+        },
+        "down": {
+          "uv": [
+            5,
+            3,
+            0,
+            6
+          ],
+          "texture": "#cap3"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        16,
+        14
+      ],
+      "to": [
+        8,
+        17,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5,
+          16.5,
+          15
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            6,
+            5
+          ],
+          "texture": "#cap4"
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            2,
+            7
+          ],
+          "texture": "#cap4"
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            6,
+            6
+          ],
+          "texture": "#cap4"
+        },
+        "west": {
+          "uv": [
+            6,
+            0,
+            8,
+            1
+          ],
+          "texture": "#cap4"
+        },
+        "up": {
+          "uv": [
+            6,
+            2,
+            0,
+            0
+          ],
+          "texture": "#cap4"
+        },
+        "down": {
+          "uv": [
+            6,
+            2,
+            0,
+            4
+          ],
+          "texture": "#cap4"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        0,
+        -6.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        0,
+        -6.75
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        0,
+        10,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -135,
+        0
+      ],
+      "translation": [
+        3,
+        -3,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -16.75,
+        -11.75
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        0,
+        -8.25
+      ]
+    },
+    "on_shelf": {
+      "translation": [
+        0,
+        0,
+        -8.5
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "cap1",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        0
+      ]
+    },
+    {
+      "name": "cap2",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "cap3",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "cap4",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        3
+      ]
+    }
+  ]
+}

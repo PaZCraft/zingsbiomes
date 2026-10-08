@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zings_biomes:item/sled_with_chest_birch_item"
+  }
+}

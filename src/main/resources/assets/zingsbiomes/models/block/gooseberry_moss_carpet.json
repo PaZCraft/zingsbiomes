@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/carpet",
+  "textures": {
+    "all": "zings_biomes:block/gooseberry_moss",
+    "particle": "zings_biomes:block/gooseberry_moss",
+    "wool": "zings_biomes:block/gooseberry_moss"
+  }
+}

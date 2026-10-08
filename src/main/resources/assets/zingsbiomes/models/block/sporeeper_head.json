@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/biped_head",
+  "textures": {
+    "all": "zings_biomes:block/sporeeper_head",
+    "particle": "zings_biomes:block/sporeeper_head",
+    "head": "zings_biomes:block/sporeeper_head"
+  }
+}

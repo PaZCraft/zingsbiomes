@@ -1,0 +1,7 @@
+{
+  "parent": "zings_biomes:custom/template_candle",
+  "textures": {
+    "all": "zings_biomes:block/violet_candle",
+    "particle": "zings_biomes:block/lit_violet_candle"
+  }
+}

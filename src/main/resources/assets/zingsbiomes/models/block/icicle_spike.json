@@ -1,0 +1,10 @@
+{
+  "parent": "zings_biomes:custom/icicle_big",
+  "textures": {
+    "all": "zings_biomes:block/icicle_medium",
+    "particle": "zings_biomes:block/icicle_medium",
+    "side": "zings_biomes:block/icicle_block_side",
+    "top": "zings_biomes:block/icicle_block_top",
+    "bottom": "zings_biomes:block/icicle_block_bottom"
+  }
+}

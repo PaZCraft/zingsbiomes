@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zings_biomes:block/tuff_golem_statue"
+    },
+    "facing=east": {
+      "model": "zings_biomes:block/tuff_golem_statue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zings_biomes:block/tuff_golem_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zings_biomes:block/tuff_golem_statue",
+      "y": 270
+    }
+  }
+}

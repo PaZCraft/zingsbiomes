@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/yellow_rose_bush"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/yellow_rose_bush_bottom"
+    }
+  }
+}

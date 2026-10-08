@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "zings_biomes:block/brown_glowshroom"
+      }
+    }
+  ]
+}

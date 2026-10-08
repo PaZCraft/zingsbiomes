@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/ultraviolet_creaking_heart_top",
+    "up": "zings_biomes:block/ultraviolet_creaking_heart_top",
+    "north": "zings_biomes:block/ultraviolet_creaking_heart",
+    "east": "zings_biomes:block/ultraviolet_creaking_heart",
+    "south": "zings_biomes:block/ultraviolet_creaking_heart",
+    "west": "zings_biomes:block/ultraviolet_creaking_heart",
+    "particle": "zings_biomes:block/ultraviolet_creaking_heart_top"
+  }
+}

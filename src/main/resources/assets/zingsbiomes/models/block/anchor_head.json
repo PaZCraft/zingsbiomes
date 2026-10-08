@@ -1,0 +1,8 @@
+{
+  "parent": "zings_biomes:custom/biped_head",
+  "textures": {
+    "all": "zings_biomes:block/flood_creeper_head",
+    "particle": "zings_biomes:block/flood_creeper_head",
+    "head": "zings_biomes:block/flood_creeper_head"
+  }
+}

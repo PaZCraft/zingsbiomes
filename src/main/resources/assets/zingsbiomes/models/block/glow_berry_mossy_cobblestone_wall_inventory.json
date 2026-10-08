@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "zings_biomes:block/glow_berry_mossy_cobblestone",
+    "particle": "zings_biomes:block/glow_berry_mossy_cobblestone"
+  }
+}

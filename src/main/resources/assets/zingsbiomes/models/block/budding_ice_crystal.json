@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "zings_biomes:block/budding_ice_crystal",
+    "particle": "zings_biomes:block/budding_ice_crystal"
+  }
+}

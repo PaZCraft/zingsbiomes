@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "zings_biomes:block/raspberry_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "zings_biomes:block/raspberry_log"
+    },
+    "axis=z": {
+      "model": "zings_biomes:block/raspberry_log",
+      "x": 90
+    }
+  }
+}

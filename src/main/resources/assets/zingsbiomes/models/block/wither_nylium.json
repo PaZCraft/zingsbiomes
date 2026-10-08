@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/netherrack",
+    "up": "zings_biomes:block/wither_nylium_top",
+    "north": "zings_biomes:block/wither_nylium_side",
+    "east": "zings_biomes:block/wither_nylium_side",
+    "south": "zings_biomes:block/wither_nylium_side",
+    "west": "zings_biomes:block/wither_nylium_side",
+    "particle": "minecraft:block/netherrack"
+  }
+}

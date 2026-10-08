@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "zings_biomes:block/amberstone_bricks",
+    "bottom": "zings_biomes:block/amberstone_bricks",
+    "top": "zings_biomes:block/amberstone_bricks",
+    "side": "zings_biomes:block/amberstone_bricks"
+  }
+}

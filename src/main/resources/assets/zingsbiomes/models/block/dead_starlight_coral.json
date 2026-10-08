@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/dead_starlight_coral",
+    "particle": "zings_biomes:block/dead_starlight_coral"
+  }
+}

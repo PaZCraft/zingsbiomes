@@ -1,0 +1,9 @@
+{
+  "parent": "zings_biomes:custom/spore_blossom",
+  "textures": {
+    "all": "zings_biomes:block/spore_blossom_red",
+    "particle": "zings_biomes:block/spore_blossom_red",
+    "base": "minecraft:block/spore_blossom_base",
+    "flower": "zings_biomes:block/spore_blossom_red"
+  }
+}

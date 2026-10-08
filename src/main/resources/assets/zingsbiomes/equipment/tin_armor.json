@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "zings_biomes:tin_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "zings_biomes:tin_armor"
+      }
+    ]
+  }
+}

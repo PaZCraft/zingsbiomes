@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "zings_biomes:item/grazed_grass",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -10380959
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "axis=x,levels=1": {
+      "model": "zings_biomes:block/amazonite_lantern_0",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,levels=2": {
+      "model": "zings_biomes:block/amazonite_lantern_1",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,levels=3": {
+      "model": "zings_biomes:block/amazonite_lantern_2",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,levels=0": {
+      "model": "zings_biomes:block/amazonite_lantern",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,levels=1": {
+      "model": "zings_biomes:block/amazonite_lantern_0"
+    },
+    "axis=y,levels=2": {
+      "model": "zings_biomes:block/amazonite_lantern_1"
+    },
+    "axis=y,levels=3": {
+      "model": "zings_biomes:block/amazonite_lantern_2"
+    },
+    "axis=y,levels=0": {
+      "model": "zings_biomes:block/amazonite_lantern"
+    },
+    "axis=z,levels=1": {
+      "model": "zings_biomes:block/amazonite_lantern_0",
+      "x": 90
+    },
+    "axis=z,levels=2": {
+      "model": "zings_biomes:block/amazonite_lantern_1",
+      "x": 90
+    },
+    "axis=z,levels=3": {
+      "model": "zings_biomes:block/amazonite_lantern_2",
+      "x": 90
+    },
+    "axis=z,levels=0": {
+      "model": "zings_biomes:block/amazonite_lantern",
+      "x": 90
+    }
+  }
+}

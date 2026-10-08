@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "zings_biomes:block/dead_lemonsweet_coral_fan",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "zings_biomes:block/dead_lemonsweet_coral_fan"
+    },
+    "axis=z": {
+      "model": "zings_biomes:block/dead_lemonsweet_coral_fan",
+      "x": 90
+    }
+  }
+}

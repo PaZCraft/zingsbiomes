@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/white_peony"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/white_peony_bottom"
+    }
+  }
+}

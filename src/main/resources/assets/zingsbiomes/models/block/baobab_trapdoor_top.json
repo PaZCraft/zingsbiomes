@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "zings_biomes:block/baobab_door_top",
+    "particle": "zings_biomes:block/baobab_door_top"
+  }
+}

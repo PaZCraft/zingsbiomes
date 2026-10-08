@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zings_biomes:block/mint_bed_foot"
+    },
+    "facing=east": {
+      "model": "zings_biomes:block/mint_bed_foot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zings_biomes:block/mint_bed_foot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zings_biomes:block/mint_bed_foot",
+      "y": 270
+    }
+  }
+}

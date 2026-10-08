@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "zings_biomes:block/baobab_planks",
+    "particle": "zings_biomes:block/baobab_planks"
+  }
+}

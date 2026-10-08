@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_biomes:block/tall_white_wildflowers"
+    },
+    "half=lower": {
+      "model": "zings_biomes:block/tall_white_wildflowers_bottom"
+    }
+  }
+}

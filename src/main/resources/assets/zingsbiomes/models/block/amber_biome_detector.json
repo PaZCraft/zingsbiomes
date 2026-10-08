@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_biomes:block/amber_biome_detector_bottom",
+    "up": "zings_biomes:block/amber_biome_detector_top",
+    "north": "zings_biomes:block/amber_biome_detector_side",
+    "east": "zings_biomes:block/amber_biome_detector_side",
+    "south": "zings_biomes:block/amber_biome_detector_side",
+    "west": "zings_biomes:block/amber_biome_detector_side",
+    "particle": "zings_biomes:block/amber_biome_detector_bottom"
+  }
+}

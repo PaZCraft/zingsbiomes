@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_biomes:block/pointed_thermal_tip_up",
+    "particle": "zings_biomes:block/pointed_thermal_tip_up"
+  }
+}

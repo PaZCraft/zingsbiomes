@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "neoforge:fluid_container",
+    "fluid": "zings_biomes:soul_lava",
+    "textures": {
+      "base": "item/bucket",
+      "fluid": "neoforge:item/mask/bucket_fluid"
+    }
+  }
+}

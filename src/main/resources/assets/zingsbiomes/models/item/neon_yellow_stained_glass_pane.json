@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zings_biomes:block/neon_yellow_stained_glass"
+  },
+  "render_type": "translucent"
+}

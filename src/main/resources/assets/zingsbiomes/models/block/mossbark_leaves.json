@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "zings_biomes:block/mossbark_leaves",
+    "particle": "zings_biomes:block/mossbark_leaves"
+  }
+}

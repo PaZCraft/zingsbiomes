@@ -1,0 +1,12 @@
+{
+  "parent": "zings_biomes:custom/bed_foot",
+  "textures": {
+    "all": "zings_biomes:block/violet_bed_foot_up",
+    "particle": "zings_biomes:block/violet_bed_foot_up",
+    "east": "zings_biomes:block/violet_bed_foot_east",
+    "south": "zings_biomes:block/violet_bed_foot_south",
+    "west": "zings_biomes:block/violet_bed_foot_west",
+    "up": "zings_biomes:block/violet_bed_foot_up",
+    "down": "minecraft:block/oak_planks"
+  }
+}
