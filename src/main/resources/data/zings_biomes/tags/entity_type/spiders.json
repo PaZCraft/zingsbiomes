@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "cave_spider",
+    "zings_biomes:soul_burned_spider",
+    "zings_biomes:burned_spider",
+    "zings_biomes:poisoned_spider",
+    "zings_biomes:icy_spider",
+    "zings_biomes:sandy_spider",
+    "zings_biomes:drenched_spider",
+    "spider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:plate_coral_block",
+    "zings_biomes:glowing_starlight_coral_block",
+    "zings_biomes:starlight_coral_block",
+    "zings_biomes:lemonsweet_coral_block",
+    "zings_biomes:limesweet_coral_block"
+  ]
+}

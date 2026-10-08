@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:fungi_caves",
+  "features": "zings_biomes:infested_mycelium",
+  "step": "underground_ores"
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "frozen_ocean",
+    "frozen_river",
+    "warm_ocean",
+    "forest",
+    "deep_lukewarm_ocean",
+    "sunflower_plains",
+    "cold_ocean",
+    "swamp",
+    "deep_ocean",
+    "deep_frozen_ocean",
+    "deep_cold_ocean",
+    "windswept_forest",
+    "bamboo_jungle",
+    "plains",
+    "sparse_jungle",
+    "savanna",
+    "dark_forest",
+    "jungle",
+    "windswept_savanna",
+    "river",
+    "wooded_badlands",
+    "flower_forest",
+    "savanna_plateau",
+    "meadow"
+  ]
+}

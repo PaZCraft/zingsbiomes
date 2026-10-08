@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/small_ice_crystal_bud",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:small_ice_crystal_bud"
+        }
+      ]
+    }
+  ]
+}

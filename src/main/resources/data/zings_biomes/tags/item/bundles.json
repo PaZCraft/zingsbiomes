@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:red_bundle",
+    "minecraft:cyan_bundle",
+    "minecraft:black_bundle",
+    "minecraft:blue_bundle",
+    "minecraft:white_bundle",
+    "minecraft:light_blue_bundle",
+    "minecraft:bundle",
+    "minecraft:light_gray_bundle",
+    "minecraft:magenta_bundle",
+    "minecraft:pink_bundle",
+    "zings_biomes:mint_bundle",
+    "zings_biomes:pale_light_blue_bundle",
+    "minecraft:lime_bundle",
+    "minecraft:orange_bundle",
+    "minecraft:green_bundle",
+    "minecraft:purple_bundle",
+    "zings_biomes:neon_yellow_bundle",
+    "minecraft:brown_bundle",
+    "zings_biomes:neon_orange_bundle",
+    "zings_biomes:crimson_bundle",
+    "zings_biomes:violet_bundle",
+    "zings_biomes:pale_orange_bundle",
+    "minecraft:yellow_bundle",
+    "minecraft:gray_bundle"
+  ]
+}

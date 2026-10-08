@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:huge_spiked_red_mushroom",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 25
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "button",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "zings_biomes:chorus_planks"
+  },
+  "result": {
+    "id": "zings_biomes:chorus_button",
+    "count": 1
+  }
+}

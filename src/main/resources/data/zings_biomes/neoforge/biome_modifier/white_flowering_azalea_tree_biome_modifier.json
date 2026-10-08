@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "lush_caves",
+    "zings_biomes:hoarfrost_timber"
+  ],
+  "features": "zings_biomes:white_flowering_azalea_tree",
+  "step": "vegetal_decoration"
+}

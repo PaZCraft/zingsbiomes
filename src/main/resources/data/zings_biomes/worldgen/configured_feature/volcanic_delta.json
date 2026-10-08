@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "zings_biomes:deepslate_magma_block"
+    },
+    "rim": {
+      "Name": "zings_biomes:dried_lava"
+    },
+    "size": 5,
+    "rim_size": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/pale_leafy_dead_bush",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:pale_leafy_dead_bush"
+        }
+      ]
+    }
+  ]
+}

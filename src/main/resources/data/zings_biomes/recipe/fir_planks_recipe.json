@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fir_planks",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_fir_planks"
+  },
+  "result": {
+    "id": "zings_biomes:fir_planks",
+    "count": 4
+  }
+}

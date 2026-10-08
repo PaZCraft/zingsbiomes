@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/dead_limesweet_coral_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:dead_limesweet_coral_block"
+        }
+      ]
+    }
+  ]
+}

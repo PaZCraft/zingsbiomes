@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "cooked_venison",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": "zings_biomes:raw_venison",
+  "result": {
+    "id": "zings_biomes:cooked_venison"
+  }
+}

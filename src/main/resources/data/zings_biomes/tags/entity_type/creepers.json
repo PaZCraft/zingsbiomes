@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "creeper",
+    "zings_biomes:vine_creeper",
+    "zings_biomes:flood_creeper",
+    "zings_biomes:sandstone_creeper",
+    "zings_biomes:nether_creeper",
+    "zings_biomes:snow_creeper"
+  ]
+}

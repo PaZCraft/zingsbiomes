@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:yolked_forest",
+  "features": "zings_biomes:giant_yolked_fungus",
+  "step": "vegetal_decoration"
+}

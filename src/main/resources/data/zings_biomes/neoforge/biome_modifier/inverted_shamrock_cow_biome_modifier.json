@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_inverted_shamrock_cow",
+    "spawners":  {
+                     "type":  "zings_biomes:inverted_shamrock_cow",
+                     "weight":  10,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

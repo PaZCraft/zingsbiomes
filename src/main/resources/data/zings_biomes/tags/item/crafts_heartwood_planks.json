@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:heartwood_log",
+    "zings_biomes:stripped_heartwood_log",
+    "zings_biomes:stripped_heartwood_wood",
+    "zings_biomes:heartwood_wood"
+  ]
+}

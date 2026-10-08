@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_biomes:generates_paeonia",
+  "features": "zings_biomes:mahogany_peony",
+  "step": "vegetal_decoration"
+}

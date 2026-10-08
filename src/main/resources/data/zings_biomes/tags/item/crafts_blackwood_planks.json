@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_blackwood_wood",
+    "zings_biomes:stripped_blackwood_log",
+    "zings_biomes:blackwood_log",
+    "zings_biomes:blackwood_wood"
+  ]
+}

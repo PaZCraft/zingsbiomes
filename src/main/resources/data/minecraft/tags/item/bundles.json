@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:mint_bundle",
+    "zings_biomes:pale_light_blue_bundle",
+    "zings_biomes:neon_yellow_bundle",
+    "zings_biomes:neon_orange_bundle",
+    "zings_biomes:crimson_bundle",
+    "zings_biomes:violet_bundle",
+    "zings_biomes:pale_orange_bundle"
+  ]
+}

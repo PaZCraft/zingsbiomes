@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amazonite_lantern",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:redstone",
+    "b": "zings_biomes:amazonite_shard",
+    "c": "minecraft:lantern"
+  },
+  "result": {
+    "id": "zings_biomes:amazonite_lantern",
+    "count": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "block_of_ice_crystal",
+  "category": "redstone",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:ice_crystal_shard"
+  },
+  "result": {
+    "id": "zings_biomes:block_of_ice_crystal",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "deep_lukewarm_ocean",
+    "zings_biomes:amaranth_ocean",
+    "zings_biomes:deep_amaranth_ocean"
+  ],
+  "features": "zings_biomes:underwater_carnelian_geode",
+  "step": "underground_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:soul_burned_spider",
+    "zings_biomes:burned_spider",
+    "zings_biomes:scorched",
+    "zings_biomes:nether_creeper"
+  ]
+}

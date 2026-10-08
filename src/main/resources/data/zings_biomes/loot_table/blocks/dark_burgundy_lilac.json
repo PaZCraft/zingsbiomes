@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/dark_burgundy_lilac",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:dark_burgundy_lilac",
+          "conditions": [
+            {
+              "block": "zings_biomes:dark_burgundy_lilac",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

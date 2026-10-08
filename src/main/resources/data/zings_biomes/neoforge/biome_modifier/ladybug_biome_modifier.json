@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_ladybug",
+  "spawners": {
+    "type": "zings_biomes:ladybug",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

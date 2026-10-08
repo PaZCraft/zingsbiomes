@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:closed_eyeblossom",
+    "zings_biomes:open_ultrablossom",
+    "zings_biomes:open_seablossom",
+    "zings_biomes:tall_large_open_eyeblossom",
+    "zings_biomes:closed_darkblossom",
+    "minecraft:open_eyeblossom",
+    "zings_biomes:tall_open_eyeblossom",
+    "zings_biomes:open_darkblossom_purple",
+    "zings_biomes:open_darkblossom_blue",
+    "zings_biomes:tall_eyeblossom",
+    "zings_biomes:closed_seablossom",
+    "zings_biomes:tall_large_eyeblossom"
+  ]
+}

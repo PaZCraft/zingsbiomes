@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:crimson_carpet",
+    "zings_biomes:neon_yellow_carpet",
+    "zings_biomes:pale_light_blue_carpet",
+    "minecraft:red_carpet",
+    "minecraft:green_carpet",
+    "minecraft:brown_carpet",
+    "zings_biomes:neon_orange_carpet",
+    "minecraft:blue_carpet",
+    "zings_biomes:mint_carpet",
+    "minecraft:black_carpet",
+    "minecraft:purple_carpet",
+    "minecraft:light_gray_carpet",
+    "minecraft:cyan_carpet",
+    "minecraft:pink_carpet",
+    "zings_biomes:pale_orange_carpet",
+    "minecraft:gray_carpet",
+    "minecraft:yellow_carpet",
+    "minecraft:lime_carpet",
+    "minecraft:magenta_carpet",
+    "zings_biomes:violet_carpet",
+    "minecraft:light_blue_carpet",
+    "minecraft:white_carpet",
+    "minecraft:orange_carpet"
+  ]
+}

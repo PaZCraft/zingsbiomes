@@ -1,0 +1,13 @@
+{
+    "replace":  false,
+    "values":  [
+                   "snowy_plains",
+                   "snowy_taiga",
+                   "taiga",
+                   "old_growth_pine_taiga",
+                   "old_growth_spruce_taiga",
+                   "grove",
+                   "snowy_slopes",
+                   "ice_spikes"
+               ]
+}

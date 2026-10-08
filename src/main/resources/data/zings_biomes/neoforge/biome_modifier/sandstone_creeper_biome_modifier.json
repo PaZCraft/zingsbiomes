@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_sandstone_creeper",
+    "spawners":  {
+                     "type":  "zings_biomes:sandstone_creeper",
+                     "weight":  10,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

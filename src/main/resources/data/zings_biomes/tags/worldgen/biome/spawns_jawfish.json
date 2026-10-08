@@ -1,0 +1,8 @@
+{
+    "replace":  false,
+    "values":  [
+                   "warm_ocean",
+                   "lukewarm_ocean",
+                   "zings_biomes:sweet_ocean"
+               ]
+}

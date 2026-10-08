@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "zings_biomes:blueberry_mossy_cobblestone_slab_crafting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredient_0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "zings_biomes:blueberry_mossy_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingredient_0"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "zings_biomes:blueberry_mossy_cobblestone_slab_crafting"
+    ]
+  }
+}

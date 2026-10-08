@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:redstone_ore_vein_extra",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "quartz_ultraviolet_rod",
+  "category": "building",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:quartz",
+    "b": "zings_biomes:ultraviolet_rod"
+  },
+  "result": {
+    "id": "zings_biomes:quartz_ultraviolet_rod",
+    "count": 1
+  }
+}

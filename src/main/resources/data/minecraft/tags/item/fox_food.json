@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:goldenberry",
+    "zings_biomes:gooseberry",
+    "zings_biomes:raspberry",
+    "zings_biomes:strawberry",
+    "zings_biomes:blueberries",
+    "zings_biomes:blackberry"
+  ]
+}

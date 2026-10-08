@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bombgun",
+  "category": "equipment",
+  "pattern": [
+    "a b",
+    " c ",
+    "  d"
+  ],
+  "key": {
+    "a": "minecraft:gold_ingot",
+    "b": "zings_biomes:silver_nugget",
+    "c": "zings_biomes:white_bomberry",
+    "d": "zings_biomes:silver_ingot"
+  },
+  "result": {
+    "id": "zings_biomes:bombgun_white",
+    "count": 1
+  }
+}

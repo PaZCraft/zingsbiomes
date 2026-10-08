@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "old_growth_birch_forest",
+    "birch_forest",
+    "meadow"
+  ]
+}

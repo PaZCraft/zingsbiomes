@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:red_beach",
+    "zings_biomes:volcanic_caves",
+    "eroded_badlands"
+  ],
+  "features": "zings_biomes:carnelian_geode",
+  "step": "underground_decoration"
+}

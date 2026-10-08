@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:flooded_caves",
+    "lush_caves",
+    "pale_garden"
+  ],
+  "features": "zings_biomes:citrine_geode",
+  "step": "underground_decoration"
+}

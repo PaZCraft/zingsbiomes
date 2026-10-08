@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:glowing_mushroom",
+    "zings_biomes:indigo_mushroom",
+    "minecraft:red_mushroom",
+    "zings_biomes:tall_red_mushroom",
+    "zings_biomes:tall_brown_mushroom",
+    "minecraft:brown_mushroom"
+  ]
+}

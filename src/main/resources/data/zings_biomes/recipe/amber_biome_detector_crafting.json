@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amber_biome_detector",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": "minecraft:target",
+    "b": "minecraft:compass",
+    "c": "minecraft:redstone",
+    "d": "zings_biomes:amber"
+  },
+  "result": {
+    "id": "zings_biomes:amber_biome_detector",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "purple_dye",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_purple_dye"
+  },
+  "result": {
+    "id": "minecraft:purple_dye",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_ember_wither",
+    "spawners":  {
+                     "type":  "zings_biomes:ember_wither",
+                     "weight":  1,
+                     "minCount":  1,
+                     "maxCount":  1
+                 }
+}

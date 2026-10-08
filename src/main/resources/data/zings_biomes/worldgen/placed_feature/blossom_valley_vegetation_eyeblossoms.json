@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:blossom_valley_vegetation_eyeblossoms",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    }
+  ]
+}

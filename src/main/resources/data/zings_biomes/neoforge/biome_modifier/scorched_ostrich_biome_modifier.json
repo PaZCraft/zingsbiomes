@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_scorched_ostrich",
+    "spawners":  {
+                     "type":  "zings_biomes:scorched_ostrich",
+                     "weight":  20,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

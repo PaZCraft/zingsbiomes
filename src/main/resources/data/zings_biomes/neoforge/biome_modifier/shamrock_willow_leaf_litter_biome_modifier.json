@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:shamrock_glade",
+  "features": "zings_biomes:shamrock_willow_leaf_litter",
+  "step": "vegetal_decoration"
+}

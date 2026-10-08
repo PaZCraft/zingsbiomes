@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle"
+  ],
+  "features": "zings_biomes:jungle_leaf_litter",
+  "step": "vegetal_decoration"
+}

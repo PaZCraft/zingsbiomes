@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "meadow",
+    "sunflower_plains",
+    "flower_forest"
+  ],
+  "features": "zings_biomes:buttercup",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/cream_peony",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:cream_peony",
+          "conditions": [
+            {
+              "block": "zings_biomes:cream_peony",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

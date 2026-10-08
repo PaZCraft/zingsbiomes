@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:swan",
+    "zings_biomes:duck",
+    "zings_biomes:termite",
+    "zings_biomes:dragonfly",
+    "zings_biomes:ladybug"
+  ]
+}

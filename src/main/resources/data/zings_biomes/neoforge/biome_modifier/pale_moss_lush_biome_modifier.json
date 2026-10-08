@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "lush_caves",
+  "features": "zings_biomes:pale_moss_lush",
+  "step": "underground_decoration"
+}

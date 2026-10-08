@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_giraffe",
+  "spawners": {
+    "type": "zings_biomes:giraffe",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

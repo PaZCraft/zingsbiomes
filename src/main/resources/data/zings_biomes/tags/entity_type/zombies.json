@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zombie_villager",
+    "zings_biomes:thawed",
+    "zombie",
+    "zings_biomes:scorched",
+    "drowned",
+    "zings_biomes:tangled",
+    "husk"
+  ]
+}

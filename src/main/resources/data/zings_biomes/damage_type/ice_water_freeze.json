@@ -1,0 +1,6 @@
+{
+  "exhaustion": 0.3,
+  "message_id": "ice_water_freeze",
+  "scaling": "never",
+  "effects": "freezing"
+}

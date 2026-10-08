@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mooshroom",
+    "zings_biomes:vine_creeper",
+    "zings_biomes:moth",
+    "zings_biomes:scorched",
+    "zings_biomes:caribou_stray",
+    "zings_biomes:ladybug",
+    "zings_biomes:icy_spider",
+    "zings_biomes:snow_creeper",
+    "zings_biomes:thawed",
+    "zings_biomes:burned_spider",
+    "zings_biomes:flood_creeper",
+    "zings_biomes:seahorse",
+    "zings_biomes:penguin",
+    "zings_biomes:drenched_spider"
+  ]
+}

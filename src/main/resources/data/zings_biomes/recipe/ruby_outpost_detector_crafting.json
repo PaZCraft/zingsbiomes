@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ruby_outpost_detector",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": "minecraft:target",
+    "b": "minecraft:compass",
+    "c": "minecraft:redstone",
+    "d": "zings_biomes:ruby"
+  },
+  "result": {
+    "id": "zings_biomes:ruby_outpost_detector",
+    "count": 1
+  }
+}

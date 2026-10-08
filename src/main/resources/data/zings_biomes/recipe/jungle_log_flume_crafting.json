@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "log_flume",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": "zings_biomes:tin_nugget",
+    "b": "minecraft:jungle_log",
+    "c": "minecraft:jungle_slab"
+  },
+  "result": {
+    "id": "zings_biomes:jungle_log_flume",
+    "count": 1
+  }
+}

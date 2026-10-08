@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:patched_end_soil",
+    "zings_biomes:striped_end_rock",
+    "zings_biomes:inverted_striped_end_rock",
+    "minecraft:end_stone",
+    "zings_biomes:end_grass_block",
+    "zings_biomes:end_soil"
+  ]
+}

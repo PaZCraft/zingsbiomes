@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:end_debris_columns",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 65
+    }
+  ]
+}

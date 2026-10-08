@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:hoarfrost_timber",
+  "features": "zings_biomes:winter_hay_bale_patch",
+  "step": "vegetal_decoration"
+}

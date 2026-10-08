@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_icy_spider",
+    "spawners":  {
+                     "type":  "zings_biomes:icy_spider",
+                     "weight":  10,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

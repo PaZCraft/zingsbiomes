@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_ultraviolet_oak_log",
+    "zings_biomes:ultraviolet_oak_log",
+    "zings_biomes:stripped_ultraviolet_oak_wood",
+    "zings_biomes:ultraviolet_oak_wood"
+  ]
+}

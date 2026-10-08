@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:drowned_head",
+    "zings_biomes:sandy_head",
+    "zings_biomes:parched_skull",
+    "zings_biomes:frosted_head",
+    "zings_biomes:thawed_head",
+    "zings_biomes:shrieker_head",
+    "zings_biomes:scorched_head",
+    "zings_biomes:anchor_head",
+    "zings_biomes:sporeeper_head",
+    "zings_biomes:tangled_head",
+    "zings_biomes:castaway_skull",
+    "zings_biomes:bogged_skull",
+    "zings_biomes:poisoner_head",
+    "zings_biomes:creaker_head",
+    "zings_biomes:stray_skull",
+    "zings_biomes:firecracker_head",
+    "zings_biomes:husk_head"
+  ]
+}

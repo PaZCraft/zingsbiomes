@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:frozen_mud_brick_wall",
+    "zings_biomes:amberstone_brick_wall",
+    "zings_biomes:glow_berry_mossy_stone_brick_wall",
+    "zings_biomes:goldenberry_mossy_stone_brick_wall",
+    "zings_biomes:glow_berry_mossy_cobblestone_wall",
+    "zings_biomes:goldenberry_mossy_cobblestone_wall",
+    "zings_biomes:ultraviolet_resin_brick_wall",
+    "zings_biomes:blueberry_mossy_stone_brick_wall",
+    "zings_biomes:cherry_mossy_stone_brick_wall",
+    "zings_biomes:pale_mossy_cobblestone_wall",
+    "zings_biomes:end_rock_wall",
+    "zings_biomes:gooseberry_mossy_stone_brick_wall",
+    "zings_biomes:blueberry_mossy_cobblestone_wall",
+    "zings_biomes:cherry_mossy_cobblestone_wall",
+    "zings_biomes:gooseberry_mossy_cobblestone_wall",
+    "zings_biomes:end_pillar_brick_wall",
+    "zings_biomes:pale_resin_brick_wall",
+    "zings_biomes:cut_end_rock_wall"
+  ]
+}

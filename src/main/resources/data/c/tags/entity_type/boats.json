@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:grazed_spruce_boat_with_chest",
+    "zings_biomes:fir_boat_with_chest",
+    "zings_biomes:goldenberry_boat_with_chest",
+    "zings_biomes:driftwood_boat_with_chest",
+    "zings_biomes:palm_boat_with_chest",
+    "zings_biomes:shamrock_willow_boat_with_chest",
+    "zings_biomes:blackwood_boat_with_chest",
+    "zings_biomes:kapok_boat_with_chest",
+    "zings_biomes:gooseberry_boat_with_chest",
+    "zings_biomes:heartwood_boat_with_chest",
+    "zings_biomes:glow_berry_boat_with_chest",
+    "zings_biomes:frozegrove_boat_with_chest",
+    "zings_biomes:sunshine_boat_with_chest",
+    "zings_biomes:mossbark_boat_with_chest",
+    "zings_biomes:hoarfrost_boat_with_chest",
+    "zings_biomes:willow_boat_with_chest",
+    "zings_biomes:raspberry_boat_with_chest",
+    "zings_biomes:ultraviolet_oak_boat_with_chest",
+    "zings_biomes:strawberry_boat_with_chest",
+    "zings_biomes:baobab_boat_with_chest",
+    "zings_biomes:blue_driftwood_boat_with_chest",
+    "zings_biomes:blackberry_boat_with_chest",
+    "zings_biomes:red_driftwood_boat_with_chest",
+    "zings_biomes:sweet_berry_boat_with_chest",
+    "zings_biomes:blueberry_boat_with_chest"
+  ]
+}

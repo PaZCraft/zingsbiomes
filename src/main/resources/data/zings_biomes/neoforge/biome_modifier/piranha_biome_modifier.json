@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_piranha",
+  "spawners": {
+    "type": "zings_biomes:piranha",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_blackberry_log",
+    "zings_biomes:stripped_blackberry_wood",
+    "zings_biomes:blackberry_wood",
+    "zings_biomes:blackberry_log"
+  ]
+}

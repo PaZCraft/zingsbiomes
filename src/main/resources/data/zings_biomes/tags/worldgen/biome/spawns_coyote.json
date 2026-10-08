@@ -1,0 +1,20 @@
+{
+    "replace":  false,
+    "values":  [
+                   "plains",
+                   "sunflower_plains",
+                   "savanna",
+                   "savanna_plateau",
+                   "windswept_savanna",
+                   "desert",
+                   "zings_biomes:dusk_desert",
+                   "zings_biomes:desert_oasis",
+                   "badlands",
+                   "wooded_badlands",
+                   "eroded_badlands",
+                   "forest",
+                   "taiga",
+                   "snowy_plains",
+                   "snowy_taiga"
+               ]
+}

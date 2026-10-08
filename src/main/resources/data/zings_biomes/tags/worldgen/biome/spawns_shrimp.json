@@ -1,0 +1,14 @@
+{
+    "replace":  false,
+    "values":  [
+                   "warm_ocean",
+                   "lukewarm_ocean",
+                   "ocean",
+                   "cold_ocean",
+                   "frozen_ocean",
+                   "river",
+                   "swamp",
+                   "mangrove_swamp",
+                   "beach"
+               ]
+}

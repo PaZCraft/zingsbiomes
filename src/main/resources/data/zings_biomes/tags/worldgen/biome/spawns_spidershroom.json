@@ -1,0 +1,13 @@
+{
+    "replace":  false,
+    "values":  [
+                   "zings_biomes:fungi_caves",
+                   "bamboo_jungle",
+                   "dark_forest",
+                   "jungle",
+                   "mangrove_swamp",
+                   "mushroom_fields",
+                   "sparse_jungle",
+                   "swamp"
+               ]
+}

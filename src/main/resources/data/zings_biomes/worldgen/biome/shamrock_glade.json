@@ -1,0 +1,153 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -13408768,
+    "grass_color": -13395712,
+    "water_color": -16737921
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "block.dry_grass.ambient",
+      "mood": {
+        "sound": "entity.player.levelup",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "ambient.underwater.loop.additions",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "zings_biomes:music.zings_biomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "enchanted_hit"
+        },
+        "probability": 0.001
+      }
+    ],
+    "minecraft:visual/sky_color": -16711783,
+    "minecraft:visual/fog_color": -16737946,
+    "minecraft:visual/water_fog_color": -16751053
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "creeper",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "skeleton",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zombie",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "spider",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "allay",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "sheep",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "horse",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "llama",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "rabbit",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "zings_biomes:shamrock_glade_tree"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

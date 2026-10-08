@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_grazed_spruce_wood",
+    "zings_biomes:stripped_grazed_spruce_log",
+    "zings_biomes:grazed_spruce_wood",
+    "zings_biomes:grazed_spruce_log"
+  ]
+}

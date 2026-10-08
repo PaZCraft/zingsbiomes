@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "silver_boots",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "zings_biomes:silver_ingot"
+  },
+  "result": {
+    "id": "zings_biomes:silver_armor_boots",
+    "count": 1
+  }
+}

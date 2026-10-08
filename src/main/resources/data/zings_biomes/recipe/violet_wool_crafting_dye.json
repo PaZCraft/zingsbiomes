@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool",
+  "category": "building",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "#zings_biomes:wool",
+    "b": "zings_biomes:violet_dye"
+  },
+  "result": {
+    "id": "zings_biomes:violet_wool",
+    "count": 1
+  }
+}

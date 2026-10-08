@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_shrimp",
+  "spawners": {
+    "type": "zings_biomes:shrimp",
+    "weight": 9,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

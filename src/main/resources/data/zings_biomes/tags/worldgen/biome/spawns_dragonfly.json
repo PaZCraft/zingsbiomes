@@ -1,0 +1,15 @@
+{
+    "replace":  false,
+    "values":  [
+                   "river",
+                   "frozen_river",
+                   "swamp",
+                   "mangrove_swamp",
+                   "plains",
+                   "forest",
+                   "birch_forest",
+                   "taiga",
+                   "jungle",
+                   "sparse_jungle"
+               ]
+}

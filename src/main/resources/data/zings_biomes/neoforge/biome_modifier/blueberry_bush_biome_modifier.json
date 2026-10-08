@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:grazed_taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "taiga",
+    "meadow",
+    "dark_forest",
+    "forest",
+    "old_growth_birch_forest",
+    "zings_biomes:berry_grove"
+  ],
+  "features": "zings_biomes:blueberry_bush",
+  "step": "vegetal_decoration"
+}

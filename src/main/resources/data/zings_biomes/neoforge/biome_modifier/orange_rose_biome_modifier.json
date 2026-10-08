@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_biomes:generates_rose",
+  "features": "zings_biomes:orange_rose",
+  "step": "vegetal_decoration"
+}

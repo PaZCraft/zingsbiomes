@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_barreleye",
+  "spawners": {
+    "type": "zings_biomes:barreleye",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

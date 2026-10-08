@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:brain_reefstone",
+    "zings_biomes:horn_reefstone",
+    "zings_biomes:fire_reefstone",
+    "zings_biomes:tube_reefstone",
+    "zings_biomes:bubble_reefstone"
+  ]
+}

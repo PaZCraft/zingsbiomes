@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "log_flume",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": "zings_biomes:tin_nugget",
+    "b": "minecraft:pale_oak_log",
+    "c": "minecraft:pale_oak_slab"
+  },
+  "result": {
+    "id": "zings_biomes:pale_oak_log_flume",
+    "count": 1
+  }
+}

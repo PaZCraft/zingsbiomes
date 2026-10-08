@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:lake",
+  "config": {
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "zings_biomes:end_tar_pit"
+      }
+    },
+    "barrier": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:end_stone"
+      }
+    }
+  }
+}

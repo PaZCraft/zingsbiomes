@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "mangrove_swamp",
+    "swamp"
+  ],
+  "features": "zings_biomes:algae_sheet",
+  "step": "vegetal_decoration"
+}

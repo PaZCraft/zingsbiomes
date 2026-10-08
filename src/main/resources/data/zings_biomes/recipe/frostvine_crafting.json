@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "frostvine",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:ice",
+    "b": "minecraft:vine"
+  },
+  "result": {
+    "id": "zings_biomes:frostvine",
+    "count": 1
+  }
+}

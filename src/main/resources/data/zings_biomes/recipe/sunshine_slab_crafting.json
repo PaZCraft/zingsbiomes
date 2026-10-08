@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:sunshine_planks"
+  },
+  "result": {
+    "id": "zings_biomes:sunshine_slab",
+    "count": 6
+  }
+}

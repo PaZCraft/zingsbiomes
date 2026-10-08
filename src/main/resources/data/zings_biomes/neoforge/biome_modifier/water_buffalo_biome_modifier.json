@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_water_buffalo",
+  "spawners": {
+    "type": "zings_biomes:water_buffalo",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

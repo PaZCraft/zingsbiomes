@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:ender_moth",
+    "zings_biomes:spidershroom",
+    "zings_biomes:soul_burned_spider",
+    "zings_biomes:moth",
+    "zings_biomes:chorus_snail",
+    "zings_biomes:ladybug",
+    "zings_biomes:creak_spider",
+    "zings_biomes:mossiverfish",
+    "zings_biomes:sandy_spider",
+    "zings_biomes:butterfly",
+    "zings_biomes:termite",
+    "zings_biomes:sun_spider",
+    "zings_biomes:sculkfish",
+    "zings_biomes:springtail",
+    "zings_biomes:crystalfish",
+    "zings_biomes:fungifish",
+    "zings_biomes:dragonfly",
+    "zings_biomes:poisoned_spider",
+    "zings_biomes:icy_spider",
+    "zings_biomes:fly",
+    "zings_biomes:icefish",
+    "zings_biomes:redstone_bug",
+    "zings_biomes:lavafish",
+    "zings_biomes:burned_spider",
+    "zings_biomes:bone_spider",
+    "zings_biomes:floodfish",
+    "zings_biomes:dripperfish",
+    "zings_biomes:drenched_spider"
+  ]
+}

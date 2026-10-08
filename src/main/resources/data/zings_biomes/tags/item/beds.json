@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:white_bed",
+    "minecraft:light_blue_bed",
+    "minecraft:yellow_bed",
+    "minecraft:purple_bed",
+    "minecraft:cyan_bed",
+    "minecraft:magenta_bed",
+    "minecraft:pink_bed",
+    "minecraft:red_bed",
+    "zings_biomes:mint_bed",
+    "minecraft:green_bed",
+    "zings_biomes:violet_bed",
+    "minecraft:blue_bed",
+    "minecraft:orange_bed",
+    "zings_biomes:crimson_bed",
+    "zings_biomes:neon_orange_bed",
+    "zings_biomes:pale_light_blue_bed",
+    "minecraft:gray_bed",
+    "minecraft:light_gray_bed",
+    "zings_biomes:neon_yellow_bed",
+    "minecraft:lime_bed",
+    "minecraft:black_bed",
+    "minecraft:brown_bed",
+    "zings_biomes:pale_orange_bed"
+  ]
+}

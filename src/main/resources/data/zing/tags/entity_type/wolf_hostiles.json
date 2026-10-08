@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:muskox",
+    "zings_biomes:caribou",
+    "zings_biomes:caribou_stray",
+    "zings_biomes:coyote",
+    "zings_biomes:elk"
+  ]
+}

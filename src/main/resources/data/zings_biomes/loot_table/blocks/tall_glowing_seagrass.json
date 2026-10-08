@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/tall_glowing_seagrass",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:tall_glowing_seagrass",
+          "conditions": [
+            {
+              "block": "zings_biomes:tall_glowing_seagrass",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

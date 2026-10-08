@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "moss_carpet",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "zings_biomes:blueberry_moss"
+  },
+  "result": {
+    "id": "zings_biomes:blueberry_moss_carpet",
+    "count": 3
+  }
+}

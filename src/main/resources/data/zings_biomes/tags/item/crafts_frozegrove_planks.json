@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_frozegrove_log",
+    "zings_biomes:frozegrove_wood",
+    "zings_biomes:stripped_frozegrove_wood",
+    "zings_biomes:frozegrove_log"
+  ]
+}

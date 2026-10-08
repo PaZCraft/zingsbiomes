@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bed",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": "zings_biomes:pale_light_blue_wool",
+    "b": "#minecraft:planks"
+  },
+  "result": {
+    "id": "zings_biomes:pale_light_blue_bed",
+    "count": 1
+  }
+}

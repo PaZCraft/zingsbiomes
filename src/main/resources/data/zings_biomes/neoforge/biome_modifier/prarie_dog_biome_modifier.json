@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_prarie_dog",
+  "spawners": {
+    "type": "zings_biomes:prarie_dog",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

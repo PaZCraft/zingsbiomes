@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_gold_ingot",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "zings_biomes:block_of_blue_gold"
+  },
+  "result": {
+    "id": "zings_biomes:blue_gold_ingot",
+    "count": 9
+  }
+}

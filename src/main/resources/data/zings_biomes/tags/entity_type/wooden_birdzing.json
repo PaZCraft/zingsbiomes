@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:bamboo_wooden_birdzing",
+    "zings_biomes:nether_wooden_birdzing",
+    "zings_biomes:woodland_wooden_birdzing",
+    "zings_biomes:berry_wooden_birdzing"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#zings_biomes:cold_biomes",
+      "required": false
+    }
+  ]
+}

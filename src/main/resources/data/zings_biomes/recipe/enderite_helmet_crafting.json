@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enderite_helmet",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "zings_biomes:enderite"
+  },
+  "result": {
+    "id": "zings_biomes:enderite_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "zings_biomes:savanna_oasis",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 2061288275
+  }
+}

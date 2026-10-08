@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "silver_torch",
+  "category": "building",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "zings_biomes:silver_nugget",
+    "b": "minecraft:coal",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "zings_biomes:silver_torch",
+    "count": 4
+  }
+}

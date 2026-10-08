@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "surfboard",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": "zings_biomes:driftwood_slab",
+    "b": "minecraft:bamboo_raft"
+  },
+  "result": {
+    "id": "zings_biomes:driftwood_surfboard_spawn_egg",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_yolked_stem",
+    "zings_biomes:stripped_yolked_wood",
+    "zings_biomes:yolked_stem",
+    "zings_biomes:yolked_hyphae"
+  ]
+}

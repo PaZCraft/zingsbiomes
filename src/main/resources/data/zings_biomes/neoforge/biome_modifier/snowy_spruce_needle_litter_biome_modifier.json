@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "snowy_taiga",
+    "grove"
+  ],
+  "features": "zings_biomes:snowy_spruce_needle_litter",
+  "step": "vegetal_decoration"
+}

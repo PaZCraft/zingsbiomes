@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:blackwood_tree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 50
+    }
+  ]
+}

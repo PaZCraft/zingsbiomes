@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "end_highlands",
+  "features": "zings_biomes:patched_end_soil",
+  "step": "underground_ores"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_baobab_log",
+    "zings_biomes:baobab_wood",
+    "zings_biomes:baobab_log",
+    "zings_biomes:stripped_baobab_wood"
+  ]
+}

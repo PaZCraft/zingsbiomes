@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_biomes:generates_lilac",
+  "features": "zings_biomes:dark_burgundy_lilac",
+  "step": "vegetal_decoration"
+}

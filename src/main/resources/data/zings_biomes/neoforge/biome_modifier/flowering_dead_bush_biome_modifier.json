@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:desert_oasis",
+    "desert",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "features": "zings_biomes:flowering_dead_bush",
+  "step": "vegetal_decoration"
+}

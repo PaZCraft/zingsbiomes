@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:flooded_caves",
+    "zings_biomes:geode_clusters",
+    "zings_biomes:redstone_mines",
+    "zings_biomes:volcanic_caves"
+  ]
+}

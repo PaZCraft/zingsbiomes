@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:mossbark_forest",
+    "lush_caves"
+  ],
+  "features": "zings_biomes:red_flowering_azalea_tree",
+  "step": "vegetal_decoration"
+}

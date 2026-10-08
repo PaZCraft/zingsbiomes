@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:quicksand_mud",
+    "zings_biomes:mossy_mud",
+    "zings_biomes:frozen_mud"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blowdart",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "c  "
+  ],
+  "key": {
+    "a": "zings_biomes:kapok_petal",
+    "b": "minecraft:string",
+    "c": "minecraft:bamboo"
+  },
+  "result": {
+    "id": "zings_biomes:tipped_dart",
+    "count": 4
+  }
+}

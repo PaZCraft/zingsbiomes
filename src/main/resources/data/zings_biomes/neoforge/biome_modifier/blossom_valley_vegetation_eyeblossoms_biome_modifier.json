@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:blossom_valley",
+  "features": "zings_biomes:blossom_valley_vegetation_eyeblossoms",
+  "step": "vegetal_decoration"
+}

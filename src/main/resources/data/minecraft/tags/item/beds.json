@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:pale_orange_bed_foot",
+    "zings_biomes:violet_bed_head",
+    "zings_biomes:pale_light_blue_bed_foot",
+    "zings_biomes:mint_bed_foot",
+    "zings_biomes:crimson_bed_head",
+    "zings_biomes:neon_yellow_bed_foot",
+    "zings_biomes:pale_orange_bed_head",
+    "zings_biomes:pale_light_blue_bed_head",
+    "zings_biomes:mint_bed",
+    "zings_biomes:violet_bed",
+    "zings_biomes:neon_orange_bed_head",
+    "zings_biomes:crimson_bed",
+    "zings_biomes:neon_orange_bed",
+    "zings_biomes:pale_light_blue_bed",
+    "zings_biomes:violet_bed_foot",
+    "zings_biomes:neon_yellow_bed",
+    "zings_biomes:crimson_bed_foot",
+    "zings_biomes:neon_yellow_bed_head",
+    "zings_biomes:neon_orange_bed_foot",
+    "zings_biomes:mint_bed_head",
+    "zings_biomes:pale_orange_bed"
+  ]
+}

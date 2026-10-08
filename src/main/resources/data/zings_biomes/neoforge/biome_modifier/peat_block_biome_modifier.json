@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "mangrove_swamp",
+    "swamp"
+  ],
+  "features": "zings_biomes:peat_block",
+  "step": "underground_ores"
+}

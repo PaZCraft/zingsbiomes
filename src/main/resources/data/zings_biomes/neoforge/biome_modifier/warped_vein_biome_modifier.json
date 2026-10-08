@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "warped_forest",
+  "features": "zings_biomes:warped_vein",
+  "step": "vegetal_decoration"
+}

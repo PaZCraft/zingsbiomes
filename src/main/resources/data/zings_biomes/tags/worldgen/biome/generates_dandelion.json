@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "eroded_badlands",
+    "lush_caves",
+    "mangrove_swamp",
+    "swamp",
+    "cherry_grove",
+    "badlands",
+    "bamboo_jungle",
+    "sparse_jungle",
+    "savanna",
+    "plains",
+    "wooded_badlands",
+    "jungle",
+    "windswept_savanna",
+    "pale_garden",
+    "flower_forest",
+    "savanna_plateau",
+    "meadow"
+  ]
+}

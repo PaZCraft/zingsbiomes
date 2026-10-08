@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "brown_dye",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_brown_dye"
+  },
+  "result": {
+    "id": "minecraft:brown_dye",
+    "count": 1
+  }
+}

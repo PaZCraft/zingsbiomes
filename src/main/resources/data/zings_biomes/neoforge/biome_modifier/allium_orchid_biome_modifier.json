@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "flower_forest",
+  "features": "zings_biomes:allium_orchid",
+  "step": "vegetal_decoration"
+}

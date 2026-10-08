@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:old_growth_baobab_savanna",
+  "features": "zings_biomes:baobab_tree",
+  "step": "vegetal_decoration"
+}

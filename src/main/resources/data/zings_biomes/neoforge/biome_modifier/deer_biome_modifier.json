@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_deer",
+  "spawners": {
+    "type": "zings_biomes:deer",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

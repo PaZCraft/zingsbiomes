@@ -1,0 +1,6 @@
+{
+  "exhaustion": 0.35,
+  "message_id": "end_tar_pit_submerge",
+  "scaling": "when_caused_by_living_non_player",
+  "effects": "drowning"
+}

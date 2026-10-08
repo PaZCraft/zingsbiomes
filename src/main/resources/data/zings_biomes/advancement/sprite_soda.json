@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "zings_biomes:lemon"
+    },
+    "title": {
+      "translate": "advancements.sprite_soda.title"
+    },
+    "description": {
+      "translate": "advancements.sprite_soda.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sprite_soda_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "zings_biomes:lemonade_bottle",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "sprite_soda_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "zings_biomes:limemade_bottle",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "zings_biomes:zing_biomes"
+}

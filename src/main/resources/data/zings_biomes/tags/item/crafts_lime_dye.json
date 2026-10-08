@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:clover_lisptrap",
+    "zings_biomes:dead_limesweet_coral_fan",
+    "zings_biomes:limesweet_coral",
+    "zings_biomes:gooseberry_sapling",
+    "zings_biomes:gooseberry_moss"
+  ]
+}

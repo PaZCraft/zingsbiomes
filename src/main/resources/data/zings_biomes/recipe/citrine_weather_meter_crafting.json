@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "citrine_weather_meter",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eae"
+  ],
+  "key": {
+    "a": "minecraft:lightning_rod",
+    "b": "minecraft:clock",
+    "c": "minecraft:water_bucket",
+    "d": "zings_biomes:citrine_shard",
+    "e": "minecraft:daylight_detector"
+  },
+  "result": {
+    "id": "zings_biomes:citrine_weather_meter",
+    "count": 1
+  }
+}

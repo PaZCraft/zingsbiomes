@@ -1,0 +1,8 @@
+{
+    "replace":  false,
+    "values":  [
+                   "desert",
+                   "zings_biomes:dusk_desert",
+                   "zings_biomes:desert_oasis"
+               ]
+}

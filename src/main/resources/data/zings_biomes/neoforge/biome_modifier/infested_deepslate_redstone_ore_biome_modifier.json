@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:redstone_mines",
+  "features": "zings_biomes:infested_deepslate_redstone_ore",
+  "step": "underground_ores"
+}

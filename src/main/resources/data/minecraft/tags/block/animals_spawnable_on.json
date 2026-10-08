@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:blueberry_moss",
+    "zings_biomes:dusk_sand",
+    "zings_biomes:glow_berry_moss",
+    "zings_biomes:mint_moss",
+    "zings_biomes:grassy_sand",
+    "zings_biomes:cherry_moss",
+    "zings_biomes:floodstone_grass_block",
+    "zings_biomes:coral_sand",
+    "zings_biomes:grassy_red_sand",
+    "zings_biomes:mudded_grass_block",
+    "zings_biomes:goldenberry_moss",
+    "zings_biomes:mossy_mud",
+    "zings_biomes:ultraviolet_moss_block",
+    "zings_biomes:dried_grass_block",
+    "zings_biomes:frozen_mud",
+    "zings_biomes:gooseberry_moss"
+  ]
+}

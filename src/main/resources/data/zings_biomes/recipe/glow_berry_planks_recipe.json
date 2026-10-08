@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glow_berry_planks",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_glow_berry_planks"
+  },
+  "result": {
+    "id": "zings_biomes:glow_berry_planks",
+    "count": 4
+  }
+}

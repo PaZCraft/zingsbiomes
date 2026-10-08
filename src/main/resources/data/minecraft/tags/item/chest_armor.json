@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:silver_armor_chestplate",
+    "zings_biomes:tin_armor_chestplate",
+    "zings_biomes:blue_golden_chestplate",
+    "zings_biomes:enderite_armor_chestplate"
+  ]
+}

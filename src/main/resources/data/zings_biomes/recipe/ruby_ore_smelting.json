@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "ruby",
+  "category": "misc",
+  "experience": 1.5,
+  "cookingtime": 200,
+  "ingredient": "#zings_biomes:ruby_ore",
+  "result": {
+    "id": "zings_biomes:ruby"
+  }
+}

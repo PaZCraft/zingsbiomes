@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:end_stone"
+          }
+        },
+        "state": {
+          "Name": "zings_biomes:enderite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "zings_biomes:end_rock"
+          }
+        },
+        "state": {
+          "Name": "zings_biomes:enderite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "zings_biomes:end_pillar",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "zings_biomes:enderite_ore"
+        }
+      }
+    ]
+  }
+}

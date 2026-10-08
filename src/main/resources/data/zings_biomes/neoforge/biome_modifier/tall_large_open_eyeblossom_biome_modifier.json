@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "pale_garden",
+  "features": "zings_biomes:tall_large_open_eyeblossom",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "silver_chestplate",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:silver_ingot"
+  },
+  "result": {
+    "id": "zings_biomes:silver_armor_chestplate",
+    "count": 1
+  }
+}

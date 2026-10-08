@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:floodstone_grass_block",
+    "zings_biomes:end_grass_block",
+    "zings_biomes:grassy_red_sand",
+    "zings_biomes:mudded_grass_block",
+    "zings_biomes:dried_grass_block",
+    "zings_biomes:grassy_sand"
+  ]
+}

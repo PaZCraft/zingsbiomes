@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_biomes:generates_amberstone",
+  "features": "zings_biomes:amberstone",
+  "step": "underground_ores"
+}

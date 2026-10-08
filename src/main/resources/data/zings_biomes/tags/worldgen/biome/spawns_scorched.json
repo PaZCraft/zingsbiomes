@@ -1,0 +1,8 @@
+{
+    "replace":  false,
+    "values":  [
+                   "nether_wastes",
+                   "basalt_deltas",
+                   "zings_biomes:fire_sand_valley"
+               ]
+}

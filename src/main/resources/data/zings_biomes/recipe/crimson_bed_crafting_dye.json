@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bed",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "#zings_biomes:beds",
+    "b": "zings_biomes:crimson_dye"
+  },
+  "result": {
+    "id": "zings_biomes:crimson_bed",
+    "count": 1
+  }
+}

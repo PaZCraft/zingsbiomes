@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_dripperfish",
+    "spawners":  {
+                     "type":  "zings_biomes:dripperfish",
+                     "weight":  5,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

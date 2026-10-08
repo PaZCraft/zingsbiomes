@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enderite_hoe",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": "zings_biomes:enderite",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "zings_biomes:enderite_hoe",
+    "count": 1
+  }
+}

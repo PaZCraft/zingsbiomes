@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:sweet_ocean",
+    "zings_biomes:desert_oasis",
+    "zings_biomes:amaranth_ocean",
+    "zings_biomes:deep_amaranth_ocean"
+  ]
+}

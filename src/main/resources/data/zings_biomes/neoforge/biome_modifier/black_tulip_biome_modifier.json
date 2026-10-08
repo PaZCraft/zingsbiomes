@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_biomes:generates_tulips",
+  "features": "zings_biomes:black_tulip",
+  "step": "vegetal_decoration"
+}

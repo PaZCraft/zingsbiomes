@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "zings_biomes:crimson_harness_crafting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredient_0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "zings_biomes:crimson_wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingredient_0",
+      "has_ingredient_1",
+      "has_ingredient_2"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "zings_biomes:crimson_harness_crafting"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:crimson_harness",
+    "zings_biomes:neon_yellow_harness",
+    "zings_biomes:mint_harness",
+    "zings_biomes:pale_orange_harness",
+    "zings_biomes:neon_orange_harness",
+    "zings_biomes:pale_light_blue_harness",
+    "zings_biomes:violet_harness"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carnelian_shield",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "zings_biomes:carnelian_shard",
+    "b": "minecraft:shield"
+  },
+  "result": {
+    "id": "zings_biomes:carnelian_shield",
+    "count": 1
+  }
+}

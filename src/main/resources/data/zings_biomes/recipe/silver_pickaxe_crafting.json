@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "silver_pickaxe",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "zings_biomes:silver_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "zings_biomes:silver_pickaxe",
+    "count": 1
+  }
+}

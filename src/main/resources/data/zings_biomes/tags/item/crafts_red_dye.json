@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:red_paeonia",
+    "zings_biomes:red_cornflower",
+    "zings_biomes:red_rose",
+    "zings_biomes:red_flowering_azalea",
+    "zings_biomes:closed_darkblossom",
+    "zings_biomes:red_flowering_azalea_leaves",
+    "zings_biomes:open_darkblossom_purple",
+    "zings_biomes:open_darkblossom_blue",
+    "zings_biomes:red_peony"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:mint_wool",
+    "minecraft:gray_wool",
+    "zings_biomes:crimson_wool",
+    "minecraft:pink_wool",
+    "minecraft:cyan_wool",
+    "minecraft:light_gray_wool",
+    "zings_biomes:pale_light_blue_wool",
+    "minecraft:light_blue_wool",
+    "minecraft:magenta_wool",
+    "zings_biomes:neon_yellow_wool",
+    "zings_biomes:neon_orange_wool",
+    "minecraft:lime_wool",
+    "minecraft:yellow_wool",
+    "minecraft:green_wool",
+    "minecraft:red_wool",
+    "zings_biomes:pale_orange_wool",
+    "minecraft:orange_wool",
+    "minecraft:black_wool",
+    "minecraft:white_wool",
+    "minecraft:purple_wool",
+    "minecraft:blue_wool",
+    "minecraft:brown_wool",
+    "zings_biomes:violet_wool"
+  ]
+}

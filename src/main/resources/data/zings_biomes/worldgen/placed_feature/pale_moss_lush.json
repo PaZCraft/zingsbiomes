@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:pale_moss_lush",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 50
+    }
+  ]
+}

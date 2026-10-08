@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:giant_yolked_fungus",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 95
+    }
+  ]
+}

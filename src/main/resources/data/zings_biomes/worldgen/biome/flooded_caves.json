@@ -1,0 +1,212 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -13408768,
+    "grass_color": -6697984,
+    "water_color": -16751053
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "ambient.underwater.loop",
+      "mood": {
+        "sound": "block.dried_ghast.ambient_water",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "block.pointed_dripstone.drip_water_into_cauldron",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "zings_biomes:music.zings_biomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "firefly"
+        },
+        "probability": 0.003
+      }
+    ],
+    "minecraft:visual/sky_color": -6697984,
+    "minecraft:visual/fog_color": -10053376,
+    "minecraft:visual/water_fog_color": -16764109
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zings_biomes:tangled",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:vine_creeper",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:poisoned_spider",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:moth",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "bogged",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "cave_spider",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "drowned",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "zings_biomes:dragonfly",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:fly",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:ladybug",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:butterfly",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [
+      {
+        "type": "axolotl",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "zings_biomes:seahorse",
+        "weight": 7,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "glow_squid",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:large_dripstone",
+      "minecraft:forest_rock"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:ore_gold_extra"
+    ],
+    [],
+    [],
+    [
+      "minecraft:forest_flowers",
+      "minecraft:patch_large_fern",
+      "minecraft:patch_tall_grass",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
+      "minecraft:patch_grass_forest",
+      "minecraft:bamboo_light",
+      "minecraft:trees_jungle",
+      "minecraft:trees_swamp",
+      "minecraft:flower_swamp",
+      "minecraft:patch_grass_normal",
+      "minecraft:patch_dead_bush",
+      "minecraft:patch_waterlily",
+      "minecraft:brown_mushroom_swamp",
+      "minecraft:red_mushroom_swamp",
+      "minecraft:patch_grass_jungle",
+      "minecraft:patch_grass_plain",
+      "minecraft:flower_meadow",
+      "minecraft:trees_meadow",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_sugar_cane",
+      "minecraft:seagrass_deep"
+    ],
+    []
+  ]
+}

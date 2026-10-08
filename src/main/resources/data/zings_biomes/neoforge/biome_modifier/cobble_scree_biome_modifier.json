@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "frozen_peaks",
+    "jagged_peaks",
+    "stony_peaks"
+  ],
+  "features": "zings_biomes:cobble_scree",
+  "step": "underground_ores"
+}

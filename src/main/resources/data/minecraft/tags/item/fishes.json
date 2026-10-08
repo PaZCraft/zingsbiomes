@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:cooked_piranha",
+    "zings_biomes:cooked_tuna",
+    "zings_biomes:cooked_trout",
+    "zings_biomes:raw_trout",
+    "zings_biomes:cooked_shrimp",
+    "zings_biomes:cooked_sardine",
+    "zings_biomes:raw_sardine",
+    "zings_biomes:raw_tuna",
+    "zings_biomes:raw_piranha",
+    "zings_biomes:raw_shrimp"
+  ]
+}

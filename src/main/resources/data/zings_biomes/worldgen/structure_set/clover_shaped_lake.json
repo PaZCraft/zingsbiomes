@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "zings_biomes:clover_shaped_lake",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 1638320845
+  }
+}

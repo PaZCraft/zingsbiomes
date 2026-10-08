@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:acacia_leaf_litter",
+    "zings_biomes:willow_leaf_litter",
+    "zings_biomes:kapok_leaf_litter",
+    "zings_biomes:mossbark_leaf_litter",
+    "minecraft:leaf_litter",
+    "zings_biomes:dark_leaf_litter",
+    "zings_biomes:mangrove_leaf_litter",
+    "zings_biomes:ultraviolet_leaf_litter",
+    "zings_biomes:pale_leaf_litter",
+    "zings_biomes:palm_leaf_litter",
+    "zings_biomes:birch_leaf_litter",
+    "zings_biomes:baobab_leaf_litter",
+    "zings_biomes:shamrock_willow_leaf_litter",
+    "zings_biomes:jungle_leaf_litter"
+  ]
+}

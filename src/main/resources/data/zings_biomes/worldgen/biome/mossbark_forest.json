@@ -1,0 +1,151 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -16758980,
+    "grass_color": -16751061,
+    "water_color": -16757472
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "ambient.crimson_forest.additions",
+      "mood": {
+        "sound": "entity.frog.ambient",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "block.firefly_bush.idle",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "zings_biomes:music.zings_biomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "firefly"
+        },
+        "probability": 0.002
+      }
+    ],
+    "minecraft:visual/sky_color": -16745626,
+    "minecraft:visual/fog_color": -16744896,
+    "minecraft:visual/water_fog_color": -16765414
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zings_biomes:tangled",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:vine_creeper",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:poisoned_spider",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "bogged",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "wolf",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "cow",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "llama",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "frog",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [
+      {
+        "type": "axolotl",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "underground_water_creature": [],
+    "water_creature": [
+      {
+        "type": "cod",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "zings_biomes:mossbark_forest_tree",
+      "minecraft:patch_grass_forest",
+      "minecraft:bamboo_light",
+      "minecraft:patch_grass_jungle",
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:cave_vines",
+      "minecraft:lush_caves_clay",
+      "minecraft:lush_caves_vegetation",
+      "minecraft:rooted_azalea_tree",
+      "minecraft:spore_blossom",
+      "minecraft:classic_vines_cave_feature"
+    ],
+    []
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_termite",
+    "spawners":  {
+                     "type":  "zings_biomes:termite",
+                     "weight":  20,
+                     "minCount":  1,
+                     "maxCount":  10
+                 }
+}

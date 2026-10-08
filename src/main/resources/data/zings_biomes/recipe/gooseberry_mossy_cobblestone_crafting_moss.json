@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mossy_cobblestone",
+  "category": "building",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:cobblestone",
+    "b": "zings_biomes:gooseberry_moss"
+  },
+  "result": {
+    "id": "zings_biomes:gooseberry_mossy_cobblestone",
+    "count": 1
+  }
+}

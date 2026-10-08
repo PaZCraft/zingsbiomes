@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "zings_biomes:blueberry_mossy_cobblestone",
+  "result": {
+    "id": "zings_biomes:blueberry_mossy_cobblestone_wall",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "features": "zings_biomes:evening_primrose",
+  "step": "vegetal_decoration"
+}

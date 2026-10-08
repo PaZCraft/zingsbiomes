@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "silver_thermometer_block",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "zings_biomes:silver_ingot",
+    "b": "minecraft:redstone",
+    "c": "zings_biomes:thermal_spike"
+  },
+  "result": {
+    "id": "zings_biomes:silver_thermometer_block",
+    "count": 1
+  }
+}

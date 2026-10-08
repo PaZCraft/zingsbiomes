@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:sunshine_boat",
+    "zings_biomes:mossbark_boat",
+    "zings_biomes:blackwood_boat",
+    "zings_biomes:goldenberry_boat",
+    "zings_biomes:strawberry_boat",
+    "zings_biomes:blackberry_boat",
+    "zings_biomes:hoarfrost_boat",
+    "zings_biomes:red_driftwood_boat",
+    "zings_biomes:gooseberry_boat",
+    "zings_biomes:ultraviolet_oak_boat",
+    "zings_biomes:willow_boat",
+    "zings_biomes:palm_boat",
+    "zings_biomes:shamrock_willow_boat",
+    "zings_biomes:blue_driftwood_boat",
+    "zings_biomes:kapok_boat",
+    "zings_biomes:glow_berry_boat",
+    "zings_biomes:blueberry_boat",
+    "zings_biomes:frozegrove_boat",
+    "zings_biomes:sweet_berry_boat",
+    "zings_biomes:driftwood_boat",
+    "zings_biomes:baobab_boat",
+    "zings_biomes:heartwood_boat",
+    "zings_biomes:fir_boat",
+    "zings_biomes:grazed_spruce_boat",
+    "zings_biomes:raspberry_boat"
+  ]
+}

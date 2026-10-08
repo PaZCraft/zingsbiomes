@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_biomes:generates_cornflower",
+  "features": "zings_biomes:maroon_cornflower",
+  "step": "vegetal_decoration"
+}

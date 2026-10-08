@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:mossy_shamrock_willow_shack",
+    "zings_biomes:abandoned_jungle_shack",
+    "zings_biomes:abandoned_grazed_spruce_shack",
+    "zings_biomes:abandoned_driftwood_shack"
+  ]
+}

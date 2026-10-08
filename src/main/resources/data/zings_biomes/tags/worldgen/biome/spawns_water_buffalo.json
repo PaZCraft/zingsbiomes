@@ -1,0 +1,14 @@
+{
+    "replace":  false,
+    "values":  [
+                   "river",
+                   "swamp",
+                   "mangrove_swamp",
+                   "savanna",
+                   "savanna_plateau",
+                   "windswept_savanna",
+                   "zings_biomes:old_growth_baobab_savanna",
+                   "jungle",
+                   "sparse_jungle"
+               ]
+}

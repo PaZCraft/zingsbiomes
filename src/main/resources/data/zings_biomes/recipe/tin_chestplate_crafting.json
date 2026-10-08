@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tin_chestplate",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:tin_ingot"
+  },
+  "result": {
+    "id": "zings_biomes:tin_armor_chestplate",
+    "count": 1
+  }
+}

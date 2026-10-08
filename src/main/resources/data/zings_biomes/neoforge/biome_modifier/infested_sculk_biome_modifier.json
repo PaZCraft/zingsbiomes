@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "deep_dark",
+  "features": "zings_biomes:infested_sculk",
+  "step": "underground_ores"
+}

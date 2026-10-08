@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_biomes:generates_glowshroom",
+  "features": "zings_biomes:mint_glowshroom",
+  "step": "vegetal_decoration"
+}

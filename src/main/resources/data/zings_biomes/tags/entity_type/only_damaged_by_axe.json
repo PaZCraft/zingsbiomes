@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:azalea_wooden_birdzing",
+    "zings_biomes:bamboo_wooden_birdzing",
+    "zings_biomes:nether_wooden_birdzing",
+    "zings_biomes:end_wooden_birdzing",
+    "zings_biomes:bald_wooden_birdzing",
+    "zings_biomes:weeping_wooden_birdzing",
+    "zings_biomes:woodland_wooden_birdzing"
+  ]
+}

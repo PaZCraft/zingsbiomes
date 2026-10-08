@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:desert_oasis",
+    "beach",
+    "desert"
+  ],
+  "features": "zings_biomes:palm_tree_mushroon",
+  "step": "vegetal_decoration"
+}

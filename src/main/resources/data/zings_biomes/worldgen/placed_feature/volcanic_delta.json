@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:volcanic_delta",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    }
+  ]
+}

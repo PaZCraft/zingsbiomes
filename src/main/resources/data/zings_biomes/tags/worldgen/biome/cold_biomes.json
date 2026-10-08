@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "frozen_ocean",
+    "frozen_river",
+    "snowy_plains",
+    "zings_biomes:frozegrove_swamp",
+    "ice_spikes",
+    "zings_biomes:icicle_caves",
+    "zings_biomes:hoarfrost_timber",
+    "snowy_slopes",
+    "cold_ocean",
+    "jagged_peaks",
+    "deep_frozen_ocean",
+    "snowy_taiga",
+    "deep_cold_ocean",
+    "grove",
+    "stony_peaks",
+    "snowy_beach",
+    "frozen_peaks"
+  ]
+}

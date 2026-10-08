@@ -1,0 +1,19 @@
+{
+    "replace":  false,
+    "values":  [
+                   "jungle",
+                   "sparse_jungle",
+                   "bamboo_jungle",
+                   "forest",
+                   "dark_forest",
+                   "swamp",
+                   "mangrove_swamp",
+                   "plains",
+                   "savanna",
+                   "savanna_plateau",
+                   "windswept_savanna",
+                   "zings_biomes:old_growth_baobab_savanna",
+                   "desert",
+                   "zings_biomes:dusk_desert"
+               ]
+}

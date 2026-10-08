@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:cherry_biomes",
+  "spawners": {
+    "type": "zings_biomes:berry_wooden_birdzing",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

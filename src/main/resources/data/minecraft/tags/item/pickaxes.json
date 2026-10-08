@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:tin_pickaxe",
+    "zings_biomes:blue_golden_pickaxe",
+    "zings_biomes:silver_pickaxe",
+    "zings_biomes:ice_pick",
+    "zings_biomes:enderite_pickaxe"
+  ]
+}

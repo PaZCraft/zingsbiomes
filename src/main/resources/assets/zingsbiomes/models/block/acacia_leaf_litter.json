@@ -1,5 +1,5 @@
 {
-  "parent": "zings_biomes:custom/leaf_litter",
+  "parent": "minecraft:block/leaf_litter",
   "textures": {
     "all": "zings_biomes:block/acacia_leaf_litter",
     "particle": "zings_biomes:block/acacia_leaf_litter",

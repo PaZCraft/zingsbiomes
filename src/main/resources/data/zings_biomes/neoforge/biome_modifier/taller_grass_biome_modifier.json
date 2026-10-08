@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "plains",
+  "features": "zings_biomes:taller_grass",
+  "step": "vegetal_decoration"
+}

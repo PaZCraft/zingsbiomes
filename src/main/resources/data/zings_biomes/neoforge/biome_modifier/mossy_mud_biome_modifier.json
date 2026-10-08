@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mangrove_swamp",
+  "features": "zings_biomes:mossy_mud",
+  "step": "underground_ores"
+}

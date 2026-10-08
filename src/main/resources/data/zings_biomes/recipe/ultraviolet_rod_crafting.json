@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ultraviolet_rod",
+  "category": "building",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "zings_biomes:ultraviolet_resin_clump",
+    "b": "zings_biomes:blacklight_tube",
+    "c": "zings_biomes:ultraviolet_resin_brick"
+  },
+  "result": {
+    "id": "zings_biomes:ultraviolet_rod",
+    "count": 1
+  }
+}

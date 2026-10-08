@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carpet",
+  "category": "building",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "zings_biomes:pale_light_blue_wool"
+  },
+  "result": {
+    "id": "zings_biomes:pale_light_blue_carpet",
+    "count": 3
+  }
+}

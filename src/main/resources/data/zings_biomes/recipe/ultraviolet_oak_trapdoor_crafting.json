@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "trapdoor",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:ultraviolet_oak_planks"
+  },
+  "result": {
+    "id": "zings_biomes:ultraviolet_oak_trapdoor",
+    "count": 2
+  }
+}

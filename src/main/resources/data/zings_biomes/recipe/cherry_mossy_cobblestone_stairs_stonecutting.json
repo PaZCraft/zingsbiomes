@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "zings_biomes:cherry_mossy_cobblestone",
+  "result": {
+    "id": "zings_biomes:cherry_mossy_cobblestone_stairs",
+    "count": 1
+  }
+}

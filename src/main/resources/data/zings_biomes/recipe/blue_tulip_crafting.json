@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_tulip",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "#zings_biomes:tulip_dyeables",
+    "b": "minecraft:blue_dye"
+  },
+  "result": {
+    "id": "zings_biomes:blue_tulip",
+    "count": 1
+  }
+}

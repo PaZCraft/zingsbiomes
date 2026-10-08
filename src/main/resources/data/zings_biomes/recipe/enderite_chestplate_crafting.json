@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enderite_chestplate",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:enderite"
+  },
+  "result": {
+    "id": "zings_biomes:enderite_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ice_pick",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "zings_biomes:elk_antler",
+    "c": "zings_biomes:ice_crystal_shard"
+  },
+  "result": {
+    "id": "zings_biomes:ice_pick",
+    "count": 1
+  }
+}

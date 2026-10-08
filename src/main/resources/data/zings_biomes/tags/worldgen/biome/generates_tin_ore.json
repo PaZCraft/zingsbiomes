@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:old_growth_baobab_savanna",
+    "stony_peaks",
+    "savanna",
+    "frozen_peaks",
+    "windswept_savanna",
+    "jagged_peaks",
+    "savanna_plateau"
+  ]
+}

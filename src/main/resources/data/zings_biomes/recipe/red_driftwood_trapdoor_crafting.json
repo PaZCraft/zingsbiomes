@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "trapdoor",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:red_driftwood_planks"
+  },
+  "result": {
+    "id": "zings_biomes:red_driftwood_trapdoor",
+    "count": 2
+  }
+}

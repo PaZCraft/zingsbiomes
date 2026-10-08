@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:icefish",
+    "zings_biomes:thawed",
+    "zings_biomes:flood_creeper",
+    "zings_biomes:caribou_stray",
+    "zings_biomes:castaway",
+    "zings_biomes:icy_spider",
+    "zings_biomes:tangled",
+    "zings_biomes:snow_creeper"
+  ]
+}

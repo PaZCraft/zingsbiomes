@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dyed_harness",
+  "category": "equipment",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "#zings_biomes:harnesses",
+    "b": "zings_biomes:pale_light_blue_dye"
+  },
+  "result": {
+    "id": "zings_biomes:pale_light_blue_harness",
+    "count": 1
+  }
+}

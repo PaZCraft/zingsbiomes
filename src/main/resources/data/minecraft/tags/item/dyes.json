@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:pale_orange_dye",
+    "zings_biomes:neon_orange_dye",
+    "zings_biomes:pale_light_blue_dye",
+    "zings_biomes:mint_dye",
+    "zings_biomes:violet_dye",
+    "zings_biomes:crimson_dye",
+    "zings_biomes:neon_yellow_dye"
+  ]
+}

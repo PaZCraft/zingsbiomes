@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:tear_fire_patch",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    }
+  ]
+}

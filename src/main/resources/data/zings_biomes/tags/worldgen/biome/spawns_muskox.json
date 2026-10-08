@@ -1,0 +1,10 @@
+{
+    "replace":  false,
+    "values":  [
+                   "snowy_plains",
+                   "ice_spikes",
+                   "snowy_slopes",
+                   "frozen_peaks",
+                   "grove"
+               ]
+}

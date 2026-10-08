@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tin_hoe",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": "zings_biomes:tin_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "zings_biomes:tin_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carpet",
+  "category": "building",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "zings_biomes:neon_yellow_wool"
+  },
+  "result": {
+    "id": "zings_biomes:neon_yellow_carpet",
+    "count": 3
+  }
+}

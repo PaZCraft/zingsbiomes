@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_pronghorn",
+  "spawners": {
+    "type": "zings_biomes:pronghorn",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

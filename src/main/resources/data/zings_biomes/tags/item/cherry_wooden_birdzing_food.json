@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#zings_biomes:berries",
+      "required": false
+    }
+  ]
+}

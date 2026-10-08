@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "deep_ocean",
+    "ocean"
+  ],
+  "features": "zings_biomes:saltstone",
+  "step": "underground_ores"
+}

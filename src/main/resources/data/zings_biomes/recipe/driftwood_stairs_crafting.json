@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:driftwood_planks"
+  },
+  "result": {
+    "id": "zings_biomes:driftwood_stairs",
+    "count": 4
+  }
+}

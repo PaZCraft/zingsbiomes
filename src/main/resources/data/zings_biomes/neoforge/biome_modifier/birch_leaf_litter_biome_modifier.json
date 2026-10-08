@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "birch_forest",
+    "old_growth_birch_forest"
+  ],
+  "features": "zings_biomes:birch_leaf_litter",
+  "step": "vegetal_decoration"
+}

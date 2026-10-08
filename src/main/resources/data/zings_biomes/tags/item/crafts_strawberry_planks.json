@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:strawberry_log",
+    "zings_biomes:stripped_strawberry_log",
+    "zings_biomes:stripped_strawberry_wood",
+    "zings_biomes:strawberry_wood"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:mossbark_forest",
+    "zings_biomes:old_growth_baobab_savanna",
+    "zings_biomes:dusk_desert"
+  ]
+}

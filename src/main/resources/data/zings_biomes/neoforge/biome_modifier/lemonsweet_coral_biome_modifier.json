@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:sweet_ocean",
+  "features": "zings_biomes:lemonsweet_coral",
+  "step": "vegetal_decoration"
+}

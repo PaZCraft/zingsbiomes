@@ -1,0 +1,10 @@
+{
+    "replace":  false,
+    "values":  [
+                   "mangrove_swamp",
+                   "swamp",
+                   "zings_biomes:mossbark_forest",
+                   "jungle",
+                   "sparse_jungle"
+               ]
+}

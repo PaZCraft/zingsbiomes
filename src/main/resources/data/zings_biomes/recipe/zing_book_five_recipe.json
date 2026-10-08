@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zing_book_five",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    " b"
+  ],
+  "key": {
+    "a": "minecraft:book",
+    "b": "minecraft:grass_block"
+  },
+  "result": {
+    "id": "zings_biomes:zing_book_volume_five",
+    "count": 1
+  }
+}

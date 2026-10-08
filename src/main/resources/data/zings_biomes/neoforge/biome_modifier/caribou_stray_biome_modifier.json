@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_caribou_stray",
+  "spawners": {
+    "type": "zings_biomes:caribou_stray",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

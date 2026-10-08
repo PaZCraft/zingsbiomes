@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "horse",
+    "zings_biomes:zebra",
+    "skeleton_horse",
+    "zombie_horse",
+    "mule",
+    "donkey"
+  ]
+}

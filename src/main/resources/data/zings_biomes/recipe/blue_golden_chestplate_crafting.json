@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_golden_chestplate",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:blue_gold_ingot"
+  },
+  "result": {
+    "id": "zings_biomes:blue_golden_chestplate",
+    "count": 1
+  }
+}

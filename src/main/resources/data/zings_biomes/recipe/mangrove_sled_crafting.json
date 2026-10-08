@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sled",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    " a"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "minecraft:mangrove_slab"
+  },
+  "result": {
+    "id": "zings_biomes:mangrove_sled",
+    "count": 1
+  }
+}

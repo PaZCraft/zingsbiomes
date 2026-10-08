@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ultraviolet_resin_brick_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:ultraviolet_resin_bricks"
+  },
+  "result": {
+    "id": "zings_biomes:ultraviolet_resin_brick_slab",
+    "count": 6
+  }
+}

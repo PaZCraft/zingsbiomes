@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:winter_wheat_seeds",
+    "zings_biomes:blueberry_moss",
+    "zings_biomes:blue_tulip",
+    "zings_biomes:blue_spore_blossom",
+    "zings_biomes:glowing_blue_orchid",
+    "zings_biomes:lily_of_the_farmland"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "frozen_mud_brick_wall",
+  "category": "building",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:ice",
+    "b": "minecraft:mud_brick_wall"
+  },
+  "result": {
+    "id": "zings_biomes:frozen_mud_brick_wall",
+    "count": 1
+  }
+}

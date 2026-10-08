@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "lush_caves",
+  "features": "zings_biomes:flowering_bush",
+  "step": "vegetal_decoration"
+}

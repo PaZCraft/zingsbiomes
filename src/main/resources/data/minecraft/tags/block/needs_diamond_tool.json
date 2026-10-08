@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:enderite_ore",
+    "zings_biomes:pink_obsidian",
+    "zings_biomes:obsidian_gravel",
+    "zings_biomes:block_of_enderite"
+  ]
+}

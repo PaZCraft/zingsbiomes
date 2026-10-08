@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:pale_light_blue_candle",
+    "zings_biomes:violet_candle",
+    "zings_biomes:neon_orange_candle",
+    "zings_biomes:crimson_candle",
+    "zings_biomes:neon_yellow_candle",
+    "zings_biomes:pale_orange_candle",
+    "zings_biomes:mint_candle"
+  ]
+}

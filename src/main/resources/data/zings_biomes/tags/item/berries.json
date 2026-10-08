@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:white_bomberry",
+    "zings_biomes:gooseberry",
+    "zings_biomes:yellow_bomberry",
+    "zings_biomes:raspberry",
+    "zings_biomes:strawberry",
+    "zings_biomes:green_bomberry",
+    "zings_biomes:blueberries",
+    "zings_biomes:blackberry",
+    "minecraft:glow_berries",
+    "zings_biomes:goldenberry",
+    "zings_biomes:purple_bomberry",
+    "zings_biomes:blue_bomberry",
+    "zings_biomes:red_bomberry",
+    "minecraft:sweet_berries"
+  ]
+}

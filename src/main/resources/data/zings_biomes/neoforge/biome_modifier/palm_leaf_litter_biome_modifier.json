@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:desert_oasis",
+  "features": "zings_biomes:palm_leaf_litter",
+  "step": "vegetal_decoration"
+}

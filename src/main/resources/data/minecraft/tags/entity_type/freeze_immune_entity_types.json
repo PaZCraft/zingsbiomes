@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:muskox",
+    "zings_biomes:icefish",
+    "zings_biomes:thawed",
+    "zings_biomes:lynx",
+    "zings_biomes:caribou",
+    "zings_biomes:black_bear",
+    "zings_biomes:mountaineer",
+    "zings_biomes:caribou_stray",
+    "zings_biomes:penguin",
+    "zings_biomes:icy_spider",
+    "zings_biomes:elk",
+    "zings_biomes:snow_creeper"
+  ]
+}

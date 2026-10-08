@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:blue_gold_ore",
+    "zings_biomes:soil_blue_gold_ore",
+    "zings_biomes:block_of_blue_gold",
+    "zings_biomes:block_of_raw_blue_gold"
+  ]
+}

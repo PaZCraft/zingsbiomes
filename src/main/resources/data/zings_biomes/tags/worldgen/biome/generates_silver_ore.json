@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "windswept_forest",
+    "windswept_hills",
+    "dripstone_caves",
+    "stony_peaks",
+    "windswept_savanna",
+    "jagged_peaks",
+    "windswept_gravelly_hills"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_tuff_golem",
+    "spawners":  {
+                     "type":  "zings_biomes:tuff_golem",
+                     "weight":  1,
+                     "minCount":  1,
+                     "maxCount":  1
+                 }
+}

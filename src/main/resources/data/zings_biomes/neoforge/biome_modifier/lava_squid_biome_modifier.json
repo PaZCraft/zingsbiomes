@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_lava_squid",
+    "spawners":  {
+                     "type":  "zings_biomes:lava_squid",
+                     "weight":  10,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

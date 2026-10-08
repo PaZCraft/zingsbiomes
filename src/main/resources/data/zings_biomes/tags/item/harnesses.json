@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lime_harness",
+    "minecraft:light_gray_harness",
+    "minecraft:green_harness",
+    "zings_biomes:neon_yellow_harness",
+    "zings_biomes:neon_orange_harness",
+    "zings_biomes:pale_light_blue_harness",
+    "minecraft:magenta_harness",
+    "zings_biomes:violet_harness",
+    "minecraft:white_harness",
+    "minecraft:gray_harness",
+    "zings_biomes:crimson_harness",
+    "minecraft:brown_harness",
+    "zings_biomes:mint_harness",
+    "minecraft:pink_harness",
+    "zings_biomes:pale_orange_harness",
+    "minecraft:cyan_harness",
+    "minecraft:blue_harness",
+    "minecraft:red_harness",
+    "minecraft:light_blue_harness",
+    "minecraft:purple_harness",
+    "minecraft:orange_harness",
+    "minecraft:black_harness",
+    "minecraft:yellow_harness"
+  ]
+}

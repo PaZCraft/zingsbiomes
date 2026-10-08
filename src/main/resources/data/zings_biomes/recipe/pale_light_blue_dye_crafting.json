@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pale_light_blue_dye",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_pale_light_blue_dye"
+  },
+  "result": {
+    "id": "zings_biomes:pale_light_blue_dye",
+    "count": 1
+  }
+}

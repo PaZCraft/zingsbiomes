@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "pale_garden",
+  "features": "zings_biomes:pale_mossy_cobblestone_slab",
+  "step": "underground_ores"
+}

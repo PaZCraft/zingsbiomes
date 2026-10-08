@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dyed_candle",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:candle",
+    "b": "zings_biomes:neon_orange_dye"
+  },
+  "result": {
+    "id": "zings_biomes:neon_orange_candle",
+    "count": 1
+  }
+}

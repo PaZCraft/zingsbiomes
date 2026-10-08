@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pinecone_block",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:pinecone"
+  },
+  "result": {
+    "id": "zings_biomes:pinecone_block",
+    "count": 1
+  }
+}

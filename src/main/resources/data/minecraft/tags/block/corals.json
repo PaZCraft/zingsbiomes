@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:plate_coral_fan",
+    "zings_biomes:limesweet_coral_fan",
+    "zings_biomes:glowing_starlight_coral_fan",
+    {
+      "id": "#minecraft:coral_plants",
+      "required": false
+    },
+    "zings_biomes:lemonsweet_coral_fan",
+    "zings_biomes:starlight_coral_fan"
+  ]
+}

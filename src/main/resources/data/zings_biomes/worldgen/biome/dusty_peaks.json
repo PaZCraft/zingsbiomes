@@ -1,0 +1,115 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.8,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -3342592,
+    "grass_color": -6697984,
+    "water_color": -16764109
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "block.sand.idle",
+      "mood": {
+        "sound": "block.cactus_flower.place",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "block.deadbush.idle",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "zings_biomes:music.zings_biomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/sky_color": -13395457,
+    "minecraft:visual/fog_color": -16750951,
+    "minecraft:visual/water_fog_color": -16751002
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "creeper",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "husk",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "parched",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "spider",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "camel_husk",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "camel",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "rabbit",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:patch_dead_bush_2"
+    ],
+    []
+  ]
+}

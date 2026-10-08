@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:ash_guardian",
+    "zings_biomes:fire_salamander",
+    "zings_biomes:dragonfly",
+    "zings_biomes:moth",
+    "zings_biomes:scorched_ostrich",
+    "zings_biomes:scorched",
+    "zings_biomes:ladybug",
+    "zings_biomes:nether_creeper",
+    "zings_biomes:snow_creeper",
+    "zings_biomes:fly",
+    "zings_biomes:butterfly",
+    "zings_biomes:thawed",
+    "zings_biomes:lava_squid",
+    "zings_biomes:termite",
+    "zings_biomes:burned_spider"
+  ]
+}

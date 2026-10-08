@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/emerald_village_detector",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:emerald_village_detector"
+        }
+      ]
+    }
+  ]
+}

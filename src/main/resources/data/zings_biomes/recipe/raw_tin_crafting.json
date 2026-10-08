@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "raw_tin",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "zings_biomes:block_of_raw_tin"
+  },
+  "result": {
+    "id": "zings_biomes:raw_tin",
+    "count": 9
+  }
+}

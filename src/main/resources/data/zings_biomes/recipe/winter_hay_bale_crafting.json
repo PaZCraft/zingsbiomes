@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "winter_hay_bale",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:winter_wheat"
+  },
+  "result": {
+    "id": "zings_biomes:winter_hay_bale",
+    "count": 1
+  }
+}

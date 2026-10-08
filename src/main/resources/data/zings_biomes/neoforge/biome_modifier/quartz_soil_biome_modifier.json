@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:quartz_sand_valley",
+  "features": "zings_biomes:quartz_soil",
+  "step": "underground_ores"
+}

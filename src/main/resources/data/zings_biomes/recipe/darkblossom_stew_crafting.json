@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blossom_stew",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "c "
+  ],
+  "key": {
+    "a": "zings_biomes:open_darkblossom_purple",
+    "b": "zings_biomes:open_darkblossom_blue",
+    "c": "minecraft:bowl"
+  },
+  "result": {
+    "id": "zings_biomes:darkblossom_stew",
+    "count": 1
+  }
+}

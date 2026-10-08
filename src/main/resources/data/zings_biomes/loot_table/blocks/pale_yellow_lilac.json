@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/pale_yellow_lilac",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:pale_yellow_lilac",
+          "conditions": [
+            {
+              "block": "zings_biomes:pale_yellow_lilac",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

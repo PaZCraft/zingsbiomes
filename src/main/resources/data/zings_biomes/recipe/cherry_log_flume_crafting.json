@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "log_flume",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": "zings_biomes:tin_nugget",
+    "b": "minecraft:cherry_log",
+    "c": "minecraft:cherry_slab"
+  },
+  "result": {
+    "id": "zings_biomes:cherry_log_flume",
+    "count": 1
+  }
+}

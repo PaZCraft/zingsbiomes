@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:fire_sand_valley",
+    "zings_biomes:dusty_peaks",
+    "zings_biomes:old_growth_baobab_savanna",
+    "zings_biomes:red_beach",
+    "zings_biomes:tear_sand_valley",
+    "zings_biomes:desert_oasis"
+  ]
+}

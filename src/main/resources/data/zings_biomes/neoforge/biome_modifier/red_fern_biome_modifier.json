@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "mangrove_swamp",
+    "swamp",
+    "zings_biomes:red_beach",
+    "beach"
+  ],
+  "features": "zings_biomes:red_fern",
+  "step": "vegetal_decoration"
+}

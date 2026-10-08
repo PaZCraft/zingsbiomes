@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/white_lilac",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:white_lilac",
+          "conditions": [
+            {
+              "block": "zings_biomes:white_lilac",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

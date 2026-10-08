@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "sculk_sensor_tendrils_clicking",
+    "explode",
+    "equip",
+    "block_open",
+    "entity_interact",
+    "step",
+    "container_close",
+    "shriek",
+    "entity_action",
+    "container_open",
+    "prime_fuse",
+    "entity_damage",
+    "eat",
+    "resonate_15",
+    "drink",
+    "block_activate"
+  ]
+}

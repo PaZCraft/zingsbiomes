@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:flooded_caves",
+  "features": "zings_biomes:infested_floodstone",
+  "step": "underground_ores"
+}

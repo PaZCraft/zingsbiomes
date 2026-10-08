@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tinted_glass",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "zings_biomes:ice_crystal_shard",
+    "b": "minecraft:glass"
+  },
+  "result": {
+    "id": "zings_biomes:ice_crystal_tinted_glass",
+    "count": 2
+  }
+}

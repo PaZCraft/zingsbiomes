@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "enderite",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": "zings_biomes:enderite_ore",
+  "result": {
+    "id": "zings_biomes:enderite"
+  }
+}

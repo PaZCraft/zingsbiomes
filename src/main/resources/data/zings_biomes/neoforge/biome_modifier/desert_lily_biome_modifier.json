@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:desert_oasis",
+    "desert"
+  ],
+  "features": "zings_biomes:desert_lily",
+  "step": "vegetal_decoration"
+}

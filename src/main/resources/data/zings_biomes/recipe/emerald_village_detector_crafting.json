@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "emerald_village_detector",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": "minecraft:target",
+    "b": "minecraft:compass",
+    "c": "minecraft:redstone",
+    "d": "minecraft:emerald"
+  },
+  "result": {
+    "id": "zings_biomes:emerald_village_detector",
+    "count": 1
+  }
+}

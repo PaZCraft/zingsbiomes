@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:ultraviolet_moss_block",
+    "minecraft:pale_moss_block",
+    "minecraft:moss_block"
+  ]
+}

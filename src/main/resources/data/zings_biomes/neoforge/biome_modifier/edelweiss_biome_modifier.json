@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "stony_peaks",
+    "jagged_peaks"
+  ],
+  "features": "zings_biomes:edelweiss",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:termite_mound_pile",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 55
+    }
+  ]
+}

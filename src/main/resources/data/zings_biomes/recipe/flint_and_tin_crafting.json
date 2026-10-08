@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "flint_and_tin",
+  "category": "equipment",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "zings_biomes:tin_ingot",
+    "b": "minecraft:flint"
+  },
+  "result": {
+    "id": "zings_biomes:berry",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "river",
+    "mangrove_swamp",
+    "swamp"
+  ],
+  "features": "zings_biomes:cattail",
+  "step": "vegetal_decoration"
+}

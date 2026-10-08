@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:quartz_lava",
+    "zings_biomes:deepslate_magma_block",
+    "zings_biomes:soul_magma_block",
+    "zings_biomes:sand_magma",
+    "zings_biomes:quartz_magma_block",
+    "zings_biomes:soul_lava"
+  ]
+}

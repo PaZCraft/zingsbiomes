@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tin_helmet",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "zings_biomes:tin_ingot"
+  },
+  "result": {
+    "id": "zings_biomes:tin_armor_helmet",
+    "count": 1
+  }
+}

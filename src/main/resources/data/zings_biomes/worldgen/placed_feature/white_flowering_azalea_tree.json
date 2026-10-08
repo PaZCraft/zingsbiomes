@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:white_flowering_azalea_tree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    }
+  ]
+}

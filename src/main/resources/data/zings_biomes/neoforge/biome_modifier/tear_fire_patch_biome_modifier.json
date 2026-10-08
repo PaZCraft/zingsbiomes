@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:tear_sand_valley",
+  "features": "zings_biomes:tear_fire_patch",
+  "step": "surface_structures"
+}

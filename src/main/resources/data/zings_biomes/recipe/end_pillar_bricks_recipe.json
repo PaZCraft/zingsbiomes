@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "end_pillar_bricks",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "zings_biomes:end_pillar"
+  },
+  "result": {
+    "id": "zings_biomes:dark_purpur_bricks",
+    "count": 4
+  }
+}

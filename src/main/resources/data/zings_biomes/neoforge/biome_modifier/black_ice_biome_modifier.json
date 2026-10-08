@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:frozegrove_swamp",
+    "deep_frozen_ocean",
+    "frozen_ocean",
+    "frozen_peaks",
+    "frozen_river",
+    "taiga"
+  ],
+  "features": "zings_biomes:black_ice",
+  "step": "underground_ores"
+}

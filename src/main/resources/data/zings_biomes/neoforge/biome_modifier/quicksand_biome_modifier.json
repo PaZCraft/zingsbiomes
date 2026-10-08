@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:dusty_peaks",
+    "desert",
+    "zings_biomes:desert_oasis",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "features": "zings_biomes:quicksand",
+  "step": "underground_ores"
+}

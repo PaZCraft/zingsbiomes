@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "silver_helmet",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "zings_biomes:silver_ingot"
+  },
+  "result": {
+    "id": "zings_biomes:silver_armor_helmet",
+    "count": 1
+  }
+}

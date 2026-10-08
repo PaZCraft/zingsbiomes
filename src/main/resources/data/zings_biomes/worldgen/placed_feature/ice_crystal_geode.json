@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:ice_crystal_geode",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    }
+  ]
+}

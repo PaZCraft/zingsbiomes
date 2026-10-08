@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:fungi_caves",
+    "mushroom_fields"
+  ],
+  "features": "zings_biomes:huge_spiked_brown_mushroom",
+  "step": "vegetal_decoration"
+}

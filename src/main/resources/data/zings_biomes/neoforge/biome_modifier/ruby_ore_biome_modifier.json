@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "jagged_peaks",
+    "grove",
+    "stony_peaks"
+  ],
+  "features": "zings_biomes:ruby_ore",
+  "step": "underground_ores"
+}

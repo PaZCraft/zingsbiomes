@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "swamp",
+  "features": "zings_biomes:huge_mangrove_shroom",
+  "step": "vegetal_decoration"
+}

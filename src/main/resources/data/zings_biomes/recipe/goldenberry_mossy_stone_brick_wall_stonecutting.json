@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "zings_biomes:goldenberry_mossy_stone_bricks",
+  "result": {
+    "id": "zings_biomes:goldenberry_mossy_stone_brick_wall",
+    "count": 1
+  }
+}

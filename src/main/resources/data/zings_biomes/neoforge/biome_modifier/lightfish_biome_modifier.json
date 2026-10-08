@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_lightfish",
+  "spawners": {
+    "type": "zings_biomes:lightfish",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

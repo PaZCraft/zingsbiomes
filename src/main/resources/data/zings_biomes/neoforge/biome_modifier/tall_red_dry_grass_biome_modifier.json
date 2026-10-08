@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:red_beach",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "features": "zings_biomes:tall_red_dry_grass",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_black_bear",
+  "spawners": {
+    "type": "zings_biomes:black_bear",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

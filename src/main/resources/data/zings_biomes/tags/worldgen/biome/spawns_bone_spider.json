@@ -1,0 +1,7 @@
+{
+    "replace":  false,
+    "values":  [
+                   "zings_biomes:wither_forest",
+                   "soul_sand_valley"
+               ]
+}

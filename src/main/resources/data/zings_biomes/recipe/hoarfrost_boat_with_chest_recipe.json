@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat_with_chest",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "zings_biomes:hoarfrost_boat",
+    "b": "minecraft:chest"
+  },
+  "result": {
+    "id": "zings_biomes:hoarfrost_boat_with_chest",
+    "count": 1
+  }
+}

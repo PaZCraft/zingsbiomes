@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "flower_forest",
+  "features": "zings_biomes:poppilion",
+  "step": "vegetal_decoration"
+}

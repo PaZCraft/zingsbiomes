@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowing_blue_orchid",
+  "category": "building",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:blue_orchid",
+    "b": "minecraft:glow_ink_sac"
+  },
+  "result": {
+    "id": "zings_biomes:glowing_blue_orchid",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mossy_stone_bricks",
+  "category": "building",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:stone_bricks",
+    "b": "zings_biomes:cherry_moss"
+  },
+  "result": {
+    "id": "zings_biomes:cherry_mossy_stone_bricks",
+    "count": 1
+  }
+}

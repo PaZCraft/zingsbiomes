@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "below_trunk_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:cannot_replace_below_tree_trunk"
+            }
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dirt"
+            }
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "zings_biomes:fir_leaves"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "zings_biomes:fir_log"
+      }
+    },
+    "ignore_vines": true,
+    "foliage_placer": {
+      "type": "minecraft:pine_foliage_placer",
+      "offset": 1,
+      "radius": 1,
+      "height": {
+        "type": "uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 6,
+      "height_rand_a": 4,
+      "height_rand_b": 0
+    },
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 2,
+      "lower_size": 0,
+      "upper_size": 2
+    },
+    "decorators": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_golden_helmet",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "zings_biomes:blue_gold_ingot"
+  },
+  "result": {
+    "id": "zings_biomes:blue_golden_helmet",
+    "count": 1
+  }
+}

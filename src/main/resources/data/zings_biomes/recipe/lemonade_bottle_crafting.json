@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lemonade_bottle",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "aa "
+  ],
+  "key": {
+    "a": "minecraft:glass_bottle",
+    "b": "zings_biomes:lemon"
+  },
+  "result": {
+    "id": "zings_biomes:lemonade_bottle",
+    "count": 4
+  }
+}

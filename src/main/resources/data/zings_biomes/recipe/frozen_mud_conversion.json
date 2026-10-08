@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "frozen_mud",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:ice",
+    "b": "minecraft:mud"
+  },
+  "result": {
+    "id": "zings_biomes:frozen_mud",
+    "count": 1
+  }
+}

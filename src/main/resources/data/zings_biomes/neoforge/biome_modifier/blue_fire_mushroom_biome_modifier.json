@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "soul_sand_valley",
+  "features": "zings_biomes:blue_fire_mushroom",
+  "step": "vegetal_decoration"
+}

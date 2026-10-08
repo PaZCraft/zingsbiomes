@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:frozegrove_swamp",
+    "mushroom_fields",
+    "swamp"
+  ],
+  "features": "zings_biomes:huge_indigo_mushroom",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "harness",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": "minecraft:leather",
+    "b": "minecraft:glass",
+    "c": "zings_biomes:pale_light_blue_wool"
+  },
+  "result": {
+    "id": "zings_biomes:pale_light_blue_harness",
+    "count": 1
+  }
+}

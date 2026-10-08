@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "warm_ocean",
+                   "lukewarm_ocean",
+                   "ocean",
+                   "cold_ocean",
+                   "frozen_ocean",
+                   "deep_lukewarm_ocean",
+                   "deep_ocean",
+                   "deep_cold_ocean",
+                   "deep_frozen_ocean",
+                   "zings_biomes:sweet_ocean",
+                   "zings_biomes:starlight_ocean"
+               ]
+}

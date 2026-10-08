@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "zings_biomes:ultraviolet_oak_tree_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 804660916
+  }
+}

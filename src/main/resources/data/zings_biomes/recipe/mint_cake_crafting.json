@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mint_cake",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": "zings_biomes:green_milk_bucket",
+    "b": "zings_biomes:mint_sugar",
+    "c": "minecraft:egg",
+    "d": "minecraft:wheat"
+  },
+  "result": {
+    "id": "zings_biomes:mint_cake",
+    "count": 1
+  }
+}

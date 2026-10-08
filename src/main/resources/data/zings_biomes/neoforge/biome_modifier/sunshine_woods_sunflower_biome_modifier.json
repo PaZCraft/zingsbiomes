@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:sunshine_woods",
+  "features": "zings_biomes:sunshine_woods_sunflower",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_kapok_log",
+    "zings_biomes:stripped_kapok_wood",
+    "zings_biomes:kapok_log",
+    "zings_biomes:kapok_wood"
+  ]
+}

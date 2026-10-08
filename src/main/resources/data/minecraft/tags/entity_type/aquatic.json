@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:starfish",
+    "zings_biomes:shrimp",
+    "zings_biomes:ash_guardian",
+    "zings_biomes:sardine",
+    "zings_biomes:lightfish",
+    "zings_biomes:sunfish",
+    "zings_biomes:tuna",
+    "zings_biomes:jawfish",
+    "zings_biomes:waves",
+    "zings_biomes:manta_ray",
+    "zings_biomes:anglerfish",
+    "zings_biomes:lava_squid",
+    "zings_biomes:barreleye",
+    "zings_biomes:koi",
+    "zings_biomes:seabunny",
+    "zings_biomes:swordfish",
+    "zings_biomes:flood_creeper",
+    "zings_biomes:seahorse",
+    "zings_biomes:trout",
+    "zings_biomes:sea_urchin",
+    "zings_biomes:jellyfish"
+  ]
+}

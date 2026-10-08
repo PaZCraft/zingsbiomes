@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_ingot",
+    "minecraft:netherite_ingot",
+    "minecraft:iron_ingot",
+    "zings_biomes:tin_ingot",
+    "zings_biomes:blue_gold_ingot",
+    "minecraft:copper_ingot",
+    "zings_biomes:silver_ingot"
+  ]
+}

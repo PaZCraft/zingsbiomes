@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:mossbark_forest",
+    "zings_biomes:frozegrove_swamp",
+    "zings_biomes:icicle_caves",
+    "zings_biomes:grazed_taiga",
+    "zings_biomes:hoarfrost_timber"
+  ]
+}

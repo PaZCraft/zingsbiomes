@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_golden_axe",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": "zings_biomes:blue_gold_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "zings_biomes:blue_golden_axe",
+    "count": 1
+  }
+}

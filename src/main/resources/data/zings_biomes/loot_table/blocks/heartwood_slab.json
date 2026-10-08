@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/heartwood_slab",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:heartwood_slab",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "zings_biomes:heartwood_slab",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

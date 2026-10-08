@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:frozegrove_swamp",
+    "mangrove_swamp"
+  ],
+  "features": "zings_biomes:mangrove_leaf_litter",
+  "step": "vegetal_decoration"
+}

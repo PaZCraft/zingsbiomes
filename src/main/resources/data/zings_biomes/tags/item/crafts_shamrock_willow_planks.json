@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_shamrock_willow_wood",
+    "zings_biomes:stripped_shamrock_willow_log",
+    "zings_biomes:shamrock_willow_log",
+    "zings_biomes:shamrock_willow_wood"
+  ]
+}

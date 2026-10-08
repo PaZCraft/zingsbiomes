@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:winter_wheat",
+    "zings_biomes:winter_wheat_seeds",
+    "zings_biomes:sunflower_seeds",
+    "minecraft:sunflower"
+  ]
+}

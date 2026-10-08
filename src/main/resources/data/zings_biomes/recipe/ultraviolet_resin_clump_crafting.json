@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ultraviolet_resin_clump",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "zings_biomes:block_of_ultraviolet_resin"
+  },
+  "result": {
+    "id": "zings_biomes:ultraviolet_resin_clump",
+    "count": 9
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:old_growth_baobab_savanna",
+    "savanna"
+  ],
+  "features": "zings_biomes:termite_mound_pile",
+  "step": "vegetal_decoration"
+}

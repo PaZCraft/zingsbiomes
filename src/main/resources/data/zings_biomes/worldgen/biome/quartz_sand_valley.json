@@ -1,0 +1,119 @@
+{
+  "has_precipitation": true,
+  "temperature": 2,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -13428224,
+    "grass_color": -8626891,
+    "water_color": -10078976
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "ambient.soul_sand_valley.loop",
+      "mood": {
+        "sound": "ambient.soul_sand_valley.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "ambient.soul_sand_valley.additions",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "zings_biomes:music.zings_biomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "poof"
+        },
+        "probability": 0.001
+      }
+    ],
+    "minecraft:visual/sky_color": -13159,
+    "minecraft:visual/fog_color": -7441326,
+    "minecraft:visual/water_fog_color": -6733568
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zings_biomes:scorched",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:nether_creeper",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:soul_burned_spider",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "stray",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "husk",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "parched",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "creature": [
+      {
+        "type": "wolf",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "rabbit",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

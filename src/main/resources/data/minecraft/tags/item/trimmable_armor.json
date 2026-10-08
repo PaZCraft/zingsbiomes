@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:enderite_armor_helmet",
+    "zings_biomes:silver_armor_chestplate",
+    "zings_biomes:silver_armor_leggings",
+    "zings_biomes:tin_armor_boots",
+    "zings_biomes:blue_golden_helmet",
+    "zings_biomes:enderite_armor_boots",
+    "zings_biomes:silver_armor_helmet",
+    "zings_biomes:silver_armor_boots",
+    "zings_biomes:enderite_armor_leggings",
+    "zings_biomes:tin_armor_leggings",
+    "zings_biomes:tin_armor_chestplate",
+    "zings_biomes:blue_golden_leggings",
+    "zings_biomes:blue_golden_chestplate",
+    "zings_biomes:enderite_armor_chestplate",
+    "zings_biomes:tin_armor_helmet",
+    "zings_biomes:blue_golden_boots"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_biomes:generates_silver_ore",
+  "features": "zings_biomes:silver_ore",
+  "step": "underground_ores"
+}

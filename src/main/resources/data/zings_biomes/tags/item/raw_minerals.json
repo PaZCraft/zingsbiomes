@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:raw_silver",
+    "minecraft:raw_gold",
+    "minecraft:raw_iron",
+    "zings_biomes:raw_tin",
+    "minecraft:raw_copper"
+  ]
+}

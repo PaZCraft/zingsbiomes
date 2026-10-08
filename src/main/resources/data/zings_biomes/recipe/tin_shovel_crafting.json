@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tin_shovel",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "zings_biomes:tin_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "zings_biomes:tin_shovel",
+    "count": 1
+  }
+}

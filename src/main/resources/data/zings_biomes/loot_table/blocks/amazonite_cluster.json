@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/amazonite_cluster",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:amazonite_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

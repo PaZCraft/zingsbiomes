@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:dusk_desert",
+  "features": "zings_biomes:dusk_cactus_flower",
+  "step": "vegetal_decoration"
+}

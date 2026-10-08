@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:flooded_caves",
+    "mushroom_fields",
+    "dark_forest",
+    "zings_biomes:fungi_caves",
+    "swamp"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:pale_oak_biomes",
+  "spawners": {
+    "type": "zings_biomes:weeping_wooden_birdzing",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

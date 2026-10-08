@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "basalt_deltas",
+    "zings_biomes:volcanic_caves"
+  ],
+  "features": "zings_biomes:obsidian_gravel",
+  "step": "underground_ores"
+}

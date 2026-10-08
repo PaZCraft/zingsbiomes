@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_mountaineer",
+  "spawners": {
+    "type": "zings_biomes:mountaineer",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

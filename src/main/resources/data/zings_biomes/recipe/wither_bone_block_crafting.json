@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wither_bone_block",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "zings_biomes:wither_bone",
+    "b": "minecraft:bone_block"
+  },
+  "result": {
+    "id": "zings_biomes:wither_bone_block",
+    "count": 1
+  }
+}

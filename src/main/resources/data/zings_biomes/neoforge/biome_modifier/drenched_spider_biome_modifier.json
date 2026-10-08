@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_drenched_spider",
+    "spawners":  {
+                     "type":  "zings_biomes:drenched_spider",
+                     "weight":  10,
+                     "minCount":  4,
+                     "maxCount":  4
+                 }
+}

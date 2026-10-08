@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_biomes:blocks/amberstone",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zings_biomes:amber",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

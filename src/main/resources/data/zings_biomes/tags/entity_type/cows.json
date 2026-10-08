@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "cow",
+    "zings_biomes:water_buffalo",
+    "zings_biomes:shamrock_cow",
+    "zings_biomes:inverted_shamrock_cow"
+  ]
+}

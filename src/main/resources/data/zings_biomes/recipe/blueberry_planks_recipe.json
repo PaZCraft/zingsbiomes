@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blueberry_planks",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_blueberry_planks"
+  },
+  "result": {
+    "id": "zings_biomes:blueberry_planks",
+    "count": 4
+  }
+}

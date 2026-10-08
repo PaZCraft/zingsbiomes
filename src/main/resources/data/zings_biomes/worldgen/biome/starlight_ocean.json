@@ -1,0 +1,128 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -16764109,
+    "grass_color": -16751002,
+    "water_color": -16764058
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "ambient.underwater.loop",
+      "mood": {
+        "sound": "ambient.underwater.loop.additions.rare",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "ambient.underwater.loop.additions",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "zings_biomes:music.zings_biomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "electric_spark"
+        },
+        "probability": 0.003
+      }
+    ],
+    "minecraft:visual/sky_color": -13434778,
+    "minecraft:visual/fog_color": -16777165,
+    "minecraft:visual/water_fog_color": -16777165
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zings_biomes:scorched",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:flood_creeper",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:drenched_spider",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "drowned",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [
+      {
+        "type": "axolotl",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "underground_water_creature": [],
+    "water_creature": [
+      {
+        "type": "turtle",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "dolphin",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zombie_nautilus",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

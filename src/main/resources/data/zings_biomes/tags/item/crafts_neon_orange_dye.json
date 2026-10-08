@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:orange_flowering_azalea",
+    "zings_biomes:orange_rose",
+    "minecraft:orange_tulip",
+    "zings_biomes:scarlet_globemallow",
+    "zings_biomes:orange_rose_bush",
+    "zings_biomes:poppilion",
+    "zings_biomes:orange_flowering_azalea_leaves",
+    "minecraft:torchflower",
+    "zings_biomes:orange_sunflower"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:coral_sand",
+    "zings_biomes:dusk_sand",
+    "zings_biomes:grassy_red_sand",
+    "zings_biomes:grassy_sand"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:old_growth_baobab_savanna",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "wooded_badlands"
+  ],
+  "features": "zings_biomes:baobab_leaf_litter",
+  "step": "vegetal_decoration"
+}

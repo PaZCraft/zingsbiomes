@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "zings_biomes:coral_sand"
+          }
+        },
+        "state": {
+          "Name": "zings_biomes:sand_magma"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "zings_biomes:dusk_sand"
+          }
+        },
+        "state": {
+          "Name": "zings_biomes:sand_magma"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:sand"
+        },
+        "state": {
+          "Name": "zings_biomes:sand_magma"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "zings_biomes:dusk_sandstone"
+          }
+        },
+        "state": {
+          "Name": "zings_biomes:sand_magma"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "c:sandstone/blocks"
+        },
+        "state": {
+          "Name": "zings_biomes:sand_magma"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "c:sandstone/blocks"
+        },
+        "state": {
+          "Name": "zings_biomes:sand_magma"
+        }
+      }
+    ]
+  }
+}

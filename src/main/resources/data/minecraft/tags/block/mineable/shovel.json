@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:patched_end_soil",
+    "zings_biomes:blue_gold_ore",
+    "zings_biomes:soil_blue_gold_ore",
+    "zings_biomes:dusk_sand",
+    "zings_biomes:ash",
+    "zings_biomes:obsidian_gravel",
+    "zings_biomes:dried_grass_block",
+    "zings_biomes:blue_permafrost"
+  ]
+}

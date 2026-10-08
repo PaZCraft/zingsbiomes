@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/world/entity/raid/Raid$RaiderType",
+      "name": "ZINGS_BIOMES_MOUNTAINEER",
+      "constructor": "(Ljava/util/function/Supplier;[I)V",
+      "parameters": {
+        "class": "net/mcreator/zingsbiomes/entity/MountaineerEntity",
+        "field": "RAIDER_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/raid/Raid$RaiderType",
+      "name": "ZINGS_BIOMES_SAND_WITCH",
+      "constructor": "(Ljava/util/function/Supplier;[I)V",
+      "parameters": {
+        "class": "net/mcreator/zingsbiomes/entity/SandWitchEntity",
+        "field": "RAIDER_TYPE"
+      }
+    }
+  ]
+}

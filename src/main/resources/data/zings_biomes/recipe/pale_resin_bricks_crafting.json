@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pale_resin_bricks",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "zings_biomes:pale_resin_brick"
+  },
+  "result": {
+    "id": "zings_biomes:pale_resin_bricks",
+    "count": 1
+  }
+}

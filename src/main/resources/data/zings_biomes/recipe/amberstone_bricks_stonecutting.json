@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "zings_biomes:polished_amberstone",
+  "result": {
+    "id": "zings_biomes:amberstone_bricks",
+    "count": 1
+  }
+}

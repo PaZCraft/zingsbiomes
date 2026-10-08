@@ -1,0 +1,11 @@
+{
+    "replace":  false,
+    "values":  [
+                   "savanna",
+                   "savanna_plateau",
+                   "windswept_savanna",
+                   "zings_biomes:old_growth_baobab_savanna",
+                   "sparse_jungle",
+                   "plains"
+               ]
+}

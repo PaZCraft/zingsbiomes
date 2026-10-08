@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lemon",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "zings_biomes:lemonsweet_coral"
+  },
+  "result": {
+    "id": "zings_biomes:lemon",
+    "count": 5
+  }
+}

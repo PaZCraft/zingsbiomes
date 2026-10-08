@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "lush_caves",
+  "features": "zings_biomes:big_pale_dripleaf",
+  "step": "vegetal_decoration"
+}

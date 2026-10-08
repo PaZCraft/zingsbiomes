@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enderite_pickaxe",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "zings_biomes:enderite",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "zings_biomes:enderite_pickaxe",
+    "count": 1
+  }
+}

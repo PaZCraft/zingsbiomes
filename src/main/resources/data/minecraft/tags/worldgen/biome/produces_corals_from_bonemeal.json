@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:flooded_caves",
+    "zings_biomes:sweet_ocean",
+    "zings_biomes:amaranth_ocean",
+    "zings_biomes:starlight_ocean",
+    "zings_biomes:deep_amaranth_ocean"
+  ]
+}

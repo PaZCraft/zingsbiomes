@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_chorus_log",
+    "zings_biomes:chorus_wood",
+    "zings_biomes:patched_chorus_log",
+    "zings_biomes:chorus_log",
+    "zings_biomes:single_patched_chorus_log",
+    "zings_biomes:stripped_chorus_wood"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mossy_stone_brick_wall",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:blueberry_mossy_stone_bricks"
+  },
+  "result": {
+    "id": "zings_biomes:blueberry_mossy_stone_brick_wall",
+    "count": 6
+  }
+}

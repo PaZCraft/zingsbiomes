@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:blue_driftwood_wood",
+    "zings_biomes:stripped_blue_driftwood_log",
+    "zings_biomes:stripped_blue_driftwood_wood",
+    "zings_biomes:blue_driftwood_log"
+  ]
+}

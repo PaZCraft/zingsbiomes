@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_biomes:generates_rose_bush",
+  "features": "zings_biomes:blue_rose_bush",
+  "step": "vegetal_decoration"
+}

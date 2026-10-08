@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "swamp",
+  "features": "zings_biomes:willow_leaf_litter",
+  "step": "vegetal_decoration"
+}

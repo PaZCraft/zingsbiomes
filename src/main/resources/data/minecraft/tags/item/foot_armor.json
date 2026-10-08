@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:enderite_armor_boots",
+    "zings_biomes:tin_armor_boots",
+    "zings_biomes:silver_armor_boots",
+    "zings_biomes:blue_golden_boots"
+  ]
+}

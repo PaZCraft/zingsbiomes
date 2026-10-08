@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:floodstone_grass_block",
+    "minecraft:grass_block",
+    "zings_biomes:grassy_red_sand",
+    "minecraft:mycelium",
+    "zings_biomes:mudded_grass_block",
+    "zings_biomes:floodstone",
+    "zings_biomes:mossy_mud",
+    "zings_biomes:frozen_mud",
+    "minecraft:mud",
+    "zings_biomes:grassy_sand"
+  ]
+}

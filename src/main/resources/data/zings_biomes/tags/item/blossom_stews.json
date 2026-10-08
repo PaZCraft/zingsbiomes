@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:darkblossom_stew",
+    "zings_biomes:seablossom_stew",
+    "zings_biomes:ultrablossom_stew",
+    "zings_biomes:eyeblossom_stew"
+  ]
+}

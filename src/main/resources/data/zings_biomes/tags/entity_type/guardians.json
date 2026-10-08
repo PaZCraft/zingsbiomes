@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:ash_guardian",
+    "elder_guardian",
+    "guardian"
+  ]
+}

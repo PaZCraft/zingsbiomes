@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:ultraviolet_garden",
+  "features": "zings_biomes:ultraviolet_leaf_litter",
+  "step": "vegetal_decoration"
+}

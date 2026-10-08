@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_sea_urchin",
+  "spawners": {
+    "type": "zings_biomes:sea_urchin",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

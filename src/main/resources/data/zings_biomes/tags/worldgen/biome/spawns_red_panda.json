@@ -1,0 +1,11 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bamboo_jungle",
+                   "taiga",
+                   "old_growth_pine_taiga",
+                   "old_growth_spruce_taiga",
+                   "grove",
+                   "snowy_taiga"
+               ]
+}

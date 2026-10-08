@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mint_sugar",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "zings_biomes:mint_sugar_cane"
+  },
+  "result": {
+    "id": "zings_biomes:mint_sugar",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:grazed_taiga",
+  "features": "zings_biomes:grazed_spruce_bush",
+  "step": "vegetal_decoration"
+}

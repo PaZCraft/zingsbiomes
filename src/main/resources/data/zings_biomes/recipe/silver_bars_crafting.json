@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bars",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:silver_ingot"
+  },
+  "result": {
+    "id": "zings_biomes:silver_bars",
+    "count": 16
+  }
+}

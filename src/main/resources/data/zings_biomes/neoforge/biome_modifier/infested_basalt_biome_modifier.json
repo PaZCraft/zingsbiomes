@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:volcanic_caves",
+  "features": "zings_biomes:infested_basalt",
+  "step": "underground_ores"
+}

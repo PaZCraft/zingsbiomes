@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_elk",
+  "spawners": {
+    "type": "zings_biomes:elk",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

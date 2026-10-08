@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "plains",
+                   "forest",
+                   "birch_forest",
+                   "taiga",
+                   "jungle",
+                   "sparse_jungle",
+                   "savanna",
+                   "desert",
+                   "swamp",
+                   "mangrove_swamp",
+                   "dark_forest"
+               ]
+}

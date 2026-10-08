@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:grazed_taiga",
+    "zings_biomes:red_beach",
+    "zings_biomes:shamrock_glade",
+    "zings_biomes:deep_amaranth_ocean"
+  ]
+}

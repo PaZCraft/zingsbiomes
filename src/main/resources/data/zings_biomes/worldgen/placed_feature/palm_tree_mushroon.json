@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:palm_tree_mushroon",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 67
+    }
+  ]
+}

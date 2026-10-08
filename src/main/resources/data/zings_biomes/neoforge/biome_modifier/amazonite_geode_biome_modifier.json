@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_biomes:desert_oasis",
+    "bamboo_jungle",
+    "mangrove_swamp"
+  ],
+  "features": "zings_biomes:amazonite_geode",
+  "step": "underground_decoration"
+}

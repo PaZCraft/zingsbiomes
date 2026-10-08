@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_chorus_snail",
+    "spawners":  {
+                     "type":  "zings_biomes:chorus_snail",
+                     "weight":  15,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

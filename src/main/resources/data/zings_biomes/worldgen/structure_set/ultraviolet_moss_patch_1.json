@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "zings_biomes:ultraviolet_moss_patch_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 1772474342
+  }
+}

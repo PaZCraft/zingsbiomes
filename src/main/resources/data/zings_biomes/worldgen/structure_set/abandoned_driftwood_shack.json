@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "zings_biomes:abandoned_driftwood_shack",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 300506337
+  }
+}

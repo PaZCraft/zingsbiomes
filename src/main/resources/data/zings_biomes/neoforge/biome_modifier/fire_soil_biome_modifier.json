@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:fire_sand_valley",
+  "features": "zings_biomes:fire_soil",
+  "step": "underground_ores"
+}

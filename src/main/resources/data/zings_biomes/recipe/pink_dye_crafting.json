@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pink_dye",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_pink_dye"
+  },
+  "result": {
+    "id": "minecraft:pink_dye",
+    "count": 1
+  }
+}

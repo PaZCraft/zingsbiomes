@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_hippo",
+  "spawners": {
+    "type": "zings_biomes:hippo",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 5
+  }
+}

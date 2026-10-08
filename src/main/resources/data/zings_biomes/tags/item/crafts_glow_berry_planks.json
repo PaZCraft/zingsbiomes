@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_glow_berry_log",
+    "zings_biomes:glow_berry_log",
+    "zings_biomes:glow_berry_wood",
+    "zings_biomes:stripped_glow_berry_wood"
+  ]
+}

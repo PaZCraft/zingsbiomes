@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crimson_apple_pie",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    " c"
+  ],
+  "key": {
+    "a": "zings_biomes:crimson_apple",
+    "b": "minecraft:sugar",
+    "c": "#minecraft:eggs"
+  },
+  "result": {
+    "id": "zings_biomes:crimson_apple_pie",
+    "count": 1
+  }
+}

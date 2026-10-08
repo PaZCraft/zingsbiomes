@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_sardine",
+  "spawners": {
+    "type": "zings_biomes:sardine",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 10
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "replace":  false,
+    "values":  [
+                   "forest",
+                   "birch_forest",
+                   "old_growth_birch_forest",
+                   "dark_forest",
+                   "cherry_grove",
+                   "grove",
+                   "taiga",
+                   "swamp",
+                   "river"
+               ]
+}

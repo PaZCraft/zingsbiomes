@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flower_forest",
+    "dark_forest"
+  ],
+  "features": "zings_biomes:rose_vine",
+  "step": "underground_ores"
+}

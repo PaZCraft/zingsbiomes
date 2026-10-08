@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "door",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "zings_biomes:blueberry_planks"
+  },
+  "result": {
+    "id": "zings_biomes:blueberry_door",
+    "count": 3
+  }
+}

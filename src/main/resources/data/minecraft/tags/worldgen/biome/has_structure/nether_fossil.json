@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:fire_sand_valley",
+    "zings_biomes:yolked_forest",
+    "zings_biomes:tear_sand_valley",
+    "zings_biomes:wither_forest",
+    "zings_biomes:quartz_sand_valley"
+  ]
+}

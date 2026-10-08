@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "end_barrens",
+    "small_end_islands"
+  ],
+  "features": "zings_biomes:void_shrub",
+  "step": "vegetal_decoration"
+}

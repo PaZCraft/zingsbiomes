@@ -1,0 +1,11 @@
+{
+    "replace":  false,
+    "values":  [
+                   "river",
+                   "swamp",
+                   "savanna",
+                   "savanna_plateau",
+                   "jungle",
+                   "sparse_jungle"
+               ]
+}

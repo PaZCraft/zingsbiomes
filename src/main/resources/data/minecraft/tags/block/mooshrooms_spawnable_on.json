@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:floodstone_grass_block",
+    "zings_biomes:fossilized_prototaxite_block",
+    "zings_biomes:prototaxite_block"
+  ]
+}

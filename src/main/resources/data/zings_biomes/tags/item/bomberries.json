@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:white_bomberry",
+    "zings_biomes:purple_bomberry",
+    "zings_biomes:blue_bomberry",
+    "zings_biomes:red_bomberry",
+    "zings_biomes:yellow_bomberry",
+    "zings_biomes:green_bomberry"
+  ]
+}

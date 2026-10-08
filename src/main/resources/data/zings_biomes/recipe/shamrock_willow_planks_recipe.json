@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shamrock_willow_planks",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_shamrock_willow_planks"
+  },
+  "result": {
+    "id": "zings_biomes:shamrock_willow_planks",
+    "count": 4
+  }
+}

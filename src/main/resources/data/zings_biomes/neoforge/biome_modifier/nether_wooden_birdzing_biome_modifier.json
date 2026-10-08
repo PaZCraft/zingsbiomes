@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:crimson_biomes",
+  "spawners": {
+    "type": "zings_biomes:nether_wooden_birdzing",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mossbark_planks",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_mossbark_planks"
+  },
+  "result": {
+    "id": "zings_biomes:mossbark_planks",
+    "count": 4
+  }
+}

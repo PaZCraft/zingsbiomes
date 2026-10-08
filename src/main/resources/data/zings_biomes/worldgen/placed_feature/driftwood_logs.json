@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:driftwood_logs",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 75
+    }
+  ]
+}

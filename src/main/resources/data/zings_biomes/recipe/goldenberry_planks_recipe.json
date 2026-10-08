@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "goldenberry_planks",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_goldenberry_planks"
+  },
+  "result": {
+    "id": "zings_biomes:goldenberry_planks",
+    "count": 4
+  }
+}

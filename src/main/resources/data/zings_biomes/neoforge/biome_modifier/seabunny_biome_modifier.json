@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_seabunny",
+    "spawners":  {
+                     "type":  "zings_biomes:seabunny",
+                     "weight":  5,
+                     "minCount":  1,
+                     "maxCount":  2
+                 }
+}

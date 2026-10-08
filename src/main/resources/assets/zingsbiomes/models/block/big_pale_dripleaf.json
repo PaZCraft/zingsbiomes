@@ -1,5 +1,5 @@
 {
-  "parent": "zings_biomes:custom/big_dripleaf",
+  "parent": "minecraft:block/big_dripleaf",
   "textures": {
     "all": "zings_biomes:block/big_pale_dripleaf_top",
     "particle": "zings_biomes:block/big_pale_dripleaf_top",

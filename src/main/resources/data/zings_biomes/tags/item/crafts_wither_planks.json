@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_wither_hyphae",
+    "zings_biomes:wither_hyphae",
+    "zings_biomes:stripped_wither_stem",
+    "zings_biomes:wither_stem"
+  ]
+}

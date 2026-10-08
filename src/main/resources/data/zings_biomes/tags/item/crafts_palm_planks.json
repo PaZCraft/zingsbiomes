@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:stripped_palm_wood",
+    "zings_biomes:palm_wood",
+    "zings_biomes:palm_log",
+    "zings_biomes:stripped_palm_log"
+  ]
+}

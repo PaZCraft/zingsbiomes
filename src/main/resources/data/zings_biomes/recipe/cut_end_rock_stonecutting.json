@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "zings_biomes:end_rock",
+  "result": {
+    "id": "zings_biomes:cut_end_rock",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "door",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "zings_biomes:red_driftwood_planks"
+  },
+  "result": {
+    "id": "zings_biomes:red_driftwood_door",
+    "count": 3
+  }
+}

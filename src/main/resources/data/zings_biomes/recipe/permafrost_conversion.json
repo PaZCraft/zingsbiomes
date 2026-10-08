@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "permafrost",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:ice",
+    "b": "#minecraft:dirt"
+  },
+  "result": {
+    "id": "zings_biomes:permafrost",
+    "count": 1
+  }
+}

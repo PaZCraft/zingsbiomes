@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_capybara",
+  "spawners": {
+    "type": "zings_biomes:capybara",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

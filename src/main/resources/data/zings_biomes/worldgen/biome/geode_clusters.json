@@ -1,0 +1,109 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -16750951,
+    "grass_color": -16737946,
+    "water_color": -6737152
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "block.amethyst_block.chime",
+      "mood": {
+        "sound": "block.glass.break",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "block.amethyst_block.resonate",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "zings_biomes:music.zings_biomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "electric_spark"
+        },
+        "probability": 0.002
+      }
+    ],
+    "minecraft:visual/sky_color": -3381505,
+    "minecraft:visual/fog_color": -10053121,
+    "minecraft:visual/water_fog_color": -3381760
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zings_biomes:mountaineer",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "bat",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [],
+    []
+  ]
+}

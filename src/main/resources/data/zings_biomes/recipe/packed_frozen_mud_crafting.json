@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "packed_frozen_mud",
+  "category": "building",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "zings_biomes:frozen_mud",
+    "b": "minecraft:wheat"
+  },
+  "result": {
+    "id": "zings_biomes:packed_frozen_mud",
+    "count": 1
+  }
+}

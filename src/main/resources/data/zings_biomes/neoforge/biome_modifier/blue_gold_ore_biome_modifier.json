@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "soul_sand_valley",
+  "features": "zings_biomes:blue_gold_ore",
+  "step": "underground_ores"
+}

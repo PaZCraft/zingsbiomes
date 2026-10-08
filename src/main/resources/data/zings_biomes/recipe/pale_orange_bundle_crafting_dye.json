@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dyed_bundle",
+  "category": "equipment",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "#zings_biomes:bundles",
+    "b": "zings_biomes:pale_orange_dye"
+  },
+  "result": {
+    "id": "zings_biomes:pale_orange_bundle",
+    "count": 1
+  }
+}

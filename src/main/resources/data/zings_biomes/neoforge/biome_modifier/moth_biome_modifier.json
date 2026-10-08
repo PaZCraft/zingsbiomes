@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_moth",
+  "spawners": {
+    "type": "zings_biomes:moth",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_red_panda",
+  "spawners": {
+    "type": "zings_biomes:red_panda",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

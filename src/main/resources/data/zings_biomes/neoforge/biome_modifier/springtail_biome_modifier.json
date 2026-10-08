@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_springtail",
+    "spawners":  {
+                     "type":  "zings_biomes:springtail",
+                     "weight":  15,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

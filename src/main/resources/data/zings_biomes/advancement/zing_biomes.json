@@ -1,0 +1,34 @@
+{
+  "display": {
+    "background": "zings_biomes:screens/biome_advancement_background",
+    "icon": {
+      "id": "zings_biomes:zing_book_volume_five"
+    },
+    "title": {
+      "translate": "advancements.zing_biomes.title"
+    },
+    "description": {
+      "translate": "advancements.zing_biomes.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "zing_biomes_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "zings_biomes:zing_book_volume_five",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

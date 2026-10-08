@@ -1,0 +1,123 @@
+{
+  "has_precipitation": true,
+  "temperature": 2,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -16777165,
+    "grass_color": -16764058,
+    "water_color": -16777114
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "ambient.soul_sand_valley.loop",
+      "mood": {
+        "sound": "ambient.soul_sand_valley.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "ambient.soul_sand_valley.additions",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "zings_biomes:music.zings_biomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "dripping_water"
+        },
+        "probability": 0.003
+      }
+    ],
+    "minecraft:visual/sky_color": -16737895,
+    "minecraft:visual/fog_color": -16750951,
+    "minecraft:visual/water_fog_color": -13434727
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zings_biomes:scorched",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:nether_creeper",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zings_biomes:soul_burned_spider",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "creeper",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "ghast",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "vex",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "creature": [
+      {
+        "type": "pig",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "sheep",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue",
+      "minecraft:large_dripstone"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

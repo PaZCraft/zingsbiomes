@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "valid_base_block": {
+      "Name": "minecraft:crimson_nylium"
+    },
+    "stem_state": {
+      "Name": "minecraft:crimson_stem"
+    },
+    "hat_state": {
+      "Name": "minecraft:nether_wart_block"
+    },
+    "decor_state": {
+      "Name": "zings_biomes:crimson_shroomlight"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "#replaceable_by_trees"
+    }
+  }
+}

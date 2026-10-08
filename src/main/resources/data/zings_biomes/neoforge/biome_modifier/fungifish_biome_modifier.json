@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_fungifish",
+    "spawners":  {
+                     "type":  "zings_biomes:fungifish",
+                     "weight":  15,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

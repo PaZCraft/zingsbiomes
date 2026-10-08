@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fence_gate",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "zings_biomes:red_driftwood_planks"
+  },
+  "result": {
+    "id": "zings_biomes:red_driftwood_fence_gate",
+    "count": 1
+  }
+}

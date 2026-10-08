@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "silver_ingot",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "zings_biomes:block_of_silver"
+  },
+  "result": {
+    "id": "zings_biomes:silver_ingot",
+    "count": 9
+  }
+}

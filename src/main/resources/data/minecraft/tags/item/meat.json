@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:cooked_duck",
+    "zings_biomes:cooked_venison",
+    "zings_biomes:cooked_tuna",
+    "zings_biomes:raw_venison",
+    "zings_biomes:cooked_shrimp",
+    "zings_biomes:raw_tuna",
+    "zings_biomes:raw_duck"
+  ]
+}

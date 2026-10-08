@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna"
+  ],
+  "features": "zings_biomes:acacia_leaf_litter",
+  "step": "vegetal_decoration"
+}

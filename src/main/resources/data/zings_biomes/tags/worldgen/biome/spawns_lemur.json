@@ -1,0 +1,9 @@
+{
+    "replace":  false,
+    "values":  [
+                   "jungle",
+                   "sparse_jungle",
+                   "bamboo_jungle",
+                   "zings_biomes:old_growth_baobab_savanna"
+               ]
+}

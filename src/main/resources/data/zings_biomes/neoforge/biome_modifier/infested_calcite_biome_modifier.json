@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_biomes:geode_clusters",
+  "features": "zings_biomes:infested_calcite",
+  "step": "underground_ores"
+}

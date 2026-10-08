@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:clover_lisptrap",
+    "minecraft:dandelion",
+    "zings_biomes:spore_sunshine",
+    "zings_biomes:tall_yellow_wildflowers"
+  ]
+}

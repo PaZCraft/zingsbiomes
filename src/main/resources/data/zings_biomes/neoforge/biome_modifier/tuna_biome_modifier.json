@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_tuna",
+  "spawners": {
+    "type": "zings_biomes:tuna",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 5
+  }
+}

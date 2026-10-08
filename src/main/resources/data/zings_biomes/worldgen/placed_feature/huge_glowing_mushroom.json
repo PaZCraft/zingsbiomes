@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:huge_glowing_mushroom",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 25
+    }
+  ]
+}

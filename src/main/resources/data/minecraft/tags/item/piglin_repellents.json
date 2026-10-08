@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:soul_reeds",
+    "zings_biomes:soul_magma_block",
+    "zings_biomes:soul_burned_spider_spawn_egg",
+    "zings_biomes:soul_lava_bucket"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "feature": "zings_biomes:chorus_tree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 75
+    }
+  ]
+}

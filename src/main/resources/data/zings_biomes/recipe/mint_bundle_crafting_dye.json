@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dyed_bundle",
+  "category": "equipment",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "#zings_biomes:bundles",
+    "b": "zings_biomes:mint_dye"
+  },
+  "result": {
+    "id": "zings_biomes:mint_bundle",
+    "count": 1
+  }
+}

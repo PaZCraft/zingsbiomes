@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_biomes:spawns_seaghast",
+  "spawners": {
+    "type": "zings_biomes:seaghast",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_spawns",
+    "biomes":  "#zings_biomes:spawns_shrieker",
+    "spawners":  {
+                     "type":  "zings_biomes:shrieker",
+                     "weight":  5,
+                     "minCount":  1,
+                     "maxCount":  4
+                 }
+}

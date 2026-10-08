@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:blue_golden_apple",
+    "zings_biomes:blue_golden_carrot",
+    "zings_biomes:blue_golden_nugget",
+    "zings_biomes:blue_gold_ingot",
+    "zings_biomes:golden_caribou_armor",
+    "zings_biomes:raw_blue_gold"
+  ]
+}

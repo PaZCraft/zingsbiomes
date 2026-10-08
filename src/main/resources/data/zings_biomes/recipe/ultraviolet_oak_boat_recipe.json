@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:ultraviolet_oak_planks"
+  },
+  "result": {
+    "id": "zings_biomes:ultraviolet_oak_boat",
+    "count": 1
+  }
+}

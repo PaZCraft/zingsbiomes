@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "birch_forest",
+    "dark_forest",
+    "forest",
+    "old_growth_birch_forest",
+    "windswept_forest"
+  ],
+  "features": "zings_biomes:leafy_dead_bush",
+  "step": "vegetal_decoration"
+}

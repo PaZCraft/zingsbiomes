@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mossy_cobblestone_wall",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_biomes:goldenberry_mossy_cobblestone"
+  },
+  "result": {
+    "id": "zings_biomes:goldenberry_mossy_cobblestone_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "old_growth_spruce_taiga",
+    "taiga"
+  ],
+  "features": "zings_biomes:spruce_needle_litter",
+  "step": "vegetal_decoration"
+}

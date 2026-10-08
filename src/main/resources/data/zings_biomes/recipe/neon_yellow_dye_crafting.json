@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "neon_yellow_dye",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#zings_biomes:crafts_neon_yellow_dye"
+  },
+  "result": {
+    "id": "zings_biomes:neon_yellow_dye",
+    "count": 1
+  }
+}

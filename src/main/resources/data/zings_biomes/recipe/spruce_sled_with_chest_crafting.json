@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sled_with_chest",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "zings_biomes:spruce_sled_spawn_egg",
+    "b": "minecraft:chest"
+  },
+  "result": {
+    "id": "zings_biomes:spruce_sled_with_chest",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:raspberry_sapling",
+    "zings_biomes:heartwood_sapling",
+    "zings_biomes:fir_sapling",
+    "zings_biomes:green_grazed_spruce_sapling",
+    "zings_biomes:blueberry_sapling",
+    "zings_biomes:grazed_spruce_sapling",
+    "zings_biomes:brown_grazed_spruce_sapling",
+    "zings_biomes:sunshine_sapling",
+    "zings_biomes:gooseberry_sapling",
+    "zings_biomes:sweet_berry_sapling",
+    "zings_biomes:glow_berry_sapling",
+    "zings_biomes:kapok_sapling",
+    "zings_biomes:blackberry_sapling",
+    "zings_biomes:end_spruce_sapling",
+    "zings_biomes:goldenberry_sapling",
+    "zings_biomes:frozegrove_propagule",
+    "zings_biomes:ultraviolet_oak_sapling",
+    "zings_biomes:strawberry_sapling"
+  ]
+}

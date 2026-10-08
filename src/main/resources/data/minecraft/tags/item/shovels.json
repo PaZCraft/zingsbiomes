@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zings_biomes:silver_shovel",
+    "zings_biomes:enderite_shovel",
+    "zings_biomes:blue_golden_shovel",
+    "zings_biomes:tin_shovel"
+  ]
+}
