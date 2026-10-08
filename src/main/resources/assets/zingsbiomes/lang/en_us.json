@@ -1,0 +1,13 @@
+{
+  "itemGroup.zingsbiomes": "Example Mod Tab",
+  "block.zingsbiomes.example_block": "Example Block",
+  "item.zingsbiomes.example_item": "Example Item",
+
+  "zingsbiomes.configuration.title": "ZiNG's Biomes Configs",
+  "zingsbiomes.configuration.section.zingsbiomes.common.toml": "ZiNG's Biomes Configs",
+  "zingsbiomes.configuration.section.zingsbiomes.common.toml.title": "ZiNG's Biomes Configs",
+  "zingsbiomes.configuration.items": "Item List",
+  "zingsbiomes.configuration.logDirtBlock": "Log Dirt Block",
+  "zingsbiomes.configuration.magicNumberIntroduction": "Magic Number Text",
+  "zingsbiomes.configuration.magicNumber": "Magic Number"
+}
