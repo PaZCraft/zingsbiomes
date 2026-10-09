@@ -1,0 +1,9 @@
+{
+  "asset_name": "amazonite",
+  "description": {
+    "color": "#1c9971",
+    "translate": "trim_material.zings_biomes.amazonite"
+  },
+  "ingredient": "zings_biomes:amazonite_shard",
+  "item_model_index": 1.0
+}

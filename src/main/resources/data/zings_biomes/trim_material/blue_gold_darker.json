@@ -1,0 +1,10 @@
+{
+  "asset_name": "blue_gold_darker",
+  "description": {
+    "color": "#304d73",
+    "translate": "trim_material.zings_biomes.blue_gold_darker"
+  },
+  "ingredient": "zings_biomes:blue_gold_ingot",
+  "item_model_index": 1.0,
+  "override_armor_palette": true
+}

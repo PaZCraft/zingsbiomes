@@ -1,0 +1,9 @@
+{
+  "asset_name": "arctic_pearl",
+  "description": {
+    "color": "#0c4778",
+    "translate": "trim_material.zings_biomes.arctic_pearl"
+  },
+  "ingredient": "zings_biomes:arctic_pearl",
+  "item_model_index": 1.0
+}

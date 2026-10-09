@@ -1,0 +1,9 @@
+{
+  "asset_name": "ice_crystal",
+  "description": {
+    "color": "#8aa0bd",
+    "translate": "trim_material.zings_biomes.ice_crystal"
+  },
+  "ingredient": "zings_biomes:ice_crystal_shard",
+  "item_model_index": 1.0
+}

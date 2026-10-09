@@ -1,0 +1,9 @@
+{
+  "asset_name": "enderite",
+  "description": {
+    "color": "#9b17bd",
+    "translate": "trim_material.zings_biomes.enderite"
+  },
+  "ingredient": "zings_biomes:enderite",
+  "item_model_index": 1.0
+}

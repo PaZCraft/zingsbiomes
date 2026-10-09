@@ -1,0 +1,9 @@
+{
+  "asset_name": "amber",
+  "description": {
+    "color": "#cf9230",
+    "translate": "trim_material.zings_biomes.amber"
+  },
+  "ingredient": "zings_biomes:amber",
+  "item_model_index": 1.0
+}

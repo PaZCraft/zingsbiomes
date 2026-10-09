@@ -1,0 +1,9 @@
+{
+  "asset_name": "ultraviolet_resin",
+  "description": {
+    "color": "#a807e8",
+    "translate": "trim_material.zings_biomes.ultraviolet_resin"
+  },
+  "ingredient": "zings_biomes:ultraviolet_resin_brick",
+  "item_model_index": 1.0
+}

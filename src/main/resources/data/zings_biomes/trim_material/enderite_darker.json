@@ -1,0 +1,10 @@
+{
+  "asset_name": "enderite_darker",
+  "description": {
+    "color": "#390657",
+    "translate": "trim_material.zings_biomes.enderite_darker"
+  },
+  "ingredient": "zings_biomes:enderite",
+  "item_model_index": 1.0,
+  "override_armor_palette": true
+}

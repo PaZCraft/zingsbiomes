@@ -1,0 +1,9 @@
+{
+  "asset_name": "pale_resin",
+  "description": {
+    "color": "#8f7d78",
+    "translate": "trim_material.zings_biomes.pale_resin"
+  },
+  "ingredient": "zings_biomes:pale_resin_brick",
+  "item_model_index": 1.0
+}

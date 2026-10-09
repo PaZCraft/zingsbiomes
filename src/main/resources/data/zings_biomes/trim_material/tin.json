@@ -1,0 +1,9 @@
+{
+  "asset_name": "tin",
+  "description": {
+    "color": "#b09d63",
+    "translate": "trim_material.zings_biomes.tin"
+  },
+  "ingredient": "zings_biomes:tin_ingot",
+  "item_model_index": 1.0
+}

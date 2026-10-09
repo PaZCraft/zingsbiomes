@@ -1,0 +1,9 @@
+{
+  "asset_name": "carnelian",
+  "description": {
+    "color": "#991c1c",
+    "translate": "trim_material.zings_biomes.carnelian"
+  },
+  "ingredient": "zings_biomes:carnelian_shard",
+  "item_model_index": 1.0
+}

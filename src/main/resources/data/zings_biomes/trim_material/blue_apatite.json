@@ -1,0 +1,9 @@
+{
+  "asset_name": "blue_apatite",
+  "description": {
+    "color": "#1e3aeb",
+    "translate": "trim_material.zings_biomes.blue_apatite"
+  },
+  "ingredient": "zings_biomes:blue_apatite_shard",
+  "item_model_index": 1.0
+}

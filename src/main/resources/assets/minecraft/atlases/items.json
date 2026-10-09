@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "trims/items/leggings_trim",
+        "trims/items/chestplate_trim",
+        "trims/items/helmet_trim",
+        "trims/items/boots_trim"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "silver": "zings_biomes:trims/color_palettes/silver",
+        "silver_darker": "zings_biomes:trims/color_palettes/silver_darker",
+        "tin": "zings_biomes:trims/color_palettes/tin",
+        "tin_darker": "zings_biomes:trims/color_palettes/tin_darker",
+        "enderite": "zings_biomes:trims/color_palettes/enderite",
+        "enderite_darker": "zings_biomes:trims/color_palettes/enderite_darker",
+        "blue_gold": "zings_biomes:trims/color_palettes/blue_gold",
+        "blue_gold_darker": "zings_biomes:trims/color_palettes/blue_gold_darker",
+        "amazonite": "zings_biomes:trims/color_palettes/amazonite",
+        "amber": "zings_biomes:trims/color_palettes/amber",
+        "arctic_pearl": "zings_biomes:trims/color_palettes/arctic_pearl",
+        "blue_apatite": "zings_biomes:trims/color_palettes/blue_apatite",
+        "carnelian": "zings_biomes:trims/color_palettes/carnelian",
+        "citrine": "zings_biomes:trims/color_palettes/citrine",
+        "ice_crystal": "zings_biomes:trims/color_palettes/ice_crystal",
+        "pale_resin": "zings_biomes:trims/color_palettes/pale_resin",
+        "ruby": "zings_biomes:trims/color_palettes/ruby",
+        "ultraviolet_resin": "zings_biomes:trims/color_palettes/ultraviolet_resin"
+      }
+    }
+  ]
+}

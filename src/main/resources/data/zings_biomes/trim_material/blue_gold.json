@@ -1,0 +1,9 @@
+{
+  "asset_name": "blue_gold",
+  "description": {
+    "color": "#5ab0f2",
+    "translate": "trim_material.zings_biomes.blue_gold"
+  },
+  "ingredient": "zings_biomes:blue_gold_ingot",
+  "item_model_index": 1.0
+}

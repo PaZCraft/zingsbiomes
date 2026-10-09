@@ -3,5 +3,7 @@
   "description": {
     "color": "#cfbdf0",
     "translate": "trim_material.zings_biomes.silver"
-  }
+  },
+  "ingredient": "zings_biomes:silver_ingot",
+  "item_model_index": 1.0
 }

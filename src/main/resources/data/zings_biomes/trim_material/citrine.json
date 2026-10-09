@@ -1,0 +1,9 @@
+{
+  "asset_name": "citrine",
+  "description": {
+    "color": "#eb6d1e",
+    "translate": "trim_material.zings_biomes.citrine"
+  },
+  "ingredient": "zings_biomes:citrine_shard",
+  "item_model_index": 1.0
+}
