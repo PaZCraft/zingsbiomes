@@ -11,7 +11,6 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.projectile.throwableitemprojectile.AbstractThrownPotion;
 import net.minecraft.world.entity.player.Player;
@@ -63,7 +62,7 @@ public class UltrabbitEntity extends TamableAnimal {
 		this.goalSelector.addGoal(5, new BreedGoal(this, 1));
 		this.goalSelector.addGoal(6, new FollowParentGoal(this, 0.8));
 		this.goalSelector.addGoal(7, new LeapAtTargetGoal(this, (float) 0.5));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Endermite.class, false, true));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal<>(this, Endermite.class, false, true));
 		this.goalSelector.addGoal(9, new OwnerHurtByTargetGoal(this));
 		this.goalSelector.addGoal(10, new FollowOwnerGoal(this, 1, (float) 10, (float) 2));
 		this.goalSelector.addGoal(11, new PanicGoal(this, 1.2));
@@ -121,7 +120,6 @@ public class UltrabbitEntity extends TamableAnimal {
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.SUCCESS;
-		Item item = itemstack.getItem();
 		if (itemstack.getItem() instanceof SpawnEggItem) {
 			retval = super.mobInteract(sourceentity, hand);
 		} else if (this.level().isClientSide()) {

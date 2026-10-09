@@ -10,10 +10,10 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.particles.ParticleType;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 public class ZingsBiomesModParticleTypes {
-	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(Registries.PARTICLE_TYPE, ZingsBiomesMod.MODID);
+	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(Registries.PARTICLE_TYPE, ZiNGsBiomes.MODID);
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> HOARFROST_LEAF = REGISTRY.register("hoarfrost_leaf", () -> new SimpleParticleType(false));
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> YELLOW_SUNSHINE_LEAF = REGISTRY.register("yellow_sunshine_leaf", () -> new SimpleParticleType(false));
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> GREEN_SUNSHINE_LEAF = REGISTRY.register("green_sunshine_leaf", () -> new SimpleParticleType(false));

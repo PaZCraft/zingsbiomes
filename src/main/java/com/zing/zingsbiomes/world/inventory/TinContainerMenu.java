@@ -291,7 +291,7 @@ public class TinContainerMenu extends AbstractContainerMenu implements ZingsBiom
 						continue;
 					if (j == 8)
 						continue;
-					playerIn.drop(ItemUtil.getStack(internal, j), false);
+					playerIn.drop(ItemUtil.getStack(internal, j), false, null);
 					setItemInSlot(j, ItemResource.EMPTY, 0);
 				}
 			} else {
@@ -314,7 +314,7 @@ public class TinContainerMenu extends AbstractContainerMenu implements ZingsBiom
 						continue;
 					if (i == 8)
 						continue;
-					playerIn.getInventory().placeItemBackInInventory(ItemUtil.getStack(internal, i));
+					playerIn.getInventory().placeItemBackInInventory(ItemUtil.getStack(internal, i), null);
 					setItemInSlot(i, ItemResource.EMPTY, 0);
 				}
 			}

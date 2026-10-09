@@ -17,9 +17,12 @@ public class SporeeperItIsStruckByLightningProcedure {
 			return;
 		((LivingEntity) entity).getAttribute(Holder.direct(BuiltInRegistries.ATTRIBUTE.getValue(Identifier.parse("minecraft:scale")))).setBaseValue(0.1);
 		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = EntityType.BOGGED.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
-			if (entityToSpawn != null) {
-				entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+			EntityType<?> entityType = BuiltInRegistries.ENTITY_TYPE.getValue(Identifier.parse("minecraft:skeleton"));
+			if (entityType != null) {
+				Entity entityToSpawn = entityType.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+				if (entityToSpawn != null) {
+					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+				}
 			}
 		}
 	}

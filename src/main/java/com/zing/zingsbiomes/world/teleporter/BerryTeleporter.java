@@ -27,6 +27,9 @@ import net.minecraft.core.BlockPos;
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 import java.util.Optional;
+
+import javax.annotation.Nonnull;
+
 import java.util.Comparator;
 
 import com.google.common.collect.ImmutableSet;
@@ -50,6 +53,7 @@ public class BerryTeleporter {
 		this.level = level;
 	}
 
+	@SuppressWarnings("null")
 	public Optional<BlockPos> findClosestPortalPosition(BlockPos approximateExitPos, boolean toNether, WorldBorder worldBorder) {
 		PoiManager poiManager = this.level.getPoiManager();
 		int radius = toNether ? 16 : 128;
@@ -58,15 +62,16 @@ public class BerryTeleporter {
 				.filter(pos -> this.level.getBlockState(pos).hasProperty(BlockStateProperties.HORIZONTAL_AXIS)).min(Comparator.<BlockPos>comparingDouble(p -> p.distSqr(approximateExitPos)).thenComparingInt(Vec3i::getY));
 	}
 
+	@SuppressWarnings("null")
 	public Optional<BlockUtil.FoundRectangle> createPortal(BlockPos origin, Direction.Axis portalAxis) {
 		Direction direction = Direction.get(Direction.AxisDirection.POSITIVE, portalAxis);
 		double closestFullDistanceSqr = -1.0;
+		@Nonnull
 		BlockPos closestFullPosition = null;
 		double closestPartialDistanceSqr = -1.0;
 		BlockPos closestPartialPosition = null;
 		WorldBorder worldBorder = this.level.getWorldBorder();
 		int maxPlaceableY = Math.min(this.level.getMaxY(), this.level.getMinY() + this.level.getLogicalHeight() - 1);
-		int edgeDistance = 1;
 		BlockPos.MutableBlockPos mutable = origin.mutable();
 		for (BlockPos.MutableBlockPos columnPos : BlockPos.spiralAround(origin, 16, Direction.EAST, Direction.SOUTH)) {
 			int height = Math.min(maxPlaceableY, this.level.getHeight(Heightmap.Types.MOTION_BLOCKING, columnPos.getX(), columnPos.getZ()));
@@ -142,6 +147,7 @@ public class BerryTeleporter {
 		return Optional.of(new BlockUtil.FoundRectangle(closestFullPosition.immutable(), 2, 3));
 	}
 
+	@SuppressWarnings("deprecation")
 	private boolean canHostFrame(BlockPos origin, BlockPos.MutableBlockPos mutable, Direction direction, int offset) {
 		Direction clockWise = direction.getClockWise();
 		for (int width = -1; width < 3; width++) {

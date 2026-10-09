@@ -1,7 +1,5 @@
 package com.zing.zingsbiomes.fluid;
 
-import org.apache.logging.log4j.core.util.Source;
-
 import net.neoforged.neoforge.fluids.BaseFlowingFluid;
 
 import net.minecraft.world.level.material.FluidState;
@@ -12,12 +10,12 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.particles.ParticleOptions;
 
 import com.zing.zingsbiomes.init.ZingsBiomesModItems;
-import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
-import com.zing.zingsbiomes.init.ZingsBiomesModFluidTypes;
+import com.zing.zingsbiomes.init.ZiNGsBiomesFluids;
+import com.zing.zingsbiomes.init.ZiNGsBiomesFluidTypes;
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public abstract class TearLavaFluid extends BaseFlowingFluid {
-	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> ZingsBiomesModFluidTypes.TEAR_LAVA_TYPE.get(), () -> ZingsBiomesModFluids.TEAR_LAVA.get(), () -> ZingsBiomesModFluids.FLOWING_TEAR_LAVA.get())
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> ZiNGsBiomesFluidTypes.TEAR_LAVA_TYPE.get(), () -> ZiNGsBiomesFluids.TEAR_LAVA.get(), () -> ZiNGsBiomesFluids.FLOWING_TEAR_LAVA.get())
 			.explosionResistance(100f).bucket(() -> ZingsBiomesModItems.TEAR_LAVA_BUCKET.get()).block(() -> (LiquidBlock) ZingsBiomesModBlocks.TEAR_LAVA.get());
 
 	private TearLavaFluid() {

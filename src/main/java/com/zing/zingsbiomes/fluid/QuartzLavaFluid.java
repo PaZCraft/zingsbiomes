@@ -1,7 +1,5 @@
 package com.zing.zingsbiomes.fluid;
 
-import org.apache.logging.log4j.core.util.Source;
-
 import net.neoforged.neoforge.fluids.BaseFlowingFluid;
 
 import net.minecraft.world.level.material.FluidState;
@@ -10,13 +8,13 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.LiquidBlock;
 
 import com.zing.zingsbiomes.init.ZingsBiomesModItems;
-import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
-import com.zing.zingsbiomes.init.ZingsBiomesModFluidTypes;
+import com.zing.zingsbiomes.init.ZiNGsBiomesFluids;
+import com.zing.zingsbiomes.init.ZiNGsBiomesFluidTypes;
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public abstract class QuartzLavaFluid extends BaseFlowingFluid {
-	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> ZingsBiomesModFluidTypes.QUARTZ_LAVA_TYPE.get(), () -> ZingsBiomesModFluids.QUARTZ_LAVA.get(),
-			() -> ZingsBiomesModFluids.FLOWING_QUARTZ_LAVA.get()).explosionResistance(100f).bucket(() -> ZingsBiomesModItems.QUARTZ_LAVA_BUCKET.get()).block(() -> (LiquidBlock) ZingsBiomesModBlocks.QUARTZ_LAVA.get());
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> ZiNGsBiomesFluidTypes.QUARTZ_LAVA_TYPE.get(), () -> ZiNGsBiomesFluids.QUARTZ_LAVA.get(),
+			() -> ZiNGsBiomesFluids.FLOWING_QUARTZ_LAVA.get()).explosionResistance(100f).bucket(() -> ZingsBiomesModItems.QUARTZ_LAVA_BUCKET.get()).block(() -> (LiquidBlock) ZingsBiomesModBlocks.QUARTZ_LAVA.get());
 
 	private QuartzLavaFluid() {
 		super(PROPERTIES);

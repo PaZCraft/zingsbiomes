@@ -3,7 +3,6 @@ package com.zing.zingsbiomes.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.projectile.LlamaSpit;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -21,7 +20,7 @@ public class PoisonedSpiderEntityIsHurtProcedure {
 				double _custom_y = (double) y;
 				double _custom_z = (double) z;
 				net.minecraft.world.entity.Entity _targetEntity = sourceentity;
-				if (_targetEntity != null && new LlamaSpit(EntityType.LLAMA_SPIT, projectileLevel) instanceof net.minecraft.world.entity.projectile.Projectile _proj) {
+				if (_targetEntity != null && new LlamaSpit(projectileLevel, null) instanceof net.minecraft.world.entity.projectile.Projectile _proj) {
 					double _dx = _targetEntity.getX() - _custom_x;
 					double _dy = _targetEntity.getEyeY() - 0.1d - _custom_y;
 					double _dz = _targetEntity.getZ() - _custom_z;

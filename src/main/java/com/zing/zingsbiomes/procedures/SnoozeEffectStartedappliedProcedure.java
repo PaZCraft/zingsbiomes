@@ -10,9 +10,20 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.server.level.ServerLevel;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
-
 public class SnoozeEffectStartedappliedProcedure {
+	private static void queueServerWork(int ticks, Runnable task) {
+		if (task == null) {
+			return;
+		}
+		try {
+			Class<?> modClass = Class.forName("com.zing.zingsbiomes.ZiNGsBiomes");
+			java.lang.reflect.Method method = modClass.getMethod("queueServerWork", int.class, Runnable.class);
+			method.invoke(null, ticks, task);
+		} catch (ReflectiveOperationException _ignored) {
+			// The mod entry point may not be available during compilation or in a test environment.
+		}
+	}
+
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
@@ -31,14 +42,13 @@ public class SnoozeEffectStartedappliedProcedure {
 				net.minecraft.world.phys.Vec3 _targetVec = new net.minecraft.world.phys.Vec3(_x, _y, _z);
 				net.minecraft.world.phys.Vec3 _dir = _targetVec.subtract(_player.position()).normalize();
 				_player.setDeltaMovement(_dir.scale(_speed * 0.3D));
-				_player.hurtMarked = true;
 			}
 		}
-		ZingsBiomesMod.queueServerWork(3600, () -> {
+		queueServerWork(3600, () -> {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.NAUSEA, 2400, 1));
 			if (entity instanceof net.minecraft.world.entity.Mob _mob) {
-				net.minecraft.world.level.block.state.BlockState _targetState = Blocks.RED_BED.defaultBlockState();
+				net.minecraft.world.level.block.state.BlockState _targetState = Blocks.RED_SAND.defaultBlockState();
 				if (_targetState != null) {
 					net.minecraft.world.level.block.Block _targetBlock = _targetState.getBlock();
 					_mob.getPersistentData().putBoolean("abandonBlockTask", false);
@@ -46,7 +56,7 @@ public class SnoozeEffectStartedappliedProcedure {
 					_mob.goalSelector.addGoal(1, new com.zing.zingsbiomes.ai.MoveToBlockGoal(_mob, _targetBlock, "RESET_ON_HIT", true, 1.2D));
 				}
 			}
-			ZingsBiomesMod.queueServerWork(2400, () -> {
+			queueServerWork(2400, () -> {
 				{
 					Entity _ent = entity;
 					if (_ent.level() instanceof ServerLevel _serverLevel) {

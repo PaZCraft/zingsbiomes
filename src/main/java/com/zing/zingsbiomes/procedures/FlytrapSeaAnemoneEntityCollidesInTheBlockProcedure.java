@@ -10,7 +10,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class FlytrapSeaAnemoneEntityCollidesInTheBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, BlockState blockstate, Entity entity) {
@@ -32,7 +32,7 @@ public class FlytrapSeaAnemoneEntityCollidesInTheBlockProcedure {
 					_ent.hurtServer(_serverLevel, new DamageSource(world.holderOrThrow(DamageTypes.CRAMMING)), 1);
 				}
 			}
-			ZingsBiomesMod.queueServerWork(20, () -> {
+			ZingsBiomesModEntities.queueServerWork(20, (Runnable) () -> {
 				if (entity instanceof net.minecraft.world.entity.Entity _ent) {
 					double _blocks = 20;
 					double _speed = 10;
@@ -41,7 +41,7 @@ public class FlytrapSeaAnemoneEntityCollidesInTheBlockProcedure {
 					double _multiplier = _speed * (_blocks * 0.3d);
 					double _dy = Math.min(_blocks * 0.15d, 1.5d);
 					_ent.setDeltaMovement(new net.minecraft.world.phys.Vec3(_dx * _multiplier, _dy, _dz * _multiplier));
-					_ent.hurtMarked = true;
+					
 					if (_ent instanceof net.minecraft.server.level.ServerPlayer _player) {
 						_player.connection.send(new net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket(_ent));
 					}

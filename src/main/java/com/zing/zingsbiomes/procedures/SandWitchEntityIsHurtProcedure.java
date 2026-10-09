@@ -57,7 +57,10 @@ public class SandWitchEntityIsHurtProcedure {
 	}
 
 	private static Projectile createPotionProjectile(Level level, ItemStack contents, Entity shooter, Vec3 acceleration) {
-		AbstractThrownPotion entityToSpawn = contents.getItem() == Items.LINGERING_POTION ? new ThrownLingeringPotion(EntityType.LINGERING_POTION, level) : new ThrownSplashPotion(EntityType.SPLASH_POTION, level);
+		net.minecraft.world.entity.LivingEntity shooterEntity = shooter instanceof net.minecraft.world.entity.LivingEntity livingEntity ? livingEntity : null;
+		AbstractThrownPotion entityToSpawn = contents.getItem() == Items.LINGERING_POTION
+				? new ThrownLingeringPotion(level, shooterEntity, contents)
+				: new ThrownSplashPotion(level, shooterEntity, contents);
 		entityToSpawn.setItem(contents);
 		return initProjectileProperties(entityToSpawn, shooter, acceleration);
 	}

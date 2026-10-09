@@ -14,18 +14,21 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.monster.skeleton.WitherSkeleton;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.EntitySpawnReason;
+import net.minecraft.world.entity.monster.skeleton.WitherSkeleton;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
-
+import net.minecraft.core.Holder.Reference;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.Identifier;
 import com.zing.zingsbiomes.entity.BoneSpiderEntity;
 
 import javax.annotation.Nullable;
 
 import java.util.Comparator;
+import java.util.Optional;
 
 @EventBusSubscriber
 public class SpawnWitherSkeletonRidingBoneSpiderProcedure {
@@ -43,10 +46,13 @@ public class SpawnWitherSkeletonRidingBoneSpiderProcedure {
 			return;
 		if (entity instanceof BoneSpiderEntity) {
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.WITHER_SKELETON.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
-				if (entityToSpawn != null) {
-					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-				}
+				Optional<Reference<EntityType<?>>> witherSkeletonType = BuiltInRegistries.ENTITY_TYPE.get(Identifier.withDefaultNamespace("wither_skeleton"));
+				witherSkeletonType.ifPresent(_witherSkeletonType -> {
+					Entity entityToSpawn = _witherSkeletonType.value().spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
+				});
 			}
 			(findEntityInWorldRange(world, WitherSkeleton.class, x, y, z, 4)).startRiding(entity);
 			if ((findEntityInWorldRange(world, WitherSkeleton.class, x, y, z, 4)).getCapability(Capabilities.Item.ENTITY, null) instanceof ResourceHandler<ItemResource> _resourceHandler) {

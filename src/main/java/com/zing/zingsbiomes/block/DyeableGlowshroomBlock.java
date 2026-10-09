@@ -5,8 +5,10 @@ import java.util.List;
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffects;
@@ -68,4 +70,9 @@ public abstract class DyeableGlowshroomBlock extends FlowerBlock implements Bone
 				ZingsBiomesModBlocks.MINT_GLOWSHROOM.get(), ZingsBiomesModBlocks.PALE_ORANGE_GLOWSHROOM.get(), ZingsBiomesModBlocks.PALE_LIGHT_BLUE_GLOWSHROOM.get(),
 				ZingsBiomesModBlocks.NEON_ORANGE_GLOWSHROOM.get(), ZingsBiomesModBlocks.NEON_YELLOW_GLOWSHROOM.get());
 	}
+
+    public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'performBonemeal'");
+    }
 }

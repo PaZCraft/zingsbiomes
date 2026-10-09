@@ -14,7 +14,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.init.ZingsBiomesModMobEffects;
 
 public class VultureEntityIsHurtProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
@@ -41,14 +41,16 @@ public class VultureEntityIsHurtProcedure {
 			double _multiplier = _speed * (_blocks * 0.3d);
 			double _dy = Math.min(_blocks * 0.15d, 1.5d);
 			_ent.setDeltaMovement(new net.minecraft.world.phys.Vec3(_dx * _multiplier, _dy, _dz * _multiplier));
-			_ent.hurtMarked = true;
 			if (_ent instanceof net.minecraft.server.level.ServerPlayer _player) {
 				_player.connection.send(new net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket(_ent));
 			}
 		}
-		ZingsBiomesMod.queueServerWork(20, () -> {
-			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 100, 1));
+		ZingsBiomesModMobEffects.queueServerWork(20, new Runnable() {
+			@Override
+			public void run() {
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 100, 1));
+			}
 		});
 	}
 }

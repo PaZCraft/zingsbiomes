@@ -1,7 +1,8 @@
 package com.zing.zingsbiomes.network;
 
 import net.neoforged.neoforge.network.handling.IPayloadContext;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.network.registration.PayloadRegistrar;
+import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
@@ -16,11 +17,11 @@ import net.minecraft.client.Minecraft;
 
 import com.zing.zingsbiomes.init.ZingsBiomesModScreens;
 import com.zing.zingsbiomes.init.ZingsBiomesModMenus;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 @EventBusSubscriber
 public record MenuStateUpdateMessage(int elementType, String name, Object elementState) implements CustomPacketPayload {
-	public static final Type<MenuStateUpdateMessage> TYPE = new Type<>(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "menustate_update"));
+	public static final Type<MenuStateUpdateMessage> TYPE = new Type<>(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "menustate_update"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, MenuStateUpdateMessage> STREAM_CODEC = StreamCodec.of(MenuStateUpdateMessage::write, MenuStateUpdateMessage::read);
 
 	public static void write(FriendlyByteBuf buffer, MenuStateUpdateMessage message) {
@@ -60,8 +61,16 @@ public record MenuStateUpdateMessage(int elementType, String name, Object elemen
 		context.enqueueWork(() -> {
 			if (context.player().containerMenu instanceof ZingsBiomesModMenus.MenuAccessor menu) {
 				menu.getMenuState().put(message.elementType + ":" + message.name, message.elementState);
-				if (context.flow() == PacketFlow.CLIENTBOUND && Minecraft.getInstance().screen instanceof ZingsBiomesModScreens.ScreenAccessor accessor) {
-					accessor.updateMenuState(message.elementType, message.name, message.elementState);
+				if (context.flow() == PacketFlow.CLIENTBOUND) {
+					try {
+						java.lang.reflect.Field screenField = Minecraft.class.getDeclaredField("screen");
+						screenField.setAccessible(true);
+						Object currentScreen = screenField.get(Minecraft.getInstance());
+						if (currentScreen instanceof ZingsBiomesModScreens.ScreenAccessor accessor) {
+							accessor.updateMenuState(message.elementType, message.name, message.elementState);
+						}
+					} catch (ReflectiveOperationException ignored) {
+					}
 				}
 			}
 		}).exceptionally(e -> {
@@ -71,7 +80,9 @@ public record MenuStateUpdateMessage(int elementType, String name, Object elemen
 	}
 
 	@SubscribeEvent
-	public static void registerMessage(FMLCommonSetupEvent event) {
-		ZingsBiomesMod.addNetworkMessage(MenuStateUpdateMessage.TYPE, MenuStateUpdateMessage.STREAM_CODEC, MenuStateUpdateMessage::handleMenuState);
+	public static void registerMessage(RegisterPayloadHandlersEvent event) {
+		PayloadRegistrar registrar = event.registrar("1");
+		registrar.playToClient(TYPE, STREAM_CODEC, MenuStateUpdateMessage::handleMenuState);
+		registrar.playToServer(TYPE, STREAM_CODEC, MenuStateUpdateMessage::handleMenuState);
 	}
 }

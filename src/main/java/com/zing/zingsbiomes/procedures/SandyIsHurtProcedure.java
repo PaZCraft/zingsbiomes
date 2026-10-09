@@ -14,7 +14,7 @@ import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class SandyIsHurtProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
@@ -44,7 +44,7 @@ public class SandyIsHurtProcedure {
 				}
 			}
 		}
-		ZingsBiomesMod.queueServerWork(35, () -> {
+		ZingsBiomesModEntities.queueServerWork(35, (Runnable) () -> {
 			{
 				if (world instanceof net.minecraft.world.level.Level _level) {
 					net.minecraft.world.level.Level projectileLevel = _level;
@@ -73,9 +73,25 @@ public class SandyIsHurtProcedure {
 	}
 
 	private static Projectile createPotionProjectile(Level level, ItemStack contents, Entity shooter, Vec3 acceleration) {
-		AbstractThrownPotion entityToSpawn = contents.getItem() == Items.LINGERING_POTION ? new ThrownLingeringPotion(EntityType.LINGERING_POTION, level) : new ThrownSplashPotion(EntityType.SPLASH_POTION, level);
+		EntityType<?> projectileType = getPotionEntityType(contents.getItem() == Items.LINGERING_POTION);
+		AbstractThrownPotion entityToSpawn = contents.getItem() == Items.LINGERING_POTION
+				? new ThrownLingeringPotion((EntityType<? extends ThrownLingeringPotion>) projectileType, level)
+				: new ThrownSplashPotion((EntityType<? extends ThrownSplashPotion>) projectileType, level);
 		entityToSpawn.setItem(contents);
 		return initProjectileProperties(entityToSpawn, shooter, acceleration);
+	}
+
+	@SuppressWarnings("unchecked")
+	private static EntityType<?> getPotionEntityType(boolean lingering) {
+		String[] fieldNames = lingering ? new String[] { "LINGERING_POTION", "THROWN_LINGERING_POTION" } : new String[] { "SPLASH_POTION", "THROWN_SPLASH_POTION" };
+		for (String fieldName : fieldNames) {
+			try {
+				java.lang.reflect.Field field = EntityType.class.getField(fieldName);
+				return (EntityType<?>) field.get(null);
+			} catch (ReflectiveOperationException ignored) {
+			}
+		}
+		throw new IllegalStateException("Missing potion entity type for " + (lingering ? "lingering" : "splash") + " potion");
 	}
 
 	private static Projectile initProjectileProperties(Projectile entityToSpawn, Entity shooter, Vec3 acceleration) {

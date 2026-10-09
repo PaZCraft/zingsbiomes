@@ -11,7 +11,6 @@ import net.minecraft.world.level.Explosion;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.projectile.throwableitemprojectile.AbstractThrownPotion;
 import net.minecraft.world.entity.projectile.arrow.AbstractArrow;
@@ -66,7 +65,7 @@ public class UltravioletCreakingEntity extends TamableAnimal {
 		this.targetSelector.addGoal(7, new OwnerHurtTargetGoal(this));
 		this.goalSelector.addGoal(8, new OpenDoorGoal(this, false));
 		this.goalSelector.addGoal(9, new OpenDoorGoal(this, true));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Monster.class, false, true));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal<>(this, Monster.class, false, true));
 		this.goalSelector.addGoal(11, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));
 	}
 
@@ -140,7 +139,6 @@ public class UltravioletCreakingEntity extends TamableAnimal {
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.SUCCESS;
-		Item item = itemstack.getItem();
 		if (itemstack.getItem() instanceof SpawnEggItem) {
 			retval = super.mobInteract(sourceentity, hand);
 		} else if (this.level().isClientSide()) {

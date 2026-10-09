@@ -24,7 +24,6 @@ import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundEvent;
@@ -40,7 +39,7 @@ public class SeaghastEntity extends Monster implements RangedAttackMob {
 		setNoAi(false);
 		setPersistenceRequired();
 		this.setPathfindingMalus(PathType.WATER, 0);
-		this.moveControl = new MoveControl(this) {
+		this.moveControl = new MoveControl<>(this) {
 			@Override
 			public void tick() {
 				if (SeaghastEntity.this.isInWater())
@@ -93,7 +92,7 @@ public class SeaghastEntity extends Monster implements RangedAttackMob {
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new RandomSwimmingGoal(this, 10, 40));
 		this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Player.class, true, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal<>(this, Player.class, true, false));
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 90, 10f) {
 			@Override
 			public boolean canContinueToUse() {
@@ -129,11 +128,11 @@ public class SeaghastEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public boolean canDrownInFluidType(FluidType type) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
+		
 		return false;
 	}
 
@@ -144,11 +143,11 @@ public class SeaghastEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public boolean isPushedByFluid() {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
+		
 		return false;
 	}
 

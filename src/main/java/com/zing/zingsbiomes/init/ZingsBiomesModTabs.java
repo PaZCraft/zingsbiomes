@@ -17,11 +17,11 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 @EventBusSubscriber
 public class ZingsBiomesModTabs {
-	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ZingsBiomesMod.MODID);
+	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ZiNGsBiomes.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ZING_BIOMES_WOOD_SETS = REGISTRY.register("zing_biomes_wood_sets",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.zings_biomes.zing_biomes_wood_sets")).icon(() -> new ItemStack(ZingsBiomesModBlocks.GRAZED_SPRUCE_SAPLING.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ZingsBiomesModBlocks.BAOBAB_LEAVES.get().asItem());

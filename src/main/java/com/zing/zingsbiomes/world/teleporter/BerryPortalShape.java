@@ -32,8 +32,6 @@ public class BerryPortalShape {
 	private static final int MIN_HEIGHT = 3;
 	public static final int MAX_HEIGHT = 21;
 	private static final BlockBehaviour.StatePredicate FRAME = (state, level, pos) -> state.is(ZingsBiomesModBlocks.PINK_OBSIDIAN.get());
-	private static final float SAFE_TRAVEL_MAX_ENTITY_XY = 4.0F;
-	private static final double SAFE_TRAVEL_MAX_VERTICAL_DELTA = 1.0;
 	private final Direction.Axis axis;
 	private final Direction rightDir;
 	private final int numPortalBlocks;

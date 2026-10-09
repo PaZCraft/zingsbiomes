@@ -4,7 +4,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
@@ -23,9 +23,8 @@ public class AmberBiomeDetectorBlock extends Block {
 
 	@Override
 	public InteractionResult useWithoutItem(BlockState blockstate, Level world, BlockPos pos, Player player, BlockHitResult hit) {
-		if (!world.isClientSide && player instanceof ServerPlayer serverPlayer) {
-			ResourceKey<Biome> biomeKey = world.getBiome(pos).unwrapKey().orElseThrow();
-			ResourceLocation biomeLocation = biomeKey.location();
+		if (!world.isClientSide() && player instanceof ServerPlayer serverPlayer) {
+			Identifier biomeLocation = world.registryAccess().registryOrThrow(Registries.BIOME).getKey(world.getBiome(pos).value());
 			String biomeTranslationKey = "biome." + biomeLocation.getNamespace() + "." + biomeLocation.getPath().replace('/', '.');
 			serverPlayer.sendSystemMessage(Component.translatable("message.zings_biomes.current_biome", Component.translatable(biomeTranslationKey)), true);
 		}

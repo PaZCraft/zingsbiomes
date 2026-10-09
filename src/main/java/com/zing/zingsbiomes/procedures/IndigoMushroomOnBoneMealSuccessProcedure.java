@@ -10,7 +10,16 @@ import net.minecraft.core.BlockPos;
 public class IndigoMushroomOnBoneMealSuccessProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevel _level)
-			_level.holderOrThrow(ResourceKey.create(Registries.CONFIGURED_FEATURE, Identifier.parse("zings_biomes:huge_indigo_mushroom"))).value().place(_level, _level.getChunkSource().getGenerator(), _level.getRandom(),
-					BlockPos.containing(x, y, z));
+			_level.holderOrThrow(
+				ResourceKey.create(
+					Registries.PLACED_FEATURE,
+					Identifier.parse("zings_biomes:huge_indigo_mushroom")
+				)
+			).value().place(
+				_level,
+				_level.getChunkSource().getGenerator(),
+				_level.getRandom(),
+				BlockPos.containing(x, y, z)
+			);
 	}
 }

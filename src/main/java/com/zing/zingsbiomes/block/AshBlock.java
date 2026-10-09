@@ -19,9 +19,13 @@ import com.mojang.serialization.MapCodec;
 public class AshBlock extends FallingBlock {
 	public static final MapCodec<AshBlock> CODEC = simpleCodec(AshBlock::new);
 
-	@Override
 	public MapCodec<AshBlock> codec() {
 		return CODEC;
+	}
+
+	private static MapCodec<AshBlock> simpleCodec(Object object) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'simpleCodec'");
 	}
 
 	@Override

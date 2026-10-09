@@ -4,6 +4,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
@@ -27,7 +28,7 @@ public class FrostedStruckByLightningProcedure {
 		}
 		world.addParticle(ParticleTypes.SNOWFLAKE, x, y, z, 0, 0.1, 0);
 		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = EntityType.STRAY.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+			Entity entityToSpawn = EntityTypes.STRAY.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
 			if (entityToSpawn != null) {
 				entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 			}

@@ -23,10 +23,16 @@ public class CloverPlantRightclickedProcedure {
 			return;
 		if (hasEntityInInventory(entity, new ItemStack(Items.HONEYCOMB))) {
 			if (world instanceof ServerLevel _serverworld) {
-				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(Identifier.fromNamespaceAndPath("zings_biomes", "shamrock_willow_tree_1"));
-				if (template != null) {
-					template.placeInWorld(_serverworld, BlockPos.containing(x, y, z), BlockPos.containing(x, y, z),
-							new StructurePlaceSettings().setRotation(Rotation.getRandom(_serverworld.getRandom())).setMirror(Mirror.values()[_serverworld.getRandom().nextInt(2)]).setIgnoreEntities(false), _serverworld.getRandom(), 3);
+				try {
+					Object templateId = Identifier.fromNamespaceAndPath("zings_biomes", "shamrock_willow_tree_1");
+					java.lang.reflect.Method getOrCreateMethod = _serverworld.structureManager().getClass().getMethod("getOrCreate", templateId.getClass());
+					StructureTemplate template = (StructureTemplate) getOrCreateMethod.invoke(_serverworld.structureManager(), templateId);
+					if (template != null) {
+						template.placeInWorld(_serverworld, BlockPos.containing(x, y, z), BlockPos.containing(x, y, z),
+								new StructurePlaceSettings().setRotation(Rotation.getRandom(_serverworld.getRandom())).setMirror(Mirror.values()[_serverworld.getRandom().nextInt(2)]).setIgnoreEntities(false), _serverworld.getRandom(), 3);
+					}
+				} catch (Exception e) {
+					throw new RuntimeException("Failed to load shamrock_willow_tree_1 structure", e);
 				}
 			}
 			if (world instanceof ServerLevel _level)

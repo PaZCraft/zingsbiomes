@@ -12,6 +12,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 public class CitrineWeatherMeterActivationProcedure {
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;

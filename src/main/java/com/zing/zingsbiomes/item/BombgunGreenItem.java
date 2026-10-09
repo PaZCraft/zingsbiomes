@@ -29,6 +29,7 @@ public class BombgunGreenItem extends Item {
 		return 72000;
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);

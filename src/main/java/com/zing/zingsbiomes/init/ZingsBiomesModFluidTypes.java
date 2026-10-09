@@ -13,10 +13,10 @@ import com.zing.zingsbiomes.fluid.types.SoulLavaFluidType;
 import com.zing.zingsbiomes.fluid.types.QuartzLavaFluidType;
 import com.zing.zingsbiomes.fluid.types.IcyWaterFluidType;
 import com.zing.zingsbiomes.fluid.types.EndTarPitFluidType;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 public class ZingsBiomesModFluidTypes {
-	public static final DeferredRegister<FluidType> REGISTRY = DeferredRegister.create(NeoForgeRegistries.FLUID_TYPES, ZingsBiomesMod.MODID);
+	public static final DeferredRegister<FluidType> REGISTRY = DeferredRegister.create(NeoForgeRegistries.FLUID_TYPES, ZiNGsBiomes.MODID);
 	public static final DeferredHolder<FluidType, FluidType> ICY_WATER_TYPE = REGISTRY.register("icy_water", IcyWaterFluidType::new);
 	public static final DeferredHolder<FluidType, FluidType> TEAR_LAVA_TYPE = REGISTRY.register("tear_lava", TearLavaFluidType::new);
 	public static final DeferredHolder<FluidType, FluidType> QUARTZ_LAVA_TYPE = REGISTRY.register("quartz_lava", QuartzLavaFluidType::new);

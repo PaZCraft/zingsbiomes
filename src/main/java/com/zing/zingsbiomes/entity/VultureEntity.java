@@ -52,8 +52,8 @@ public class VultureEntity extends Animal {
 		this.goalSelector.addGoal(4, new FloatGoal(this));
 		this.goalSelector.addGoal(5, new FollowParentGoal(this, 0.8));
 		this.goalSelector.addGoal(6, new BreedGoal(this, 1));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Bat.class, false, true));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Monster.class, false, true));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal<>(this, Bat.class, false, true));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal<>(this, Monster.class, false, true));
 		this.goalSelector.addGoal(9, new TemptGoal(this, 1, (Ingredient.of(Items.ROTTEN_FLESH)), false));
 		this.goalSelector.addGoal(10, new LeapAtTargetGoal(this, (float) 0.5));
 		this.goalSelector.addGoal(11, new PanicGoal(this, 1.2));
@@ -82,14 +82,12 @@ public class VultureEntity extends Animal {
 
 	@Override
 	public boolean hurtServer(ServerLevel level, DamageSource damagesource, float amount) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
+		
 		Entity sourceentity = damagesource.getEntity();
-		Entity immediatesourceentity = damagesource.getDirectEntity();
-
 		VultureEntityIsHurtProcedure.execute(world, x, y, z, entity, sourceentity);
 		if (damagesource.is(DamageTypes.FALL))
 			return false;

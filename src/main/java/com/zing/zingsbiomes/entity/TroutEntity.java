@@ -35,7 +35,7 @@ public class TroutEntity extends PathfinderMob {
 		setNoAi(false);
 		setPersistenceRequired();
 		this.setPathfindingMalus(PathType.WATER, 0);
-		this.moveControl = new MoveControl(this) {
+		this.moveControl = new MoveControl<>(this) {
 			@Override
 			public void tick() {
 				if (TroutEntity.this.isInWater())
@@ -126,11 +126,11 @@ public class TroutEntity extends PathfinderMob {
 
 	@Override
 	public boolean canDrownInFluidType(FluidType type) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
+		
 		return false;
 	}
 
@@ -141,11 +141,11 @@ public class TroutEntity extends PathfinderMob {
 
 	@Override
 	public boolean isPushedByFluid() {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
+		
 		return false;
 	}
 

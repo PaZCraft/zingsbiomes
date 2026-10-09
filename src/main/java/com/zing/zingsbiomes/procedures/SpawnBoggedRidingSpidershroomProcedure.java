@@ -43,7 +43,7 @@ public class SpawnBoggedRidingSpidershroomProcedure {
 			return;
 		if (entity instanceof SpidershroomEntity) {
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.BOGGED.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+				Entity entityToSpawn = spawnBogged(_level, x, y, z);
 				if (entityToSpawn != null) {
 					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 				}
@@ -53,6 +53,17 @@ public class SpawnBoggedRidingSpidershroomProcedure {
 				setStackInSlot(_resourceHandler, 0, ItemResource.of(new ItemStack(ZingsBiomesModItems.BLOWGUN.get())), 1);
 			}
 		}
+	}
+
+	private static Entity spawnBogged(ServerLevel level, double x, double y, double z) {
+		try {
+			Object value = EntityType.class.getField("BOGGED").get(null);
+			if (value instanceof EntityType<?> boggedType) {
+				return boggedType.spawn(level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+			}
+		} catch (ReflectiveOperationException ignored) {
+		}
+		return null;
 	}
 
 	private static Entity findEntityInWorldRange(LevelAccessor world, Class<? extends Entity> clazz, double x, double y, double z, double range) {

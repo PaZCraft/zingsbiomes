@@ -1,10 +1,5 @@
 package com.zing.zingsbiomes.recipe.brewing;
 
-import net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent;
-import net.neoforged.neoforge.common.brewing.IBrewingRecipe;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
-
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.item.alchemy.PotionContents;
@@ -16,20 +11,13 @@ import net.minecraft.core.component.DataComponents;
 import com.zing.zingsbiomes.init.ZingsBiomesModPotions;
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
-@EventBusSubscriber
 public class PotionOfLuckBrewingBrewingRecipe implements IBrewingRecipe {
-	@SubscribeEvent
-	public static void init(RegisterBrewingRecipesEvent event) {
-		event.getBuilder().addRecipe(new PotionOfLuckBrewingBrewingRecipe());
-	}
-
 	@Override
 	public boolean isInput(ItemStack input) {
 		Item inputItem = input.getItem();
 		return (inputItem == Items.POTION || inputItem == Items.SPLASH_POTION || inputItem == Items.LINGERING_POTION) && input.getOrDefault(DataComponents.POTION_CONTENTS, PotionContents.EMPTY).is(Potions.THICK);
 	}
 
-	@Override
 	public boolean isIngredient(ItemStack ingredient) {
 		return Ingredient.of(ZingsBiomesModBlocks.CLOVER.get().asItem()).test(ingredient);
 	}

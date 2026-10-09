@@ -35,13 +35,14 @@ import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 public class SwordfishEntity extends PathfinderMob {
 	public final AnimationState animationState0 = new AnimationState();
 
+	@SuppressWarnings({ })
 	public SwordfishEntity(EntityType<SwordfishEntity> type, Level world) {
 		super(type, world);
 		xpReward = 5;
 		setNoAi(false);
 		setPersistenceRequired();
 		this.setPathfindingMalus(PathType.WATER, 0);
-		this.moveControl = new MoveControl(this) {
+		this.moveControl = new MoveControl<>(this) {
 			@Override
 			public void tick() {
 				if (SwordfishEntity.this.isInWater())
@@ -80,6 +81,7 @@ public class SwordfishEntity extends PathfinderMob {
 		return new WaterBoundPathNavigation(this, world);
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
@@ -128,26 +130,11 @@ public class SwordfishEntity extends PathfinderMob {
 
 	@Override
 	public boolean canDrownInFluidType(FluidType type) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
 		return false;
 	}
 
 	@Override
-	public boolean canBreatheUnderwater() {
-		return !this.canDrownInFluidType(NeoForgeMod.WATER_TYPE.value());
-	}
-
-	@Override
 	public boolean isPushedByFluid() {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
 		return false;
 	}
 

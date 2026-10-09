@@ -17,6 +17,7 @@ import com.zing.zingsbiomes.client.CameraShakeManager;
 @EventBusSubscriber
 public record CameraShakePayload(float power, int durationTicks) implements CustomPacketPayload {
 	public static final Type<CameraShakePayload> TYPE = new Type<>(Identifier.fromNamespaceAndPath("zings_biomes", "camera_shake"));
+	@SuppressWarnings("null")
 	public static final StreamCodec<FriendlyByteBuf, CameraShakePayload> STREAM_CODEC = StreamCodec.composite(ByteBufCodecs.FLOAT, CameraShakePayload::power, ByteBufCodecs.INT, CameraShakePayload::durationTicks, CameraShakePayload::new);
 
 	@Override

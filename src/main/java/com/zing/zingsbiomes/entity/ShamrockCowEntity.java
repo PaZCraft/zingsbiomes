@@ -86,11 +86,11 @@ public class ShamrockCowEntity extends Animal {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.SUCCESS;
 		super.mobInteract(sourceentity, hand);
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Entity entity = this;
-		Level world = this.level();
+		
+		
+		
+		
+		
 
 		ShamrockCowMilkingProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;

@@ -417,7 +417,7 @@ public class SledWithChestInventoryMenu extends AbstractContainerMenu implements
 						continue;
 					if (j == 26)
 						continue;
-					playerIn.drop(ItemUtil.getStack(internal, j), false);
+					playerIn.drop(ItemUtil.getStack(internal, j), false, null);
 					setItemInSlot(j, ItemResource.EMPTY, 0);
 				}
 			} else {
@@ -476,7 +476,7 @@ public class SledWithChestInventoryMenu extends AbstractContainerMenu implements
 						continue;
 					if (i == 26)
 						continue;
-					playerIn.getInventory().placeItemBackInInventory(ItemUtil.getStack(internal, i));
+					playerIn.getInventory().placeItemBackInInventory(ItemUtil.getStack(internal, i), null);
 					setItemInSlot(i, ItemResource.EMPTY, 0);
 				}
 			}

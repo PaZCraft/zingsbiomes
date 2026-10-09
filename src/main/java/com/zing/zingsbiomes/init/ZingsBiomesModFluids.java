@@ -15,10 +15,10 @@ import com.zing.zingsbiomes.fluid.SoulLavaFluid;
 import com.zing.zingsbiomes.fluid.QuartzLavaFluid;
 import com.zing.zingsbiomes.fluid.IcyWaterFluid;
 import com.zing.zingsbiomes.fluid.EndTarPitFluid;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 public class ZingsBiomesModFluids {
-	public static final DeferredRegister<Fluid> REGISTRY = DeferredRegister.create(BuiltInRegistries.FLUID, ZingsBiomesMod.MODID);
+	public static final DeferredRegister<Fluid> REGISTRY = DeferredRegister.create(BuiltInRegistries.FLUID, ZiNGsBiomes.MODID);
 	public static final DeferredHolder<Fluid, FlowingFluid> ICY_WATER = REGISTRY.register("icy_water", IcyWaterFluid.Source::new);
 	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_ICY_WATER = REGISTRY.register("flowing_icy_water", IcyWaterFluid.Flowing::new);
 	public static final DeferredHolder<Fluid, FlowingFluid> TEAR_LAVA = REGISTRY.register("tear_lava", TearLavaFluid.Source::new);

@@ -11,7 +11,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.spider.Spider;
@@ -26,11 +25,9 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.navigation.WallClimberNavigation;
 import net.minecraft.world.entity.*;
-import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
@@ -38,6 +35,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.BlockPos;
+
+import javax.annotation.Nonnull;
 
 import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
@@ -66,8 +65,8 @@ public class SunSpiderEntity extends TamableAnimal {
 		this.goalSelector.addGoal(7, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));
 		this.goalSelector.addGoal(8, new PanicGoal(this, 1.2));
 		this.goalSelector.addGoal(9, new MoveBackToVillageGoal(this, 0.6, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, CaveSpider.class, false, true));
-		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, Spider.class, false, true));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal<>(this, CaveSpider.class, false, true));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal<>(this, Spider.class, false, true));
 		this.goalSelector.addGoal(12, new BreedGoal(this, 1));
 		this.targetSelector.addGoal(13, new OwnerHurtTargetGoal(this));
 		this.goalSelector.addGoal(14, new FollowOwnerGoal(this, 1, (float) 10, (float) 2));
@@ -133,7 +132,6 @@ public class SunSpiderEntity extends TamableAnimal {
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.SUCCESS;
-		Item item = itemstack.getItem();
 		if (itemstack.getItem() instanceof SpawnEggItem) {
 			retval = super.mobInteract(sourceentity, hand);
 		} else if (this.level().isClientSide()) {
@@ -187,6 +185,8 @@ public class SunSpiderEntity extends TamableAnimal {
 
 	@Override
 	public void travel(Vec3 dir) {
+		@SuppressWarnings("null")
+		@Nonnull
 		Entity entity = this.getPassengers().isEmpty() ? null : (Entity) this.getPassengers().get(0);
 		if (this.isVehicle()) {
 			this.setYRot(entity.getYRot());

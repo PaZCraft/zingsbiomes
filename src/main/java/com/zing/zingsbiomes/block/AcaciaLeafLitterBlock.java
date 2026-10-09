@@ -20,7 +20,7 @@ import java.util.List;
 
 public class AcaciaLeafLitterBlock extends FlowerBlock {
 	public AcaciaLeafLitterBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.LEAF_LITTER).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.LEAF_LITTER).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.IGNORE_ENTITY));
 	}
 
 	@Override
@@ -33,6 +33,7 @@ public class AcaciaLeafLitterBlock extends FlowerBlock {
 		return 60;
 	}
 
+	@SuppressWarnings("deprecation")
 	public static void blockColorLoad(RegisterColorHandlersEvent.BlockTintSources event) {
 		event.getBlockColors().register(List.of(BlockTintSources.foliage()), ZingsBiomesModBlocks.ACACIA_LEAF_LITTER.get());
 	}

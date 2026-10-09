@@ -35,7 +35,7 @@ public class KoiEntity extends PathfinderMob {
 		setNoAi(false);
 		setPersistenceRequired();
 		this.setPathfindingMalus(PathType.WATER, 0);
-		this.moveControl = new MoveControl(this) {
+		this.moveControl = new MoveControl<>(this) {
 			@Override
 			public void tick() {
 				if (KoiEntity.this.isInWater())
@@ -86,7 +86,7 @@ public class KoiEntity extends PathfinderMob {
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
 		this.goalSelector.addGoal(3, new RandomSwimmingGoal(this, 15, 40));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(6, new TryFindWaterGoal(this));
+		this.goalSelector.addGoal(6, new TryFindLiquidGoal(this, null));
 		this.goalSelector.addGoal(7, new AvoidEntityGoal<>(this, BlackBearEntity.class, (float) 6, 1, 1.2));
 		this.goalSelector.addGoal(8, new PanicGoal(this, 1.2));
 		this.goalSelector.addGoal(9, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));
@@ -129,11 +129,11 @@ public class KoiEntity extends PathfinderMob {
 
 	@Override
 	public boolean canDrownInFluidType(FluidType type) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
+		
 		return false;
 	}
 
@@ -144,11 +144,11 @@ public class KoiEntity extends PathfinderMob {
 
 	@Override
 	public boolean isPushedByFluid() {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
+		
 		return false;
 	}
 

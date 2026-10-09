@@ -19,6 +19,7 @@ import com.zing.zingsbiomes.init.ZingsBiomesModParticleTypes;
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class UltrablossomStatesProcedure {
+	@SuppressWarnings("unchecked")
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof Level _lvl0 && _lvl0.isBrightOutside()) {
 			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == ZingsBiomesModBlocks.OPEN_ULTRABLOSSOM.get()) {
@@ -34,6 +35,7 @@ public class UltrablossomStatesProcedure {
 					BlockState _bs = ZingsBiomesModBlocks.CLOSED_ULTRABLOSSOM.get().defaultBlockState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Property<?> _propertyOld : _bso.getProperties()) {
+						@SuppressWarnings("rawtypes")
 						Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
 						if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
 							try {
@@ -74,6 +76,7 @@ public class UltrablossomStatesProcedure {
 					BlockState _bs = ZingsBiomesModBlocks.OPEN_ULTRABLOSSOM.get().defaultBlockState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Property<?> _propertyOld : _bso.getProperties()) {
+						@SuppressWarnings("rawtypes")
 						Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
 						if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
 							try {

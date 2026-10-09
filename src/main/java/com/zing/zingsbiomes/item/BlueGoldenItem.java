@@ -16,7 +16,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 import java.util.Map;
 
@@ -33,8 +33,8 @@ public abstract class BlueGoldenItem extends Item {
 		public Helmet(Item.Properties properties) {
 			super(properties.rarity(Rarity.UNCOMMON).humanoidArmor(ARMOR_MATERIAL, ArmorType.HELMET)
 					.attributes(ItemAttributeModifiers.builder().add(Attributes.ARMOR, new AttributeModifier(Identifier.withDefaultNamespace("armor.helmet"), 2, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.HEAD)
-							.add(Attributes.MOVEMENT_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "blue_golden_0.helmet"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.HEAD)
-							.add(Attributes.MAX_ABSORPTION, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "blue_golden_1.helmet"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.HEAD).build()));
+							.add(Attributes.MOVEMENT_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "blue_golden_0.helmet"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.HEAD)
+							.add(Attributes.MAX_ABSORPTION, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "blue_golden_1.helmet"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.HEAD).build()));
 		}
 	}
 
@@ -42,8 +42,8 @@ public abstract class BlueGoldenItem extends Item {
 		public Chestplate(Item.Properties properties) {
 			super(properties.rarity(Rarity.UNCOMMON).humanoidArmor(ARMOR_MATERIAL, ArmorType.CHESTPLATE)
 					.attributes(ItemAttributeModifiers.builder().add(Attributes.ARMOR, new AttributeModifier(Identifier.withDefaultNamespace("armor.chestplate"), 5, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.CHEST)
-							.add(Attributes.MOVEMENT_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "blue_golden_0.chestplate"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.CHEST)
-							.add(Attributes.MAX_ABSORPTION, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "blue_golden_1.chestplate"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.CHEST).build()));
+							.add(Attributes.MOVEMENT_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "blue_golden_0.chestplate"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.CHEST)
+							.add(Attributes.MAX_ABSORPTION, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "blue_golden_1.chestplate"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.CHEST).build()));
 		}
 	}
 
@@ -51,8 +51,8 @@ public abstract class BlueGoldenItem extends Item {
 		public Leggings(Item.Properties properties) {
 			super(properties.rarity(Rarity.UNCOMMON).humanoidArmor(ARMOR_MATERIAL, ArmorType.LEGGINGS)
 					.attributes(ItemAttributeModifiers.builder().add(Attributes.ARMOR, new AttributeModifier(Identifier.withDefaultNamespace("armor.leggings"), 3, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.LEGS)
-							.add(Attributes.MOVEMENT_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "blue_golden_0.leggings"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.LEGS)
-							.add(Attributes.MAX_ABSORPTION, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "blue_golden_1.leggings"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.LEGS).build()));
+							.add(Attributes.MOVEMENT_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "blue_golden_0.leggings"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.LEGS)
+							.add(Attributes.MAX_ABSORPTION, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "blue_golden_1.leggings"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.LEGS).build()));
 		}
 	}
 
@@ -60,8 +60,8 @@ public abstract class BlueGoldenItem extends Item {
 		public Boots(Item.Properties properties) {
 			super(properties.rarity(Rarity.UNCOMMON).humanoidArmor(ARMOR_MATERIAL, ArmorType.BOOTS)
 					.attributes(ItemAttributeModifiers.builder().add(Attributes.ARMOR, new AttributeModifier(Identifier.withDefaultNamespace("armor.boots"), 1, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.FEET)
-							.add(Attributes.MOVEMENT_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "blue_golden_0.boots"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.FEET)
-							.add(Attributes.MAX_ABSORPTION, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "blue_golden_1.boots"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.FEET).build()));
+							.add(Attributes.MOVEMENT_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "blue_golden_0.boots"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.FEET)
+							.add(Attributes.MAX_ABSORPTION, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "blue_golden_1.boots"), 0.005, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.FEET).build()));
 		}
 	}
 }

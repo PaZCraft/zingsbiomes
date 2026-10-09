@@ -26,9 +26,6 @@ public class BerryItem extends Item {
 		if (!entity.mayUseItemAt(pos, context.getClickedFace(), itemstack)) {
 			return InteractionResult.FAIL;
 		} else {
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
 			boolean success = false;
 			if (world.isEmptyBlock(pos) && true) {
 				BerryPortalBlock.portalSpawn(world, pos);

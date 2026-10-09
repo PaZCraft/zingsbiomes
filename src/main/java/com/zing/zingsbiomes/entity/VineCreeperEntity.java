@@ -45,7 +45,7 @@ public class VineCreeperEntity extends ThemedCreeperEntity {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setAlertOthers());
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, true));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal<>(this, Player.class, false, true));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));
 		this.goalSelector.addGoal(7, new AvoidEntityGoal<>(this, Cat.class, (float) 6, 1, 1.2));
@@ -90,14 +90,11 @@ public class VineCreeperEntity extends ThemedCreeperEntity {
 
 	@Override
 	public boolean hurtServer(ServerLevel level, DamageSource damagesource, float amount) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
 		Entity sourceentity = damagesource.getEntity();
-		Entity immediatesourceentity = damagesource.getDirectEntity();
-
 		VineCreeperEntityIsHurtProcedure.execute(world, x, y, z, sourceentity);
 		if (damagesource.getDirectEntity() instanceof AbstractThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud || damagesource.typeHolder().is(NeoForgeMod.POISON_DAMAGE))
 			return false;
@@ -108,11 +105,6 @@ public class VineCreeperEntity extends ThemedCreeperEntity {
 
 	@Override
 	public boolean canDrownInFluidType(FluidType type) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
 		return false;
 	}
 
@@ -123,11 +115,6 @@ public class VineCreeperEntity extends ThemedCreeperEntity {
 
 	@Override
 	public boolean isPushedByFluid() {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
 		return false;
 	}
 

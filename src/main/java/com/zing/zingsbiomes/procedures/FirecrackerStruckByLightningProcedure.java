@@ -24,7 +24,7 @@ public class FirecrackerStruckByLightningProcedure {
 			double _multiplier = _speed * (_blocks * 0.3d);
 			double _dy = Math.min(_blocks * 0.15d, 1.5d);
 			_ent.setDeltaMovement(new net.minecraft.world.phys.Vec3(_dx * _multiplier, _dy, _dz * _multiplier));
-			_ent.hurtMarked = true;
+			
 			if (_ent instanceof net.minecraft.server.level.ServerPlayer _player) {
 				_player.connection.send(new net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket(_ent));
 			}

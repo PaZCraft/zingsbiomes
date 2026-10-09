@@ -9,13 +9,13 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 public class SeaGelMobEffect extends MobEffect {
 	public SeaGelMobEffect() {
 		super(MobEffectCategory.BENEFICIAL, -16718337);
 		this.withSoundOnAdded(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("ambient.underwater.enter")));
-		this.addAttributeModifier(Attributes.SUBMERGED_MINING_SPEED, Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "effect.sea_gel_0"), 5, AttributeModifier.Operation.ADD_VALUE);
-		this.addAttributeModifier(NeoForgeMod.SWIM_SPEED, Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "effect.sea_gel_1"), 5, AttributeModifier.Operation.ADD_VALUE);
+		this.addAttributeModifier(Attributes.SUBMERGED_MINING_SPEED, Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "effect.sea_gel_0"), 5, AttributeModifier.Operation.ADD_VALUE);
+		this.addAttributeModifier(NeoForgeMod.SWIM_SPEED, Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "effect.sea_gel_1"), 5, AttributeModifier.Operation.ADD_VALUE);
 	}
 }

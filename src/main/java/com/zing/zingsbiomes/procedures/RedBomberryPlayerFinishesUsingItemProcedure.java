@@ -44,7 +44,7 @@ public class RedBomberryPlayerFinishesUsingItemProcedure {
 					if (_vec.lengthSqr() > 1.0E-4D) {
 						net.minecraft.world.phys.Vec3 _motion = _vec.normalize().scale(_power);
 						_ent.setDeltaMovement(_motion);
-						_ent.hurtMarked = true;
+						
 						if (_ent instanceof net.minecraft.server.level.ServerPlayer _player) {
 							_player.connection.send(new net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket(_ent));
 						}

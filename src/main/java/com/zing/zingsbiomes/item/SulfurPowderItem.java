@@ -14,6 +14,7 @@ public class SulfurPowderItem extends Item {
 		super(properties.rarity(Rarity.UNCOMMON));
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);

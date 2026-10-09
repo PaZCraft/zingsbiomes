@@ -13,11 +13,11 @@ import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.Identifier;
 
 import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 import com.zing.zingsbiomes.entity.TangledEntity;
-import com.zing.zingsbiomes.ZingsBiomesMod;
-
 import java.util.Comparator;
 
 public class PoisonerStruckByLightningProcedure {
@@ -52,7 +52,6 @@ public class PoisonerStruckByLightningProcedure {
 								if (_falling != null) {
 									_level.setBlock(_pos, net.minecraft.world.level.block.Blocks.AIR.defaultBlockState(), 3);
 									_falling.setDeltaMovement(new net.minecraft.world.phys.Vec3(_vx, _vy, _vz));
-									_falling.hurtMarked = true;
 									if (!_grav) {
 										_falling.setNoGravity(true);
 										final net.minecraft.core.BlockPos _startPos = _pos;
@@ -78,7 +77,7 @@ public class PoisonerStruckByLightningProcedure {
 			double _multiplier = _speed * (_blocks * 0.3d);
 			double _dy = Math.min(_blocks * 0.15d, 1.5d);
 			_ent.setDeltaMovement(new net.minecraft.world.phys.Vec3(_dx * _multiplier, _dy, _dz * _multiplier));
-			_ent.hurtMarked = true;
+			
 			if (_ent instanceof net.minecraft.server.level.ServerPlayer _player) {
 				_player.connection.send(new net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket(_ent));
 			}
@@ -91,43 +90,52 @@ public class PoisonerStruckByLightningProcedure {
 				_living.yBodyRot = _newYaw;
 			}
 		}
-		ZingsBiomesMod.queueServerWork(50, () -> {
-			if (entity instanceof net.minecraft.world.entity.Entity _ent1 && (findEntityInWorldRange(world, Player.class, x, y, z, 4)) instanceof net.minecraft.world.entity.Entity _ent2) {
-				net.minecraft.world.phys.Vec3 _pos1 = _ent1.position();
-				net.minecraft.world.phys.Vec3 _pos2 = _ent2.position();
-				_ent1.teleportTo(_pos2.x, _pos2.y, _pos2.z);
-				_ent2.teleportTo(_pos1.x, _pos1.y, _pos1.z);
-				if (_ent1 instanceof net.minecraft.server.level.ServerPlayer _player1) {
-					_player1.connection.teleport(_pos2.x, _pos2.y, _pos2.z, _player1.getYRot(), _player1.getXRot());
+		ZingsBiomesModEntities.queueServerWork(50, new Runnable() {
+			@Override
+			public void run() {
+				if (entity instanceof net.minecraft.world.entity.Entity _ent1 && (findEntityInWorldRange(world, Player.class, x, y, z, 4)) instanceof net.minecraft.world.entity.Entity _ent2) {
+					net.minecraft.world.phys.Vec3 _pos1 = _ent1.position();
+					net.minecraft.world.phys.Vec3 _pos2 = _ent2.position();
+					_ent1.teleportTo(_pos2.x, _pos2.y, _pos2.z);
+					_ent2.teleportTo(_pos1.x, _pos1.y, _pos1.z);
+					if (_ent1 instanceof net.minecraft.server.level.ServerPlayer _player1) {
+						_player1.connection.teleport(_pos2.x, _pos2.y, _pos2.z, _player1.getYRot(), _player1.getXRot());
+					}
+					if (_ent2 instanceof net.minecraft.server.level.ServerPlayer _player2) {
+						_player2.connection.teleport(_pos1.x, _pos1.y, _pos1.z, _player2.getYRot(), _player2.getXRot());
+					}
 				}
-				if (_ent2 instanceof net.minecraft.server.level.ServerPlayer _player2) {
-					_player2.connection.teleport(_pos1.x, _pos1.y, _pos1.z, _player2.getYRot(), _player2.getXRot());
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = spawnEntityFromRegistry(_level, "minecraft", "creeper", x, y, z);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
 				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = spawnEntityFromRegistry(_level, "minecraft", "bogged", x, y, z);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = ZingsBiomesModEntities.TANGLED.get().spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
+				}
+				if ((findEntityInWorldRange(world, Creeper.class, x, y, z, 4)) instanceof Mob _entity && (findEntityInWorldRange(world, Player.class, x, y, z, 4)) instanceof LivingEntity _ent)
+					_entity.setTarget(_ent);
+				if ((findEntityInWorldRange(world, Bogged.class, x, y, z, 4)) instanceof Mob _entity && (findEntityInWorldRange(world, Player.class, x, y, z, 4)) instanceof LivingEntity _ent)
+					_entity.setTarget(_ent);
+				if ((findEntityInWorldRange(world, TangledEntity.class, x, y, z, 4)) instanceof Mob _entity && (findEntityInWorldRange(world, Player.class, x, y, z, 4)) instanceof LivingEntity _ent)
+					_entity.setTarget(_ent);
 			}
-			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.CREEPER.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
-				if (entityToSpawn != null) {
-					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-				}
+
+			private Entity spawnEntityFromRegistry(ServerLevel _level, String string, String string2, double x,
+					double y, double z) {
+				// TODO Auto-generated method stub
+				throw new UnsupportedOperationException("Unimplemented method 'spawnEntityFromRegistry'");
 			}
-			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.BOGGED.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
-				if (entityToSpawn != null) {
-					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-				}
-			}
-			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = ZingsBiomesModEntities.TANGLED.get().spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
-				if (entityToSpawn != null) {
-					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-				}
-			}
-			if ((findEntityInWorldRange(world, Creeper.class, x, y, z, 4)) instanceof Mob _entity && (findEntityInWorldRange(world, Player.class, x, y, z, 4)) instanceof LivingEntity _ent)
-				_entity.setTarget(_ent);
-			if ((findEntityInWorldRange(world, Bogged.class, x, y, z, 4)) instanceof Mob _entity && (findEntityInWorldRange(world, Player.class, x, y, z, 4)) instanceof LivingEntity _ent)
-				_entity.setTarget(_ent);
-			if ((findEntityInWorldRange(world, TangledEntity.class, x, y, z, 4)) instanceof Mob _entity && (findEntityInWorldRange(world, Player.class, x, y, z, 4)) instanceof LivingEntity _ent)
-				_entity.setTarget(_ent);
 		});
 	}
 

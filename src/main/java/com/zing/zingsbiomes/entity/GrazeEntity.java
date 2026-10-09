@@ -109,11 +109,11 @@ public class GrazeEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public boolean isPushedByFluid() {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
+		
 		return false;
 	}
 

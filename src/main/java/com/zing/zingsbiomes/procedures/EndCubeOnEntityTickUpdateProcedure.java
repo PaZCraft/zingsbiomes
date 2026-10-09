@@ -4,14 +4,11 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.util.RandomSource;
-import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
 
 public class EndCubeOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
@@ -40,12 +37,12 @@ public class EndCubeOnEntityTickUpdateProcedure {
 					_mob.goalSelector.addGoal(8, new net.minecraft.world.entity.ai.goal.RandomLookAroundGoal(_mob));
 				}
 			}
-			ZingsBiomesMod.queueServerWork((int) Mth.nextDouble(RandomSource.create(), 45, 210), () -> {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.slime.jump")), SoundSource.NEUTRAL, 1, 1);
+			if (world instanceof Level _level && _level.getServer() != null) _level.getServer().execute(() -> {
+				if (world instanceof Level _level1) {
+					if (!_level1.isClientSide()) {
+						_level1.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.slime.jump")), SoundSource.NEUTRAL, 1, 1);
 					} else {
-						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.slime.jump")), SoundSource.NEUTRAL, 1, 1, false);
+						_level1.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.slime.jump")), SoundSource.NEUTRAL, 1, 1, false);
 					}
 				}
 				if (entity instanceof net.minecraft.world.entity.Entity _ent) {
@@ -56,7 +53,7 @@ public class EndCubeOnEntityTickUpdateProcedure {
 					double _multiplier = _speed * (_blocks * 0.3d);
 					double _dy = Math.min(_blocks * 0.15d, 1.5d);
 					_ent.setDeltaMovement(new net.minecraft.world.phys.Vec3(_dx * _multiplier, _dy, _dz * _multiplier));
-					_ent.hurtMarked = true;
+					
 					if (_ent instanceof net.minecraft.server.level.ServerPlayer _player) {
 						_player.connection.send(new net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket(_ent));
 					}
@@ -73,7 +70,7 @@ public class EndCubeOnEntityTickUpdateProcedure {
 						_motion = new net.minecraft.world.phys.Vec3(_dx * _power, _ent.getDeltaMovement().y, _dz * _power);
 					}
 					_ent.setDeltaMovement(_motion);
-					_ent.hurtMarked = true;
+					
 					if (_ent instanceof net.minecraft.server.level.ServerPlayer _player) {
 						_player.connection.send(new net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket(_ent));
 					}

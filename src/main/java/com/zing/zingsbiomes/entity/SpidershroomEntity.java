@@ -1,15 +1,12 @@
 package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
-import net.neoforged.neoforge.common.NeoForgeMod;
-
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.projectile.throwableitemprojectile.AbstractThrownPotion;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.animal.golem.IronGolem;
@@ -20,7 +17,6 @@ import net.minecraft.world.entity.ai.goal.*;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.*;
-import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
@@ -45,8 +41,8 @@ public class SpidershroomEntity extends ThemedSpiderEntity {
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
 		this.goalSelector.addGoal(6, new LeapAtTargetGoal(this, (float) 0.8));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Player.class, false, true));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, IronGolem.class, false, true));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal<>(this, Player.class, false, true));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal<>(this, IronGolem.class, false, true));
 		this.goalSelector.addGoal(9, new AvoidEntityGoal<>(this, Armadillo.class, (float) 6, 1, 1.2));
 		this.goalSelector.addGoal(10, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));
 	}

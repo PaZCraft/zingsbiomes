@@ -10,10 +10,10 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 public class ZingsBiomesModSounds {
-	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, ZingsBiomesMod.MODID);
+	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, ZiNGsBiomes.MODID);
 	public static final DeferredHolder<SoundEvent, SoundEvent> ENTITY_POISON_SPIDER_IDLE = REGISTRY.register("entity.poison_spider.idle",
 			() -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("zings_biomes", "entity.poison_spider.idle")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> ENTITY_POISON_SPIDER_HURT = REGISTRY.register("entity.poison_spider.hurt",

@@ -21,12 +21,12 @@ import com.zing.zingsbiomes.world.inventory.TinContainerChiseledMenu;
 import com.zing.zingsbiomes.world.inventory.SledWithChestInventoryMenu;
 import com.zing.zingsbiomes.world.inventory.AmazoniteLanternMenuMenu;
 import com.zing.zingsbiomes.network.MenuStateUpdateMessage;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 import java.util.Map;
 
 public class ZingsBiomesModMenus {
-	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, ZingsBiomesMod.MODID);
+	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, ZiNGsBiomes.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<TinContainerMenu>> TIN_CONTAINER = REGISTRY.register("tin_container", () -> IMenuTypeExtension.create(TinContainerMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<TinContainerChiseledMenu>> TIN_CONTAINER_CHISELED = REGISTRY.register("tin_container_chiseled", () -> IMenuTypeExtension.create(TinContainerChiseledMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<SledWithChestInventoryMenu>> SLED_WITH_CHEST_INVENTORY = REGISTRY.register("sled_with_chest_inventory", () -> IMenuTypeExtension.create(SledWithChestInventoryMenu::new));

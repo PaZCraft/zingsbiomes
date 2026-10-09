@@ -14,7 +14,7 @@ import java.util.List;
 
 public class BaobabLeavesBlock extends TintedParticleLeavesBlock {
 	public BaobabLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0.02f, properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+		super(0.02f, properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -22,6 +22,7 @@ public class BaobabLeavesBlock extends TintedParticleLeavesBlock {
 		return 15;
 	}
 
+	@SuppressWarnings("deprecation")
 	public static void blockColorLoad(RegisterColorHandlersEvent.BlockTintSources event) {
 		event.getBlockColors().register(List.of(BlockTintSources.foliage()), ZingsBiomesModBlocks.BAOBAB_LEAVES.get());
 	}

@@ -13,6 +13,9 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Holder.Reference;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.Identifier;
 
 import java.util.Comparator;
 
@@ -27,8 +30,12 @@ public class SnoozeEffectExpiresProcedure {
 			}
 		}
 		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = EntityType.VEX.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
-			if (entityToSpawn != null) {
+			Reference<EntityType<?>> entityType = BuiltInRegistries.ENTITY_TYPE.get(Identifier.parse("minecraft:vex")).orElse(null);
+			if (entityType != null) {
+				EntityType<?> entityTypeValue = entityType.value();
+				Entity entityToSpawn = entityTypeValue.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+				if (entityToSpawn != null) {
+				}
 			}
 		}
 		if ((findEntityInWorldRange(world, Vex.class, x, y, z, 4)) instanceof Mob _entity && entity instanceof LivingEntity _ent)

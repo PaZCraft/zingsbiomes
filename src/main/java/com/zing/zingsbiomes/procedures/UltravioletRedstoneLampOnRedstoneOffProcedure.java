@@ -12,6 +12,7 @@ import net.minecraft.core.BlockPos;
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class UltravioletRedstoneLampOnRedstoneOffProcedure {
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
 			BlockPos _bp = BlockPos.containing(x, y, z);

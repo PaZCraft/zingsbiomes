@@ -16,11 +16,11 @@ import net.minecraft.core.registries.Registries;
 
 import com.zing.zingsbiomes.procedures.SnoozeEffectExpiresProcedure;
 import com.zing.zingsbiomes.potion.*;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 @EventBusSubscriber
 public class ZingsBiomesModMobEffects {
-	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(Registries.MOB_EFFECT, ZingsBiomesMod.MODID);
+	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(Registries.MOB_EFFECT, ZiNGsBiomes.MODID);
 	public static final DeferredHolder<MobEffect, MobEffect> FROSTBURN = REGISTRY.register("frostburn", FrostburnMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> PALE_GEL = REGISTRY.register("pale_gel", PaleGelMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> ULTRA_GEL = REGISTRY.register("ultra_gel", UltraGelMobEffect::new);
@@ -50,4 +50,9 @@ public class ZingsBiomesModMobEffects {
 			SnoozeEffectExpiresProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 		}
 	}
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
 }

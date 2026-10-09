@@ -108,11 +108,11 @@ public class OakWoodenBirdzingEntity extends TamableAnimal {
 
 	@Override
 	public boolean hurtServer(ServerLevel level, DamageSource damagesource, float amount) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
+		
+		
+		
+		
+		
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
@@ -182,11 +182,11 @@ public class OakWoodenBirdzingEntity extends TamableAnimal {
 					this.setPersistenceRequired();
 			}
 		}
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Entity entity = this;
-		Level world = this.level();
+		
+		
+		
+		
+		
 
 		WoodenBirdzingShearingProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;

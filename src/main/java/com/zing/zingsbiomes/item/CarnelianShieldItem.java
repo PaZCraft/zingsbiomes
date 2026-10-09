@@ -20,7 +20,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.component.DataComponents;
 
 import com.zing.zingsbiomes.procedures.CarnelianShieldToolInInventoryTickProcedure;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 import javax.annotation.Nullable;
 
@@ -35,8 +35,8 @@ public class CarnelianShieldItem extends ShieldItem {
 								Optional.of(SoundEvents.SHIELD_BLOCK), Optional.of(SoundEvents.SHIELD_BREAK)))
 				.durability(1000).rarity(Rarity.UNCOMMON).fireResistant()
 				.attributes(ItemAttributeModifiers.builder()
-						.add(Attributes.MINING_EFFICIENCY, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "carnelian_shield_0"), 5, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
-						.add(Attributes.SUBMERGED_MINING_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "carnelian_shield_1"), 10, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build()));
+						.add(Attributes.MINING_EFFICIENCY, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "carnelian_shield_0"), 5, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
+						.add(Attributes.SUBMERGED_MINING_SPEED, new AttributeModifier(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "carnelian_shield_1"), 10, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build()));
 	}
 
 	@Override

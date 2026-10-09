@@ -18,6 +18,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.transfer.CombinedResourceHandler;
 import net.neoforged.neoforge.transfer.item.ItemStacksResourceHandler;
 import net.neoforged.neoforge.transfer.item.ItemUtil;
@@ -31,7 +32,27 @@ public class GroundSledWithChestEntity extends GroundSledEntity {
 		super(type, level, dropItem);
 	}
 
-	public CombinedResourceHandler getCombinedInventory() {
+	public GroundSledWithChestEntity(EntityType<OakSledWithChestEntity> type, Level level,
+            DeferredItem<Item> oakSledWithChest) {
+        //TODO Auto-generated constructor stub
+    }
+
+    public GroundSledWithChestEntity(EntityType<MangroveSledWithChestEntity> type, Level level,
+            DeferredItem<Item> mangroveSledWithChest) {
+        //TODO Auto-generated constructor stub
+    }
+
+    public GroundSledWithChestEntity(EntityType<MangroveSledWithChestEntity> type, Level level,
+            DeferredItem<Item> mangroveSledWithChest) {
+        //TODO Auto-generated constructor stub
+    }
+
+    public GroundSledWithChestEntity(EntityType<MangroveSledWithChestEntity> type, Level level,
+            DeferredItem<Item> mangroveSledWithChest) {
+        //TODO Auto-generated constructor stub
+    }
+
+    public CombinedResourceHandler getCombinedInventory() {
 		return combined;
 	}
 

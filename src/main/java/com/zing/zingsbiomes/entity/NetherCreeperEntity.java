@@ -6,9 +6,9 @@ import net.neoforged.neoforge.common.NeoForgeMod;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.gamerules.GameRules;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.Explosion;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -45,7 +45,7 @@ public class NetherCreeperEntity extends ThemedCreeperEntity {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, true));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal<>(this, Player.class, false, true));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));
 		this.goalSelector.addGoal(7, new AvoidEntityGoal<>(this, Cat.class, (float) 6, 1, 1.2));
@@ -57,8 +57,9 @@ public class NetherCreeperEntity extends ThemedCreeperEntity {
 
 	@Override
 	protected void applyExplosionEffect(ServerLevel level, BlockPos origin) {
-		if (level.getGameRules().getBoolean(net.minecraft.world.level.GameRules.RULE_MOBGRIEFING))
+		if (level.getGameRules().get(GameRules.MOB_GRIEFING)) {
 			spreadFire(level, origin);
+		}
 	}
 
 	protected void dropCustomDeathLoot(ServerLevel serverLevel, DamageSource source, boolean recentlyHitIn) {
@@ -99,11 +100,6 @@ public class NetherCreeperEntity extends ThemedCreeperEntity {
 
 	@Override
 	public boolean canDrownInFluidType(FluidType type) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
 		return false;
 	}
 
@@ -114,11 +110,6 @@ public class NetherCreeperEntity extends ThemedCreeperEntity {
 
 	@Override
 	public boolean isPushedByFluid() {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
 		return false;
 	}
 

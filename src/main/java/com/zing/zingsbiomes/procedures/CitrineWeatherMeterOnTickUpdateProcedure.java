@@ -8,6 +8,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.core.BlockPos;
 
 public class CitrineWeatherMeterOnTickUpdateProcedure {
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (getBlockNBTLogic(world, BlockPos.containing(x, y, z), "is_activated") == true) {
 			if (world instanceof Level _lvl1 && _lvl1.isRaining()) {

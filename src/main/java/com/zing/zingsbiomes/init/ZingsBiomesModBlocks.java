@@ -18,13 +18,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.client.renderer.Sheets;
 
 import com.zing.zingsbiomes.block.*;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 import java.util.function.Function;
 
 @EventBusSubscriber
 public class ZingsBiomesModBlocks {
-	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(ZingsBiomesMod.MODID);
+	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(ZiNGsBiomes.MODID);
 	public static final DeferredBlock<Block> CORAL_SAND;
 	public static final DeferredBlock<Block> BUTTERCUP;
 	public static final DeferredBlock<Block> ORANGE_SEA_ANEMONE;
@@ -2486,4 +2486,29 @@ public class ZingsBiomesModBlocks {
 		event.modify(BlockEntityType.SIGN, PALM_SIGN.get(), PALM_WALL_SIGN.get());
 		event.modify(BlockEntityType.HANGING_SIGN, BAOBAB_HANGING_SIGN.get(), BAOBAB_WALL_HANGING_SIGN.get());
 	}
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
 }

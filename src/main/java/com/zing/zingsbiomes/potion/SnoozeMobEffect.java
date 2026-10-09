@@ -12,8 +12,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.InstantenousMobEffect;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
@@ -22,16 +22,23 @@ import com.zing.zingsbiomes.procedures.SnoozeEffectExpiresProcedure;
 import com.zing.zingsbiomes.init.ZingsBiomesModMobEffects;
 
 import java.util.List;
+
+import org.jspecify.annotations.Nullable;
+
 import java.util.ArrayList;
 
 @EventBusSubscriber
 public class SnoozeMobEffect extends InstantenousMobEffect {
 	public SnoozeMobEffect() {
-		super(MobEffectCategory.NEUTRAL, -16777165);
+		super();
 		this.withSoundOnAdded(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.fox.sleep")));
 	}
 
-	@Override
+	private void withSoundOnAdded(SoundEvent value) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'withSoundOnAdded'");
+	}
+
 	public void applyInstantenousEffect(ServerLevel level, Entity source, Entity indirectSource, LivingEntity entity, int amplifier, double health) {
 		SnoozeEffectExpiresProcedure.execute(level, entity.getX(), entity.getY(), entity.getZ(), entity);
 	}

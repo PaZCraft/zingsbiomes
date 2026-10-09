@@ -14,11 +14,11 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import com.zing.zingsbiomes.block.entity.*;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 @EventBusSubscriber
 public class ZingsBiomesModBlockEntities {
-	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, ZingsBiomesMod.MODID);
+	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, ZiNGsBiomes.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TinContainerBlockBlockEntity>> TIN_CONTAINER_BLOCK = register("tin_container_block", ZingsBiomesModBlocks.TIN_CONTAINER_BLOCK, TinContainerBlockBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ChiseledTinContainerBlockEntity>> CHISELED_TIN_CONTAINER = register("chiseled_tin_container", ZingsBiomesModBlocks.CHISELED_TIN_CONTAINER,
 			ChiseledTinContainerBlockEntity::new);

@@ -37,12 +37,26 @@ public class SpawnStrayRidingCaribouStrayProcedure {
 			return;
 		if (entity instanceof CaribouStrayEntity) {
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.STRAY.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
-				if (entityToSpawn != null) {
-					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+				final EntityType<?> strayEntityType = getEntityType("STRAY");
+				if (strayEntityType != null) {
+					final Entity entityToSpawn = strayEntityType.spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
 				}
 			}
 			(findEntityInWorldRange(world, Stray.class, x, y, z, 4)).startRiding(entity);
+		}
+	}
+
+	@Nullable
+	private static EntityType<?> getEntityType(String name) {
+		try {
+			java.lang.reflect.Field field = EntityType.class.getDeclaredField(name);
+			field.setAccessible(true);
+			return (EntityType<?>) field.get(null);
+		} catch (ReflectiveOperationException e) {
+			return null;
 		}
 	}
 

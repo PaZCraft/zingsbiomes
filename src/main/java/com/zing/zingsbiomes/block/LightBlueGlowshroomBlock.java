@@ -30,7 +30,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-public class LightBlueGlowshroomBlock extends DyeableGlowshroomBlock implements BonemealableBlock, SimpleWaterloggedBlock {
+public class LightBlueGlowshroomBlock extends DyeableGlowshroomBlock implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 	private static final VoxelShape SHAPE = Shapes.or(box(2, 2, 2, 5, 6, 5), box(8, 4, 8, 13, 7, 13), box(12, 0, 4, 15, 2, 7), box(4, 0, 10, 7, 2, 13), box(3, 0, 3, 4, 2, 4), box(10, 0, 10, 11, 4, 11));
 
@@ -90,19 +90,5 @@ public class LightBlueGlowshroomBlock extends DyeableGlowshroomBlock implements 
 		BlockPos blockpos = pos.below();
 		BlockState groundState = worldIn.getBlockState(blockpos);
 		return this.mayPlaceOn(groundState, worldIn, blockpos);
-	}
-
-	@Override
-	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
-		return true;
-	}
-
-	@Override
-	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		return true;
-	}
-
-	@Override
-	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
 	}
 }

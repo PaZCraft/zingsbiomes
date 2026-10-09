@@ -354,7 +354,7 @@ public class TinContainerChiseledMenu extends AbstractContainerMenu implements Z
 						continue;
 					if (j == 17)
 						continue;
-					playerIn.drop(ItemUtil.getStack(internal, j), false);
+					playerIn.drop(ItemUtil.getStack(internal, j), false, null);
 					setItemInSlot(j, ItemResource.EMPTY, 0);
 				}
 			} else {
@@ -395,7 +395,7 @@ public class TinContainerChiseledMenu extends AbstractContainerMenu implements Z
 						continue;
 					if (i == 17)
 						continue;
-					playerIn.getInventory().placeItemBackInInventory(ItemUtil.getStack(internal, i));
+					playerIn.getInventory().placeItemBackInInventory(ItemUtil.getStack(internal, i), null);
 					setItemInSlot(i, ItemResource.EMPTY, 0);
 				}
 			}

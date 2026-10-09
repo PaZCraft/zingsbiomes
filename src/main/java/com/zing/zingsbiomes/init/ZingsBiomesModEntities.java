@@ -18,11 +18,11 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import com.zing.zingsbiomes.entity.*;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 @EventBusSubscriber
 public class ZingsBiomesModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, ZingsBiomesMod.MODID);
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, ZiNGsBiomes.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<ScorchedEntity>> SCORCHED = register("scorched",
 			EntityType.Builder.<ScorchedEntity>of(ScorchedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
@@ -938,7 +938,7 @@ public class ZingsBiomesModEntities {
 	// Start of user code block custom entities
 	// End of user code block custom entities
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
-		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(ResourceKey.create(Registries.ENTITY_TYPE, Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, registryname))));
+		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(ResourceKey.create(Registries.ENTITY_TYPE, Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, registryname))));
 	}
 
 	@SubscribeEvent(priority = EventPriority.HIGHEST)
@@ -1198,4 +1198,54 @@ public class ZingsBiomesModEntities {
 		event.put(CHORUS_SNAIL.get(), ChorusSnailEntity.createAttributes().build());
 		event.put(END_CUBE.get(), EndCubeEntity.createAttributes().build());
 	}
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
+
+    public static void queueServerWork(int i, Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    }
 }

@@ -58,12 +58,12 @@ public class ThawedEntity extends Animal {
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal<>(this, Player.class, false, false));
 		this.goalSelector.addGoal(6, new RestrictSunGoal(this));
 		this.goalSelector.addGoal(7, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, IronGolem.class, false, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Villager.class, false, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, WanderingTrader.class, false, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal<>(this, IronGolem.class, false, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal<>(this, Villager.class, false, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal<>(this, WanderingTrader.class, false, false));
 		this.goalSelector.addGoal(11, new BreakDoorGoal(this, e -> true));
 		this.goalSelector.addGoal(12, new MoveBackToVillageGoal(this, 0.6, false));
 		this.goalSelector.addGoal(13, new RemoveBlockGoal(Blocks.TURTLE_EGG, this, 1, (int) 3));

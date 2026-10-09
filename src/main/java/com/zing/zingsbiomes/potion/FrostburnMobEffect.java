@@ -8,13 +8,13 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.particles.ParticleTypes;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 public class FrostburnMobEffect extends MobEffect {
 	public FrostburnMobEffect() {
 		super(MobEffectCategory.HARMFUL, -9581336, mobEffectInstance -> ParticleTypes.WHITE_SMOKE);
 		this.withSoundOnAdded(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.player.hurt_freeze")));
-		this.addAttributeModifier(Attributes.BURNING_TIME, Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "effect.frostburn_0"), 0.01, AttributeModifier.Operation.ADD_VALUE);
-		this.addAttributeModifier(Attributes.SNEAKING_SPEED, Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "effect.frostburn_1"), -0.005, AttributeModifier.Operation.ADD_VALUE);
+		this.addAttributeModifier(Attributes.BURNING_TIME, Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "effect.frostburn_0"), 0.01, AttributeModifier.Operation.ADD_VALUE);
+		this.addAttributeModifier(Attributes.SNEAKING_SPEED, Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "effect.frostburn_1"), -0.005, AttributeModifier.Operation.ADD_VALUE);
 	}
 }

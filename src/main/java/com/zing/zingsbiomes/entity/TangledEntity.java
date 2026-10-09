@@ -61,12 +61,12 @@ public class TangledEntity extends Animal {
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new RestrictSunGoal(this));
 		this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Villager.class, false, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, IronGolem.class, false, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, WanderingTrader.class, false, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal<>(this, Player.class, false, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal<>(this, Villager.class, false, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal<>(this, IronGolem.class, false, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal<>(this, WanderingTrader.class, false, false));
 		this.goalSelector.addGoal(11, new LeapAtTargetGoal(this, (float) 0.8));
-		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, GlareEntity.class, false, true));
+		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal<>(this, GlareEntity.class, false, true));
 		this.goalSelector.addGoal(13, new AvoidEntityGoal<>(this, FlyEntity.class, (float) 6, 1, 1.2));
 		this.goalSelector.addGoal(14, new AvoidEntityGoal<>(this, DragonflyEntity.class, (float) 6, 1, 1.2));
 		this.goalSelector.addGoal(15, new BreakDoorGoal(this, e -> true));

@@ -13,13 +13,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.*;
 
 import com.zing.zingsbiomes.item.*;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+
 
 import java.util.function.Function;
 
 @EventBusSubscriber
 public class ZingsBiomesModItems {
-	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(ZingsBiomesMod.MODID);
+	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(ZiNGsBiomes.MODID);
 	public static final DeferredItem<Item> CORAL_SAND;
 	public static final DeferredItem<Item> BUTTERCUP;
 	public static final DeferredItem<Item> ORANGE_SEA_ANEMONE;
@@ -1295,7 +1295,7 @@ public class ZingsBiomesModItems {
 	public static final DeferredItem<Item> BOMBGUN_PURPLE;
 	public static final DeferredItem<Item> BOMBGUN_WHITE;
 	public static final DeferredItem<Item> THERMAL_SPIKE;
-	public static final DeferredItem<Item> OAK_SLED;
+	public static final Item OAK_SLED;
 	public static final DeferredItem<Item> OAK_SLED_SPAWN_EGG;
 	public static final DeferredItem<Item> BIRCH_SLED;
 	public static final DeferredItem<Item> BIRCH_SLED_SPAWN_EGG;
@@ -1323,7 +1323,7 @@ public class ZingsBiomesModItems {
 	public static final DeferredItem<Item> ACACIA_SLED_WITH_CHEST_SPAWN_EGG;
 	public static final DeferredItem<Item> DARK_OAK_SLED_WITH_CHEST;
 	public static final DeferredItem<Item> DARK_OAK_SLED_WITH_CHEST_SPAWN_EGG;
-	public static final DeferredItem<Item> MANGROVE_SLED_WITH_CHEST;
+	public static final Item MANGROVE_SLED_WITH_CHEST;
 	public static final DeferredItem<Item> MANGROVE_SLED_WITH_CHEST_SPAWN_EGG;
 	public static final DeferredItem<Item> CHERRY_SLED_WITH_CHEST;
 	public static final DeferredItem<Item> CHERRY_SLED_WITH_CHEST_SPAWN_EGG;

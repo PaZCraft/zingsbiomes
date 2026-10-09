@@ -1,7 +1,8 @@
 package com.zing.zingsbiomes.network;
 
 import net.neoforged.neoforge.network.handling.IPayloadContext;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.network.registration.PayloadRegistrar;
+import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
@@ -16,11 +17,12 @@ import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.SectionPos;
 
 import com.zing.zingsbiomes.procedures.AmazoniteFuelUsageProcedure;
-import com.zing.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZiNGsBiomes;
+
 
 @EventBusSubscriber
 public record AmazoniteLanternMenuSlotMessage(int slotID, int x, int y, int z, int changeType, int meta) implements CustomPacketPayload {
-	public static final Type<AmazoniteLanternMenuSlotMessage> TYPE = new Type<>(Identifier.fromNamespaceAndPath(ZingsBiomesMod.MODID, "amazonite_lantern_menu_slots"));
+	public static final Type<AmazoniteLanternMenuSlotMessage> TYPE = new Type<>(Identifier.fromNamespaceAndPath(ZiNGsBiomes.MODID, "amazonite_lantern_menu_slots"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, AmazoniteLanternMenuSlotMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, AmazoniteLanternMenuSlotMessage message) -> {
 		buffer.writeInt(message.slotID);
 		buffer.writeInt(message.x);
@@ -56,7 +58,8 @@ public record AmazoniteLanternMenuSlotMessage(int slotID, int x, int y, int z, i
 	}
 
 	@SubscribeEvent
-	public static void registerMessage(FMLCommonSetupEvent event) {
-		ZingsBiomesMod.addNetworkMessage(AmazoniteLanternMenuSlotMessage.TYPE, AmazoniteLanternMenuSlotMessage.STREAM_CODEC, AmazoniteLanternMenuSlotMessage::handleData);
+	public static void registerMessage(RegisterPayloadHandlersEvent event) {
+		PayloadRegistrar registrar = event.registrar("1");
+		registrar.playToServer(TYPE, STREAM_CODEC, AmazoniteLanternMenuSlotMessage::handleData);
 	}
 }

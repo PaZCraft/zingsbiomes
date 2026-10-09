@@ -16,7 +16,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import com.zing.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class SculkJawEntityWalksOnTheBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -69,7 +69,7 @@ public class SculkJawEntityWalksOnTheBlockProcedure {
 				}
 			}
 		}
-		ZingsBiomesMod.queueServerWork(200, () -> {
+		ZingsBiomesModEntities.queueServerWork(200, (Runnable) () -> {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.generic.eat")), SoundSource.BLOCKS, 1, 2);
@@ -136,7 +136,6 @@ public class SculkJawEntityWalksOnTheBlockProcedure {
 				double _power = true ? (_speed * (_dist * 0.5d)) : _speed;
 				net.minecraft.world.phys.Vec3 _motion = _backDir.scale(_power);
 				_ent.setDeltaMovement(_motion);
-				_ent.hurtMarked = true;
 				if (_ent instanceof net.minecraft.server.level.ServerPlayer _player) {
 					_player.connection.send(new net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket(_ent));
 				}
