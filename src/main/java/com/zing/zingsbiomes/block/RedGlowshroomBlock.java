@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;

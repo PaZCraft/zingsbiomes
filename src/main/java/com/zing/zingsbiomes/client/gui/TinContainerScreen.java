@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.gui;
+package com.zing.zingsbiomes.client.gui;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -10,8 +10,8 @@ import net.minecraft.client.input.KeyEvent;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 
-import net.mcreator.zingsbiomes.world.inventory.TinContainerMenu;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModScreens;
+import com.zing.zingsbiomes.world.inventory.TinContainerMenu;
+import com.zing.zingsbiomes.init.ZingsBiomesModScreens;
 
 import com.mojang.blaze3d.platform.InputConstants;
 

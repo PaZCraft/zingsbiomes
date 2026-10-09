@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.neoforged.neoforge.event.entity.living.LivingDeathEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -17,8 +17,8 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
-import net.mcreator.zingsbiomes.entity.*;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.entity.*;
 
 import javax.annotation.Nullable;
 

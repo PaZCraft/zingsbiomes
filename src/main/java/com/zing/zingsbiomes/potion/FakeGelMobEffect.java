@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.potion;
+package com.zing.zingsbiomes.potion;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
@@ -8,7 +8,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.procedures.FakeGelEffectStartedappliedProcedure;
+import com.zing.zingsbiomes.procedures.FakeGelEffectStartedappliedProcedure;
 
 public class FakeGelMobEffect extends InstantenousMobEffect {
 	public FakeGelMobEffect() {

@@ -1,7 +1,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsbiomes.init;
+package com.zing.zingsbiomes.init;
 
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -12,7 +12,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.client.model.object.boat.BoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 
-import net.mcreator.zingsbiomes.client.model.*;
+import com.zing.zingsbiomes.client.model.*;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class ZingsBiomesModModels {

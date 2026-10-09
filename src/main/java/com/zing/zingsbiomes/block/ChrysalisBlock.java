@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -14,7 +14,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.ChrysalisBlockDestroyedByPlayerProcedure;
+import com.zing.zingsbiomes.procedures.ChrysalisBlockDestroyedByPlayerProcedure;
 
 public class ChrysalisBlock extends Block {
 	private static final VoxelShape SHAPE = Shapes.or(box(5, 3, 5, 11, 15, 11), box(7, 15, 8, 8, 16, 9));

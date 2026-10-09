@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.component.Consumables;
@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 
-import net.mcreator.zingsbiomes.procedures.DarkblossomStewPlayerFinishesUsingItemProcedure;
+import com.zing.zingsbiomes.procedures.DarkblossomStewPlayerFinishesUsingItemProcedure;
 
 public class DarkblossomStewItem extends Item {
 	public DarkblossomStewItem(Item.Properties properties) {

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.neoforged.neoforge.client.event.RenderLivingEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

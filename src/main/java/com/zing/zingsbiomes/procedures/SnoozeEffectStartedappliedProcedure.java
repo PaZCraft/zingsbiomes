@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
@@ -10,7 +10,7 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.server.level.ServerLevel;
 
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 public class SnoozeEffectStartedappliedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -25,8 +25,8 @@ public class SnoozeEffectStartedappliedProcedure {
 			String _easing = "LINEAR";
 			if (entity instanceof net.minecraft.world.entity.Mob _mob) {
 				_mob.getPersistentData().putBoolean("abandonBlockTask", false);
-				_mob.goalSelector.getAvailableGoals().removeIf(wrappedGoal -> wrappedGoal.getGoal() instanceof net.mcreator.zingsbiomes.ai.OverrideMovementGoal);
-				_mob.goalSelector.addGoal(0, new net.mcreator.zingsbiomes.ai.OverrideMovementGoal(_mob, _x, _y, _z, _speed, _canFly, _easing));
+				_mob.goalSelector.getAvailableGoals().removeIf(wrappedGoal -> wrappedGoal.getGoal() instanceof com.zing.zingsbiomes.ai.OverrideMovementGoal);
+				_mob.goalSelector.addGoal(0, new com.zing.zingsbiomes.ai.OverrideMovementGoal(_mob, _x, _y, _z, _speed, _canFly, _easing));
 			} else if (entity instanceof net.minecraft.world.entity.player.Player _player) {
 				net.minecraft.world.phys.Vec3 _targetVec = new net.minecraft.world.phys.Vec3(_x, _y, _z);
 				net.minecraft.world.phys.Vec3 _dir = _targetVec.subtract(_player.position()).normalize();
@@ -42,8 +42,8 @@ public class SnoozeEffectStartedappliedProcedure {
 				if (_targetState != null) {
 					net.minecraft.world.level.block.Block _targetBlock = _targetState.getBlock();
 					_mob.getPersistentData().putBoolean("abandonBlockTask", false);
-					_mob.goalSelector.getAvailableGoals().removeIf(_wrapped -> _wrapped.getGoal() instanceof net.mcreator.zingsbiomes.ai.MoveToBlockGoal);
-					_mob.goalSelector.addGoal(1, new net.mcreator.zingsbiomes.ai.MoveToBlockGoal(_mob, _targetBlock, "RESET_ON_HIT", true, 1.2D));
+					_mob.goalSelector.getAvailableGoals().removeIf(_wrapped -> _wrapped.getGoal() instanceof com.zing.zingsbiomes.ai.MoveToBlockGoal);
+					_mob.goalSelector.addGoal(1, new com.zing.zingsbiomes.ai.MoveToBlockGoal(_mob, _targetBlock, "RESET_ON_HIT", true, 1.2D));
 				}
 			}
 			ZingsBiomesMod.queueServerWork(2400, () -> {

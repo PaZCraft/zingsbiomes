@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.fml.common.asm.enumextension.EnumProxy;
@@ -28,8 +28,8 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.procedures.SandWitchEntityIsHurtProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.procedures.SandWitchEntityIsHurtProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class SandWitchEntity extends Raider {
 	public static final EnumProxy<Raid.RaiderType> RAIDER_TYPE = new EnumProxy<>(Raid.RaiderType.class, ZingsBiomesModEntities.SAND_WITCH, new int[]{0, 4, 3, 3, 4, 4, 4, 2});

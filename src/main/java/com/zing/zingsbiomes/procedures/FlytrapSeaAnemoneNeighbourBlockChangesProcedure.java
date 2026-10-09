@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
@@ -9,7 +9,7 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.server.level.ServerLevel;
 
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 public class FlytrapSeaAnemoneNeighbourBlockChangesProcedure {
 	public static void execute(LevelAccessor world, BlockState blockstate, Entity entity) {

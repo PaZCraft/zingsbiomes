@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRenderer;
@@ -6,7 +6,7 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.state.EntityRenderState;
 import net.minecraft.resources.Identifier;
 
-import net.mcreator.zingsbiomes.client.model.Modellog_flume;
+import com.zing.zingsbiomes.client.model.Modellog_flume;
 import net.minecraft.world.entity.vehicle.boat.Boat;
 import com.mojang.blaze3d.vertex.PoseStack;
 

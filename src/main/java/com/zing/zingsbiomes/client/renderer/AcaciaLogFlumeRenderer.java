@@ -1,9 +1,9 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.Identifier;
-import net.mcreator.zingsbiomes.client.model.Modellog_flume;
-import net.mcreator.zingsbiomes.entity.AcaciaLogFlumeEntity;
+import com.zing.zingsbiomes.client.model.Modellog_flume;
+import com.zing.zingsbiomes.entity.AcaciaLogFlumeEntity;
 
 public class AcaciaLogFlumeRenderer extends LogFlumeRenderer<AcaciaLogFlumeEntity> {
 	public AcaciaLogFlumeRenderer(EntityRendererProvider.Context context) {

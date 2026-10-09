@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.ai;
+package com.zing.zingsbiomes.ai;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.block.state.BlockState;

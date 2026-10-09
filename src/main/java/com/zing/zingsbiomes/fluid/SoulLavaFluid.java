@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.fluid;
+package com.zing.zingsbiomes.fluid;
 
 import org.apache.logging.log4j.core.util.Source;
 
@@ -9,10 +9,10 @@ import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.LiquidBlock;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModItems;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModFluids;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModFluidTypes;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.init.ZingsBiomesModItems;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluidTypes;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public abstract class SoulLavaFluid extends BaseFlowingFluid {
 	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> ZingsBiomesModFluidTypes.SOUL_LAVA_TYPE.get(), () -> ZingsBiomesModFluids.SOUL_LAVA.get(), () -> ZingsBiomesModFluids.FLOWING_SOUL_LAVA.get())

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;

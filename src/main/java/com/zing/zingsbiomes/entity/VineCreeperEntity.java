@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
@@ -30,9 +30,9 @@ import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.procedures.VineCreeperEntityIsHurtProcedure;
-import net.mcreator.zingsbiomes.procedures.PoisonerStruckByLightningProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.procedures.VineCreeperEntityIsHurtProcedure;
+import com.zing.zingsbiomes.procedures.PoisonerStruckByLightningProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class VineCreeperEntity extends ThemedCreeperEntity {
 	public VineCreeperEntity(EntityType<VineCreeperEntity> type, Level world) {

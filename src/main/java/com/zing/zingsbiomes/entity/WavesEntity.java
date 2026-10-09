@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;

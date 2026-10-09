@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.world.inventory;
+package com.zing.zingsbiomes.world.inventory;
 
 import net.neoforged.neoforge.transfer.transaction.Transaction;
 import net.neoforged.neoforge.transfer.item.VanillaContainerWrapper;
@@ -25,7 +25,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModMenus;
+import com.zing.zingsbiomes.init.ZingsBiomesModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;

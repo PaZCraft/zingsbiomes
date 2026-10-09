@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -15,7 +15,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.entity.CaribouStrayEntity;
+import com.zing.zingsbiomes.entity.CaribouStrayEntity;
 
 import javax.annotation.Nullable;
 

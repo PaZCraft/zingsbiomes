@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -27,7 +27,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.FlytrapSeaAnemoneEntityCollidesInTheBlockProcedure;
+import com.zing.zingsbiomes.procedures.FlytrapSeaAnemoneEntityCollidesInTheBlockProcedure;
 
 import java.util.function.Function;
 

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
@@ -17,8 +17,8 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
-import net.mcreator.zingsbiomes.entity.*;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.entity.*;
 
 import java.util.Comparator;
 

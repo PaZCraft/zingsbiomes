@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.world.features.treedecorators;
+package com.zing.zingsbiomes.world.features.treedecorators;
 
 import net.neoforged.neoforge.registries.RegisterEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -15,7 +15,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 import java.util.List;
 

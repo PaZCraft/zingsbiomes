@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -8,7 +8,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.BrineIceEntityFallsOnTheBlockProcedure;
+import com.zing.zingsbiomes.procedures.BrineIceEntityFallsOnTheBlockProcedure;
 
 public class BrineIceBlock extends Block {
 	public BrineIceBlock(BlockBehaviour.Properties properties) {

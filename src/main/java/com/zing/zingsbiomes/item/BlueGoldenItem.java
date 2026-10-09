@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.neoforged.neoforge.registries.DeferredHolder;
 
@@ -16,7 +16,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 import java.util.Map;
 

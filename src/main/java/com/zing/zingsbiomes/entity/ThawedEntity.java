@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.common.NeoForgeMod;
@@ -32,9 +32,9 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.ZombieAggroPlaybackConditionProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.procedures.ZombieAggroPlaybackConditionProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class ThawedEntity extends Animal {
 	public final AnimationState animationState0 = new AnimationState();

@@ -1,7 +1,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsbiomes.init;
+package com.zing.zingsbiomes.init;
 
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -11,7 +11,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.minecraft.client.renderer.entity.BoatRenderer;
 
-import net.mcreator.zingsbiomes.client.renderer.*;
+import com.zing.zingsbiomes.client.renderer.*;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class ZingsBiomesModEntityRenderers {

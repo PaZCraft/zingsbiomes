@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.phys.BlockHitResult;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public abstract class DyeableGlowshroomBlock extends FlowerBlock implements BonemealableBlock, SimpleWaterloggedBlock {
 	protected DyeableGlowshroomBlock(BlockBehaviour.Properties properties) {

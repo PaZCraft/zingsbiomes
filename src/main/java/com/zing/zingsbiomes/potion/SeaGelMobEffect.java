@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.potion;
+package com.zing.zingsbiomes.potion;
 
 import net.neoforged.neoforge.common.NeoForgeMod;
 
@@ -9,7 +9,7 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 public class SeaGelMobEffect extends MobEffect {
 	public SeaGelMobEffect() {

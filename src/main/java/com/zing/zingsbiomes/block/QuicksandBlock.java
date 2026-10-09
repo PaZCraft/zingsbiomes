@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.MapColor;
@@ -14,8 +14,8 @@ import net.minecraft.world.entity.InsideBlockEffectApplier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.QuicksandEntityWalksOnTheBlockProcedure;
-import net.mcreator.zingsbiomes.procedures.QuicksandEntityCollidesInTheBlockProcedure;
+import com.zing.zingsbiomes.procedures.QuicksandEntityWalksOnTheBlockProcedure;
+import com.zing.zingsbiomes.procedures.QuicksandEntityCollidesInTheBlockProcedure;
 
 public class QuicksandBlock extends Block {
 	public QuicksandBlock(BlockBehaviour.Properties properties) {

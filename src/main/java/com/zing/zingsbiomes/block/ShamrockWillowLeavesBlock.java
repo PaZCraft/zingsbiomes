@@ -1,11 +1,11 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.UntintedParticleLeavesBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.core.particles.SimpleParticleType;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModParticleTypes;
+import com.zing.zingsbiomes.init.ZingsBiomesModParticleTypes;
 
 public class ShamrockWillowLeavesBlock extends UntintedParticleLeavesBlock {
 	public ShamrockWillowLeavesBlock(BlockBehaviour.Properties properties) {

@@ -1,19 +1,19 @@
 /*
  * MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsbiomes.init;
+package com.zing.zingsbiomes.init;
 
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.fluids.FluidType;
 
-import net.mcreator.zingsbiomes.fluid.types.TearLavaFluidType;
-import net.mcreator.zingsbiomes.fluid.types.SoulLavaFluidType;
-import net.mcreator.zingsbiomes.fluid.types.QuartzLavaFluidType;
-import net.mcreator.zingsbiomes.fluid.types.IcyWaterFluidType;
-import net.mcreator.zingsbiomes.fluid.types.EndTarPitFluidType;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.fluid.types.TearLavaFluidType;
+import com.zing.zingsbiomes.fluid.types.SoulLavaFluidType;
+import com.zing.zingsbiomes.fluid.types.QuartzLavaFluidType;
+import com.zing.zingsbiomes.fluid.types.IcyWaterFluidType;
+import com.zing.zingsbiomes.fluid.types.EndTarPitFluidType;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 public class ZingsBiomesModFluidTypes {
 	public static final DeferredRegister<FluidType> REGISTRY = DeferredRegister.create(NeoForgeRegistries.FLUID_TYPES, ZingsBiomesMod.MODID);

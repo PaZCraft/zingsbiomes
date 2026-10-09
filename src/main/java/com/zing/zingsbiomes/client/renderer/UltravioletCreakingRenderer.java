@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -24,9 +24,9 @@ import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zingsbiomes.procedures.UltravioletCreakingGlowConditionProcedure;
-import net.mcreator.zingsbiomes.entity.UltravioletCreakingEntity;
-import net.mcreator.zingsbiomes.client.model.Modelcreaking;
+import com.zing.zingsbiomes.procedures.UltravioletCreakingGlowConditionProcedure;
+import com.zing.zingsbiomes.entity.UltravioletCreakingEntity;
+import com.zing.zingsbiomes.client.model.Modelcreaking;
 
 import java.util.Map;
 

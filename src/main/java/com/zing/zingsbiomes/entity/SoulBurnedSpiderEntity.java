@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.monster.Monster;
@@ -15,7 +15,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.level.LevelAccessor;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class SoulBurnedSpiderEntity extends BurnedSpiderEntity {
 	public SoulBurnedSpiderEntity(EntityType<SoulBurnedSpiderEntity> type, Level world) {

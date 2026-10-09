@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.potion;
+package com.zing.zingsbiomes.potion;
 
 import net.neoforged.neoforge.event.ModifyDefaultComponentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -18,8 +18,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 
-import net.mcreator.zingsbiomes.procedures.SnoozeEffectExpiresProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModMobEffects;
+import com.zing.zingsbiomes.procedures.SnoozeEffectExpiresProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModMobEffects;
 
 import java.util.List;
 import java.util.ArrayList;

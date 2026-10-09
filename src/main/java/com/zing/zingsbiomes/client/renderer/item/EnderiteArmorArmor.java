@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer.item;
+package com.zing.zingsbiomes.client.renderer.item;
 
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
@@ -10,7 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.resources.model.EquipmentClientInfo;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModItems;
+import com.zing.zingsbiomes.init.ZingsBiomesModItems;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class EnderiteArmorArmor {

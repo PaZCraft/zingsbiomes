@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.texture.OverlayTexture;
@@ -8,8 +8,8 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 
-import net.mcreator.zingsbiomes.entity.EmberSkullEntity;
-import net.mcreator.zingsbiomes.client.model.Modelwither_skull;
+import com.zing.zingsbiomes.entity.EmberSkullEntity;
+import com.zing.zingsbiomes.client.model.Modelwither_skull;
 
 import com.mojang.math.Axis;
 import com.mojang.blaze3d.vertex.PoseStack;

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
@@ -16,7 +16,7 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.SilverThermometerBlockAddedProcedure;
+import com.zing.zingsbiomes.procedures.SilverThermometerBlockAddedProcedure;
 
 public class SilverThermometerBlockBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;

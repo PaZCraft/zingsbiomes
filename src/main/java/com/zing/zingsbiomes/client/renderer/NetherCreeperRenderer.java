@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
@@ -12,7 +12,7 @@ import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.model.monster.creeper.CreeperModel;
 import net.minecraft.client.model.geom.ModelLayers;
 
-import net.mcreator.zingsbiomes.entity.NetherCreeperEntity;
+import com.zing.zingsbiomes.entity.NetherCreeperEntity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

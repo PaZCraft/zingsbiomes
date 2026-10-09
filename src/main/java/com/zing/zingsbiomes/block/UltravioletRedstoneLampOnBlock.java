@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.redstone.Orientation;
 import net.minecraft.world.level.block.state.BlockState;
@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.UltravioletRedstoneLampOnRedstoneOffProcedure;
+import com.zing.zingsbiomes.procedures.UltravioletRedstoneLampOnRedstoneOffProcedure;
 
 import javax.annotation.Nullable;
 

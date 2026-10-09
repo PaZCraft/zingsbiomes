@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.common.NeoForgeMod;
@@ -25,8 +25,8 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.procedures.SculkTNTPrimedOnInitialEntitySpawnProcedure;
-import net.mcreator.zingsbiomes.procedures.SculkTNTPrimedOnEntityTickUpdateProcedure;
+import com.zing.zingsbiomes.procedures.SculkTNTPrimedOnInitialEntitySpawnProcedure;
+import com.zing.zingsbiomes.procedures.SculkTNTPrimedOnEntityTickUpdateProcedure;
 
 import javax.annotation.Nullable;
 

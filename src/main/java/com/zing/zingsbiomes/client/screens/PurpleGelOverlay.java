@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.screens;
+package com.zing.zingsbiomes.client.screens;
 
 import net.neoforged.neoforge.client.event.RenderGuiEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -12,7 +12,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zingsbiomes.procedures.PurpleGelDisplayOverlayIngameProcedure;
+import com.zing.zingsbiomes.procedures.PurpleGelDisplayOverlayIngameProcedure;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class PurpleGelOverlay {

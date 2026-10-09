@@ -1,7 +1,7 @@
 /*
  * MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsbiomes.init;
+package com.zing.zingsbiomes.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -10,12 +10,12 @@ import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.fluid.TearLavaFluid;
-import net.mcreator.zingsbiomes.fluid.SoulLavaFluid;
-import net.mcreator.zingsbiomes.fluid.QuartzLavaFluid;
-import net.mcreator.zingsbiomes.fluid.IcyWaterFluid;
-import net.mcreator.zingsbiomes.fluid.EndTarPitFluid;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.fluid.TearLavaFluid;
+import com.zing.zingsbiomes.fluid.SoulLavaFluid;
+import com.zing.zingsbiomes.fluid.QuartzLavaFluid;
+import com.zing.zingsbiomes.fluid.IcyWaterFluid;
+import com.zing.zingsbiomes.fluid.EndTarPitFluid;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 public class ZingsBiomesModFluids {
 	public static final DeferredRegister<Fluid> REGISTRY = DeferredRegister.create(BuiltInRegistries.FLUID, ZingsBiomesMod.MODID);

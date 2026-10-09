@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.EventHooks;
@@ -37,10 +37,10 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.WoodenBirdzingUponDeathTriggerProcedure;
-import net.mcreator.zingsbiomes.procedures.WoodenBirdzingShearingProcedure;
-import net.mcreator.zingsbiomes.procedures.BambooWoodenBirdzingEntityIsHurtProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.procedures.WoodenBirdzingUponDeathTriggerProcedure;
+import com.zing.zingsbiomes.procedures.WoodenBirdzingShearingProcedure;
+import com.zing.zingsbiomes.procedures.BambooWoodenBirdzingEntityIsHurtProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class BambooWoodenBirdzingEntity extends TamableAnimal {
 	public static final EntityDataAccessor<Boolean> DATA_is_sheared = SynchedEntityData.defineId(BambooWoodenBirdzingEntity.class, EntityDataSerializers.BOOLEAN);

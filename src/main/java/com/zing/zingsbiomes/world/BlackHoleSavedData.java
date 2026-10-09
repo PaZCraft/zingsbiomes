@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.world;
+package com.zing.zingsbiomes.world;
 
 import net.minecraft.world.level.saveddata.SavedDataType;
 import net.minecraft.world.level.saveddata.SavedData;

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block.entity;
+package com.zing.zingsbiomes.block.entity;
 
 import net.minecraft.world.level.storage.ValueOutput;
 import net.minecraft.world.level.storage.ValueInput;
@@ -18,8 +18,8 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.world.inventory.TinContainerChiseledMenu;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlockEntities;
+import com.zing.zingsbiomes.world.inventory.TinContainerChiseledMenu;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlockEntities;
 
 import javax.annotation.Nullable;
 

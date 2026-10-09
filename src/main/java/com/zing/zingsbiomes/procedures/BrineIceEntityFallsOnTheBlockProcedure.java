@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 
@@ -9,7 +9,7 @@ public class BrineIceEntityFallsOnTheBlockProcedure {
 			double _dmg = 10;
 			boolean _drop = true;
 			int _rec = (int) 5;
-			net.mcreator.zingsbiomes.world.BlockDamageHandler.applyDamage(_level, _pos, _dmg, _rec, _drop);
+			com.zing.zingsbiomes.world.BlockDamageHandler.applyDamage(_level, _pos, _dmg, _rec, _drop);
 		}
 	}
 }

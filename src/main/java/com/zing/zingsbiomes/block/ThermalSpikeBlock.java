@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -27,8 +27,8 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.ThermalSpikeEntityFallsOnTheBlockProcedure;
-import net.mcreator.zingsbiomes.procedures.ThermalSpikeBlockAddedProcedure;
+import com.zing.zingsbiomes.procedures.ThermalSpikeEntityFallsOnTheBlockProcedure;
+import com.zing.zingsbiomes.procedures.ThermalSpikeBlockAddedProcedure;
 
 public class ThermalSpikeBlock extends Block implements SimpleWaterloggedBlock {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;

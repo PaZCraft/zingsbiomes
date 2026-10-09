@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -21,9 +21,9 @@ import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zingsbiomes.entity.GrazeEntity;
-import net.mcreator.zingsbiomes.client.model.animations.grazeAnimation;
-import net.mcreator.zingsbiomes.client.model.Modelgraze;
+import com.zing.zingsbiomes.entity.GrazeEntity;
+import com.zing.zingsbiomes.client.model.animations.grazeAnimation;
+import com.zing.zingsbiomes.client.model.Modelgraze;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
@@ -15,9 +15,9 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModItems;
-import net.mcreator.zingsbiomes.entity.ShamrockCowEntity;
-import net.mcreator.zingsbiomes.entity.InvertedShamrockCowEntity;
+import com.zing.zingsbiomes.init.ZingsBiomesModItems;
+import com.zing.zingsbiomes.entity.ShamrockCowEntity;
+import com.zing.zingsbiomes.entity.InvertedShamrockCowEntity;
 
 import java.util.Comparator;
 

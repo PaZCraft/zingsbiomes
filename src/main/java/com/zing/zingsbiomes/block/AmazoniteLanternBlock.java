@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -27,8 +27,8 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.AmazoniteLanternBlockFuelProcedure;
-import net.mcreator.zingsbiomes.block.entity.AmazoniteLanternBlockEntity;
+import com.zing.zingsbiomes.procedures.AmazoniteLanternBlockFuelProcedure;
+import com.zing.zingsbiomes.block.entity.AmazoniteLanternBlockEntity;
 
 import java.util.function.Function;
 

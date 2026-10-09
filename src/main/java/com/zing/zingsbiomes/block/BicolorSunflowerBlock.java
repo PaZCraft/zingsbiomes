@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -13,7 +13,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModMobEffects;
+import com.zing.zingsbiomes.init.ZingsBiomesModMobEffects;
 
 public class BicolorSunflowerBlock extends FlowerBlock {
 	private static final VoxelShape SHAPE = Shapes.empty();

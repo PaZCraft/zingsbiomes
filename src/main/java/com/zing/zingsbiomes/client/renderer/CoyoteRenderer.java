@@ -1,12 +1,12 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
-import net.mcreator.zingsbiomes.entity.CoyoteEntity;
-import net.mcreator.zingsbiomes.client.model.Modelcoyote;
+import com.zing.zingsbiomes.entity.CoyoteEntity;
+import com.zing.zingsbiomes.client.model.Modelcoyote;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

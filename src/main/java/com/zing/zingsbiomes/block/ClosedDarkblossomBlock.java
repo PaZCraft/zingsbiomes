@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -13,7 +13,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.DarkblossomStatesProcedure;
+import com.zing.zingsbiomes.procedures.DarkblossomStatesProcedure;
 
 public class ClosedDarkblossomBlock extends FlowerBlock {
 	public ClosedDarkblossomBlock(BlockBehaviour.Properties properties) {

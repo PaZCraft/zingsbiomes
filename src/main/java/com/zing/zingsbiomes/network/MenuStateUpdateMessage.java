@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.network;
+package com.zing.zingsbiomes.network;
 
 import net.neoforged.neoforge.network.handling.IPayloadContext;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -14,9 +14,9 @@ import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModScreens;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModMenus;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.init.ZingsBiomesModScreens;
+import com.zing.zingsbiomes.init.ZingsBiomesModMenus;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 @EventBusSubscriber
 public record MenuStateUpdateMessage(int elementType, String name, Object elementState) implements CustomPacketPayload {

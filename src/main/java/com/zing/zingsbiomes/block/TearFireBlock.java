@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -22,7 +22,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.TearFireCollisionEntityProcedure;
+import com.zing.zingsbiomes.procedures.TearFireCollisionEntityProcedure;
 
 import java.util.function.Function;
 

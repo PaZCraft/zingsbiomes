@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -14,7 +14,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.QuartzFireCollisionEntityProcedure;
+import com.zing.zingsbiomes.procedures.QuartzFireCollisionEntityProcedure;
 
 public class QuartzCampfireBlock extends Block {
 	private static final VoxelShape SHAPE = Shapes.or(box(1, 0, 0, 5, 4, 16), box(0, 3, 11, 16, 7, 15), box(11, 0, 0, 15, 4, 16), box(0, 3, 1, 16, 7, 5), box(5, 0, 0, 11, 1, 16));

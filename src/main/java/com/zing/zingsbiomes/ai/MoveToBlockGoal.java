@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.ai;
+package com.zing.zingsbiomes.ai;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.entity.ai.goal.Goal;

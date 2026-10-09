@@ -1,12 +1,12 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
-import net.mcreator.zingsbiomes.entity.SandWitchEntity;
-import net.mcreator.zingsbiomes.client.model.Modelwitch;
+import com.zing.zingsbiomes.entity.SandWitchEntity;
+import com.zing.zingsbiomes.client.model.Modelwitch;
 
 public class SandWitchRenderer extends MobRenderer<SandWitchEntity, LivingEntityRenderState, Modelwitch> {
 	private final Identifier entityTexture = Identifier.parse("zings_biomes:textures/entities/sand_witch.png");

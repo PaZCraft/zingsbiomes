@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.ToolMaterial;
@@ -12,7 +12,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 public class EnderiteSwordItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 4050, 15.5f, 0, 20, TagKey.create(Registries.ITEM, Identifier.parse("zings_biomes:enderite_sword_repair_items")));

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
@@ -38,7 +38,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class HippoEntity extends Animal {
 	public final AnimationState animationState0 = new AnimationState();

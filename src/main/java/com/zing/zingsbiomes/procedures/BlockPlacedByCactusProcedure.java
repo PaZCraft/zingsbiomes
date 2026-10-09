@@ -1,11 +1,11 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class BlockPlacedByCactusProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

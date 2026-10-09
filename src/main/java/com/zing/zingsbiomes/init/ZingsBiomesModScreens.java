@@ -1,17 +1,17 @@
 /*
  *	MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsbiomes.init;
+package com.zing.zingsbiomes.init;
 
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
-import net.mcreator.zingsbiomes.client.gui.TinContainerScreen;
-import net.mcreator.zingsbiomes.client.gui.TinContainerChiseledScreen;
-import net.mcreator.zingsbiomes.client.gui.SledWithChestInventoryScreen;
-import net.mcreator.zingsbiomes.client.gui.AmazoniteLanternMenuScreen;
+import com.zing.zingsbiomes.client.gui.TinContainerScreen;
+import com.zing.zingsbiomes.client.gui.TinContainerChiseledScreen;
+import com.zing.zingsbiomes.client.gui.SledWithChestInventoryScreen;
+import com.zing.zingsbiomes.client.gui.AmazoniteLanternMenuScreen;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class ZingsBiomesModScreens {

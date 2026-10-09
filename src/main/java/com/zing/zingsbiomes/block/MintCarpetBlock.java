@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -18,7 +18,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.block.entity.MintCarpetBlockEntity;
+import com.zing.zingsbiomes.block.entity.MintCarpetBlockEntity;
 
 public class MintCarpetBlock extends Block implements EntityBlock {
 	private static final VoxelShape SHAPE = box(0, 0, 0, 16, 1, 16);

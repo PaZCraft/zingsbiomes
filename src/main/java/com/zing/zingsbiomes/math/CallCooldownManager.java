@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.math;
+package com.zing.zingsbiomes.math;
 
 import java.util.concurrent.ConcurrentHashMap;
 

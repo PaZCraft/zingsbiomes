@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.MapColor;
@@ -13,7 +13,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.SandMagmaEntityWalksOnTheBlockProcedure;
+import com.zing.zingsbiomes.procedures.SandMagmaEntityWalksOnTheBlockProcedure;
 
 public class SandMagmaBlock extends Block {
 	public SandMagmaBlock(BlockBehaviour.Properties properties) {

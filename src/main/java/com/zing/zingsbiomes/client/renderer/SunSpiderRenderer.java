@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.texture.OverlayTexture;
@@ -12,7 +12,7 @@ import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.model.monster.spider.SpiderModel;
 import net.minecraft.client.model.geom.ModelLayers;
 
-import net.mcreator.zingsbiomes.entity.SunSpiderEntity;
+import com.zing.zingsbiomes.entity.SunSpiderEntity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

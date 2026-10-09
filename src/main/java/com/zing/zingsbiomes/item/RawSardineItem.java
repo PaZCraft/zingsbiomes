@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;

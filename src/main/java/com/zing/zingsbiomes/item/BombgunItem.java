@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.component.TooltipDisplay;
@@ -15,7 +15,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.zingsbiomes.entity.BomberryRedEntity;
+import com.zing.zingsbiomes.entity.BomberryRedEntity;
 
 import java.util.function.Consumer;
 

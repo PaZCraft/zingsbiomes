@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import org.slf4j.Logger;
 
@@ -32,8 +32,8 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.world.teleporter.BerryTeleporter;
-import net.mcreator.zingsbiomes.world.teleporter.BerryPortalShape;
+import com.zing.zingsbiomes.world.teleporter.BerryTeleporter;
+import com.zing.zingsbiomes.world.teleporter.BerryPortalShape;
 
 import javax.annotation.Nullable;
 

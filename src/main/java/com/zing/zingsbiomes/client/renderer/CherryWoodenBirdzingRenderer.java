@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -14,9 +14,9 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 
-import net.mcreator.zingsbiomes.entity.CherryWoodenBirdzingEntity;
-import net.mcreator.zingsbiomes.client.model.animations.wooden_birdzing_entity_modelAnimation;
-import net.mcreator.zingsbiomes.client.model.Modelwooden_birdzing_woodland;
+import com.zing.zingsbiomes.entity.CherryWoodenBirdzingEntity;
+import com.zing.zingsbiomes.client.model.animations.wooden_birdzing_entity_modelAnimation;
+import com.zing.zingsbiomes.client.model.Modelwooden_birdzing_woodland;
 
 import java.util.Map;
 

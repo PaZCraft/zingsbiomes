@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -11,8 +11,8 @@ import net.minecraft.world.entity.InsideBlockEffectApplier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.QuartzFireCollisionEntityProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModFluids;
+import com.zing.zingsbiomes.procedures.QuartzFireCollisionEntityProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
 
 public class QuartzLavaBlock extends LiquidBlock {
 	public QuartzLavaBlock(BlockBehaviour.Properties properties) {

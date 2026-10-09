@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import io.netty.buffer.Unpooled;
 import net.minecraft.core.BlockPos;
@@ -21,7 +21,7 @@ import net.minecraft.world.level.storage.ValueOutput;
 import net.neoforged.neoforge.transfer.CombinedResourceHandler;
 import net.neoforged.neoforge.transfer.item.ItemStacksResourceHandler;
 import net.neoforged.neoforge.transfer.item.ItemUtil;
-import net.mcreator.zingsbiomes.world.inventory.SledWithChestInventoryMenu;
+import com.zing.zingsbiomes.world.inventory.SledWithChestInventoryMenu;
 
 public class GroundSledWithChestEntity extends GroundSledEntity {
 	private final ItemStacksResourceHandler inventory = new ItemStacksResourceHandler(27);

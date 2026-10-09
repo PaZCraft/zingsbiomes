@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.client.model.geom.EntityModelSet;
 import net.minecraft.client.renderer.SubmitNodeCollector;
@@ -9,8 +9,8 @@ import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.resources.Identifier;
 
-import net.mcreator.zingsbiomes.client.model.Modelcaribou;
-import net.mcreator.zingsbiomes.client.model.Modelcaribou_armor;
+import com.zing.zingsbiomes.client.model.Modelcaribou;
+import com.zing.zingsbiomes.client.model.Modelcaribou_armor;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

@@ -1,7 +1,7 @@
 /*
  *	MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsbiomes.init;
+package com.zing.zingsbiomes.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -16,12 +16,12 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zingsbiomes.world.inventory.TinContainerMenu;
-import net.mcreator.zingsbiomes.world.inventory.TinContainerChiseledMenu;
-import net.mcreator.zingsbiomes.world.inventory.SledWithChestInventoryMenu;
-import net.mcreator.zingsbiomes.world.inventory.AmazoniteLanternMenuMenu;
-import net.mcreator.zingsbiomes.network.MenuStateUpdateMessage;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.world.inventory.TinContainerMenu;
+import com.zing.zingsbiomes.world.inventory.TinContainerChiseledMenu;
+import com.zing.zingsbiomes.world.inventory.SledWithChestInventoryMenu;
+import com.zing.zingsbiomes.world.inventory.AmazoniteLanternMenuMenu;
+import com.zing.zingsbiomes.network.MenuStateUpdateMessage;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 import java.util.Map;
 

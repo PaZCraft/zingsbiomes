@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.network;
+package com.zing.zingsbiomes.network;
 
 import net.neoforged.neoforge.network.handling.IPayloadContext;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -15,8 +15,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.SectionPos;
 
-import net.mcreator.zingsbiomes.procedures.AmazoniteFuelUsageProcedure;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.procedures.AmazoniteFuelUsageProcedure;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 @EventBusSubscriber
 public record AmazoniteLanternMenuSlotMessage(int slotID, int x, int y, int z, int changeType, int meta) implements CustomPacketPayload {

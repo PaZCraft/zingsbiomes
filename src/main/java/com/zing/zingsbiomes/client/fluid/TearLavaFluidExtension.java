@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.fluid;
+package com.zing.zingsbiomes.client.fluid;
 
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import net.neoforged.neoforge.client.extensions.common.IClientFluidTypeExtensions;
@@ -11,8 +11,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.client.resources.model.sprite.Material;
 import net.minecraft.client.renderer.block.FluidModel;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModFluids;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModFluidTypes;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluidTypes;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class TearLavaFluidExtension {

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
@@ -8,8 +8,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class ChrysalisBlockDestroyedByPlayerProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

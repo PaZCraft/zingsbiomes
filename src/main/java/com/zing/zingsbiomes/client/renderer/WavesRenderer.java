@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -21,9 +21,9 @@ import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zingsbiomes.entity.WavesEntity;
-import net.mcreator.zingsbiomes.client.model.animations.wavesAnimation;
-import net.mcreator.zingsbiomes.client.model.Modelwaves;
+import com.zing.zingsbiomes.entity.WavesEntity;
+import com.zing.zingsbiomes.client.model.animations.wavesAnimation;
+import com.zing.zingsbiomes.client.model.Modelwaves;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
@@ -12,7 +12,7 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.SculkJawEntityWalksOnTheBlockProcedure;
+import com.zing.zingsbiomes.procedures.SculkJawEntityWalksOnTheBlockProcedure;
 
 public class SculkJawBlock extends Block {
 	public static final BooleanProperty IS_SNAPPED = BooleanProperty.create("is_snapped");

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.block.state.BlockState;
@@ -10,7 +10,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.TearFireCollisionEntityProcedure;
+import com.zing.zingsbiomes.procedures.TearFireCollisionEntityProcedure;
 
 public class TearMagmaBlockBlock extends Block {
 	public TearMagmaBlockBlock(BlockBehaviour.Properties properties) {

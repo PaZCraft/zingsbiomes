@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client;
+package com.zing.zingsbiomes.client;
 
 import net.minecraft.client.gui.screens.inventory.InventoryScreen;
 import net.minecraft.client.Minecraft;

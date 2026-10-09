@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.UseOnContext;
@@ -8,7 +8,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.block.BerryPortalBlock;
+import com.zing.zingsbiomes.block.BerryPortalBlock;
 
 public class BerryItem extends Item {
 	public BerryItem(Item.Properties properties) {

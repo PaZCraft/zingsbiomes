@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.init;
+package com.zing.zingsbiomes.init;
 
 import net.neoforged.neoforge.transfer.item.WorldlyContainerWrapper;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -13,8 +13,8 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.block.entity.*;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.block.entity.*;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 @EventBusSubscriber
 public class ZingsBiomesModBlockEntities {

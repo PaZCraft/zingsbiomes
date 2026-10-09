@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.fluid.types;
+package com.zing.zingsbiomes.fluid.types;
 
 import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.common.SoundActions;

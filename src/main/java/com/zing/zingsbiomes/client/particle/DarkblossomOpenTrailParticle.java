@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.particle;
+package com.zing.zingsbiomes.client.particle;
 
 import net.minecraft.util.RandomSource;
 import net.minecraft.core.particles.SimpleParticleType;

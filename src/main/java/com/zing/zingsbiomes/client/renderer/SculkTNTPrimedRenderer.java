@@ -1,12 +1,12 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
-import net.mcreator.zingsbiomes.entity.SculkTNTPrimedEntity;
-import net.mcreator.zingsbiomes.client.model.Modeltnt;
+import com.zing.zingsbiomes.entity.SculkTNTPrimedEntity;
+import com.zing.zingsbiomes.client.model.Modeltnt;
 
 public class SculkTNTPrimedRenderer extends MobRenderer<SculkTNTPrimedEntity, LivingEntityRenderState, Modeltnt> {
 	private final Identifier entityTexture = Identifier.parse("zings_biomes:textures/entities/tnt_sculk.png");

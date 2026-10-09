@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
@@ -16,7 +16,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.HydrothermalVentTickProcedure;
+import com.zing.zingsbiomes.procedures.HydrothermalVentTickProcedure;
 
 public class HydrothermalVentBlockBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;

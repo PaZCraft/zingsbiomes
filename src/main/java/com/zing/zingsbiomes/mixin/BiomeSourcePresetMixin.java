@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.mixin;
+package com.zing.zingsbiomes.mixin;
 
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -14,7 +14,7 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBiomes;
+import com.zing.zingsbiomes.init.ZingsBiomesModBiomes;
 
 import java.util.function.Function;
 

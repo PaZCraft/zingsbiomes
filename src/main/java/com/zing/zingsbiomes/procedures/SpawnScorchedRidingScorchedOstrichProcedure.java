@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -13,9 +13,9 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
-import net.mcreator.zingsbiomes.entity.ScorchedOstrichEntity;
-import net.mcreator.zingsbiomes.entity.ScorchedEntity;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.entity.ScorchedOstrichEntity;
+import com.zing.zingsbiomes.entity.ScorchedEntity;
 
 import javax.annotation.Nullable;
 

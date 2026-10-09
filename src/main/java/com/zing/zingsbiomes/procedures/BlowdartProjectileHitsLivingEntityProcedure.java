@@ -1,10 +1,10 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModMobEffects;
+import com.zing.zingsbiomes.init.ZingsBiomesModMobEffects;
 
 public class BlowdartProjectileHitsLivingEntityProcedure {
 	public static void execute(Entity entity) {

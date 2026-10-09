@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client;
+package com.zing.zingsbiomes.client;
 
 import java.util.Random;
 

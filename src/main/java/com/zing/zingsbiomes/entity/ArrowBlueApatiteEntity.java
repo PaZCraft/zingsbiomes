@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.Level;
@@ -16,8 +16,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModItems;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.init.ZingsBiomesModItems;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 import javax.annotation.Nullable;
 

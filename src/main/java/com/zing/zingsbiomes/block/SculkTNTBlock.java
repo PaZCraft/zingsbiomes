@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.gameevent.vibrations.VibrationSystem;
 import net.minecraft.world.level.block.state.BlockState;
@@ -17,8 +17,8 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlockEntities;
-import net.mcreator.zingsbiomes.block.entity.SculkTNTBlockEntity;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlockEntities;
+import com.zing.zingsbiomes.block.entity.SculkTNTBlockEntity;
 
 public class SculkTNTBlock extends Block implements EntityBlock {
 	public SculkTNTBlock(BlockBehaviour.Properties properties) {

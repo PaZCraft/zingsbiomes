@@ -1,10 +1,10 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
-import net.mcreator.zingsbiomes.procedures.BucketOfSeaUrchinRightclickedOnBlockProcedure;
+import com.zing.zingsbiomes.procedures.BucketOfSeaUrchinRightclickedOnBlockProcedure;
 
 public class BucketOfSeaUrchinItem extends Item {
 	public BucketOfSeaUrchinItem(Item.Properties properties) {

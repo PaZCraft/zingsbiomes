@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
@@ -7,7 +7,7 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.monster.spider.SpiderModel;
 import net.minecraft.client.model.geom.ModelLayers;
 
-import net.mcreator.zingsbiomes.entity.BoneSpiderEntity;
+import com.zing.zingsbiomes.entity.BoneSpiderEntity;
 
 public class BoneSpiderRenderer extends MobRenderer<BoneSpiderEntity, LivingEntityRenderState, SpiderModel> {
 	private final Identifier entityTexture = Identifier.parse("zings_biomes:textures/entities/bone_spider.png");

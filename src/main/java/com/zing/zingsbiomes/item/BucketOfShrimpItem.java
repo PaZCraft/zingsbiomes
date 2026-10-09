@@ -1,10 +1,10 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
-import net.mcreator.zingsbiomes.procedures.BucketOfShirmpRightclickedOnBlockProcedure;
+import com.zing.zingsbiomes.procedures.BucketOfShirmpRightclickedOnBlockProcedure;
 
 public class BucketOfShrimpItem extends Item {
 	public BucketOfShrimpItem(Item.Properties properties) {

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 
-import net.mcreator.zingsbiomes.procedures.GreenMilkBucketPlayerFinishesUsingItemProcedure;
+import com.zing.zingsbiomes.procedures.GreenMilkBucketPlayerFinishesUsingItemProcedure;
 
 public class GreenMilkBucketItem extends Item {
 	public GreenMilkBucketItem(Item.Properties properties) {

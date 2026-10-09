@@ -1,10 +1,10 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
-import net.mcreator.zingsbiomes.procedures.BucketOfSunfishRightclickedOnBlockProcedure;
+import com.zing.zingsbiomes.procedures.BucketOfSunfishRightclickedOnBlockProcedure;
 
 public class BucketOfSunfishItem extends Item {
 	public BucketOfSunfishItem(Item.Properties properties) {

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -14,9 +14,9 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 
-import net.mcreator.zingsbiomes.entity.ButterflyEntity;
-import net.mcreator.zingsbiomes.client.model.animations.butterflyAnimation;
-import net.mcreator.zingsbiomes.client.model.Modelbutterfly;
+import com.zing.zingsbiomes.entity.ButterflyEntity;
+import com.zing.zingsbiomes.client.model.animations.butterflyAnimation;
+import com.zing.zingsbiomes.client.model.Modelbutterfly;
 
 import java.util.Map;
 

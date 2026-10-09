@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.component.BlocksAttacks;
@@ -19,8 +19,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.component.DataComponents;
 
-import net.mcreator.zingsbiomes.procedures.CarnelianShieldToolInInventoryTickProcedure;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.procedures.CarnelianShieldToolInInventoryTickProcedure;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 import javax.annotation.Nullable;
 

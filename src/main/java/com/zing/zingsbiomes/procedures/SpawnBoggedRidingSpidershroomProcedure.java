@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.neoforged.neoforge.transfer.transaction.Transaction;
 import net.neoforged.neoforge.transfer.item.ItemResource;
@@ -20,8 +20,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModItems;
-import net.mcreator.zingsbiomes.entity.SpidershroomEntity;
+import com.zing.zingsbiomes.init.ZingsBiomesModItems;
+import com.zing.zingsbiomes.entity.SpidershroomEntity;
 
 import javax.annotation.Nullable;
 

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.init;
+package com.zing.zingsbiomes.init;
 
 import net.neoforged.neoforge.transfer.fluid.BucketResourceHandler;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -12,8 +12,8 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.*;
 
-import net.mcreator.zingsbiomes.item.*;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.item.*;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 import java.util.function.Function;
 

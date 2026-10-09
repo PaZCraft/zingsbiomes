@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -22,8 +22,8 @@ import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zingsbiomes.entity.UltrabbitEntity;
-import net.mcreator.zingsbiomes.client.model.Modelultrabbit;
+import com.zing.zingsbiomes.entity.UltrabbitEntity;
+import com.zing.zingsbiomes.client.model.Modelultrabbit;
 
 import java.util.Map;
 

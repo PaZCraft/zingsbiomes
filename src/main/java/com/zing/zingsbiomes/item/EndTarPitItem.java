@@ -1,11 +1,11 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BucketItem;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModFluids;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
 
 public class EndTarPitItem extends BucketItem {
 	public EndTarPitItem(Item.Properties properties) {

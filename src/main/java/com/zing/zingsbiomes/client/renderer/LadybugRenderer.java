@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
@@ -8,9 +8,9 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 
-import net.mcreator.zingsbiomes.entity.LadybugEntity;
-import net.mcreator.zingsbiomes.client.model.animations.ladybugAnimation;
-import net.mcreator.zingsbiomes.client.model.Modelladybug;
+import com.zing.zingsbiomes.entity.LadybugEntity;
+import com.zing.zingsbiomes.client.model.animations.ladybugAnimation;
+import com.zing.zingsbiomes.client.model.Modelladybug;
 
 import java.util.Map;
 

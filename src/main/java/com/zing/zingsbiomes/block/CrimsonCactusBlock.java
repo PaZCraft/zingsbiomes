@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.neoforged.neoforge.common.CommonHooks;
 
@@ -21,8 +21,8 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.CactusCollisionEntityProcedure;
-import net.mcreator.zingsbiomes.procedures.BlockPlacedByCactusProcedure;
+import com.zing.zingsbiomes.procedures.CactusCollisionEntityProcedure;
+import com.zing.zingsbiomes.procedures.BlockPlacedByCactusProcedure;
 
 public class CrimsonCactusBlock extends SugarCaneBlock {
 	public CrimsonCactusBlock(BlockBehaviour.Properties properties) {

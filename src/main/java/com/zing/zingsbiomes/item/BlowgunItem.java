@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ProjectileWeaponItem;
@@ -13,7 +13,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 
-import net.mcreator.zingsbiomes.entity.BlowdartEntity;
+import com.zing.zingsbiomes.entity.BlowdartEntity;
 
 public class BlowgunItem extends BowItem {
 	public BlowgunItem(Item.Properties properties) {

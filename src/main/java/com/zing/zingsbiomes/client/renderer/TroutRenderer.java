@@ -1,12 +1,12 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
-import net.mcreator.zingsbiomes.entity.TroutEntity;
-import net.mcreator.zingsbiomes.client.model.Modeltrout;
+import com.zing.zingsbiomes.entity.TroutEntity;
+import com.zing.zingsbiomes.client.model.Modeltrout;
 
 public class TroutRenderer extends MobRenderer<TroutEntity, LivingEntityRenderState, Modeltrout> {
 	private final Identifier entityTexture = Identifier.parse("zings_biomes:textures/entities/trout.png");

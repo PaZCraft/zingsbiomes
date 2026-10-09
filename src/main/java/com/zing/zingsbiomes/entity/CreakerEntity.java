@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
@@ -28,8 +28,8 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.tags.BlockTags;
 
-import net.mcreator.zingsbiomes.procedures.CreakerItIsStruckByLightningProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.procedures.CreakerItIsStruckByLightningProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class CreakerEntity extends ThemedCreeperEntity {
 	public CreakerEntity(EntityType<CreakerEntity> type, Level world) {

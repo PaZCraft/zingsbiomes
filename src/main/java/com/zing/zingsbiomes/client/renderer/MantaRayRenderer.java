@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -14,9 +14,9 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 
-import net.mcreator.zingsbiomes.entity.MantaRayEntity;
-import net.mcreator.zingsbiomes.client.model.animations.manta_rayAnimation;
-import net.mcreator.zingsbiomes.client.model.Modelmanta_ray;
+import com.zing.zingsbiomes.entity.MantaRayEntity;
+import com.zing.zingsbiomes.client.model.animations.manta_rayAnimation;
+import com.zing.zingsbiomes.client.model.Modelmanta_ray;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.common.NeoForgeMod;
@@ -26,8 +26,8 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.procedures.SporeeperItIsStruckByLightningProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.procedures.SporeeperItIsStruckByLightningProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class SporeeperEntity extends ThemedCreeperEntity {
 	public SporeeperEntity(EntityType<SporeeperEntity> type, Level world) {

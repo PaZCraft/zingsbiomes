@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -14,7 +14,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.MothBallBlockDestroyedByPlayerProcedure;
+import com.zing.zingsbiomes.procedures.MothBallBlockDestroyedByPlayerProcedure;
 
 public class MothBallBlock extends Block {
 	private static final VoxelShape SHAPE = box(4, 0, 4, 12, 5, 12);

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.neoforged.neoforge.common.util.DeferredSoundType;
 
@@ -29,7 +29,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.block.entity.ChiseledTinContainerBlockEntity;
+import com.zing.zingsbiomes.block.entity.ChiseledTinContainerBlockEntity;
 
 import java.util.function.Function;
 

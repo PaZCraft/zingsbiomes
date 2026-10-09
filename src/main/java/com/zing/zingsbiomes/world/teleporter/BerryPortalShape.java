@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.world.teleporter;
+package com.zing.zingsbiomes.world.teleporter;
 
 import org.apache.commons.lang3.mutable.MutableInt;
 
@@ -19,7 +19,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 import javax.annotation.Nullable;
 

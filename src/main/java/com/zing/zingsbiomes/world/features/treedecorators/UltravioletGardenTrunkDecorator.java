@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.world.features.treedecorators;
+package com.zing.zingsbiomes.world.features.treedecorators;
 
 import net.neoforged.neoforge.registries.RegisterEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

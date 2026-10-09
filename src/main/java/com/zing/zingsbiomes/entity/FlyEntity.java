@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.EventHooks;
@@ -50,8 +50,8 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.WaterSourceDamageVulnerableEntityProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.procedures.WaterSourceDamageVulnerableEntityProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class FlyEntity extends TamableAnimal {
 	public final AnimationState animationState0 = new AnimationState();

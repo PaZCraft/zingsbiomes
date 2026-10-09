@@ -1,10 +1,10 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
-import net.mcreator.zingsbiomes.procedures.BucketOfSeahorseRightclickedOnBlockProcedure;
+import com.zing.zingsbiomes.procedures.BucketOfSeahorseRightclickedOnBlockProcedure;
 
 public class BucketOfSeahorseItem extends Item {
 	public BucketOfSeahorseItem(Item.Properties properties) {

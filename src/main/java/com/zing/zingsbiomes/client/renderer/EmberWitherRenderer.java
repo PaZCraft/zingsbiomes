@@ -1,12 +1,12 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
-import net.mcreator.zingsbiomes.entity.EmberWitherEntity;
-import net.mcreator.zingsbiomes.client.model.Modelember_wither;
+import com.zing.zingsbiomes.entity.EmberWitherEntity;
+import com.zing.zingsbiomes.client.model.Modelember_wither;
 
 public class EmberWitherRenderer extends MobRenderer<EmberWitherEntity, LivingEntityRenderState, Modelember_wither> {
 	private final Identifier entityTexture = Identifier.parse("zings_biomes:textures/entities/ember_wither.png");

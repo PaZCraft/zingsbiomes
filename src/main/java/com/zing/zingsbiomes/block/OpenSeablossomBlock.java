@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -25,7 +25,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.SeablossomStatesProcedure;
+import com.zing.zingsbiomes.procedures.SeablossomStatesProcedure;
 
 public class OpenSeablossomBlock extends FlowerBlock implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;

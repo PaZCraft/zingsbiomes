@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.network;
+package com.zing.zingsbiomes.network;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
@@ -12,7 +12,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.codec.ByteBufCodecs;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.zingsbiomes.client.CameraShakeManager;
+import com.zing.zingsbiomes.client.CameraShakeManager;
 
 @EventBusSubscriber
 public record CameraShakePayload(float power, int durationTicks) implements CustomPacketPayload {

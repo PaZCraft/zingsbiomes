@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.model.animations;
+package com.zing.zingsbiomes.client.model.animations;
 
 import net.minecraft.client.animation.KeyframeAnimations;
 import net.minecraft.client.animation.Keyframe;

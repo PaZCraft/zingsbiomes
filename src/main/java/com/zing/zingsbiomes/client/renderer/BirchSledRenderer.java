@@ -1,9 +1,9 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.Identifier;
-import net.mcreator.zingsbiomes.client.model.Modelsled;
-import net.mcreator.zingsbiomes.entity.BirchSledEntity;
+import com.zing.zingsbiomes.client.model.Modelsled;
+import com.zing.zingsbiomes.entity.BirchSledEntity;
 
 public class BirchSledRenderer extends GroundSledRenderer<BirchSledEntity, Modelsled> {
 	public BirchSledRenderer(EntityRendererProvider.Context context) {

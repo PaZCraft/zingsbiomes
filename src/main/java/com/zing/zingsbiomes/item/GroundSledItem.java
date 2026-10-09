@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionResult;
@@ -11,7 +11,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SnowLayerBlock;
 import net.minecraft.core.BlockPos;
-import net.mcreator.zingsbiomes.entity.GroundSledEntity;
+import com.zing.zingsbiomes.entity.GroundSledEntity;
 
 public class GroundSledItem extends Item {
 	private final EntityType<? extends Entity> entityType;

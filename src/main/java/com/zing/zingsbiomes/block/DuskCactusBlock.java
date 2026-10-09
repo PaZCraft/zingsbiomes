@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.neoforged.neoforge.common.CommonHooks;
 
@@ -24,9 +24,9 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.CactusCollisionEntityProcedure;
-import net.mcreator.zingsbiomes.procedures.BlockPlacedByCactusProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.procedures.CactusCollisionEntityProcedure;
+import com.zing.zingsbiomes.procedures.BlockPlacedByCactusProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class DuskCactusBlock extends SugarCaneBlock {
 	public DuskCactusBlock(BlockBehaviour.Properties properties) {

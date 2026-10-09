@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.model;
+package com.zing.zingsbiomes.client.model;
 
 import net.minecraft.util.Mth;
 import net.minecraft.resources.Identifier;
@@ -12,7 +12,7 @@ import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.EntityModel;
-import net.mcreator.zingsbiomes.client.renderer.CaribouRenderState;
+import com.zing.zingsbiomes.client.renderer.CaribouRenderState;
 
 // Made with Blockbench 5.1.4
 // Exported for Minecraft version 1.17 or later with Mojang mappings

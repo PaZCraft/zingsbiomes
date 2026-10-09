@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.pathfinder.PathType;
@@ -21,7 +21,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.BlueberryBushPlantRightclickedProcedure;
+import com.zing.zingsbiomes.procedures.BlueberryBushPlantRightclickedProcedure;
 
 public class BlueberryBushBlock extends FlowerBlock implements BonemealableBlock {
 	public BlueberryBushBlock(BlockBehaviour.Properties properties) {

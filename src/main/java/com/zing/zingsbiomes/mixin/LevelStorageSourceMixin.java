@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.mixin;
+package com.zing.zingsbiomes.mixin;
 
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.injection.At;

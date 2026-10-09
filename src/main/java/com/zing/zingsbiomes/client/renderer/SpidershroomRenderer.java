@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
@@ -12,8 +12,8 @@ import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zingsbiomes.entity.SpidershroomEntity;
-import net.mcreator.zingsbiomes.client.model.Modelspidershroom;
+import com.zing.zingsbiomes.entity.SpidershroomEntity;
+import com.zing.zingsbiomes.client.model.Modelspidershroom;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

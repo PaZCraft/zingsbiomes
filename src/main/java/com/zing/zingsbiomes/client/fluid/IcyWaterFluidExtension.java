@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.fluid;
+package com.zing.zingsbiomes.client.fluid;
 
 import org.joml.Vector4f;
 
@@ -19,8 +19,8 @@ import net.minecraft.client.renderer.block.FluidModel;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.Camera;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModFluids;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModFluidTypes;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluidTypes;
 
 import javax.annotation.Nullable;
 

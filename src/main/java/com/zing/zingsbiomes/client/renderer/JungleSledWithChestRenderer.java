@@ -1,9 +1,9 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.Identifier;
-import net.mcreator.zingsbiomes.client.model.Modelsled_with_chest;
-import net.mcreator.zingsbiomes.entity.JungleSledWithChestEntity;
+import com.zing.zingsbiomes.client.model.Modelsled_with_chest;
+import com.zing.zingsbiomes.entity.JungleSledWithChestEntity;
 
 public class JungleSledWithChestRenderer extends GroundSledRenderer<JungleSledWithChestEntity, Modelsled_with_chest> {
 	public JungleSledWithChestRenderer(EntityRendererProvider.Context context) {

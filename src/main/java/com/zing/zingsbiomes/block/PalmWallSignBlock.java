@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.neoforged.neoforge.common.util.DeferredSoundType;
 
@@ -7,8 +7,8 @@ import net.minecraft.world.level.block.WallSignBlock;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModWoodTypes;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.init.ZingsBiomesModWoodTypes;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class PalmWallSignBlock extends WallSignBlock {
 	public PalmWallSignBlock(BlockBehaviour.Properties properties) {

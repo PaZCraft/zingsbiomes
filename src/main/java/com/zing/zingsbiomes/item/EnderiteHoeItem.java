@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.neoforged.neoforge.event.ModifyDefaultComponentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -18,8 +18,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.component.DataComponents;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModItems;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.init.ZingsBiomesModItems;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 @EventBusSubscriber
 public class EnderiteHoeItem extends HoeItem {

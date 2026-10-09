@@ -1,9 +1,9 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.Identifier;
-import net.mcreator.zingsbiomes.client.model.Modelsled;
-import net.mcreator.zingsbiomes.entity.JungleSledEntity;
+import com.zing.zingsbiomes.client.model.Modelsled;
+import com.zing.zingsbiomes.entity.JungleSledEntity;
 
 public class JungleSledRenderer extends GroundSledRenderer<JungleSledEntity, Modelsled> {
 	public JungleSledRenderer(EntityRendererProvider.Context context) {

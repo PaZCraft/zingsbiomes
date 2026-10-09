@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +26,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.StringProperty;
 import net.minecraft.world.phys.BlockHitResult;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public abstract class DyeableShroomlightBlock extends Block {
 	public static final StringProperty COLOR = StringProperty.create("color", validColors());

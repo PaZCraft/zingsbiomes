@@ -1,11 +1,11 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModMenus;
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.init.ZingsBiomesModMenus;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 public class AmazoniteFuelUsageProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.procedures;
+package com.zing.zingsbiomes.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
@@ -10,7 +10,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModItems;
+import com.zing.zingsbiomes.init.ZingsBiomesModItems;
 
 public class BlueberryBushPlantRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

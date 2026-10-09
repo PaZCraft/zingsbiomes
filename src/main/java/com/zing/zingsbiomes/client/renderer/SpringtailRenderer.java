@@ -1,12 +1,12 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
-import net.mcreator.zingsbiomes.entity.SpringtailEntity;
-import net.mcreator.zingsbiomes.client.model.Modelspringtail;
+import com.zing.zingsbiomes.entity.SpringtailEntity;
+import com.zing.zingsbiomes.client.model.Modelspringtail;
 
 public class SpringtailRenderer extends MobRenderer<SpringtailEntity, LivingEntityRenderState, Modelspringtail> {
 	private final Identifier entityTexture = Identifier.parse("zings_biomes:textures/entities/springtail_pink.png");

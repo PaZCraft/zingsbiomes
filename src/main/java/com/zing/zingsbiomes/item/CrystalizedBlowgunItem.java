@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.*;
@@ -10,7 +10,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 
-import net.mcreator.zingsbiomes.entity.ArrowBlueApatiteEntity;
+import com.zing.zingsbiomes.entity.ArrowBlueApatiteEntity;
 
 public class CrystalizedBlowgunItem extends Item {
 	public CrystalizedBlowgunItem(Item.Properties properties) {

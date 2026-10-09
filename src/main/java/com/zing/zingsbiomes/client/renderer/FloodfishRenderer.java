@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
@@ -7,7 +7,7 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.monster.silverfish.SilverfishModel;
 import net.minecraft.client.model.geom.ModelLayers;
 
-import net.mcreator.zingsbiomes.entity.FloodfishEntity;
+import com.zing.zingsbiomes.entity.FloodfishEntity;
 
 public class FloodfishRenderer extends MobRenderer<FloodfishEntity, LivingEntityRenderState, SilverfishModel> {
 	private final Identifier entityTexture = Identifier.parse("zings_biomes:textures/entities/floodfish.png");

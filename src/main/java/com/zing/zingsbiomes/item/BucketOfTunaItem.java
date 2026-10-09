@@ -1,10 +1,10 @@
-package net.mcreator.zingsbiomes.item;
+package com.zing.zingsbiomes.item;
 
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
-import net.mcreator.zingsbiomes.procedures.BucketOfTunaRightclickedOnBlockProcedure;
+import com.zing.zingsbiomes.procedures.BucketOfTunaRightclickedOnBlockProcedure;
 
 public class BucketOfTunaItem extends Item {
 	public BucketOfTunaItem(Item.Properties properties) {

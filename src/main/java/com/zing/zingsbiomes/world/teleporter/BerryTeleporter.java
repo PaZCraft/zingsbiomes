@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.world.teleporter;
+package com.zing.zingsbiomes.world.teleporter;
 
 import net.neoforged.neoforge.registries.RegisterEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -24,7 +24,7 @@ import net.minecraft.core.Holder;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 import java.util.Optional;
 import java.util.Comparator;

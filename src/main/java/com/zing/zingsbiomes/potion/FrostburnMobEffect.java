@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.potion;
+package com.zing.zingsbiomes.potion;
 
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
@@ -8,7 +8,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.particles.ParticleTypes;
 
-import net.mcreator.zingsbiomes.ZingsBiomesMod;
+import com.zing.zingsbiomes.ZingsBiomesMod;
 
 public class FrostburnMobEffect extends MobEffect {
 	public FrostburnMobEffect() {

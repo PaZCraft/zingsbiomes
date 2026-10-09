@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.model;
+package com.zing.zingsbiomes.client.model;
 
 import net.minecraft.util.Mth;
 import net.minecraft.resources.Identifier;

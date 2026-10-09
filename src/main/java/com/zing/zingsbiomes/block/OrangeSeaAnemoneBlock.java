@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -27,8 +27,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.OrangeSeaAnemoneEntityWalksOnTheBlockProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModBlocks;
+import com.zing.zingsbiomes.procedures.OrangeSeaAnemoneEntityWalksOnTheBlockProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class OrangeSeaAnemoneBlock extends FlowerBlock implements BonemealableBlock, SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;

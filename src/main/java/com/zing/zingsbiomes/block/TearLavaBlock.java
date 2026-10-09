@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -11,8 +11,8 @@ import net.minecraft.world.entity.InsideBlockEffectApplier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.TearFireCollisionEntityProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModFluids;
+import com.zing.zingsbiomes.procedures.TearFireCollisionEntityProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
 
 public class TearLavaBlock extends LiquidBlock {
 	public TearLavaBlock(BlockBehaviour.Properties properties) {

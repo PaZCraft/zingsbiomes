@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.world;
+package com.zing.zingsbiomes.world;
 
 import net.neoforged.neoforge.event.tick.LevelTickEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -13,7 +13,7 @@ import net.minecraft.world.entity.InsideBlockEffectApplier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.SpikedMushroomCollisionProcedure;
+import com.zing.zingsbiomes.procedures.SpikedMushroomCollisionProcedure;
 
 public class SpikedMushroomStemBlock extends Block {
 	private static final VoxelShape SHAPE = box(1, 0, 1, 15, 16, 15);

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.network;
+package com.zing.zingsbiomes.network;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;

@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.block;
+package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.PushReaction;
@@ -16,7 +16,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsbiomes.procedures.ThornBushMobplayerCollidesWithPlantProcedure;
+import com.zing.zingsbiomes.procedures.ThornBushMobplayerCollidesWithPlantProcedure;
 
 public class ThornBushBlock extends FlowerBlock {
 	public ThornBushBlock(BlockBehaviour.Properties properties) {

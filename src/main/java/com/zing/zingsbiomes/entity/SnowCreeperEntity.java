@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
@@ -30,10 +30,10 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsbiomes.procedures.SnowCreeperEntityIsHurtProcedure;
-import net.mcreator.zingsbiomes.procedures.FrostedStruckByLightningProcedure;
-import net.mcreator.zingsbiomes.procedures.FloodCreeperPlayerCollidesWithThisEntityProcedure;
-import net.mcreator.zingsbiomes.init.ZingsBiomesModEntities;
+import com.zing.zingsbiomes.procedures.SnowCreeperEntityIsHurtProcedure;
+import com.zing.zingsbiomes.procedures.FrostedStruckByLightningProcedure;
+import com.zing.zingsbiomes.procedures.FloodCreeperPlayerCollidesWithThisEntityProcedure;
+import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
 
 public class SnowCreeperEntity extends ThemedCreeperEntity {
 	public SnowCreeperEntity(EntityType<SnowCreeperEntity> type, Level world) {

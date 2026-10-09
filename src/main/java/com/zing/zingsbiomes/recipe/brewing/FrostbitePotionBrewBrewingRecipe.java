@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.recipe.brewing;
+package com.zing.zingsbiomes.recipe.brewing;
 
 import net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent;
 import net.neoforged.neoforge.common.brewing.IBrewingRecipe;
@@ -13,7 +13,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.core.component.DataComponents;
 
-import net.mcreator.zingsbiomes.init.ZingsBiomesModPotions;
+import com.zing.zingsbiomes.init.ZingsBiomesModPotions;
 
 @EventBusSubscriber
 public class FrostbitePotionBrewBrewingRecipe implements IBrewingRecipe {

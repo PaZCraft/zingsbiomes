@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -14,9 +14,9 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 
-import net.mcreator.zingsbiomes.entity.PiranhaEntity;
-import net.mcreator.zingsbiomes.client.model.animations.piranhaAnimation;
-import net.mcreator.zingsbiomes.client.model.Modelpiranha;
+import com.zing.zingsbiomes.entity.PiranhaEntity;
+import com.zing.zingsbiomes.client.model.animations.piranhaAnimation;
+import com.zing.zingsbiomes.client.model.Modelpiranha;
 
 import java.util.Map;
 

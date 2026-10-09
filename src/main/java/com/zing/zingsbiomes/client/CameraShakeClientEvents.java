@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client;
+package com.zing.zingsbiomes.client;
 
 import net.neoforged.neoforge.client.event.ViewportEvent;
 import net.neoforged.neoforge.client.event.ClientTickEvent;

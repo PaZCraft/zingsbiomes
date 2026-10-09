@@ -1,9 +1,9 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.Identifier;
-import net.mcreator.zingsbiomes.client.model.Modelsled_with_chest;
-import net.mcreator.zingsbiomes.entity.PaleOakSledWithChestEntity;
+import com.zing.zingsbiomes.client.model.Modelsled_with_chest;
+import com.zing.zingsbiomes.entity.PaleOakSledWithChestEntity;
 
 public class PaleOakSledWithChestRenderer extends GroundSledRenderer<PaleOakSledWithChestEntity, Modelsled_with_chest> {
 	public PaleOakSledWithChestRenderer(EntityRendererProvider.Context context) {

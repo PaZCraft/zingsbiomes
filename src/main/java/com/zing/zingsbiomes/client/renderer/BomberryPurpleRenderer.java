@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.client.renderer;
+package com.zing.zingsbiomes.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.texture.OverlayTexture;
@@ -8,8 +8,8 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 
-import net.mcreator.zingsbiomes.entity.BomberryPurpleEntity;
-import net.mcreator.zingsbiomes.client.model.Modelbomberry;
+import com.zing.zingsbiomes.entity.BomberryPurpleEntity;
+import com.zing.zingsbiomes.client.model.Modelbomberry;
 
 import com.mojang.math.Axis;
 import com.mojang.blaze3d.vertex.PoseStack;

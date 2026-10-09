@@ -1,4 +1,4 @@
-package net.mcreator.zingsbiomes.entity;
+package com.zing.zingsbiomes.entity;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
