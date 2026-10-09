@@ -57,7 +57,7 @@ public class CreakerEntity extends ThemedCreeperEntity {
 
 	@Override
 	protected void applyExplosionEffect(ServerLevel level, BlockPos origin) {
-		if (level.getGameRules().getBoolean(net.minecraft.world.level.GameRules.RULE_MOBGRIEFING))
+		if (level.getGameRules().get(net.minecraft.world.level.gamerules.GameRules.MOB_GRIEFING))
 			spreadGroundBlock(level, origin, Blocks.PALE_MOSS_BLOCK.defaultBlockState(), state -> state.is(BlockTags.DIRT));
 	}
 

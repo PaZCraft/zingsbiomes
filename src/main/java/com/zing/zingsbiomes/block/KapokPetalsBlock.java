@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class KapokPetalsBlock extends FlowerBlock {
 	public KapokPetalsBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.PINK_PETALS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.PINK_PETALS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

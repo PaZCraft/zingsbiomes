@@ -8,6 +8,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.animal.wolf.Wolf;
 import net.minecraft.world.entity.animal.golem.IronGolem;
@@ -69,7 +70,7 @@ public class BadgerEntity extends Animal {
 
 	protected void dropCustomDeathLoot(ServerLevel serverLevel, DamageSource source, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(serverLevel, source, recentlyHitIn);
-		this.spawnAtLocation(serverLevel, new ItemStack(Blocks.BLACK_WOOL));
+		this.spawnAtLocation(serverLevel, new ItemStack(Blocks.WOOL.black()));
 	}
 
 	@Override

@@ -14,6 +14,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import com.zing.zingsbiomes.block.entity.*;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 
 @EventBusSubscriber

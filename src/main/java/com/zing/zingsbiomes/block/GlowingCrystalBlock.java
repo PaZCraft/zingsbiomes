@@ -32,7 +32,7 @@ public class GlowingCrystalBlock extends Block implements SimpleWaterloggedBlock
 	private final Function<BlockState, VoxelShape> shapes = this.makeShapes();
 
 	public GlowingCrystalBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.AMETHYST).strength(1f, 10f).lightLevel(blockstate -> 10).requiresCorrectToolForDrops().noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true)
+		super(properties.sound(SoundType.AMETHYST).strength(1f, 10f).lightLevel(blockstate -> 10).requiresCorrectToolForDrops().noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true)
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y).setValue(WATERLOGGED, false));
 	}

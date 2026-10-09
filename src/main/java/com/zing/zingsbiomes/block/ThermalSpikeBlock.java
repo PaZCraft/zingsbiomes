@@ -36,7 +36,7 @@ public class ThermalSpikeBlock extends Block implements SimpleWaterloggedBlock {
 	public static final IntegerProperty TEMPERATURE_FORM = IntegerProperty.create("temperature_form", 0, 2);
 
 	public ThermalSpikeBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.POINTED_DRIPSTONE).strength(1f, 10f).lightLevel(blockstate -> 5).requiresCorrectToolForDrops().noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true)
+		super(properties.sound(SoundType.POINTED_DRIPSTONE).strength(1f, 10f).lightLevel(blockstate -> 5).requiresCorrectToolForDrops().noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true)
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y).setValue(TEMPERATURE_FORM, 1).setValue(WATERLOGGED, false));
 	}

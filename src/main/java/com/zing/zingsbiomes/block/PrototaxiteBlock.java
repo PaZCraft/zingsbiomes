@@ -29,7 +29,7 @@ public class PrototaxiteBlock extends FlowerBlock implements SimpleWaterloggedBl
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public PrototaxiteBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SLOWNESS, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.CORAL_BLOCK).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SLOWNESS, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.CORAL_BLOCK).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 

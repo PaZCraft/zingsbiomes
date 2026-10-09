@@ -17,7 +17,7 @@ import com.zing.zingsbiomes.procedures.DarkblossomStatesProcedure;
 
 public class ClosedDarkblossomBlock extends FlowerBlock {
 	public ClosedDarkblossomBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

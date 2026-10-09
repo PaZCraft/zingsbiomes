@@ -80,7 +80,7 @@ public abstract class CaribouMountEntity extends TamableAnimal {
 			if (!this.level().isClientSide()) {
 				this.entityData.set(DATA_IS_SADDLED, true);
 				this.consumeEquipmentItem(player, heldStack);
-				this.level().playSound(null, this.blockPosition(), SoundEvents.HORSE_SADDLE, SoundSource.NEUTRAL, 0.5F, 1.0F);
+				this.level().playSound(null, this.getX(), this.getY(), this.getZ(), SoundEvents.HORSE_SADDLE, SoundSource.NEUTRAL, 0.5F, 1.0F);
 			}
 			return InteractionResult.SUCCESS;
 		}
@@ -89,7 +89,7 @@ public abstract class CaribouMountEntity extends TamableAnimal {
 			if (!this.level().isClientSide()) {
 				this.entityData.set(DATA_HAS_CHEST, true);
 				this.consumeEquipmentItem(player, heldStack);
-				this.level().playSound(null, this.blockPosition(), SoundEvents.ARMOR_EQUIP_LEATHER, SoundSource.NEUTRAL, 0.5F, 1.0F);
+				this.level().playSound(null, this.getX(), this.getY(), this.getZ(), SoundEvents.ARMOR_EQUIP_LEATHER, SoundSource.NEUTRAL, 0.5F, 1.0F);
 			}
 			return InteractionResult.SUCCESS;
 		}
@@ -100,7 +100,7 @@ public abstract class CaribouMountEntity extends TamableAnimal {
 				this.entityData.set(DATA_ARMOR_TYPE, itemPath);
 				this.entityData.set(DATA_IS_ARMORED, true);
 				this.consumeEquipmentItem(player, heldStack);
-				this.level().playSound(null, this.blockPosition(), SoundEvents.ARMOR_EQUIP_IRON, SoundSource.NEUTRAL, 0.5F, 1.0F);
+				this.level().playSound(null, this.getX(), this.getY(), this.getZ(), SoundEvents.ARMOR_EQUIP_IRON, SoundSource.NEUTRAL, 0.5F, 1.0F);
 			}
 			return InteractionResult.SUCCESS;
 		}

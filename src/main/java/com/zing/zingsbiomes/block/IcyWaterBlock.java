@@ -16,7 +16,7 @@ import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
 
 public class IcyWaterBlock extends LiquidBlock {
 	public IcyWaterBlock(BlockBehaviour.Properties properties) {
-		super(ZingsBiomesModFluids.ICY_WATER.get(), properties.mapColor(MapColor.ICE).strength(100f).noCollision().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(ZingsBiomesModFluids.ICY_WATER.get(), properties.mapColor(MapColor.ICE).strength(100f).noCollision().noLootTable().liquid().pushReaction(PushReaction.POPPED).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override

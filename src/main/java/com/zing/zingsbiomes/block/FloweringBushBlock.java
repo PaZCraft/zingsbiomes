@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class FloweringBushBlock extends FlowerBlock {
 	public FloweringBushBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.FLOWERING_AZALEA).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.FLOWERING_AZALEA).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

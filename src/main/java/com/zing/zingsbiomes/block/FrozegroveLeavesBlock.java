@@ -15,7 +15,7 @@ import java.util.List;
 
 public class FrozegroveLeavesBlock extends TintedParticleLeavesBlock {
 	public FrozegroveLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0.025f, properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+		super(0.025f, properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, level, pos, shape) -> false));
 	}
 
 	@Override

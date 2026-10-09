@@ -20,7 +20,7 @@ import com.zing.zingsbiomes.procedures.ThornBushMobplayerCollidesWithPlantProced
 
 public class ThornBushBlock extends FlowerBlock {
 	public ThornBushBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.DARKNESS, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.DARKNESS, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

@@ -30,7 +30,7 @@ import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class DuskCactusBlock extends SugarCaneBlock {
 	public DuskCactusBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.WOOL).instabreak().lightLevel(state -> 5).noOcclusion().pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.WOOL).instabreak().lightLevel(state -> 5).noOcclusion().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

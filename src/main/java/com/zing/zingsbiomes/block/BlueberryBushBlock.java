@@ -1,5 +1,7 @@
 package com.zing.zingsbiomes.block;
 
+import net.minecraft.world.level.block.BonemealSource;
+
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.PushReaction;
@@ -25,7 +27,7 @@ import com.zing.zingsbiomes.procedures.BlueberryBushPlantRightclickedProcedure;
 
 public class BlueberryBushBlock extends FlowerBlock implements BonemealableBlock {
 	public BlueberryBushBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.SWEET_BERRY_BUSH).instabreak().speedFactor(0.5f).jumpFactor(0.5f).noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.SWEET_BERRY_BUSH).instabreak().speedFactor(0.5f).jumpFactor(0.5f).noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override
@@ -51,16 +53,16 @@ public class BlueberryBushBlock extends FlowerBlock implements BonemealableBlock
 	}
 
 	@Override
-	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
+	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, BonemealSource source) {
 		return true;
 	}
 
 	@Override
-	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
+	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate, BonemealSource source) {
 		return true;
 	}
 
 	@Override
-	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate, BonemealSource source) {
 	}
 }

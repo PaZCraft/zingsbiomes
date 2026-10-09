@@ -1,5 +1,7 @@
 package com.zing.zingsbiomes.block;
 
+import net.minecraft.world.level.block.BonemealSource;
+
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
@@ -21,8 +23,8 @@ import com.zing.zingsbiomes.procedures.SoulReedsOnRandomClientDisplayTickProcedu
 
 public class SoulReedsBlock extends FlowerBlock implements BonemealableBlock {
 	public SoulReedsBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.COLOR_CYAN).randomTicks().sound(SoundType.ROOTS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).lightLevel(state -> 5).noCollision().replaceable()
-				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.COLOR_CYAN).randomTicks().sound(SoundType.ROOTS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).lightLevel(state -> 5).noCollision().replaceable()
+				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override
@@ -54,16 +56,16 @@ public class SoulReedsBlock extends FlowerBlock implements BonemealableBlock {
 	}
 
 	@Override
-	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
+	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, BonemealSource source) {
 		return true;
 	}
 
 	@Override
-	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
+	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate, BonemealSource source) {
 		return true;
 	}
 
 	@Override
-	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate, BonemealSource source) {
 	}
 }

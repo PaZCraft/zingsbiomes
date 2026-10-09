@@ -7,6 +7,6 @@ import net.minecraft.world.level.block.ButtonBlock;
 
 public class GlowBerryButtonBlock extends ButtonBlock {
 	public GlowBerryButtonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, 30, properties.sound(SoundType.CHERRY_WOOD).strength(1f, 10f).postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true));
+		super(BlockSetType.OAK, 30, properties.sound(SoundType.CHERRY_WOOD).strength(1f, 10f).postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true));
 	}
 }

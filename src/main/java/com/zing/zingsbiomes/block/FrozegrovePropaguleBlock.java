@@ -2,7 +2,8 @@ package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.util.random.WeightedList;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.grower.TreeGrower;
@@ -18,11 +19,14 @@ import net.minecraft.core.BlockPos;
 import java.util.Optional;
 
 public class FrozegrovePropaguleBlock extends SaplingBlock {
-	public static final TreeGrower TREE_GROWER = new TreeGrower("frozegrove_propagule", 0.15f, Optional.of(getFeatureKey("zings_biomes:tall_frozegrove_tree")), Optional.of(getFeatureKey("ice_spike")),
-			Optional.of(getFeatureKey("zings_biomes:frozegrove_tree")), Optional.of(getFeatureKey("pile_ice")), Optional.of(getFeatureKey("zings_biomes:tall_frozegrove_tree")), Optional.of(getFeatureKey("iceberg_blue")));
+	public static final TreeGrower TREE_GROWER = new TreeGrower("frozegrove_propagule",
+			WeightedList.of(getFeatureKey("zings_biomes:tall_frozegrove_tree"), getFeatureKey("ice_spike")),
+			WeightedList.of(getFeatureKey("zings_biomes:frozegrove_tree"), getFeatureKey("pile_ice")),
+			WeightedList.of(getFeatureKey("zings_biomes:tall_frozegrove_tree"), getFeatureKey("iceberg_blue")),
+			getFeatureKey("zings_biomes:tall_frozegrove_tree"));
 
 	public FrozegrovePropaguleBlock(BlockBehaviour.Properties properties) {
-		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
+		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override
@@ -35,7 +39,7 @@ public class FrozegrovePropaguleBlock extends SaplingBlock {
 		return 60;
 	}
 
-	private static ResourceKey<ConfiguredFeature<?, ?>> getFeatureKey(String feature) {
-		return ResourceKey.create(Registries.CONFIGURED_FEATURE, Identifier.parse(feature));
+	private static ResourceKey<Feature> getFeatureKey(String feature) {
+		return ResourceKey.create(Registries.FEATURE, Identifier.parse(feature));
 	}
 }

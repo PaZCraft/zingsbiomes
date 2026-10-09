@@ -7,6 +7,6 @@ import net.minecraft.world.level.block.DoorBlock;
 
 public class GlowBerryDoorBlock extends DoorBlock {
 	public GlowBerryDoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.CHERRY_WOOD).strength(1f, 10f).noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockSetType.OAK, properties.sound(SoundType.CHERRY_WOOD).strength(1f, 10f).noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).isRedstoneConductor((bs, br, bp) -> false));
 	}
 }

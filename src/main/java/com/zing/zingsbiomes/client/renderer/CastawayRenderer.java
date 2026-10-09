@@ -44,7 +44,7 @@ public class CastawayRenderer extends HumanoidMobRenderer<CastawayEntity, Humano
 			@Override
 			public void submit(PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int light, HumanoidRenderState state, float headYaw, float headPitch) {
 				LAYER_MODEL.setupAnim(state);
-				submitNodeCollector.submitModel(LAYER_MODEL, state, poseStack, net.minecraft.client.renderer.rendertype.RenderTypes.eyes(LAYER_TEXTURE), light, LivingEntityRenderer.getOverlayCoords(state, 0), state.outlineColor, null);
+				submitNodeCollector.submitModel(LAYER_MODEL, state, poseStack, net.minecraft.client.renderer.rendertype.RenderTypes.eyes(LAYER_TEXTURE), light, LivingEntityRenderer.getOverlayCoords(state, 0), state.outlineColor);
 			}
 		});
 	}

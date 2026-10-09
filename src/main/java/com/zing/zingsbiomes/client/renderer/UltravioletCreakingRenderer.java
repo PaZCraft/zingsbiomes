@@ -51,7 +51,7 @@ public class UltravioletCreakingRenderer extends MobRenderer<UltravioletCreaking
 				double z = entity.getZ();
 				if (UltravioletCreakingGlowConditionProcedure.execute(entity)) {
 					LAYER_MODEL.setupAnim(state);
-					submitNodeCollector.submitModel(LAYER_MODEL, state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+					submitNodeCollector.submitModel(LAYER_MODEL, state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor);
 				}
 			}
 		});

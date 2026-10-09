@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class CloverLisptrapBlock extends FlowerBlock {
 	public CloverLisptrapBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.UNLUCK, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.UNLUCK, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

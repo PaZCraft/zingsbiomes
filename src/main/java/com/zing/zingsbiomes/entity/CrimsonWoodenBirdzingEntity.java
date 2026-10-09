@@ -117,7 +117,7 @@ public class CrimsonWoodenBirdzingEntity extends TamableAnimal {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		CrimsonWoodenBirdzingEntityIsHurtProcedure.execute(world, x, y, z);
+		CrimsonWoodenBirdzingEntityIsHurtProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 		if (damagesource.is(DamageTypes.IN_FIRE))
 			return false;
 		if (damagesource.is(DamageTypes.FALL))
@@ -193,7 +193,7 @@ public class CrimsonWoodenBirdzingEntity extends TamableAnimal {
 		
 		
 
-		WoodenBirdzingShearingProcedure.execute(world, x, y, z, entity, sourceentity);
+		WoodenBirdzingShearingProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this, sourceentity);
 		return retval;
 	}
 

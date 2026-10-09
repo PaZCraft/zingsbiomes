@@ -1,5 +1,7 @@
 package com.zing.zingsbiomes.init;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
+import net.minecraft.core.Direction;
 import net.neoforged.neoforge.transfer.fluid.BucketResourceHandler;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -1295,7 +1297,7 @@ public class ZingsBiomesModItems {
 	public static final DeferredItem<Item> BOMBGUN_PURPLE;
 	public static final DeferredItem<Item> BOMBGUN_WHITE;
 	public static final DeferredItem<Item> THERMAL_SPIKE;
-	public static final Item OAK_SLED;
+	public static final DeferredItem<Item> OAK_SLED;
 	public static final DeferredItem<Item> OAK_SLED_SPAWN_EGG;
 	public static final DeferredItem<Item> BIRCH_SLED;
 	public static final DeferredItem<Item> BIRCH_SLED_SPAWN_EGG;
@@ -1323,7 +1325,7 @@ public class ZingsBiomesModItems {
 	public static final DeferredItem<Item> ACACIA_SLED_WITH_CHEST_SPAWN_EGG;
 	public static final DeferredItem<Item> DARK_OAK_SLED_WITH_CHEST;
 	public static final DeferredItem<Item> DARK_OAK_SLED_WITH_CHEST_SPAWN_EGG;
-	public static final Item MANGROVE_SLED_WITH_CHEST;
+	public static final DeferredItem<Item> MANGROVE_SLED_WITH_CHEST;
 	public static final DeferredItem<Item> MANGROVE_SLED_WITH_CHEST_SPAWN_EGG;
 	public static final DeferredItem<Item> CHERRY_SLED_WITH_CHEST;
 	public static final DeferredItem<Item> CHERRY_SLED_WITH_CHEST_SPAWN_EGG;
@@ -3016,7 +3018,7 @@ public class ZingsBiomesModItems {
 	}
 
 	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new SignItem(block.get(), wallBlock.get(), prop), () -> properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new StandingAndWallBlockItem(block.get(), wallBlock.get(), Direction.DOWN, prop), () -> properties);
 	}
 
 	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {

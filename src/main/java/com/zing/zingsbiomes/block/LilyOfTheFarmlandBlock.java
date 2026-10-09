@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class LilyOfTheFarmlandBlock extends FlowerBlock {
 	public LilyOfTheFarmlandBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.HASTE, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.HASTE, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

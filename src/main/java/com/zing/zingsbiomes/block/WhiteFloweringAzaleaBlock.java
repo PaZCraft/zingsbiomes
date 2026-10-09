@@ -18,7 +18,7 @@ public class WhiteFloweringAzaleaBlock extends FlowerBlock {
 	private static final VoxelShape SHAPE = Shapes.or(box(0, 5, 0, 16, 16, 0.01), box(0, 5, 15.99, 16, 16, 16), box(0, 5, 0, 0.01, 16, 16), box(15.99, 5, 0, 16, 16, 16));
 
 	public WhiteFloweringAzaleaBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.FLOWERING_AZALEA).instabreak().noOcclusion().dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.FLOWERING_AZALEA).instabreak().noOcclusion().dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

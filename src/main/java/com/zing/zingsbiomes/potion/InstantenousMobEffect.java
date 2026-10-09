@@ -3,15 +3,11 @@ package com.zing.zingsbiomes.potion;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectCategory;
 
-/**
- * InstantenousMobEffect
- */
-public class InstantenousMobEffect {
-
-    public void applyInstantenousEffect(ServerLevel level, Entity source, Entity indirectSource, LivingEntity entity,
-            int amplifier, double health) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'applyInstantenousEffect'");
-    }
+public class InstantenousMobEffect extends MobEffect {
+	public InstantenousMobEffect() {
+		super(MobEffectCategory.HARMFUL, 0xFFFFFF);
+	}
 }

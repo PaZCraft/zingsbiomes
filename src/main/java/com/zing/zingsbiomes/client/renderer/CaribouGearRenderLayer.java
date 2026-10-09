@@ -33,6 +33,6 @@ public class CaribouGearRenderLayer<S extends LivingEntityRenderState> extends R
 		};
 		Identifier texture = Identifier.fromNamespaceAndPath("zings_biomes", "textures/entities/caribou_armor_" + textureMaterial + ".png");
 		this.armorModel.setupAnim(state);
-		collector.submitModel(this.armorModel, state, poseStack, RenderTypes.entityCutout(texture), light, LivingEntityRenderer.getOverlayCoords(state, 0), state.outlineColor, null);
+		collector.submitModel(this.armorModel, state, poseStack, RenderTypes.entityCutout(texture), light, LivingEntityRenderer.getOverlayCoords(state, 0), state.outlineColor);
 	}
 }

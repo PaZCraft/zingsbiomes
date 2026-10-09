@@ -1,4 +1,5 @@
 package com.zing.zingsbiomes.init;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -17,6 +18,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
+import com.zing.zingsbiomes.ServerWorkQueue;
 import com.zing.zingsbiomes.entity.*;
 
 
@@ -1002,7 +1004,6 @@ public class ZingsBiomesModEntities {
 		MountaineerEntity.init(event);
 		WaterBuffaloEntity.init(event);
 		CaribouStrayEntity.init(event);
-		SpruceLogFlumeEntity.init(event);
 		SardineEntity.init(event);
 		SeaUrchinEntity.init(event);
 		SeaghastEntity.init(event);
@@ -1036,14 +1037,6 @@ public class ZingsBiomesModEntities {
 		SeabunnyEntity.init(event);
 		IguanaEntity.init(event);
 		SculkTNTPrimedEntity.init(event);
-		OakLogFlumeEntity.init(event);
-		BirchLogFlumeEntity.init(event);
-		JungleLogFlumeEntity.init(event);
-		AcaciaLogFlumeEntity.init(event);
-		DarkOakLogFlumeEntity.init(event);
-		MangroveLogFlumeEntity.init(event);
-		CherryLogFlumeEntity.init(event);
-		PaleOakLogFlumeEntity.init(event);
 		TuffGolemEntity.init(event);
 		GlareEntity.init(event);
 		SandWitchEntity.init(event);
@@ -1199,53 +1192,7 @@ public class ZingsBiomesModEntities {
 		event.put(END_CUBE.get(), EndCubeEntity.createAttributes().build());
 	}
 
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    public static void queueServerWork(int ticks, Runnable task) {
+        ServerWorkQueue.queueServerWork(ticks, task);
     }
 }

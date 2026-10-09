@@ -52,7 +52,7 @@ public class CustomEyeOfEnderRenderer extends EntityRenderer<CustomEyeOfEnderEnt
 	public void submit(CustomEyeRenderState state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera) {
 		if (!state.item.isEmpty()) {
 			poseStack.pushPose();
-			poseStack.mulPose(camera.orientation);
+			poseStack.mulPose(new org.joml.Matrix4f().rotation(camera.orientation));
 			poseStack.scale(2F, 2F, 2F);
 			state.item.submit(poseStack, submitNodeCollector, 15728880, 0, 0);
 			poseStack.popPose();

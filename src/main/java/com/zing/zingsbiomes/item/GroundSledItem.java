@@ -36,7 +36,9 @@ public class GroundSledItem extends Item {
 		double surfaceHeight = level.getBlockState(supportPos).is(Blocks.SNOW)
 				? level.getBlockState(supportPos).getValue(SnowLayerBlock.LAYERS) / 8.0
 				: 1.0;
-		sled.moveTo(supportPos.getX() + 0.5, supportPos.getY() + surfaceHeight, supportPos.getZ() + 0.5, context.getRotation(), 0);
+		sled.setPos(supportPos.getX() + 0.5, supportPos.getY() + surfaceHeight, supportPos.getZ() + 0.5);
+		sled.setYRot(context.getRotation());
+		sled.setXRot(0);
 		if (!level.noCollision(sled))
 			return InteractionResult.FAIL;
 		if (!level.addFreshEntity(sled))

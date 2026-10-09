@@ -38,7 +38,7 @@ public class RedstoneCrystalBlock extends Block implements SimpleWaterloggedBloc
 	private final Function<BlockState, VoxelShape> shapes = this.makeShapes();
 
 	public RedstoneCrystalBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.FIRE).sound(SoundType.AMETHYST).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true)
+		super(properties.mapColor(MapColor.FIRE).sound(SoundType.AMETHYST).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true)
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y).setValue(WATERLOGGED, false));
 	}

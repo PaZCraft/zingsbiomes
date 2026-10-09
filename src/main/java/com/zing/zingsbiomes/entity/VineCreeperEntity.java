@@ -95,7 +95,7 @@ public class VineCreeperEntity extends ThemedCreeperEntity {
 		
 		
 		Entity sourceentity = damagesource.getEntity();
-		VineCreeperEntityIsHurtProcedure.execute(world, x, y, z, sourceentity);
+		VineCreeperEntityIsHurtProcedure.execute(level, this.getX(), this.getY(), this.getZ(), sourceentity);
 		if (damagesource.getDirectEntity() instanceof AbstractThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud || damagesource.typeHolder().is(NeoForgeMod.POISON_DAMAGE))
 			return false;
 		if (damagesource.is(DamageTypes.CACTUS))

@@ -19,6 +19,7 @@ import net.minecraft.world.level.block.SnowLayerBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.damagesource.DamageSource;
+import net.neoforged.neoforge.registries.DeferredItem;
 
 public class GroundSledEntity extends Entity {
 	private static final double MAX_SPEED = 0.42;
@@ -28,6 +29,10 @@ public class GroundSledEntity extends Entity {
 	public GroundSledEntity(EntityType<?> type, Level level, Item dropItem) {
 		super(type, level);
 		this.dropItem = dropItem;
+	}
+
+	public GroundSledEntity(EntityType<?> type, Level level, DeferredItem<Item> dropItem) {
+		this(type, level, dropItem.get());
 	}
 
 	@Override
@@ -61,7 +66,7 @@ public class GroundSledEntity extends Entity {
 
 		BlockPos groundPos = BlockPos.containing(getX(), getY() - 0.01, getZ());
 		BlockState ground = level().getBlockState(groundPos);
-		boolean onSledGround = isSledGround(ground);
+		boolean onSledGround = isSledGround(level(), groundPos);
 		double friction = onSledGround ? (ground.is(Blocks.ICE) || ground.is(Blocks.PACKED_ICE) || ground.is(Blocks.BLUE_ICE) ? 0.985 : 0.88) : 0.6;
 		double verticalVelocity = onSledGround ? Math.max(0, velocity.y) : velocity.y - 0.08;
 		velocity = new Vec3(velocity.x * friction, verticalVelocity, velocity.z * friction);
@@ -87,7 +92,7 @@ public class GroundSledEntity extends Entity {
 	}
 
 	@Override
-	public InteractionResult interact(Player player, InteractionHand hand) {
+	public InteractionResult interact(Player player, InteractionHand hand, Vec3 location) {
 		if (!player.isSecondaryUseActive() && !level().isClientSide())
 			player.startRiding(this);
 		return InteractionResult.SUCCESS;
@@ -95,7 +100,7 @@ public class GroundSledEntity extends Entity {
 
 	@Override
 	public boolean hurtServer(ServerLevel level, DamageSource source, float amount) {
-		if (isInvulnerableTo(source))
+		if (isInvulnerableToBase(source))
 			return false;
 		if (amount > 0 && !isRemoved()) {
 			dropContents(level);
@@ -109,7 +114,7 @@ public class GroundSledEntity extends Entity {
 	}
 
 	@Override
-	public boolean canBeCollidedWith() {
+	public boolean canBeCollidedWith(Entity entity) {
 		return !isRemoved();
 	}
 
@@ -124,12 +129,12 @@ public class GroundSledEntity extends Entity {
 	}
 
 	@Override
-	protected double getPassengersRidingOffset() {
-		return 0.1;
+	protected Vec3 getPassengerAttachmentPoint(Entity passenger, EntityDimensions dimensions, float scale) {
+		return super.getPassengerAttachmentPoint(passenger, dimensions, scale).add(0, 0.1, 0);
 	}
 
 	@Override
-	public EntityDimensions getDefaultDimensions(Pose pose) {
-		return super.getDefaultDimensions(pose).scale(2.0F);
+	public EntityDimensions getDimensions(Pose pose) {
+		return super.getDimensions(pose).scale(2.0F);
 	}
 }

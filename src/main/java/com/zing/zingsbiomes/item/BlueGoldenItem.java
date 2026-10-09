@@ -1,4 +1,5 @@
 package com.zing.zingsbiomes.item;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 import net.neoforged.neoforge.registries.DeferredHolder;
 

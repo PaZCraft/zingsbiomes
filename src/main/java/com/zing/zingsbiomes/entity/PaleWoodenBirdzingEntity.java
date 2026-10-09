@@ -117,7 +117,7 @@ public class PaleWoodenBirdzingEntity extends TamableAnimal {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		PaleOakWoodenBirdzingEntityIsHurtProcedure.execute(world, x, y, z);
+		PaleOakWoodenBirdzingEntityIsHurtProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 		if (damagesource.is(DamageTypes.FALL))
 			return false;
 		return super.hurtServer(level, damagesource, amount);
@@ -189,7 +189,7 @@ public class PaleWoodenBirdzingEntity extends TamableAnimal {
 		
 		
 
-		WoodenBirdzingShearingProcedure.execute(world, x, y, z, entity, sourceentity);
+		WoodenBirdzingShearingProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this, sourceentity);
 		return retval;
 	}
 

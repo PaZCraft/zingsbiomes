@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class CloverPatchBlock extends FlowerBlock {
 	public CloverPatchBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.LUCK, 1100, properties.mapColor(MapColor.PLANT).sound(SoundType.PINK_PETALS).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.LUCK, 1100, properties.mapColor(MapColor.PLANT).sound(SoundType.PINK_PETALS).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

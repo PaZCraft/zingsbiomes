@@ -8,10 +8,10 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-public class BlueGoldenAxeItem extends AxeItem {
+public class BlueGoldenAxeItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_GOLD_TOOL, 132, 12f, 0, 22, TagKey.create(Registries.ITEM, Identifier.parse("zings_biomes:blue_golden_axe_repair_items")));
 
 	public BlueGoldenAxeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 6f, -3f, properties);
+		super(properties.axe(TOOL_MATERIAL, 6f, -3f));
 	}
 }

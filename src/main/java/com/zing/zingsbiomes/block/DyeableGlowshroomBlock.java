@@ -1,10 +1,13 @@
 package com.zing.zingsbiomes.block;
 
+import net.minecraft.world.level.block.BonemealSource;
+
 import java.util.List;
 
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Holder;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -12,9 +15,10 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.ItemTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.BonemealableBlock;
 import net.minecraft.world.level.block.FlowerBlock;
@@ -28,9 +32,9 @@ import net.minecraft.world.phys.BlockHitResult;
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public abstract class DyeableGlowshroomBlock extends FlowerBlock implements BonemealableBlock, SimpleWaterloggedBlock {
-	protected DyeableGlowshroomBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties);
-		this.registerDefaultState(this.stateDefinition.any().setValue(DyeableShroomlightBlock.COLOR, "none").setValue(BlockStateProperties.WATERLOGGED, false));
+	protected DyeableGlowshroomBlock(Holder<MobEffect> effect, int duration, BlockBehaviour.Properties properties) {
+		super(effect, duration, properties);
+		this.registerDefaultState(this.stateDefinition.any().setValue(DyeableShroomlightBlock.COLOR, DyeableShroomlightBlock.ShroomlightColor.NONE).setValue(BlockStateProperties.WATERLOGGED, false));
 	}
 
 	@Override
@@ -44,7 +48,10 @@ public abstract class DyeableGlowshroomBlock extends FlowerBlock implements Bone
 		if (!stack.is(ItemTags.DYES))
 			return InteractionResult.TRY_WITH_EMPTY_HAND;
 
-		String color = DyeableShroomlightBlock.getColorName(stack);
+		String colorName = DyeableShroomlightBlock.getColorName(stack);
+		if (colorName == null)
+			return InteractionResult.TRY_WITH_EMPTY_HAND;
+		DyeableShroomlightBlock.ShroomlightColor color = DyeableShroomlightBlock.ShroomlightColor.byName(colorName);
 		if (color == null)
 			return InteractionResult.TRY_WITH_EMPTY_HAND;
 		if (level.isClientSide())
@@ -71,8 +78,16 @@ public abstract class DyeableGlowshroomBlock extends FlowerBlock implements Bone
 				ZingsBiomesModBlocks.NEON_ORANGE_GLOWSHROOM.get(), ZingsBiomesModBlocks.NEON_YELLOW_GLOWSHROOM.get());
 	}
 
-    public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'performBonemeal'");
+    public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate, BonemealSource source) {
+    }
+
+    @Override
+    public boolean isValidBonemealTarget(net.minecraft.world.level.LevelReader world, BlockPos pos, BlockState state, BonemealSource source) {
+        return true;
+    }
+
+    @Override
+    public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState state, BonemealSource source) {
+        return true;
     }
 }

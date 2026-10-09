@@ -12,14 +12,7 @@ import net.minecraft.core.BlockPos;
 import com.mojang.serialization.MapCodec;
 
 public class ObsidianGravelBlock extends FallingBlock {
-	public static final MapCodec<ObsidianGravelBlock> CODEC = simpleCodec(ObsidianGravelBlock::new);
-
-	@Override
-	public MapCodec<ObsidianGravelBlock> codec() {
-		return CODEC;
-	}
-
-	@Override
+@Override
 	public int getDustColor(BlockState blockstate, BlockGetter world, BlockPos pos) {
 		return blockstate.getMapColor(world, pos).col;
 	}

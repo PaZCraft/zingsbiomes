@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class CactusMangroveBlock extends FlowerBlock {
 	public CactusMangroveBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SLOW_FALLING, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SLOW_FALLING, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

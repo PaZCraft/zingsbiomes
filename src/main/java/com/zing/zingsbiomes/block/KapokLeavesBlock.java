@@ -16,7 +16,7 @@ import java.util.List;
 
 public class KapokLeavesBlock extends UntintedParticleLeavesBlock {
 	public KapokLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0.01f, (SimpleParticleType) (ZingsBiomesModParticleTypes.KAPOK_LEAF.get()), properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+		super(0.01f, (SimpleParticleType) (ZingsBiomesModParticleTypes.KAPOK_LEAF.get()), net.minecraft.world.level.block.sounds.AmbientLeavesBlockSoundPlayer.noAmbientSound(), properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, level, pos, shape) -> false));
 	}
 
 	@Override

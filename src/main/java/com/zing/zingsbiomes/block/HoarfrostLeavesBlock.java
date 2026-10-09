@@ -11,8 +11,8 @@ import com.zing.zingsbiomes.init.ZingsBiomesModParticleTypes;
 
 public class HoarfrostLeavesBlock extends UntintedParticleLeavesBlock {
 	public HoarfrostLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0.03f, (SimpleParticleType) (ZingsBiomesModParticleTypes.HOARFROST_LEAF.get()), properties.sound(SoundType.SNOW).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false)
-				.ignitedByLava().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+		super(0.03f, (SimpleParticleType) (ZingsBiomesModParticleTypes.HOARFROST_LEAF.get()), net.minecraft.world.level.block.sounds.AmbientLeavesBlockSoundPlayer.noAmbientSound(), properties.sound(SoundType.SNOW).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.POPPED).isRedstoneConductor((bs, br, bp) -> false)
+				.ignitedByLava().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, level, pos, shape) -> false));
 	}
 
 	@Override

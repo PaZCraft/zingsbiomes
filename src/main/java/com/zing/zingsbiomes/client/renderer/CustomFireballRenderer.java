@@ -55,7 +55,7 @@ public class CustomFireballRenderer extends EntityRenderer<CustomFireballEntity,
 	public void submit(CustomFireballRenderState state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera) {
 		if (!state.item.isEmpty()) {
 			poseStack.pushPose();
-			poseStack.mulPose(camera.orientation);
+			poseStack.mulPose(new org.joml.Matrix4f().rotation(camera.orientation));
 			float scale = state.customScale;
 			poseStack.scale(scale, scale, scale);
 			state.item.submit(poseStack, submitNodeCollector, 15728880, 0, 0);

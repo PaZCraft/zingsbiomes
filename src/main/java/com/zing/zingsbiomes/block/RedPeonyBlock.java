@@ -16,7 +16,7 @@ import net.minecraft.core.BlockPos;
 
 public class RedPeonyBlock extends DoublePlantBlock {
 	public RedPeonyBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

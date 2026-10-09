@@ -13,8 +13,8 @@ import net.minecraft.core.BlockPos;
 
 public class GlowFernsBlock extends FlowerBlock {
 	public GlowFernsBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.GLOWING, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).lightLevel(state -> 5).noCollision().replaceable()
-				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.GLOWING, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).lightLevel(state -> 5).noCollision().replaceable()
+				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

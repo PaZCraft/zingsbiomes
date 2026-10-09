@@ -9,7 +9,7 @@ import net.minecraft.core.particles.ColorParticleOption;
 
 public class BlueberryLeavesBlock extends UntintedParticleLeavesBlock {
 	public BlueberryLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0.1f, ColorParticleOption.create(ParticleTypes.TINTED_LEAVES, -851969), properties.sound(SoundType.CHERRY_LEAVES).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+		super(0.1f, ColorParticleOption.create(ParticleTypes.TINTED_LEAVES, -851969), net.minecraft.world.level.block.sounds.AmbientLeavesBlockSoundPlayer.noAmbientSound(), properties.sound(SoundType.CHERRY_LEAVES).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, level, pos, shape) -> false));
 	}
 
 	@Override

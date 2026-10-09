@@ -24,7 +24,7 @@ public class UltravioletResinClumpBlock extends Block {
 	private final Function<BlockState, VoxelShape> shapes = this.makeShapes();
 
 	public UltravioletResinClumpBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.RESIN).strength(1f, 10f).noCollision().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.sound(SoundType.RESIN).strength(1f, 10f).noCollision().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

@@ -15,8 +15,8 @@ import net.minecraft.core.BlockPos;
 
 public class GlowingMushroomBlock extends FlowerBlock {
 	public GlowingMushroomBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).lightLevel(state -> 5).noCollision()
-				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).lightLevel(state -> 5).noCollision()
+				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

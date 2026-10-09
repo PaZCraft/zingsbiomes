@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.Blocks;
 
 public class GlowBerryMossyStoneBrickStairsBlock extends StairBlock {
 	public GlowBerryMossyStoneBrickStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.strength(1f, 10f).requiresCorrectToolForDrops().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true));
+		super(Blocks.AIR.defaultBlockState(), properties.strength(1f, 10f).requiresCorrectToolForDrops().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true));
 	}
 
 	@Override

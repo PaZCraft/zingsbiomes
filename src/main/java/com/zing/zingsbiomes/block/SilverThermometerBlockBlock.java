@@ -23,7 +23,7 @@ public class SilverThermometerBlockBlock extends Block {
 	public static final IntegerProperty TEMPERATURE_FORM = IntegerProperty.create("temperature_form", 0, 2);
 
 	public SilverThermometerBlockBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_LIGHT_GRAY).sound(SoundType.IRON).strength(1f, 10f).lightLevel(blockstate -> 15).postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true));
+		super(properties.mapColor(MapColor.COLOR_LIGHT_GRAY).sound(SoundType.IRON).strength(1f, 10f).lightLevel(blockstate -> 15).postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y).setValue(TEMPERATURE_FORM, 1));
 	}
 

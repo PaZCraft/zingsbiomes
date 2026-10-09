@@ -9,7 +9,7 @@ import net.minecraft.core.particles.ColorParticleOption;
 
 public class RedFloweringAzaleaLeavesBlock extends UntintedParticleLeavesBlock {
 	public RedFloweringAzaleaLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0.01f, ColorParticleOption.create(ParticleTypes.TINTED_LEAVES, -6118333), properties.sound(SoundType.AZALEA_LEAVES).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false)
-				.ignitedByLava().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+		super(0.01f, ColorParticleOption.create(ParticleTypes.TINTED_LEAVES, -6118333), net.minecraft.world.level.block.sounds.AmbientLeavesBlockSoundPlayer.noAmbientSound(), properties.sound(SoundType.AZALEA_LEAVES).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.POPPED).isRedstoneConductor((bs, br, bp) -> false)
+				.ignitedByLava().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, level, pos, shape) -> false));
 	}
 }

@@ -21,7 +21,7 @@ import java.util.List;
 
 public class HangingMossBlock extends DoublePlantBlock {
 	public HangingMossBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.PLANT).sound(SoundType.HANGING_ROOTS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XYZ).pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.PLANT).sound(SoundType.HANGING_ROOTS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XYZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

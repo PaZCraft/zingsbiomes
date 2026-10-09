@@ -26,7 +26,7 @@ import com.zing.zingsbiomes.procedures.BlockPlacedByCactusProcedure;
 
 public class CrimsonCactusBlock extends SugarCaneBlock {
 	public CrimsonCactusBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.CRIMSON_STEM).randomTicks().sound(SoundType.GRASS).instabreak().noOcclusion().pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.CRIMSON_STEM).randomTicks().sound(SoundType.GRASS).instabreak().noOcclusion().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

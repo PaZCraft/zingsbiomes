@@ -16,8 +16,8 @@ import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
 
 public class SoulLavaBlock extends LiquidBlock {
 	public SoulLavaBlock(BlockBehaviour.Properties properties) {
-		super(ZingsBiomesModFluids.SOUL_LAVA.get(), properties.mapColor(MapColor.WARPED_WART_BLOCK).strength(100f).postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).lightLevel(state -> 5).noCollision().noLootTable().liquid()
-				.pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(ZingsBiomesModFluids.SOUL_LAVA.get(), properties.mapColor(MapColor.WARPED_WART_BLOCK).strength(100f).postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).lightLevel(state -> 5).noCollision().noLootTable().liquid()
+				.pushReaction(PushReaction.POPPED).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override

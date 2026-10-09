@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.DoorBlock;
 
 public class KapokDoorBlock extends DoorBlock {
 	public KapokDoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.POPPED).isRedstoneConductor((bs, br, bp) -> false));
 	}
 }

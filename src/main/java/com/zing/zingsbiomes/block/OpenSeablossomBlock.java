@@ -31,8 +31,8 @@ public class OpenSeablossomBlock extends FlowerBlock implements SimpleWaterlogge
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public OpenSeablossomBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.BREATH_OF_THE_NAUTILUS, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).lightLevel(state -> 5).noCollision()
-				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.BREATH_OF_THE_NAUTILUS, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).lightLevel(state -> 5).noCollision()
+				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 

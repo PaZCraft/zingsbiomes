@@ -41,7 +41,7 @@ public class CryocrystalClusterBlock extends Block implements SimpleWaterloggedB
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public CryocrystalClusterBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.AMETHYST_CLUSTER).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.sound(SoundType.AMETHYST_CLUSTER).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y).setValue(WATERLOGGED, false));
 	}
 

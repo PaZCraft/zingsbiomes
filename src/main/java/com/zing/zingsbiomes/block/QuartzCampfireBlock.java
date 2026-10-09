@@ -20,7 +20,7 @@ public class QuartzCampfireBlock extends Block {
 	private static final VoxelShape SHAPE = Shapes.or(box(1, 0, 0, 5, 4, 16), box(0, 3, 11, 16, 7, 15), box(11, 0, 0, 15, 4, 16), box(0, 3, 1, 16, 7, 5), box(5, 0, 0, 11, 1, 16));
 
 	public QuartzCampfireBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(1f, 10f).lightLevel(blockstate -> 5).noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.sound(SoundType.WOOD).strength(1f, 10f).lightLevel(blockstate -> 5).noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

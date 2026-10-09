@@ -15,7 +15,7 @@ import net.minecraft.core.BlockPos;
 
 public class TallRedMushroomBlock extends DoublePlantBlock {
 	public TallRedMushroomBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.PLANT).sound(SoundType.WOOD).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.PLANT).sound(SoundType.WOOD).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

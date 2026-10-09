@@ -52,7 +52,7 @@ public class BerryPortalBlock extends NetherPortalBlock {
 	}
 
 	public BerryPortalBlock(BlockBehaviour.Properties properties) {
-		super(properties.noCollision().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(state -> 5).noLootTable());
+		super(properties.noCollision().randomTicks().pushReaction(PushReaction.IMMOVEABLE).strength(-1.0F).sound(SoundType.GLASS).lightLevel(state -> 5).noLootTable());
 	}
 
 	private BerryTeleporter getTeleporter(ServerLevel level) {

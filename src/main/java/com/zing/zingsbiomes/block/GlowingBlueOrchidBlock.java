@@ -13,8 +13,8 @@ import net.minecraft.core.BlockPos;
 
 public class GlowingBlueOrchidBlock extends FlowerBlock {
 	public GlowingBlueOrchidBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).noCollision().offsetType(BlockBehaviour.OffsetType.XZ)
-				.pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).noCollision().offsetType(BlockBehaviour.OffsetType.XZ)
+				.pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

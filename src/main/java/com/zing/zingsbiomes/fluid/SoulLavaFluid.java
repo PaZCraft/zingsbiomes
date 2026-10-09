@@ -8,12 +8,12 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.LiquidBlock;
 
 import com.zing.zingsbiomes.init.ZingsBiomesModItems;
-import com.zing.zingsbiomes.init.ZiNGsBiomesFluids;
-import com.zing.zingsbiomes.init.ZiNGsBiomesFluidTypes;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluidTypes;
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public abstract class SoulLavaFluid extends BaseFlowingFluid {
-	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> ZiNGsBiomesFluidTypes.SOUL_LAVA_TYPE.get(), () -> ZiNGsBiomesFluids.SOUL_LAVA.get(), () -> ZiNGsBiomesFluids.FLOWING_SOUL_LAVA.get())
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> ZingsBiomesModFluidTypes.SOUL_LAVA_TYPE.get(), () -> ZingsBiomesModFluids.SOUL_LAVA.get(), () -> ZingsBiomesModFluids.FLOWING_SOUL_LAVA.get())
 			.explosionResistance(100f).bucket(() -> ZingsBiomesModItems.SOUL_LAVA_BUCKET.get()).block(() -> (LiquidBlock) ZingsBiomesModBlocks.SOUL_LAVA.get());
 
 	private SoulLavaFluid() {

@@ -30,7 +30,7 @@ public class ShriekerRenderer extends MobRenderer<ShriekerEntity, LivingEntityRe
 			@Override
 			public void submit(PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int light, LivingEntityRenderState state, float headYaw, float headPitch) {
 				LAYER_MODEL.setupAnim(state);
-				submitNodeCollector.submitModel(LAYER_MODEL, state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+				submitNodeCollector.submitModel(LAYER_MODEL, state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor);
 			}
 		});
 	}

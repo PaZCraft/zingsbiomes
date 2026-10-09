@@ -7,6 +7,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 import net.minecraft.world.entity.animal.fish.Pufferfish;
 import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.level.block.Block;
@@ -87,9 +88,11 @@ public abstract class ThemedCreeperEntity extends Creeper {
 	protected static void spawnPufferfish(ServerLevel level, BlockPos origin) {
 		for (int i = 0; i < 4; i++) {
 			BlockPos pos = origin.offset(level.getRandom().nextIntBetweenInclusive(-2, 2), 0, level.getRandom().nextIntBetweenInclusive(-2, 2));
-			Pufferfish fish = EntityType.PUFFERFISH.create(level, EntitySpawnReason.MOB_SUMMONED);
+			Pufferfish fish = EntityTypes.PUFFERFISH.create(level, EntitySpawnReason.MOB_SUMMONED);
 			if (fish != null) {
-				fish.moveTo(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, level.getRandom().nextFloat() * 360.0F, 0.0F);
+				fish.setPos(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5);
+				fish.setYRot(level.getRandom().nextFloat() * 360.0F);
+				fish.setXRot(0.0F);
 				level.addFreshEntity(fish);
 			}
 		}

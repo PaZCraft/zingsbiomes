@@ -92,7 +92,7 @@ public class ShamrockCowEntity extends Animal {
 		
 		
 
-		ShamrockCowMilkingProcedure.execute(world, x, y, z, entity, sourceentity);
+		ShamrockCowMilkingProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this, sourceentity);
 		return retval;
 	}
 

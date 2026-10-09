@@ -1,5 +1,7 @@
 package com.zing.zingsbiomes.block;
 
+import net.minecraft.world.level.block.BonemealSource;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -35,8 +37,8 @@ public class LightGrayGlowshroomBlock extends DyeableGlowshroomBlock implements 
 	private static final VoxelShape SHAPE = Shapes.or(box(2, 2, 2, 5, 6, 5), box(8, 4, 8, 13, 7, 13), box(12, 0, 4, 15, 2, 7), box(4, 0, 10, 7, 2, 13), box(3, 0, 3, 4, 2, 4), box(10, 0, 10, 11, 4, 11));
 
 	public LightGrayGlowshroomBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.COLOR_LIGHT_GRAY).sound(SoundType.SLIME_BLOCK).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).jumpFactor(1.5f).lightLevel(state -> 10)
-				.noOcclusion().dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.COLOR_LIGHT_GRAY).sound(SoundType.SLIME_BLOCK).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).jumpFactor(1.5f).lightLevel(state -> 10)
+				.noOcclusion().dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
@@ -93,16 +95,16 @@ public class LightGrayGlowshroomBlock extends DyeableGlowshroomBlock implements 
 	}
 
 	@Override
-	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
+	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, BonemealSource source) {
 		return true;
 	}
 
 	@Override
-	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
+	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate, BonemealSource source) {
 		return true;
 	}
 
 	@Override
-	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate, BonemealSource source) {
 	}
 }

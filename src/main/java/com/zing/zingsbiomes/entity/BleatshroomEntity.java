@@ -9,7 +9,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.animal.Animal;
-import net.minecraft.world.entity.animal.horse.Llama;
+import net.minecraft.world.entity.animal.equine.Llama;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.damagesource.DamageSource;
@@ -64,7 +64,7 @@ public class BleatshroomEntity extends Llama implements RangedAttackMob {
 	}
 
 	@Override
-	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
+	public Llama getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
 		return ZingsBiomesModEntities.BLEATSHROOM.get().create(serverWorld, EntitySpawnReason.BREEDING);
 	}
 

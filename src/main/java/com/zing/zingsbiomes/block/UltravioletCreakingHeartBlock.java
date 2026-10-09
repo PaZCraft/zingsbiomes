@@ -16,7 +16,7 @@ public class UltravioletCreakingHeartBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public UltravioletCreakingHeartBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.CREAKING_HEART).strength(1f, 10f).postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true));
+		super(properties.sound(SoundType.CREAKING_HEART).strength(1f, 10f).postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

@@ -2,7 +2,9 @@ package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
+
+import net.minecraft.util.random.WeightedList;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.grower.TreeGrower;
@@ -18,12 +20,10 @@ import net.minecraft.core.BlockPos;
 import java.util.Optional;
 
 public class UltravioletOakSaplingBlock extends SaplingBlock {
-	public static final TreeGrower TREE_GROWER = new TreeGrower("ultraviolet_oak_sapling", 0.1f, Optional.of(getFeatureKey("zings_biomes:ultraviolet_oak_tree")), Optional.of(getFeatureKey("zings_biomes:open_ultrablossom")),
-			Optional.of(getFeatureKey("zings_biomes:ultraviolet_oak_tree")), Optional.of(getFeatureKey("zings_biomes:open_ultrablossom")), Optional.of(getFeatureKey("zings_biomes:ultraviolet_oak_tree")),
-			Optional.of(getFeatureKey("zings_biomes:open_ultrablossom")));
+	public static final TreeGrower TREE_GROWER = new TreeGrower("ultraviolet_oak_sapling", WeightedList.of(getFeatureKey("zings_biomes:ultraviolet_oak_tree")), WeightedList.of(getFeatureKey("zings_biomes:ultraviolet_oak_tree"), getFeatureKey("zings_biomes:open_ultrablossom")), WeightedList.of(getFeatureKey("zings_biomes:open_ultrablossom")), getFeatureKey("zings_biomes:ultraviolet_oak_tree"));
 
 	public UltravioletOakSaplingBlock(BlockBehaviour.Properties properties) {
-		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
+		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override
@@ -36,7 +36,7 @@ public class UltravioletOakSaplingBlock extends SaplingBlock {
 		return 60;
 	}
 
-	private static ResourceKey<ConfiguredFeature<?, ?>> getFeatureKey(String feature) {
-		return ResourceKey.create(Registries.CONFIGURED_FEATURE, Identifier.parse(feature));
+	private static ResourceKey<Feature> getFeatureKey(String feature) {
+		return ResourceKey.create(Registries.FEATURE, Identifier.parse(feature));
 	}
 }

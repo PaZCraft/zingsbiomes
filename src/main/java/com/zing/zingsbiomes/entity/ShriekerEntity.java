@@ -26,7 +26,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.GameRules;
+import net.minecraft.world.level.gamerules.GameRules;
 
 import com.zing.zingsbiomes.procedures.ShriekerItIsStruckByLightningProcedure;
 import com.zing.zingsbiomes.init.ZingsBiomesModEntities;
@@ -57,7 +57,7 @@ public class ShriekerEntity extends ThemedCreeperEntity {
 
 	@Override
 	protected void applyExplosionEffect(ServerLevel level, BlockPos origin) {
-		if (level.getGameRules().getBoolean(GameRules.RULE_MOBGRIEFING))
+		if (level.getGameRules().get(GameRules.MOB_GRIEFING))
 			spreadGroundBlock(level, origin, Blocks.SCULK.defaultBlockState(), ThemedCreeperEntity::isDirt);
 	}
 

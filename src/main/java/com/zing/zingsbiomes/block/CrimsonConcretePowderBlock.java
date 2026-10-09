@@ -10,14 +10,7 @@ import net.minecraft.core.BlockPos;
 import com.mojang.serialization.MapCodec;
 
 public class CrimsonConcretePowderBlock extends FallingBlock {
-	public static final MapCodec<CrimsonConcretePowderBlock> CODEC = simpleCodec(CrimsonConcretePowderBlock::new);
-
-	@Override
-	public MapCodec<CrimsonConcretePowderBlock> codec() {
-		return CODEC;
-	}
-
-	@Override
+@Override
 	public int getDustColor(BlockState blockstate, BlockGetter world, BlockPos pos) {
 		return blockstate.getMapColor(world, pos).col;
 	}

@@ -35,8 +35,8 @@ public class LightBlueGlowshroomBlock extends DyeableGlowshroomBlock implements 
 	private static final VoxelShape SHAPE = Shapes.or(box(2, 2, 2, 5, 6, 5), box(8, 4, 8, 13, 7, 13), box(12, 0, 4, 15, 2, 7), box(4, 0, 10, 7, 2, 13), box(3, 0, 3, 4, 2, 4), box(10, 0, 10, 11, 4, 11));
 
 	public LightBlueGlowshroomBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.COLOR_LIGHT_BLUE).sound(SoundType.SLIME_BLOCK).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).jumpFactor(1.5f).lightLevel(state -> 10)
-				.noOcclusion().dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.COLOR_LIGHT_BLUE).sound(SoundType.SLIME_BLOCK).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).jumpFactor(1.5f).lightLevel(state -> 10)
+				.noOcclusion().dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 

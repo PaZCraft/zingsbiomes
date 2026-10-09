@@ -8,10 +8,10 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-public class TinShovelItem extends ShovelItem {
+public class TinShovelItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 150, 4f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("zings_biomes:tin_shovel_repair_items")));
 
 	public TinShovelItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 3f, -3f, properties);
+		super(properties.axe(TOOL_MATERIAL, 3f, -3f));
 	}
 }

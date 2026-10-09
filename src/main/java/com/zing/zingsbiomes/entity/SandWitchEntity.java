@@ -103,7 +103,7 @@ public class SandWitchEntity extends Raider {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		SandWitchEntityIsHurtProcedure.execute(world, x, y, z, entity, sourceentity);
+		SandWitchEntityIsHurtProcedure.execute(level, this.getX(), this.getY(), this.getZ(), this, sourceentity);
 		if (damagesource.is(DamageTypes.IN_FIRE))
 			return false;
 		return super.hurtServer(level, damagesource, amount);

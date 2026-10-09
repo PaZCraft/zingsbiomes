@@ -17,19 +17,20 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.ItemTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.properties.StringProperty;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.phys.BlockHitResult;
 
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public abstract class DyeableShroomlightBlock extends Block {
-	public static final StringProperty COLOR = StringProperty.create("color", validColors());
+	public static final EnumProperty<ShroomlightColor> COLOR = EnumProperty.create("color", ShroomlightColor.class);
 
 	private static final Map<String, Integer> CUSTOM_COLORS = Map.of(
 			"crimson", 0xDC143C,
@@ -42,16 +43,53 @@ public abstract class DyeableShroomlightBlock extends Block {
 
 	protected DyeableShroomlightBlock(BlockBehaviour.Properties properties) {
 		super(properties);
-		this.registerDefaultState(this.stateDefinition.any().setValue(COLOR, "none"));
+		this.registerDefaultState(this.stateDefinition.any().setValue(COLOR, ShroomlightColor.NONE));
 	}
 
-	private static List<String> validColors() {
-		List<String> colors = new ArrayList<>();
-		colors.add("none");
-		for (DyeColor color : DyeColor.values())
-			colors.add(color.getName());
-		colors.addAll(CUSTOM_COLORS.keySet());
-		return colors;
+	enum ShroomlightColor implements StringRepresentable {
+		NONE("none"),
+		WHITE("white"),
+		ORANGE("orange"),
+		MAGENTA("magenta"),
+		LIGHT_BLUE("light_blue"),
+		YELLOW("yellow"),
+		LIME("lime"),
+		PINK("pink"),
+		GRAY("gray"),
+		LIGHT_GRAY("light_gray"),
+		CYAN("cyan"),
+		PURPLE("purple"),
+		BLUE("blue"),
+		BROWN("brown"),
+		GREEN("green"),
+		RED("red"),
+		BLACK("black"),
+		CRIMSON("crimson"),
+		VIOLET("violet"),
+		MINT("mint"),
+		PALE_ORANGE("pale_orange"),
+		PALE_LIGHT_BLUE("pale_light_blue"),
+		NEON_YELLOW("neon_yellow"),
+		NEON_ORANGE("neon_orange");
+
+		private final String name;
+
+		ShroomlightColor(String name) {
+			this.name = name;
+		}
+
+		@Override
+		public String getSerializedName() {
+			return name;
+		}
+
+		static ShroomlightColor byName(String name) {
+			for (ShroomlightColor color : values()) {
+				if (color.name.equals(name))
+					return color;
+			}
+			return null;
+		}
 	}
 
 	@Override
@@ -64,7 +102,10 @@ public abstract class DyeableShroomlightBlock extends Block {
 		if (!stack.is(ItemTags.DYES))
 			return InteractionResult.TRY_WITH_EMPTY_HAND;
 
-		String color = getColorName(stack);
+		String colorName = getColorName(stack);
+		if (colorName == null)
+			return InteractionResult.TRY_WITH_EMPTY_HAND;
+		ShroomlightColor color = ShroomlightColor.byName(colorName);
 		if (color == null)
 			return InteractionResult.TRY_WITH_EMPTY_HAND;
 		if (level.isClientSide())
@@ -89,7 +130,7 @@ public abstract class DyeableShroomlightBlock extends Block {
 	}
 
 	static int getTintColor(BlockState state) {
-		String color = state.getValue(COLOR);
+		String color = state.getValue(COLOR).getSerializedName();
 		Integer customColor = CUSTOM_COLORS.get(color);
 		if (customColor != null)
 			return customColor;

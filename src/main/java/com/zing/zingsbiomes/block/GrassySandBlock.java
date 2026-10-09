@@ -13,14 +13,7 @@ import net.minecraft.core.BlockPos;
 import com.mojang.serialization.MapCodec;
 
 public class GrassySandBlock extends FallingBlock {
-	public static final MapCodec<GrassySandBlock> CODEC = simpleCodec(GrassySandBlock::new);
-
-	@Override
-	public MapCodec<GrassySandBlock> codec() {
-		return CODEC;
-	}
-
-	@Override
+@Override
 	public int getDustColor(BlockState blockstate, BlockGetter world, BlockPos pos) {
 		return blockstate.getMapColor(world, pos).col;
 	}

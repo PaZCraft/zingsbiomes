@@ -2,7 +2,7 @@ package com.zing.zingsbiomes.block;
 
 import net.neoforged.neoforge.common.util.DeferredSoundType;
 import net.neoforged.neoforge.common.ItemAbility;
-import net.neoforged.neoforge.common.ItemAbilities;
+import net.neoforged.neoforge.common.ItemAbility;
 
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -51,7 +51,7 @@ public class RedDriftwoodLogBlock extends Block {
 
 	@Override
 	public BlockState getToolModifiedState(BlockState blockstate, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
-		if (ItemAbilities.AXE_STRIP == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
+		if (ItemAbility.get("axe_strip") == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
 			return ZingsBiomesModBlocks.STRIPPED_RED_DRIFTWOOD_LOG.get().withPropertiesOf(blockstate);
 		}
 		return super.getToolModifiedState(blockstate, context, itemAbility, simulate);

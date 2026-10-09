@@ -7,17 +7,16 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.event.BlockEntityTypeAddBlocksEvent;
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.entity.BlockEntityTypes;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.client.renderer.Sheets;
 
 import com.zing.zingsbiomes.block.*;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 
 import java.util.function.Function;
@@ -2362,153 +2361,71 @@ public class ZingsBiomesModBlocks {
 			TallerFernBlock.blockColorLoad(event);
 		}
 
-		@SubscribeEvent
-		public static void clientSetup(FMLClientSetupEvent event) {
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.FIR_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.FIR_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.GRAZED_SPRUCE_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.GRAZED_SPRUCE_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.FROZEGROVE_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.FROZEGROVE_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.DRIFTWOOD_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.DRIFTWOOD_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.KAPOK_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.KAPOK_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BLACKWOOD_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BLACKWOOD_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.MOSSBARK_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.MOSSBARK_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.ULTRAVIOLET_OAK_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.ULTRAVIOLET_OAK_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.YOLKED_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.YOLKED_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.SHAMROCK_WILLOW_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.SHAMROCK_WILLOW_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BLUEBERRY_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BLUEBERRY_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.RED_DRIFTWOOD_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.RED_DRIFTWOOD_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.WILLOW_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.WILLOW_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.HEARTWOOD_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.HEARTWOOD_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.GLOW_BERRY_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.GLOW_BERRY_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.SWEET_BERRY_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.SWEET_BERRY_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.GOLDENBERRY_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.GOLDENBERRY_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.GOOSEBERRY_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.GOOSEBERRY_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.STRAWBERRY_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.STRAWBERRY_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.RASPBERRY_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.RASPBERRY_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BLACKBERRY_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BLACKBERRY_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.HOARFROST_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.HOARFROST_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.SUNSHINE_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.SUNSHINE_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BLUE_DRIFTWOOD_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BLUE_DRIFTWOOD_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.WITHER_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.WITHER_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.CHORUS_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.CHORUS_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.END_SPRUCE_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.END_SPRUCE_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.PALM_HANGING_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BAOBAB_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.PALM_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsBiomesModWoodTypes.BAOBAB_HANGING_SIGN_WOOD_TYPE);
-		}
-	}
+			}
 
 	@SubscribeEvent
 	public static void registerSigns(BlockEntityTypeAddBlocksEvent event) {
-		event.modify(BlockEntityType.HANGING_SIGN, FIR_HANGING_SIGN.get(), FIR_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, FIR_SIGN.get(), FIR_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, GRAZED_SPRUCE_HANGING_SIGN.get(), GRAZED_SPRUCE_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, GRAZED_SPRUCE_SIGN.get(), GRAZED_SPRUCE_WALL_SIGN.get());
-		event.modify(BlockEntityType.SIGN, FROZEGROVE_SIGN.get(), FROZEGROVE_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, FROZEGROVE_HANGING_SIGN.get(), FROZEGROVE_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, DRIFTWOOD_SIGN.get(), DRIFTWOOD_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, DRIFTWOOD_HANGING_SIGN.get(), DRIFTWOOD_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, KAPOK_SIGN.get(), KAPOK_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, KAPOK_HANGING_SIGN.get(), KAPOK_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, BLACKWOOD_SIGN.get(), BLACKWOOD_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, BLACKWOOD_HANGING_SIGN.get(), BLACKWOOD_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, MOSSBARK_SIGN.get(), MOSSBARK_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, MOSSBARK_HANGING_SIGN.get(), MOSSBARK_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, ULTRAVIOLET_OAK_SIGN.get(), ULTRAVIOLET_OAK_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, ULTRAVIOLET_OAK_HANGING_SIGN.get(), ULTRAVIOLET_OAK_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, YOLKED_SIGN.get(), YOLKED_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, YOLKED_HANGING_SIGN.get(), YOLKED_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, SHAMROCK_WILLOW_HANGING_SIGN.get(), SHAMROCK_WILLOW_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, SHAMROCK_WILLOW_SIGN.get(), SHAMROCK_WILLOW_WALL_SIGN.get());
-		event.modify(BlockEntityType.SIGN, BLUEBERRY_SIGN.get(), BLUEBERRY_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, BLUEBERRY_HANGING_SIGN.get(), BLUEBERRY_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, RED_DRIFTWOOD_HANGING_SIGN.get(), RED_DRIFTWOOD_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, RED_DRIFTWOOD_SIGN.get(), RED_DRIFTWOOD_WALL_SIGN.get());
-		event.modify(BlockEntityType.SIGN, WILLOW_SIGN.get(), WILLOW_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, WILLOW_HANGING_SIGN.get(), WILLOW_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, HEARTWOOD_SIGN.get(), HEARTWOOD_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, HEARTWOOD_HANGING_SIGN.get(), HEARTWOOD_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, GLOW_BERRY_SIGN.get(), GLOW_BERRY_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, GLOW_BERRY_HANGING_SIGN.get(), GLOW_BERRY_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, SWEET_BERRY_SIGN.get(), SWEET_BERRY_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, SWEET_BERRY_HANGING_SIGN.get(), SWEET_BERRY_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, GOLDENBERRY_SIGN.get(), GOLDENBERRY_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, GOLDENBERRY_HANGING_SIGN.get(), GOLDENBERRY_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, GOOSEBERRY_SIGN.get(), GOOSEBERRY_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, GOOSEBERRY_HANGING_SIGN.get(), GOOSEBERRY_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, STRAWBERRY_SIGN.get(), STRAWBERRY_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, STRAWBERRY_HANGING_SIGN.get(), STRAWBERRY_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, RASPBERRY_SIGN.get(), RASPBERRY_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, RASPBERRY_HANGING_SIGN.get(), RASPBERRY_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, BLACKBERRY_SIGN.get(), BLACKBERRY_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, BLACKBERRY_HANGING_SIGN.get(), BLACKBERRY_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, HOARFROST_SIGN.get(), HOARFROST_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, HOARFROST_HANGING_SIGN.get(), HOARFROST_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, SUNSHINE_SIGN.get(), SUNSHINE_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, SUNSHINE_HANGING_SIGN.get(), SUNSHINE_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, BLUE_DRIFTWOOD_SIGN.get(), BLUE_DRIFTWOOD_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, BLUE_DRIFTWOOD_HANGING_SIGN.get(), BLUE_DRIFTWOOD_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, WITHER_SIGN.get(), WITHER_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, WITHER_HANGING_SIGN.get(), WITHER_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, CHORUS_SIGN.get(), CHORUS_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, CHORUS_HANGING_SIGN.get(), CHORUS_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, END_SPRUCE_SIGN.get(), END_SPRUCE_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, END_SPRUCE_HANGING_SIGN.get(), END_SPRUCE_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, PALM_HANGING_SIGN.get(), PALM_WALL_HANGING_SIGN.get());
-		event.modify(BlockEntityType.SIGN, BAOBAB_SIGN.get(), BAOBAB_WALL_SIGN.get());
-		event.modify(BlockEntityType.SIGN, PALM_SIGN.get(), PALM_WALL_SIGN.get());
-		event.modify(BlockEntityType.HANGING_SIGN, BAOBAB_HANGING_SIGN.get(), BAOBAB_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, FIR_HANGING_SIGN.get(), FIR_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, FIR_SIGN.get(), FIR_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, GRAZED_SPRUCE_HANGING_SIGN.get(), GRAZED_SPRUCE_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, GRAZED_SPRUCE_SIGN.get(), GRAZED_SPRUCE_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, FROZEGROVE_SIGN.get(), FROZEGROVE_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, FROZEGROVE_HANGING_SIGN.get(), FROZEGROVE_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, DRIFTWOOD_SIGN.get(), DRIFTWOOD_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, DRIFTWOOD_HANGING_SIGN.get(), DRIFTWOOD_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, KAPOK_SIGN.get(), KAPOK_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, KAPOK_HANGING_SIGN.get(), KAPOK_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, BLACKWOOD_SIGN.get(), BLACKWOOD_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, BLACKWOOD_HANGING_SIGN.get(), BLACKWOOD_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, MOSSBARK_SIGN.get(), MOSSBARK_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, MOSSBARK_HANGING_SIGN.get(), MOSSBARK_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, ULTRAVIOLET_OAK_SIGN.get(), ULTRAVIOLET_OAK_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, ULTRAVIOLET_OAK_HANGING_SIGN.get(), ULTRAVIOLET_OAK_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, YOLKED_SIGN.get(), YOLKED_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, YOLKED_HANGING_SIGN.get(), YOLKED_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, SHAMROCK_WILLOW_HANGING_SIGN.get(), SHAMROCK_WILLOW_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, SHAMROCK_WILLOW_SIGN.get(), SHAMROCK_WILLOW_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, BLUEBERRY_SIGN.get(), BLUEBERRY_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, BLUEBERRY_HANGING_SIGN.get(), BLUEBERRY_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, RED_DRIFTWOOD_HANGING_SIGN.get(), RED_DRIFTWOOD_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, RED_DRIFTWOOD_SIGN.get(), RED_DRIFTWOOD_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, WILLOW_SIGN.get(), WILLOW_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, WILLOW_HANGING_SIGN.get(), WILLOW_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, HEARTWOOD_SIGN.get(), HEARTWOOD_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, HEARTWOOD_HANGING_SIGN.get(), HEARTWOOD_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, GLOW_BERRY_SIGN.get(), GLOW_BERRY_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, GLOW_BERRY_HANGING_SIGN.get(), GLOW_BERRY_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, SWEET_BERRY_SIGN.get(), SWEET_BERRY_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, SWEET_BERRY_HANGING_SIGN.get(), SWEET_BERRY_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, GOLDENBERRY_SIGN.get(), GOLDENBERRY_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, GOLDENBERRY_HANGING_SIGN.get(), GOLDENBERRY_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, GOOSEBERRY_SIGN.get(), GOOSEBERRY_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, GOOSEBERRY_HANGING_SIGN.get(), GOOSEBERRY_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, STRAWBERRY_SIGN.get(), STRAWBERRY_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, STRAWBERRY_HANGING_SIGN.get(), STRAWBERRY_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, RASPBERRY_SIGN.get(), RASPBERRY_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, RASPBERRY_HANGING_SIGN.get(), RASPBERRY_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, BLACKBERRY_SIGN.get(), BLACKBERRY_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, BLACKBERRY_HANGING_SIGN.get(), BLACKBERRY_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, HOARFROST_SIGN.get(), HOARFROST_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, HOARFROST_HANGING_SIGN.get(), HOARFROST_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, SUNSHINE_SIGN.get(), SUNSHINE_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, SUNSHINE_HANGING_SIGN.get(), SUNSHINE_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, BLUE_DRIFTWOOD_SIGN.get(), BLUE_DRIFTWOOD_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, BLUE_DRIFTWOOD_HANGING_SIGN.get(), BLUE_DRIFTWOOD_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, WITHER_SIGN.get(), WITHER_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, WITHER_HANGING_SIGN.get(), WITHER_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, CHORUS_SIGN.get(), CHORUS_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, CHORUS_HANGING_SIGN.get(), CHORUS_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, END_SPRUCE_SIGN.get(), END_SPRUCE_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, END_SPRUCE_HANGING_SIGN.get(), END_SPRUCE_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, PALM_HANGING_SIGN.get(), PALM_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, BAOBAB_SIGN.get(), BAOBAB_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.SIGN, PALM_SIGN.get(), PALM_WALL_SIGN.get());
+		event.modify(BlockEntityTypes.HANGING_SIGN, BAOBAB_HANGING_SIGN.get(), BAOBAB_WALL_HANGING_SIGN.get());
 	}
 
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
-    }
-
-    public static void queueServerWork(int i, Object object) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'queueServerWork'");
+    public static void queueServerWork(int ticks, Runnable task) {
+        com.zing.zingsbiomes.ServerWorkQueue.queueServerWork(ticks, task);
     }
 }

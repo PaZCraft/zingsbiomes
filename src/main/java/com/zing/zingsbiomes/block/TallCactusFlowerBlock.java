@@ -16,7 +16,7 @@ import net.minecraft.core.BlockPos;
 
 public class TallCactusFlowerBlock extends DoublePlantBlock {
 	public TallCactusFlowerBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.PLANT).sound(SoundType.CACTUS_FLOWER).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.PLANT).sound(SoundType.CACTUS_FLOWER).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

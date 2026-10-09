@@ -22,11 +22,11 @@ import com.zing.zingsbiomes.init.ZingsBiomesModItems;
 
 
 @EventBusSubscriber
-public class EnderiteHoeItem extends HoeItem {
+public class EnderiteHoeItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 4050, 15.5f, 0, 20, TagKey.create(Registries.ITEM, Identifier.parse("zings_biomes:enderite_hoe_repair_items")));
 
 	public EnderiteHoeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 9.5f, -3f, properties.rarity(Rarity.RARE).fireResistant());
+		super(properties.hoe(TOOL_MATERIAL, 9.5f, -3f).rarity(Rarity.RARE).fireResistant());
 	}
 
 	@SubscribeEvent

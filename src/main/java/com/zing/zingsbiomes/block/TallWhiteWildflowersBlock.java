@@ -16,7 +16,7 @@ import net.minecraft.core.BlockPos;
 
 public class TallWhiteWildflowersBlock extends DoublePlantBlock {
 	public TallWhiteWildflowersBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.PLANT).sound(SoundType.PINK_PETALS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.PLANT).sound(SoundType.PINK_PETALS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

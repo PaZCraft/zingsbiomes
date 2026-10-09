@@ -53,7 +53,7 @@ public class SporeeperEntity extends ThemedCreeperEntity {
 
 	@Override
 	protected void applyExplosionEffect(ServerLevel level, BlockPos origin) {
-		if (level.getGameRules().getBoolean(net.minecraft.world.level.GameRules.RULE_MOBGRIEFING))
+		if (level.getGameRules().get(net.minecraft.world.level.gamerules.GameRules.MOB_GRIEFING))
 			spreadGroundBlock(level, origin, Blocks.MYCELIUM.defaultBlockState(), ThemedCreeperEntity::isDirt);
 	}
 

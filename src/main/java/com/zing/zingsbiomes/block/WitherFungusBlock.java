@@ -16,7 +16,7 @@ import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class WitherFungusBlock extends FlowerBlock {
 	public WitherFungusBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.WITHER, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.FUNGUS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.WITHER, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.FUNGUS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

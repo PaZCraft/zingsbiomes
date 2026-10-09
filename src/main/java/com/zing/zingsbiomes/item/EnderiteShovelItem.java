@@ -1,4 +1,5 @@
 package com.zing.zingsbiomes.item;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 import net.neoforged.neoforge.event.ModifyDefaultComponentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -22,11 +23,11 @@ import com.zing.zingsbiomes.init.ZingsBiomesModItems;
 
 
 @EventBusSubscriber
-public class EnderiteShovelItem extends ShovelItem {
+public class EnderiteShovelItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 4050, 15.5f, 0, 20, TagKey.create(Registries.ITEM, Identifier.parse("zings_biomes:enderite_shovel_repair_items")));
 
 	public EnderiteShovelItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 9.5f, -3f, properties.rarity(Rarity.RARE).fireResistant());
+		super(properties.shovel(TOOL_MATERIAL, 9.5f, -3f).rarity(Rarity.RARE).fireResistant());
 	}
 
 	@SubscribeEvent

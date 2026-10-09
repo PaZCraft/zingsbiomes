@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class PaleGrassBlock extends FlowerBlock {
 	public PaleGrassBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.INFESTED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.INFESTED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

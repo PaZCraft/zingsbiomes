@@ -9,7 +9,7 @@ import net.minecraft.core.particles.ColorParticleOption;
 
 public class GreenGrazedSpruceLeavesBlock extends UntintedParticleLeavesBlock {
 	public GreenGrazedSpruceLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0f, ColorParticleOption.create(ParticleTypes.TINTED_LEAVES, -14130132), properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+		super(0f, ColorParticleOption.create(ParticleTypes.TINTED_LEAVES, -14130132), net.minecraft.world.level.block.sounds.AmbientLeavesBlockSoundPlayer.noAmbientSound(), properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, level, pos, shape) -> false));
 	}
 
 	@Override

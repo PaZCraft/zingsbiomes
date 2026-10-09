@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class EndRockPressurePlateBlock extends PressurePlateBlock {
 	public EndRockPressurePlateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, properties.mapColor(MapColor.TERRACOTTA_CYAN).strength(1f, 10f).requiresCorrectToolForDrops().noCollision().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).forceSolidOn());
+		super(BlockSetType.STONE, properties.mapColor(MapColor.TERRACOTTA_CYAN).strength(1f, 10f).requiresCorrectToolForDrops().noCollision().pushReaction(PushReaction.POPPED).isRedstoneConductor((bs, br, bp) -> false).forceSolidOn());
 	}
 }

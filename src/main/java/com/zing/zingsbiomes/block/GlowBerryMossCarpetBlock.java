@@ -14,7 +14,7 @@ public class GlowBerryMossCarpetBlock extends Block {
 	private static final VoxelShape SHAPE = box(0, 0, 0, 16, 1, 16);
 
 	public GlowBerryMossCarpetBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.MOSS_CARPET).strength(1f, 10f).noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.sound(SoundType.MOSS_CARPET).strength(1f, 10f).noOcclusion().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

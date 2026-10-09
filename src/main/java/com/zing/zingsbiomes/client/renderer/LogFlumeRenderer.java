@@ -1,9 +1,10 @@
 package com.zing.zingsbiomes.client.renderer;
 
-import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.state.EntityRenderState;
+import net.minecraft.client.renderer.state.level.CameraRenderState;
 import net.minecraft.resources.Identifier;
 
 import com.zing.zingsbiomes.client.model.Modellog_flume;
@@ -26,17 +27,12 @@ public class LogFlumeRenderer<T extends Boat> extends EntityRenderer<T, EntityRe
 	}
 
 	@Override
-	public Identifier getTextureLocation(EntityRenderState state) {
-		return texture;
-	}
-
-	@Override
-	public void render(EntityRenderState state, PoseStack poseStack, MultiBufferSource bufferSource, int packedLight) {
-		super.render(state, poseStack, bufferSource, packedLight);
+	public void submit(EntityRenderState state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera) {
+		super.submit(state, poseStack, submitNodeCollector, camera);
 		poseStack.pushPose();
 		poseStack.scale(1.05F, 1.05F, 1.05F);
 		model.setupAnim(state);
-		model.renderToBuffer(poseStack, bufferSource.getBuffer(model.renderType(texture)), packedLight, 0);
+		submitNodeCollector.submitModel(model, state, poseStack, model.renderType(texture), state.lightCoords, 0, state.outlineColor);
 		poseStack.popPose();
 	}
 }

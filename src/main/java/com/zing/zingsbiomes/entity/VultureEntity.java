@@ -88,7 +88,7 @@ public class VultureEntity extends Animal {
 		
 		
 		Entity sourceentity = damagesource.getEntity();
-		VultureEntityIsHurtProcedure.execute(world, x, y, z, entity, sourceentity);
+		VultureEntityIsHurtProcedure.execute(level, this.getX(), this.getY(), this.getZ(), this, sourceentity);
 		if (damagesource.is(DamageTypes.FALL))
 			return false;
 		return super.hurtServer(level, damagesource, amount);

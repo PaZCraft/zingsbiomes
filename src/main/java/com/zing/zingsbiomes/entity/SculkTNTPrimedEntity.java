@@ -107,7 +107,6 @@ public class SculkTNTPrimedEntity extends PathfinderMob {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, EntitySpawnReason reason, @Nullable SpawnGroupData livingdata) {
 		@SuppressWarnings("deprecation")
-		@SuppressWarnings("deprecation")
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
 		SculkTNTPrimedOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ(), this);
 		return retval;

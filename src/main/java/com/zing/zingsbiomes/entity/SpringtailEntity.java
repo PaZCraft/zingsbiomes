@@ -7,7 +7,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.monster.Shulker;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.Endermite;
-import net.minecraft.world.entity.monster.EnderMan;
+import net.minecraft.world.entity.monster.Enderman;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.*;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -45,7 +45,7 @@ public class SpringtailEntity extends PathfinderMob {
 		this.goalSelector.addGoal(4, new FloatGoal(this));
 		this.goalSelector.addGoal(5, new FollowMobGoal(this, 1, (float) 10, (float) 5));
 		this.goalSelector.addGoal(6, new AvoidEntityGoal<>(this, Shulker.class, (float) 6, 1, 1.2));
-		this.goalSelector.addGoal(7, new AvoidEntityGoal<>(this, EnderMan.class, (float) 6, 1, 1.2));
+		this.goalSelector.addGoal(7, new AvoidEntityGoal<>(this, Enderman.class, (float) 6, 1, 1.2));
 		this.goalSelector.addGoal(8, new AvoidEntityGoal<>(this, Endermite.class, (float) 6, 1, 1.2));
 		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, EndCubeEntity.class, false, true));
 		this.goalSelector.addGoal(10, new PanicGoal(this, 1.2));

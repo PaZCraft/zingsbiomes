@@ -25,7 +25,7 @@ import java.util.List;
 
 public class TallerFernBlock extends SugarCaneBlock {
 	public TallerFernBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

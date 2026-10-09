@@ -19,7 +19,7 @@ import net.minecraft.core.BlockPos;
 
 public class MintSugarCaneBlock extends SugarCaneBlock {
 	public MintSugarCaneBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

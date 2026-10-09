@@ -1,7 +1,7 @@
 package com.zing.zingsbiomes.block;
 
 import net.neoforged.neoforge.common.ItemAbility;
-import net.neoforged.neoforge.common.ItemAbilities;
+import net.neoforged.neoforge.common.ItemAbility;
 
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -46,7 +46,7 @@ public class PatchedBirchLogBlock extends Block {
 
 	@Override
 	public BlockState getToolModifiedState(BlockState blockstate, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
-		if (ItemAbilities.AXE_STRIP == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
+		if (ItemAbility.get("axe_strip") == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
 			return Blocks.STRIPPED_BIRCH_LOG.withPropertiesOf(blockstate);
 		}
 		return super.getToolModifiedState(blockstate, context, itemAbility, simulate);

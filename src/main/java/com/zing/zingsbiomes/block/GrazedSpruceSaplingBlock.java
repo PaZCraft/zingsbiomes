@@ -2,7 +2,9 @@ package com.zing.zingsbiomes.block;
 
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
+
+import net.minecraft.util.random.WeightedList;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.grower.TreeGrower;
@@ -18,11 +20,10 @@ import net.minecraft.core.BlockPos;
 import java.util.Optional;
 
 public class GrazedSpruceSaplingBlock extends SaplingBlock {
-	public static final TreeGrower TREE_GROWER = new TreeGrower("grazed_spruce_sapling", 0.2f, Optional.of(getFeatureKey("zings_biomes:huge_grazed_spruce_tree")), Optional.of(getFeatureKey("zings_biomes:grazed_spruce_bush")),
-			Optional.of(getFeatureKey("zings_biomes:grazed_spruce_tree")), Optional.of(getFeatureKey("large_fern")), Optional.of(getFeatureKey("zings_biomes:grazed_spruce_tree")), Optional.of(getFeatureKey("firefly_bush")));
+	public static final TreeGrower TREE_GROWER = new TreeGrower("grazed_spruce_sapling", WeightedList.of(getFeatureKey("zings_biomes:huge_grazed_spruce_tree"), getFeatureKey("zings_biomes:grazed_spruce_tree")), WeightedList.of(getFeatureKey("zings_biomes:grazed_spruce_tree"), getFeatureKey("firefly_bush")), WeightedList.of(getFeatureKey("zings_biomes:grazed_spruce_bush"), getFeatureKey("large_fern")), getFeatureKey("zings_biomes:huge_grazed_spruce_tree"));
 
 	public GrazedSpruceSaplingBlock(BlockBehaviour.Properties properties) {
-		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
+		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override
@@ -35,7 +36,7 @@ public class GrazedSpruceSaplingBlock extends SaplingBlock {
 		return 60;
 	}
 
-	private static ResourceKey<ConfiguredFeature<?, ?>> getFeatureKey(String feature) {
-		return ResourceKey.create(Registries.CONFIGURED_FEATURE, Identifier.parse(feature));
+	private static ResourceKey<Feature> getFeatureKey(String feature) {
+		return ResourceKey.create(Registries.FEATURE, Identifier.parse(feature));
 	}
 }

@@ -25,7 +25,7 @@ import java.util.List;
 
 public class CloverBlock extends FlowerBlock {
 	public CloverBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.LUCK, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.LUCK, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

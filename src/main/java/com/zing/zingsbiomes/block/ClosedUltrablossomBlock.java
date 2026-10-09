@@ -21,8 +21,8 @@ import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class ClosedUltrablossomBlock extends FlowerBlock {
 	public ClosedUltrablossomBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.NIGHT_VISION, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).noCollision().offsetType(BlockBehaviour.OffsetType.XZ)
-				.pushReaction(PushReaction.DESTROY));
+		super(MobEffects.NIGHT_VISION, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).noCollision().offsetType(BlockBehaviour.OffsetType.XZ)
+				.pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

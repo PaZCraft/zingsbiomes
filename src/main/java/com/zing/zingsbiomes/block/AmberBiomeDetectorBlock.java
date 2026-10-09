@@ -24,7 +24,7 @@ public class AmberBiomeDetectorBlock extends Block {
 	@Override
 	public InteractionResult useWithoutItem(BlockState blockstate, Level world, BlockPos pos, Player player, BlockHitResult hit) {
 		if (!world.isClientSide() && player instanceof ServerPlayer serverPlayer) {
-			Identifier biomeLocation = world.registryAccess().registryOrThrow(Registries.BIOME).getKey(world.getBiome(pos).value());
+			Identifier biomeLocation = world.registryAccess().lookupOrThrow(Registries.BIOME).getKey(world.getBiome(pos).value());
 			String biomeTranslationKey = "biome." + biomeLocation.getNamespace() + "." + biomeLocation.getPath().replace('/', '.');
 			serverPlayer.sendSystemMessage(Component.translatable("message.zings_biomes.current_biome", Component.translatable(biomeTranslationKey)), true);
 		}

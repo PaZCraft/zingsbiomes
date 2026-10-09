@@ -21,6 +21,7 @@ import com.zing.zingsbiomes.world.inventory.TinContainerChiseledMenu;
 import com.zing.zingsbiomes.world.inventory.SledWithChestInventoryMenu;
 import com.zing.zingsbiomes.world.inventory.AmazoniteLanternMenuMenu;
 import com.zing.zingsbiomes.network.MenuStateUpdateMessage;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 
 import java.util.Map;
@@ -42,7 +43,7 @@ public class ZingsBiomesModMenus {
 			if (player instanceof ServerPlayer serverPlayer) {
 				PacketDistributor.sendToPlayer(serverPlayer, new MenuStateUpdateMessage(elementType, name, elementState));
 			} else if (player.level().isClientSide()) {
-				if (Minecraft.getInstance().screen instanceof ZingsBiomesModScreens.ScreenAccessor accessor && needClientUpdate)
+				if (Minecraft.getInstance().gui.screen() instanceof ZingsBiomesModScreens.ScreenAccessor accessor && needClientUpdate)
 					accessor.updateMenuState(elementType, name, elementState);
 				ClientPacketDistributor.sendToServer(new MenuStateUpdateMessage(elementType, name, elementState));
 			}

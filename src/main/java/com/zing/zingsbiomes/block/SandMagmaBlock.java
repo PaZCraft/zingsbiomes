@@ -17,7 +17,7 @@ import com.zing.zingsbiomes.procedures.SandMagmaEntityWalksOnTheBlockProcedure;
 
 public class SandMagmaBlock extends Block {
 	public SandMagmaBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_ORANGE).sound(SoundType.SAND).strength(1f, 10f).postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).instrument(NoteBlockInstrument.SNARE));
+		super(properties.mapColor(MapColor.COLOR_ORANGE).sound(SoundType.SAND).strength(1f, 10f).postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).instrument(NoteBlockInstrument.SNARE));
 	}
 
 	@Override

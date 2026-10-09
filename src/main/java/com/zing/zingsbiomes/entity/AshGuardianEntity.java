@@ -88,7 +88,7 @@ public class AshGuardianEntity extends Guardian {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		AshGuardianEntityIsHurtProcedure.execute(world, sourceentity);
+		AshGuardianEntityIsHurtProcedure.execute(this.level(), sourceentity);
 		if (damagesource.is(DamageTypes.IN_FIRE))
 			return false;
 		if (damagesource.is(DamageTypes.DROWN))

@@ -25,7 +25,7 @@ public class ShamrockWillowLeafLitterBlock extends FlowerBlock {
 	private static final VoxelShape SHAPE = Shapes.empty();
 
 	public ShamrockWillowLeafLitterBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.LUCK, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.LEAF_LITTER).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.LUCK, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.LEAF_LITTER).instabreak().noCollision().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

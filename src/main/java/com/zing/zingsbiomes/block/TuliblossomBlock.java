@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class TuliblossomBlock extends FlowerBlock {
 	public TuliblossomBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.RESISTANCE, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.RESISTANCE, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

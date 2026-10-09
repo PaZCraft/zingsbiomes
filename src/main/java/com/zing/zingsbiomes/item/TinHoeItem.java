@@ -7,10 +7,10 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-public class TinHoeItem extends HoeItem {
+public class TinHoeItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 150, 4f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("zings_biomes:tin_hoe_repair_items")));
 
 	public TinHoeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 3f, -3f, properties);
+		super(properties.axe(TOOL_MATERIAL, 3f, -3f));
 	}
 }

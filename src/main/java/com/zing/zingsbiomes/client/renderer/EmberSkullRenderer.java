@@ -1,5 +1,7 @@
 package com.zing.zingsbiomes.client.renderer;
 
+import org.joml.Matrix4f;
+
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.renderer.state.level.CameraRenderState;
@@ -26,10 +28,10 @@ public class EmberSkullRenderer extends EntityRenderer<EmberSkullEntity, LivingE
 	@Override
 	public void submit(LivingEntityRenderState state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera) {
 		poseStack.pushPose();
-		poseStack.mulPose(Axis.YP.rotationDegrees(state.yRot - 90));
-		poseStack.mulPose(Axis.ZP.rotationDegrees(90 + state.xRot));
+		poseStack.mulPose(new Matrix4f().rotate(Axis.YP.rotationDegrees(state.yRot - 90)));
+		poseStack.mulPose(new Matrix4f().rotate(Axis.ZP.rotationDegrees(90 + state.xRot)));
 		model.setupAnim(state);
-		submitNodeCollector.submitModel(this.model, state, poseStack, texture, state.lightCoords, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+		submitNodeCollector.submitModel(this.model, state, poseStack, texture, state.lightCoords, OverlayTexture.NO_OVERLAY, state.outlineColor);
 		poseStack.popPose();
 		super.submit(state, poseStack, submitNodeCollector, camera);
 	}

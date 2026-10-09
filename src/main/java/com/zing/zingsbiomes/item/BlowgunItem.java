@@ -1,5 +1,7 @@
 package com.zing.zingsbiomes.item;
 
+import net.minecraft.world.item.Item;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.ItemUseAnimation;

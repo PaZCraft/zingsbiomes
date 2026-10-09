@@ -27,26 +27,38 @@ public record MenuStateUpdateMessage(int elementType, String name, Object elemen
 	public static void write(FriendlyByteBuf buffer, MenuStateUpdateMessage message) {
 		buffer.writeInt(message.elementType);
 		buffer.writeUtf(message.name);
-		if (message.elementType == 0) {
-			buffer.writeUtf((String) message.elementState);
-		} else if (message.elementType == 1) {
-			buffer.writeBoolean((boolean) message.elementState);
-		} else if (message.elementType == 2 && message.elementState instanceof Number n) {
-			buffer.writeDouble(n.doubleValue());
+		switch (message.elementType) {
+			case 0 -> {
+				if (!(message.elementState instanceof String string)) {
+					throw new IllegalArgumentException("Menu state type 0 requires a String value, got " + (message.elementState == null ? "null" : message.elementState.getClass().getSimpleName()));
+				}
+				buffer.writeUtf(string);
+			}
+			case 1 -> {
+				if (!(message.elementState instanceof Boolean bool)) {
+					throw new IllegalArgumentException("Menu state type 1 requires a Boolean value, got " + (message.elementState == null ? "null" : message.elementState.getClass().getSimpleName()));
+				}
+				buffer.writeBoolean(bool);
+			}
+			case 2 -> {
+				if (!(message.elementState instanceof Number number)) {
+					throw new IllegalArgumentException("Menu state type 2 requires a Number value, got " + (message.elementState == null ? "null" : message.elementState.getClass().getSimpleName()));
+				}
+				buffer.writeDouble(number.doubleValue());
+			}
+			default -> throw new IllegalArgumentException("Unsupported menu state element type: " + message.elementType);
 		}
 	}
 
 	public static MenuStateUpdateMessage read(FriendlyByteBuf buffer) {
 		int elementType = buffer.readInt();
 		String name = buffer.readUtf();
-		Object elementState = null;
-		if (elementType == 0) {
-			elementState = buffer.readUtf();
-		} else if (elementType == 1) {
-			elementState = buffer.readBoolean();
-		} else if (elementType == 2) {
-			elementState = buffer.readDouble();
-		}
+		Object elementState = switch (elementType) {
+			case 0 -> buffer.readUtf();
+			case 1 -> buffer.readBoolean();
+			case 2 -> buffer.readDouble();
+			default -> null;
+		};
 		return new MenuStateUpdateMessage(elementType, name, elementState);
 	}
 
@@ -56,9 +68,18 @@ public record MenuStateUpdateMessage(int elementType, String name, Object elemen
 	}
 
 	public static void handleMenuState(final MenuStateUpdateMessage message, final IPayloadContext context) {
-		if (message.name.length() > 256 || message.elementState instanceof String string && string.length() > 8192)
+		boolean validState = switch (message.elementType) {
+			case 0 -> message.elementState instanceof String;
+			case 1 -> message.elementState instanceof Boolean;
+			case 2 -> message.elementState instanceof Number;
+			default -> false;
+		};
+		if (message.name == null || !validState || message.name.length() > 256 || message.elementState instanceof String string && string.length() > 8192)
 			return;
 		context.enqueueWork(() -> {
+			if (context.player() == null) {
+				return;
+			}
 			if (context.player().containerMenu instanceof ZingsBiomesModMenus.MenuAccessor menu) {
 				menu.getMenuState().put(message.elementType + ":" + message.name, message.elementState);
 				if (context.flow() == PacketFlow.CLIENTBOUND) {
@@ -74,7 +95,7 @@ public record MenuStateUpdateMessage(int elementType, String name, Object elemen
 				}
 			}
 		}).exceptionally(e -> {
-			context.connection().disconnect(Component.literal(e.getMessage()));
+			context.connection().disconnect(Component.literal(e.getMessage() == null ? "Menu state update failed" : e.getMessage()));
 			return null;
 		});
 	}

@@ -31,10 +31,9 @@ public class BurnedSpiderRenderer extends MobRenderer<BurnedSpiderEntity, Burned
 			final Identifier SOUL_LAYER_TEXTURE = Identifier.parse("zings_biomes:textures/entities/soul_burned_spider_mob_eyes.png");
 
 			@Override
-			public void submit(PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int light, LivingEntityRenderState state, float headYaw, float headPitch) {
-				BurnedSpiderRenderState burnedState = (BurnedSpiderRenderState) state;
-				Identifier glowTexture = burnedState.soulVariant ? SOUL_LAYER_TEXTURE : BURNED_LAYER_TEXTURE;
-				submitNodeCollector.submitModel(this.getParentModel(), state, poseStack, RenderTypes.eyes(glowTexture), light, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+			public void submit(PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int light, BurnedSpiderRenderState state, float headYaw, float headPitch) {
+				Identifier glowTexture = state.soulVariant ? SOUL_LAYER_TEXTURE : BURNED_LAYER_TEXTURE;
+				submitNodeCollector.submitModel(this.getParentModel(), state, poseStack, RenderTypes.eyes(glowTexture), light, OverlayTexture.NO_OVERLAY, state.outlineColor);
 			}
 		});
 	}

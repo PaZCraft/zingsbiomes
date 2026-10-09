@@ -14,7 +14,7 @@ import com.zing.zingsbiomes.procedures.QuartzFireCollisionEntityProcedure;
 
 public class QuartzMagmaBlockBlock extends Block {
 	public QuartzMagmaBlockBlock(BlockBehaviour.Properties properties) {
-		super(properties.strength(1f, 10f).lightLevel(blockstate -> 5).requiresCorrectToolForDrops().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true));
+		super(properties.strength(1f, 10f).lightLevel(blockstate -> 5).requiresCorrectToolForDrops().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true));
 	}
 
 	@Override

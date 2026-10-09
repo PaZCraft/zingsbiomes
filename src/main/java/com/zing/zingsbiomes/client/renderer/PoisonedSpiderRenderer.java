@@ -27,7 +27,7 @@ public class PoisonedSpiderRenderer extends MobRenderer<PoisonedSpiderEntity, Li
 
 			@Override
 			public void submit(PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int light, LivingEntityRenderState state, float headYaw, float headPitch) {
-				submitNodeCollector.submitModel(this.getParentModel(), state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+				submitNodeCollector.submitModel(this.getParentModel(), state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor);
 			}
 		});
 	}

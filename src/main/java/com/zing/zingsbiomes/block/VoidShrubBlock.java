@@ -16,8 +16,8 @@ import net.minecraft.core.BlockPos;
 
 public class VoidShrubBlock extends FlowerBlock {
 	public VoidShrubBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.LEVITATION, 100, properties.mapColor(MapColor.TERRACOTTA_BLUE).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).noCollision().offsetType(BlockBehaviour.OffsetType.XZ)
-				.pushReaction(PushReaction.DESTROY));
+		super(MobEffects.LEVITATION, 100, properties.mapColor(MapColor.TERRACOTTA_BLUE).sound(SoundType.GRASS).instabreak().postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).noCollision().offsetType(BlockBehaviour.OffsetType.XZ)
+				.pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

@@ -16,7 +16,7 @@ import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
 
 public class EndTarPitBlock extends LiquidBlock {
 	public EndTarPitBlock(BlockBehaviour.Properties properties) {
-		super(ZingsBiomesModFluids.END_TAR_PIT.get(), properties.mapColor(MapColor.TERRACOTTA_PURPLE).strength(100f).noCollision().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(ZingsBiomesModFluids.END_TAR_PIT.get(), properties.mapColor(MapColor.TERRACOTTA_PURPLE).strength(100f).noCollision().noLootTable().liquid().pushReaction(PushReaction.POPPED).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override

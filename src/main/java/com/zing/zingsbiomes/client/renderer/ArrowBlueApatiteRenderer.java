@@ -13,6 +13,7 @@ import com.zing.zingsbiomes.client.model.Modelarrow;
 
 import com.mojang.math.Axis;
 import com.mojang.blaze3d.vertex.PoseStack;
+import org.joml.Matrix4f;
 
 public class ArrowBlueApatiteRenderer extends EntityRenderer<ArrowBlueApatiteEntity, LivingEntityRenderState> {
 	private static final Identifier texture = Identifier.parse("zings_biomes:textures/entities/blue_apatite_arrow.png");
@@ -26,10 +27,10 @@ public class ArrowBlueApatiteRenderer extends EntityRenderer<ArrowBlueApatiteEnt
 	@Override
 	public void submit(LivingEntityRenderState state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera) {
 		poseStack.pushPose();
-		poseStack.mulPose(Axis.YP.rotationDegrees(state.yRot - 90));
-		poseStack.mulPose(Axis.ZP.rotationDegrees(90 + state.xRot));
+		poseStack.mulPose(new Matrix4f().rotate(Axis.YP.rotationDegrees(state.yRot - 90)));
+		poseStack.mulPose(new Matrix4f().rotate(Axis.ZP.rotationDegrees(90 + state.xRot)));
 		model.setupAnim(state);
-		submitNodeCollector.submitModel(this.model, state, poseStack, texture, state.lightCoords, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+		submitNodeCollector.submitModel(this.model, state, poseStack, texture, state.lightCoords, OverlayTexture.NO_OVERLAY, state.outlineColor);
 		poseStack.popPose();
 		super.submit(state, poseStack, submitNodeCollector, camera);
 	}

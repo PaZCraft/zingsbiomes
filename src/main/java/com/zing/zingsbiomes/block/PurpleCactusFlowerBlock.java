@@ -18,7 +18,7 @@ import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public class PurpleCactusFlowerBlock extends FlowerBlock {
 	public PurpleCactusFlowerBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.CACTUS_FLOWER).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.CACTUS_FLOWER).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

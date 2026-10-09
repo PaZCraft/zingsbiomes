@@ -16,7 +16,7 @@ public class GlowingMushroomStemBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public GlowingMushroomStemBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(1f, 10f).lightLevel(blockstate -> 10).postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true));
+		super(properties.sound(SoundType.WOOD).strength(1f, 10f).lightLevel(blockstate -> 10).postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

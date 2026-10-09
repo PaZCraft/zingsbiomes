@@ -16,6 +16,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -32,25 +33,9 @@ public class GroundSledWithChestEntity extends GroundSledEntity {
 		super(type, level, dropItem);
 	}
 
-	public GroundSledWithChestEntity(EntityType<OakSledWithChestEntity> type, Level level,
-            DeferredItem<Item> oakSledWithChest) {
-        //TODO Auto-generated constructor stub
-    }
-
-    public GroundSledWithChestEntity(EntityType<MangroveSledWithChestEntity> type, Level level,
-            DeferredItem<Item> mangroveSledWithChest) {
-        //TODO Auto-generated constructor stub
-    }
-
-    public GroundSledWithChestEntity(EntityType<MangroveSledWithChestEntity> type, Level level,
-            DeferredItem<Item> mangroveSledWithChest) {
-        //TODO Auto-generated constructor stub
-    }
-
-    public GroundSledWithChestEntity(EntityType<MangroveSledWithChestEntity> type, Level level,
-            DeferredItem<Item> mangroveSledWithChest) {
-        //TODO Auto-generated constructor stub
-    }
+	public GroundSledWithChestEntity(EntityType<?> type, Level level, DeferredItem<Item> dropItem) {
+		super(type, level, dropItem.get());
+	}
 
     public CombinedResourceHandler getCombinedInventory() {
 		return combined;
@@ -78,7 +63,7 @@ public class GroundSledWithChestEntity extends GroundSledEntity {
 	}
 
 	@Override
-	public InteractionResult interact(Player player, InteractionHand hand) {
+	public InteractionResult interact(Player player, InteractionHand hand, Vec3 location) {
 		if (player.isSecondaryUseActive()) {
 			if (!level().isClientSide() && player instanceof ServerPlayer serverPlayer) {
 				serverPlayer.openMenu(new MenuProvider() {
@@ -103,7 +88,7 @@ public class GroundSledWithChestEntity extends GroundSledEntity {
 			}
 			return InteractionResult.SUCCESS;
 		}
-		return super.interact(player, hand);
+		return super.interact(player, hand, location);
 	}
 
 	protected String getSledName() {

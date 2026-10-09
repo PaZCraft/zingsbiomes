@@ -17,7 +17,7 @@ import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
 public class TearLavaBlock extends LiquidBlock {
 	public TearLavaBlock(BlockBehaviour.Properties properties) {
 		super(ZingsBiomesModFluids.TEAR_LAVA.get(),
-				properties.mapColor(MapColor.WATER).strength(100f).postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).noCollision().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+				properties.mapColor(MapColor.WATER).strength(100f).postProcess((bs, br, bp) -> bp).emissiveRendering(state -> true).noCollision().noLootTable().liquid().pushReaction(PushReaction.POPPED).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override

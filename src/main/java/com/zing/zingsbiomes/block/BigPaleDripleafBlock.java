@@ -18,7 +18,7 @@ public class BigPaleDripleafBlock extends FlowerBlock {
 	private static final VoxelShape SHAPE = Shapes.or(box(0, 11, 0, 16, 15, 0.002), box(0, 11, 0, 0.002, 15, 16), box(15.998, 11, 0, 16, 15, 16));
 
 	public BigPaleDripleafBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.BIG_DRIPLEAF).instabreak().noOcclusion().dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.BIG_DRIPLEAF).instabreak().noOcclusion().dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

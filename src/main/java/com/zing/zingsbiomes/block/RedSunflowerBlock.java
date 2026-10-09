@@ -19,7 +19,7 @@ public class RedSunflowerBlock extends FlowerBlock {
 	private static final VoxelShape SHAPE = Shapes.empty();
 
 	public RedSunflowerBlock(BlockBehaviour.Properties properties) {
-		super(ZingsBiomesModMobEffects.FAKE_GEL, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
+		super(ZingsBiomesModMobEffects.FAKE_GEL, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

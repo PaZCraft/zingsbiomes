@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class BigPaleDripleafFullTiltBlock extends FlowerBlock {
 	public BigPaleDripleafFullTiltBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.BIG_DRIPLEAF).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.BIG_DRIPLEAF).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

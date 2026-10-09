@@ -8,12 +8,12 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.LiquidBlock;
 
 import com.zing.zingsbiomes.init.ZingsBiomesModItems;
-import com.zing.zingsbiomes.init.ZiNGsBiomesFluids;
-import com.zing.zingsbiomes.init.ZiNGsBiomesFluidTypes;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluids;
+import com.zing.zingsbiomes.init.ZingsBiomesModFluidTypes;
 import com.zing.zingsbiomes.init.ZingsBiomesModBlocks;
 
 public abstract class IcyWaterFluid extends BaseFlowingFluid {
-	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> ZiNGsBiomesFluidTypes.ICY_WATER_TYPE.get(), () -> ZiNGsBiomesFluids.ICY_WATER.get(), () -> ZiNGsBiomesFluids.FLOWING_ICY_WATER.get())
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> ZingsBiomesModFluidTypes.ICY_WATER_TYPE.get(), () -> ZingsBiomesModFluids.ICY_WATER.get(), () -> ZingsBiomesModFluids.FLOWING_ICY_WATER.get())
 			.explosionResistance(100f).bucket(() -> ZingsBiomesModItems.ICY_WATER_BUCKET.get()).block(() -> (LiquidBlock) ZingsBiomesModBlocks.ICY_WATER.get());
 
 	private IcyWaterFluid() {

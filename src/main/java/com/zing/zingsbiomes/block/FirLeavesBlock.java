@@ -15,8 +15,8 @@ import java.util.List;
 
 public class FirLeavesBlock extends TintedParticleLeavesBlock {
 	public FirLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0f, properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().isSuffocating((bs, br, bp) -> false)
-				.isViewBlocking((bs, br, bp) -> false));
+		super(0f, properties.sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.POPPED).isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().isSuffocating((bs, br, bp) -> false)
+				.isViewBlocking((bs, level, pos, shape) -> false));
 	}
 
 	public static void blockColorLoad(RegisterColorHandlersEvent.BlockTintSources event) {

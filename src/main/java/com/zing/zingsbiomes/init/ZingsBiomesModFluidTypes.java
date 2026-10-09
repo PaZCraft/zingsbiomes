@@ -2,6 +2,7 @@
  * MCreator note: This file will be REGENERATED on each build.
  */
 package com.zing.zingsbiomes.init;
+import com.zing.zingsbiomes.ZiNGsBiomes;
 
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import net.neoforged.neoforge.registries.DeferredRegister;

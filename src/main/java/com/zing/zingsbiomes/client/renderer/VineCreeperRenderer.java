@@ -27,7 +27,7 @@ public class VineCreeperRenderer extends MobRenderer<VineCreeperEntity, CreeperR
 
 			@Override
 			public void submit(PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int light, CreeperRenderState state, float headYaw, float headPitch) {
-				submitNodeCollector.submitModel(this.getParentModel(), state, poseStack, RENDER_TYPE, light, LivingEntityRenderer.getOverlayCoords(state, 0), state.outlineColor, null);
+				submitNodeCollector.submitModel(this.getParentModel(), state, poseStack, RENDER_TYPE, light, LivingEntityRenderer.getOverlayCoords(state, 0), state.outlineColor);
 			}
 		});
 	}
