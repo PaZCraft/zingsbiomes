@@ -129,6 +129,7 @@ dependencies {
     // Example project dependency using a sister or child project:
     // implementation project(":myproject")
 
+
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
@@ -180,5 +181,14 @@ idea {
     module {
         downloadSources = true
         downloadJavadoc = true
+    }
+}
+tasks.named('processResources', ProcessResources) {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+
+    inputs.property 'version', project.version
+
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand 'version': project.version
     }
 }
