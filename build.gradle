@@ -183,12 +183,17 @@ idea {
         downloadJavadoc = true
     }
 }
+
+// 1. Extract the version to a static variable first
+def modVersion = project.version.toString()
+
+// 2. Configure the task without referencing the 'project' object inside the block
 tasks.named('processResources', ProcessResources) {
     duplicatesStrategy = DuplicatesStrategy.INCLUDE
 
-    inputs.property 'version', project.version
+    inputs.property 'version', modVersion
 
     filesMatching('META-INF/neoforge.mods.toml') {
-        expand 'version': project.version
+        expand 'version': modVersion
     }
 }
