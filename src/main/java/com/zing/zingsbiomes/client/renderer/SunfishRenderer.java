@@ -1,0 +1,79 @@
+package net.mcreator.zingsbiomes.client.renderer;
+
+import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
+
+import net.minecraft.util.context.ContextKey;
+import net.minecraft.resources.Identifier;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.animation.KeyframeAnimation;
+import net.minecraft.client.animation.AnimationDefinition;
+
+import net.mcreator.zingsbiomes.entity.SunfishEntity;
+import net.mcreator.zingsbiomes.client.model.animations.sunfishAnimation;
+import net.mcreator.zingsbiomes.client.model.Modelsunfish;
+
+import java.util.Map;
+
+public class SunfishRenderer extends MobRenderer<SunfishEntity, LivingEntityRenderState, Modelsunfish> {
+	private final Identifier entityTexture = Identifier.parse("zings_biomes:textures/entities/sunfish.png");
+
+	public SunfishRenderer(EntityRendererProvider.Context context) {
+		super(context, new AnimatedModel(context.bakeLayer(Modelsunfish.LAYER_LOCATION)), 0.5f);
+	}
+
+	@Override
+	public LivingEntityRenderState createRenderState() {
+		return new LivingEntityRenderState();
+	}
+
+	@Override
+	public void extractRenderState(SunfishEntity entity, LivingEntityRenderState state, float partialTicks) {
+		super.extractRenderState(entity, state, partialTicks);
+	}
+
+	@Override
+	public Identifier getTextureLocation(LivingEntityRenderState state) {
+		return entityTexture;
+	}
+
+	private static final class AnimatedModel extends Modelsunfish {
+		private final KeyframeAnimation keyframeAnimation0;
+
+		public AnimatedModel(ModelPart root) {
+			super(root);
+			this.keyframeAnimation0 = safeBake(sunfishAnimation.idle);
+		}
+
+		private KeyframeAnimation safeBake(AnimationDefinition source) {
+			try {
+				return source.bake(root);
+			} catch (IllegalArgumentException e) {
+				return new AnimationDefinition(0, false, Map.of()).bake(root);
+			}
+		}
+
+		@Override
+		public void setupAnim(LivingEntityRenderState state) {
+			this.root().getAllParts().forEach(ModelPart::resetPose);
+			SunfishEntity entity = state.getRenderData(ENTITY_KEY);
+			this.keyframeAnimation0.apply(entity.animationState0, state.ageInTicks, 1f);
+			super.setupAnim(state);
+		}
+	}
+
+	public static final ContextKey<SunfishEntity> ENTITY_KEY = new ContextKey<>(Identifier.parse("zings_biomes:sunfish_entity"));
+
+	@EventBusSubscriber(Dist.CLIENT)
+	public static class EntityStateAdder {
+		@SubscribeEvent
+		private static void registerRenderStateModifiersEvent(RegisterRenderStateModifiersEvent event) {
+			event.registerEntityModifier(SunfishRenderer.class, (entity, state) -> state.setRenderData(ENTITY_KEY, entity));
+		}
+	}
+}

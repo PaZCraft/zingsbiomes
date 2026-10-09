@@ -1,0 +1,52 @@
+package net.mcreator.zingsbiomes.client.renderer;
+
+import net.minecraft.resources.Identifier;
+import net.minecraft.client.renderer.rendertype.RenderTypes;
+import net.minecraft.client.renderer.rendertype.RenderType;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
+import net.minecraft.client.renderer.entity.layers.RenderLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.LivingEntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.SubmitNodeCollector;
+import net.minecraft.client.model.EntityModel;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.zingsbiomes.entity.DrenchedSpiderEntity;
+import net.mcreator.zingsbiomes.client.model.Modeldrenched_spider;
+
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class DrenchedSpiderRenderer extends MobRenderer<DrenchedSpiderEntity, LivingEntityRenderState, Modeldrenched_spider> {
+	private final Identifier entityTexture = Identifier.parse("zings_biomes:textures/entities/drenched_spider.png");
+
+	public DrenchedSpiderRenderer(EntityRendererProvider.Context context) {
+		super(context, new Modeldrenched_spider(context.bakeLayer(Modeldrenched_spider.LAYER_LOCATION)), 0.5f);
+		this.addLayer(new RenderLayer<>(this) {
+			final Identifier LAYER_TEXTURE = Identifier.parse("zings_biomes:textures/entities/drenched_spider_eyes.png");
+			final RenderType RENDER_TYPE = RenderTypes.eyes(LAYER_TEXTURE);
+			final EntityModel LAYER_MODEL = new Modeldrenched_spider(Minecraft.getInstance().getEntityModels().bakeLayer(Modeldrenched_spider.LAYER_LOCATION));
+
+			@Override
+			public void submit(PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int light, LivingEntityRenderState state, float headYaw, float headPitch) {
+				LAYER_MODEL.setupAnim(state);
+				submitNodeCollector.submitModel(LAYER_MODEL, state, poseStack, RENDER_TYPE, light, LivingEntityRenderer.getOverlayCoords(state, 0), state.outlineColor, null);
+			}
+		});
+	}
+
+	@Override
+	public LivingEntityRenderState createRenderState() {
+		return new LivingEntityRenderState();
+	}
+
+	@Override
+	public void extractRenderState(DrenchedSpiderEntity entity, LivingEntityRenderState state, float partialTicks) {
+		super.extractRenderState(entity, state, partialTicks);
+	}
+
+	@Override
+	public Identifier getTextureLocation(LivingEntityRenderState state) {
+		return entityTexture;
+	}
+}
