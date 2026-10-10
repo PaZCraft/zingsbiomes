@@ -9,4 +9,4 @@ public class PaleOrangeDyeItem extends DyeItem {
 	public PaleOrangeDyeItem(Item.Properties properties) {
 		super(properties.component(DataComponents.DYE, DyeColor.ORANGE));
 	}
-}
+} 
