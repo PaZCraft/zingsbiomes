@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross_emissive",
+  "textures": {
+    "cross_emissive": "zings_biomes:block/open_darkblossom_emissive_purple"
+  }
+}
